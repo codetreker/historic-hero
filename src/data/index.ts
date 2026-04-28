@@ -1,17 +1,8 @@
 import type { Person, Relationship, HistoricalEvent } from '../types';
+import personsData from '../../data/persons.json';
+import relationshipsData from '../../data/relationships.json';
+import eventsData from '../../data/events.json';
 
-// Data will be loaded from JSON files
-export async function loadPersons(): Promise<Person[]> {
-  // TODO: Load from JSON files
-  return [];
-}
-
-export async function loadRelationships(): Promise<Relationship[]> {
-  // TODO: Load from JSON files
-  return [];
-}
-
-export async function loadEvents(): Promise<HistoricalEvent[]> {
-  // TODO: Load from JSON files
-  return [];
-}
+export const persons: Person[] = personsData as Person[];
+export const relationships: Relationship[] = relationshipsData as Relationship[];
+export const events: HistoricalEvent[] = eventsData as HistoricalEvent[];

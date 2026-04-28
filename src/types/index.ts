@@ -1,9 +1,11 @@
 export type Faction = 'wei' | 'shu' | 'wu' | 'han' | 'jin' | 'other';
 
-export type Role = 
-  | 'emperor' | 'general' | 'strategist' | 'minister' 
-  | 'warlord' | 'scholar' | 'consort' | 'eunuch' 
-  | 'rebel' | 'foreigner' | 'other';
+export type Role =
+  | 'emperor' | 'general' | 'strategist' | 'minister'
+  | 'warlord' | 'scholar' | 'consort' | 'eunuch'
+  | 'rebel' | 'foreigner' | 'other'
+  | 'poet' | 'politician' | 'advisor' | 'calligrapher'
+  | 'musician' | 'noble' | 'regent';
 
 export type RelationType = 
   | 'father-son' | 'mother-son' | 'brothers' | 'husband-wife'
@@ -76,4 +78,11 @@ export const ROLE_CONFIG: Record<Role, { label: string }> = {
   rebel: { label: '起义者' },
   foreigner: { label: '异族' },
   other: { label: '其他' },
+  poet: { label: '诗人' },
+  politician: { label: '政治家' },
+  advisor: { label: '谋臣' },
+  calligrapher: { label: '书法家' },
+  musician: { label: '乐师' },
+  noble: { label: '贵族' },
+  regent: { label: '摄政' },
 };
