@@ -12,6 +12,8 @@ export interface AppState {
   selectedEvent: HistoricalEvent | null;
   drawerVisible: boolean;
   drawerMode: 'person' | 'event';
+  viewMode: 'overview' | 'faction-detail';
+  expandedFaction: Faction | null;
 }
 
 type Action =
@@ -24,7 +26,10 @@ type Action =
   | { type: 'SET_SELECTED_PERSON'; payload: Person | null }
   | { type: 'SET_SELECTED_EVENT'; payload: HistoricalEvent | null }
   | { type: 'TOGGLE_DRAWER'; payload: { visible: boolean; mode?: 'person' | 'event' } }
-  | { type: 'CLEAR_FILTERS' };
+  | { type: 'CLEAR_FILTERS' }
+  | { type: 'SET_VIEW_MODE'; payload: 'overview' | 'faction-detail' }
+  | { type: 'EXPAND_FACTION'; payload: Faction }
+  | { type: 'BACK_TO_OVERVIEW' };
 
 const initialState: AppState = {
   selectedFactions: ['wei'],
@@ -37,6 +42,8 @@ const initialState: AppState = {
   selectedEvent: null,
   drawerVisible: false,
   drawerMode: 'person',
+  viewMode: 'overview',
+  expandedFaction: null,
 };
 
 function reducer(state: AppState, action: Action): AppState {
@@ -81,6 +88,12 @@ function reducer(state: AppState, action: Action): AppState {
         selectedRelTypes: [],
         timeRange: [150, 280],
       };
+    case 'SET_VIEW_MODE':
+      return { ...state, viewMode: action.payload };
+    case 'EXPAND_FACTION':
+      return { ...state, viewMode: 'faction-detail', expandedFaction: action.payload };
+    case 'BACK_TO_OVERVIEW':
+      return { ...state, viewMode: 'overview', expandedFaction: null, highlightedPersonId: null, selectedPerson: null, drawerVisible: false };
     default:
       return state;
   }

@@ -41,8 +41,8 @@ export default function SearchBar() {
     const person = personMap[personId];
     if (!person) return;
 
-    if (!state.selectedFactions.includes(person.faction)) {
-      dispatch({ type: 'SET_FACTIONS', payload: [person.faction] });
+    if (state.viewMode === 'overview' || state.expandedFaction !== person.faction) {
+      dispatch({ type: 'EXPAND_FACTION', payload: person.faction });
     }
 
     dispatch({ type: 'SET_SELECTED_PERSON', payload: person });
