@@ -40,7 +40,11 @@ jobs:
           username: ${{ secrets.OC_VM_USER }}
           key: ${{ secrets.OC_VM_SSH_KEY }}
           command_timeout: 5m
+          script_stop: true
           script: |
+            # Login to Harbor
+            echo '${{ secrets.HARBOR_API_TOKEN }}' | docker login ${{ env.REGISTRY }} -u '${{ env.HARBOR_USER }}' --password-stdin
+            
             mkdir -p ~/dockers/historic-hero
             cd ~/dockers/historic-hero
             
