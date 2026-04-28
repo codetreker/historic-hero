@@ -2,15 +2,24 @@
 
 > **Owner** = 此刻球在谁手上，随状态流转变化。所有任务必须有 Owner，无主任务不允许存在。
 
-| ID | 任务 | 状态 | Owner | PR |
-|----|------|------|-------|----|
-| HH-001 | 数据 Schema 设计 | Done | 飞马 | — |
-| HH-002 | 三国人物数据采集（500-600人） | Done | 飞马 | — |
-| HH-003 | 三国关系数据采集 | Done | 飞马 | — |
-| HH-004 | 三国重大事件数据采集 | Done | 飞马 | — |
-| HH-005 | React + Vite + G6 项目骨架搭建 | Done | 飞马 | — |
-| HH-006 | 核心图谱渲染（力导向图 + 阵营分组） | Done | 飞马 | fc8dd71 |
-| HH-007 | 搜索与过滤功能 | Backlog | — | — |
-| HH-008 | 人物/事件详情面板 | Backlog | — | — |
-| HH-009 | 时间轴导航 | Backlog | — | — |
-| HH-010 | 部署到 Cloudflare Pages | Backlog | — | — |
+| ID | 任务 | 状态 | Owner | Branch | PR |
+|----|------|------|-------|--------|----|
+| HH-001 | 数据 Schema 设计 | Done | 飞马 | — | — |
+| HH-002 | 三国人物数据采集（500-600人） | Done | 飞马 | — | — |
+| HH-003 | 三国关系数据采集 | Done | 飞马 | — | — |
+| HH-004 | 三国重大事件数据采集 | Done | 飞马 | — | — |
+| HH-005 | React + Vite + G6 项目骨架搭建 | Done | 飞马 | — | — |
+| HH-006 | 核心图谱渲染（力导向图 + 阵营分组） | Done | 飞马 | — | fc8dd71 |
+| HH-VIS-T1 | 数据补充（关系 1500+，事件 200+） | In Progress | 战马 | feat/hh-vis-001 | — |
+| HH-VIS-T2 | 安装 tiny-pinyin + 搜索索引构建 | In Progress | 战马 | feat/hh-vis-001 | — |
+| HH-VIS-T3 | AppContext 状态管理 | In Progress | 战马 | feat/hh-vis-001 | — |
+| HH-VIS-T4 | GraphView 重写（动态加载 + 阵营切换 + 关系线型） | Ready | 战马 | feat/hh-vis-001 | — |
+| HH-VIS-T5 | SearchBar（AutoComplete + 拼音 + 定位高亮） | Ready | 战马 | feat/hh-vis-001 | — |
+| HH-VIS-T6 | FilterPanel（阵营 + 身份 + 关系类型） | Ready | 战马 | feat/hh-vis-001 | — |
+| HH-VIS-T7 | PersonDetail 面板（关系分组 + 人物跳转 + 事件列表） | Ready | 战马 | feat/hh-vis-001 | — |
+| HH-VIS-T8 | EventDetail 面板 | Ready | 战马 | feat/hh-vis-001 | — |
+| HH-VIS-T9 | TimelineNav + 联动 | Ready | 战马 | feat/hh-vis-001 | — |
+| HH-VIS-T10 | 图例组件 | Ready | 战马 | feat/hh-vis-001 | — |
+| HH-VIS-T11 | 性能优化（animation:false, 预计算度数） | Ready | 战马 | feat/hh-vis-001 | — |
+| HH-VIS-T12 | L0-L2 测试 + 构建验证 | Ready | 战马 | feat/hh-vis-001 | — |
+| HH-010 | 部署到 Cloudflare Pages | Backlog | 飞马 | — | — |

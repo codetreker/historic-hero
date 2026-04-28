@@ -1,78 +1,72 @@
-import { useState, useCallback } from 'react';
-import { ConfigProvider, Layout, Typography, Input, Select } from 'antd';
-import { SearchOutlined } from '@ant-design/icons';
+import { ConfigProvider, Layout, Typography, Tabs } from 'antd';
 import zhCN from 'antd/locale/zh_CN';
+import { AppProvider, useApp } from './context/AppContext';
 import GraphView from './components/GraphView';
-import DetailPanel from './components/DetailPanel';
+import SearchBar from './components/SearchBar';
+import FilterPanel from './components/FilterPanel';
+import PersonDetail from './components/DetailPanel';
+import EventDetail from './components/EventDetail';
+import TimelineNav from './components/TimelineNav';
+import Legend from './components/Legend';
 import { FACTION_CONFIG } from './types';
-import type { Person } from './types';
+import type { Faction } from './types';
 
 const { Header, Content } = Layout;
 
-function App() {
-  const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
-  const [drawerVisible, setDrawerVisible] = useState(false);
-  const [factionFilter, setFactionFilter] = useState<string[]>([]);
-  const [searchText, setSearchText] = useState('');
+const factionTabs = (Object.keys(FACTION_CONFIG) as Faction[]).map(f => ({
+  key: f,
+  label: FACTION_CONFIG[f].label,
+}));
 
-  const handleSelectPerson = useCallback((person: Person | null) => {
-    setSelectedPerson(person);
-    setDrawerVisible(!!person);
-  }, []);
+function AppInner() {
+  const { state, dispatch } = useApp();
 
   return (
-    <ConfigProvider locale={zhCN}>
-      <Layout style={{ height: '100vh' }}>
-        <Header
-          style={{
-            background: '#fff',
-            borderBottom: '1px solid #f0f0f0',
-            display: 'flex',
-            alignItems: 'center',
-            padding: '0 24px',
-            gap: 16,
-          }}
-        >
-          <Typography.Title
-            level={4}
-            style={{ margin: 0, whiteSpace: 'nowrap' }}
-          >
-            🏯 历史英雄谱 · 三国
-          </Typography.Title>
-          <Input
-            placeholder="搜索人物..."
-            prefix={<SearchOutlined />}
-            onChange={(e) => setSearchText(e.target.value)}
-            style={{ width: 200 }}
-            allowClear
-          />
-          <Select
-            mode="multiple"
-            placeholder="筛选阵营"
-            style={{ minWidth: 200 }}
-            onChange={(v: string[]) => setFactionFilter(v)}
-            options={Object.entries(FACTION_CONFIG).map(([value, { label }]) => ({
-              value,
-              label,
-            }))}
-            allowClear
-          />
-        </Header>
-        <Content style={{ position: 'relative' }}>
-          <GraphView
-            factionFilter={factionFilter}
-            searchText={searchText}
-            onSelectPerson={handleSelectPerson}
-          />
-        </Content>
-        <DetailPanel
-          person={selectedPerson}
-          visible={drawerVisible}
-          onClose={() => setDrawerVisible(false)}
+    <Layout style={{ height: '100vh' }}>
+      <Header style={{
+        background: '#fff',
+        borderBottom: '1px solid #f0f0f0',
+        display: 'flex',
+        alignItems: 'center',
+        padding: '0 24px',
+        gap: 16,
+        height: 56,
+        lineHeight: '56px',
+      }}>
+        <Typography.Title level={4} style={{ margin: 0, whiteSpace: 'nowrap', flexShrink: 0 }}>
+          历史英雄谱 · 三国
+        </Typography.Title>
+        <SearchBar />
+        <Tabs
+          activeKey={state.selectedFactions.length === 1 ? state.selectedFactions[0] : ''}
+          items={factionTabs}
+          onChange={(key) => dispatch({ type: 'SET_FACTIONS', payload: [key as Faction] })}
+          style={{ marginBottom: 0, flex: 1, minWidth: 0 }}
+          size="small"
         />
+      </Header>
+
+      <Layout style={{ flex: 1, overflow: 'hidden' }}>
+        <FilterPanel />
+        <Content style={{ position: 'relative', flex: 1, overflow: 'hidden' }}>
+          <GraphView />
+          <Legend />
+        </Content>
       </Layout>
-    </ConfigProvider>
+
+      <TimelineNav />
+      <PersonDetail />
+      <EventDetail />
+    </Layout>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <ConfigProvider locale={zhCN}>
+      <AppProvider>
+        <AppInner />
+      </AppProvider>
+    </ConfigProvider>
+  );
+}
