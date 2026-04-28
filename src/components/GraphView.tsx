@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback } from 'react';
+import { useEffect, useRef, useCallback, useMemo } from 'react';
 import { Graph } from '@antv/g6';
 import { persons, relationships, degreeMap, personMap, relsByPerson } from '../data';
 import { FACTION_CONFIG } from '../types';
@@ -58,10 +58,15 @@ function getFilteredData(state: AppState) {
 export default function GraphView() {
   const containerRef = useRef<HTMLDivElement>(null);
   const graphRef = useRef<Graph | null>(null);
+  const destroyedRef = useRef(false);
   const { state, dispatch } = useApp();
 
+  // Use ref for dispatch to avoid re-triggering graph effect
+  const dispatchRef = useRef(dispatch);
+  dispatchRef.current = dispatch;
+
   const handleNodeClick = useCallback((person: Person) => {
-    dispatch({ type: 'SET_SELECTED_PERSON', payload: person });
+    dispatchRef.current({ type: 'SET_SELECTED_PERSON', payload: person });
 
     const neighborIds = new Set<string>();
     neighborIds.add(person.id);
@@ -70,28 +75,38 @@ export default function GraphView() {
       neighborIds.add(r.target);
     });
 
-    dispatch({ type: 'SET_HIGHLIGHT', payload: person.id });
+    dispatchRef.current({ type: 'SET_HIGHLIGHT', payload: person.id });
 
     const graph = graphRef.current;
-    if (!graph) return;
+    if (!graph || destroyedRef.current) return;
 
-    const allNodeData = graph.getNodeData();
-    allNodeData.forEach(n => {
-      if (neighborIds.has(n.id as string)) {
-        graph.setElementState(n.id as string, 'highlight');
-      } else {
-        graph.setElementState(n.id as string, 'dim');
-      }
-    });
+    try {
+      const allNodeData = graph.getNodeData();
+      allNodeData.forEach(n => {
+        if (neighborIds.has(n.id as string)) {
+          graph.setElementState(n.id as string, 'highlight');
+        } else {
+          graph.setElementState(n.id as string, 'dim');
+        }
+      });
+      graph.focusElement(person.id);
+    } catch { /* graph may have been destroyed */ }
+  }, []);
 
-    graph.focusElement(person.id);
-  }, [dispatch]);
+  // Memoize filter inputs to avoid unnecessary re-renders
+  const filterKey = useMemo(
+    () => JSON.stringify([state.selectedFactions, state.selectedRoles, state.selectedRelTypes, state.timeRange]),
+    [state.selectedFactions, state.selectedRoles, state.selectedRelTypes, state.timeRange]
+  );
 
   useEffect(() => {
     if (!containerRef.current) return;
 
+    // Guard against StrictMode double-invoke
+    destroyedRef.current = false;
+
     if (graphRef.current) {
-      graphRef.current.destroy();
+      try { graphRef.current.destroy(); } catch { /* already destroyed */ }
       graphRef.current = null;
     }
 
@@ -181,26 +196,36 @@ export default function GraphView() {
       }
     });
 
-    graph.render();
-    graphRef.current = graph;
+    // Render only if not already destroyed by StrictMode cleanup
+    if (!destroyedRef.current) {
+      graph.render();
+      graphRef.current = graph;
+    } else {
+      // StrictMode already ran cleanup before render finished
+      try { graph.destroy(); } catch { /* noop */ }
+    }
 
     return () => {
+      destroyedRef.current = true;
       if (graphRef.current) {
-        graphRef.current.destroy();
+        try { graphRef.current.destroy(); } catch { /* already destroyed */ }
         graphRef.current = null;
       }
     };
-  }, [state.selectedFactions, state.selectedRoles, state.selectedRelTypes, state.timeRange, handleNodeClick]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filterKey, handleNodeClick]);
 
   useEffect(() => {
     const graph = graphRef.current;
-    if (!graph) return;
+    if (!graph || destroyedRef.current) return;
 
     if (!state.highlightedPersonId) {
-      const allNodeData = graph.getNodeData();
-      allNodeData.forEach(n => {
-        graph.setElementState(n.id as string, []);
-      });
+      try {
+        const allNodeData = graph.getNodeData();
+        allNodeData.forEach(n => {
+          graph.setElementState(n.id as string, []);
+        });
+      } catch { /* graph may have been destroyed */ }
     }
   }, [state.highlightedPersonId]);
 
