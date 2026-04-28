@@ -1,4 +1,4 @@
-import { Drawer, Tag, Typography, Divider } from 'antd';
+import { Tag, Typography, Divider } from 'antd';
 import { LinkOutlined } from '@ant-design/icons';
 import { useApp } from '../context/AppContext';
 import { personMap } from '../data';
@@ -32,12 +32,9 @@ export default function EventDetail() {
   };
 
   return (
-    <Drawer
-      title={event.name}
-      open={state.drawerVisible && state.drawerMode === 'event'}
-      onClose={() => dispatch({ type: 'TOGGLE_DRAWER', payload: { visible: false } })}
-      width={420}
-    >
+    <div style={{ padding: 20 }}>
+      <Typography.Title level={5} style={{ marginBottom: 12 }}>{event.name}</Typography.Title>
+
       <Tag>{EVENT_TYPE_LABELS[event.type] || event.type}</Tag>
       <Tag>{event.year}年{event.end_year ? ` - ${event.end_year}年` : ''}</Tag>
       {event.location && <Tag>{event.location}</Tag>}
@@ -85,6 +82,6 @@ export default function EventDetail() {
           ))}
         </>
       )}
-    </Drawer>
+    </div>
   );
 }

@@ -1,4 +1,4 @@
-import { Drawer, Tag, Descriptions, Divider, Typography, Space } from 'antd';
+import { Tag, Descriptions, Divider, Typography, Space } from 'antd';
 import { LinkOutlined } from '@ant-design/icons';
 import { useApp } from '../context/AppContext';
 import { relsByPerson, eventsByPerson, personMap } from '../data';
@@ -57,21 +57,16 @@ export default function PersonDetail() {
   const factionConfig = FACTION_CONFIG[person.faction];
 
   return (
-    <Drawer
-      title={
-        <span>
-          {person.name}
-          {person.courtesy_name && (
-            <span style={{ color: '#999', marginLeft: 8, fontWeight: 'normal' }}>
-              字：{person.courtesy_name}
-            </span>
-          )}
-        </span>
-      }
-      open={state.drawerVisible && state.drawerMode === 'person'}
-      onClose={() => dispatch({ type: 'TOGGLE_DRAWER', payload: { visible: false } })}
-      width={420}
-    >
+    <div style={{ padding: 20 }}>
+      <Typography.Title level={5} style={{ marginBottom: 12 }}>
+        {person.name}
+        {person.courtesy_name && (
+          <span style={{ color: '#999', marginLeft: 8, fontWeight: 'normal', fontSize: 14 }}>
+            字：{person.courtesy_name}
+          </span>
+        )}
+      </Typography.Title>
+
       <Space wrap style={{ marginBottom: 12 }}>
         <Tag color={factionConfig?.color}>{factionConfig?.label}</Tag>
         {person.roles?.map(role => (
@@ -147,6 +142,6 @@ export default function PersonDetail() {
           ))}
         </>
       )}
-    </Drawer>
+    </div>
   );
 }
