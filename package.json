@@ -15,7 +15,8 @@
     "antd": "^6.3.7",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "react-router-dom": "^7.14.2"
+    "react-router-dom": "^7.14.2",
+    "tiny-pinyin": "^1.3.2"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
