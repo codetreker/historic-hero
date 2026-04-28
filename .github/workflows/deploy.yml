@@ -7,9 +7,9 @@ permissions:
   contents: write
 
 env:
-  REGISTRY: cr.codetrek.work
+  REGISTRY: ${{ vars.REGISTRY }}
   IMAGE: default/historic-hero
-  HARBOR_USER: admin
+  HARBOR_USER: ${{ vars.HARBOR_USER }}
 
 jobs:
   build-and-deploy:
