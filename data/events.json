@@ -135,6 +135,14 @@
       {
         "person_id": "han-xiandi",
         "role": "受害者"
+      },
+      {
+        "person_id": "li-ru",
+        "role": "谋士"
+      },
+      {
+        "person_id": "lv-bu",
+        "role": "执行者"
       }
     ],
     "result": "洛阳被毁，朝廷迁至长安，中央权威进一步衰落",
@@ -193,6 +201,14 @@
       {
         "person_id": "liu-biao",
         "role": "指挥者"
+      },
+      {
+        "person_id": "han-huang-zu",
+        "role": "刘表部将"
+      },
+      {
+        "person_id": "han-dang",
+        "role": "孙坚部将"
       }
     ],
     "result": "孙坚战死，刘表稳固荆州",
@@ -247,6 +263,14 @@
       {
         "person_id": "gongsun-zan",
         "role": "指挥者"
+      },
+      {
+        "person_id": "other-qu-yi",
+        "role": "袁绍部将"
+      },
+      {
+        "person_id": "zhao-yun",
+        "role": "公孙瓒部将"
       }
     ],
     "result": "袁绍大胜，奠定冀州霸主地位",
@@ -351,6 +375,18 @@
       {
         "person_id": "han-xiandi",
         "role": "参与者"
+      },
+      {
+        "person_id": "other-yang-feng",
+        "role": "护驾者"
+      },
+      {
+        "person_id": "other-han-xian",
+        "role": "护驾者"
+      },
+      {
+        "person_id": "han-dong-cheng",
+        "role": "护驾者"
       }
     ],
     "result": "汉献帝回到残破的洛阳，朝廷形同虚设",
@@ -513,6 +549,14 @@
       {
         "person_id": "gongsun-zan",
         "role": "受害者"
+      },
+      {
+        "person_id": "other-gongsun-xu",
+        "role": "公孙瓒之子"
+      },
+      {
+        "person_id": "tian-feng",
+        "role": "袁绍谋士"
       }
     ],
     "result": "公孙瓒自焚而死，袁绍统一河北四州",
@@ -660,6 +704,14 @@
       {
         "person_id": "xiahou-dun",
         "role": "指挥者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "策划者"
+      },
+      {
+        "person_id": "zhao-yun",
+        "role": "刘备部将"
       }
     ],
     "result": "刘备击败夏侯惇，取得难得的胜利",
@@ -737,6 +789,14 @@
       {
         "person_id": "zhuge-liang",
         "role": "参与者"
+      },
+      {
+        "person_id": "guan-yu",
+        "role": "刘备部将"
+      },
+      {
+        "person_id": "zhang-fei",
+        "role": "刘备部将"
       }
     ],
     "result": "诸葛亮出山辅佐刘备，提出\"隆中对\"战略",
@@ -896,6 +956,14 @@
       {
         "person_id": "gan-ning",
         "role": "参与者"
+      },
+      {
+        "person_id": "han-huang-zu",
+        "role": "守将"
+      },
+      {
+        "person_id": "ling-tong",
+        "role": "参战者"
       }
     ],
     "result": "黄祖被杀，东吴控制长江中游",
@@ -1047,6 +1115,14 @@
       {
         "person_id": "liu-bei",
         "role": "指挥者"
+      },
+      {
+        "person_id": "zhang-ren",
+        "role": "敌方将领"
+      },
+      {
+        "person_id": "huang-zhong",
+        "role": "刘备部将"
       }
     ],
     "result": "庞统战死，刘备急调诸葛亮入蜀",
@@ -1128,6 +1204,14 @@
       {
         "person_id": "han-xiandi",
         "role": "参与者"
+      },
+      {
+        "person_id": "xun-yu",
+        "role": "反对者"
+      },
+      {
+        "person_id": "hua-xin",
+        "role": "魏臣"
       }
     ],
     "result": "曹操进封魏王，距篡汉仅一步之遥",
@@ -1314,6 +1398,14 @@
       {
         "person_id": "han-xiandi",
         "role": "受害者"
+      },
+      {
+        "person_id": "hua-xin",
+        "role": "禅让推动者"
+      },
+      {
+        "person_id": "jia-xu",
+        "role": "魏臣"
       }
     ],
     "result": "东汉灭亡，曹魏建立，三国时代正式开始",
@@ -1337,6 +1429,18 @@
       {
         "person_id": "sun-quan",
         "role": "决策者"
+      },
+      {
+        "person_id": "lv-meng",
+        "role": "东吴统帅"
+      },
+      {
+        "person_id": "lu-xun",
+        "role": "东吴将领"
+      },
+      {
+        "person_id": "guan-ping",
+        "role": "同死者"
       }
     ],
     "result": "关羽父子被杀，蜀汉失去荆州，隆中对战略破产",
@@ -1360,6 +1464,14 @@
       {
         "person_id": "cao-pi",
         "role": "参与者"
+      },
+      {
+        "person_id": "cao-zhi",
+        "role": "曹操之子"
+      },
+      {
+        "person_id": "cao-zhang",
+        "role": "曹操之子"
       }
     ],
     "result": "曹操病亡，曹丕继位魏王",
@@ -1379,6 +1491,14 @@
       {
         "person_id": "sun-quan",
         "role": "参与者"
+      },
+      {
+        "person_id": "lv-meng",
+        "role": "逝者"
+      },
+      {
+        "person_id": "lu-xun",
+        "role": "继任者"
       }
     ],
     "result": "吕蒙病逝，陆逊接任大都督",
@@ -1402,6 +1522,14 @@
       {
         "person_id": "cao-pi",
         "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "对立方"
+      },
+      {
+        "person_id": "lu-xun",
+        "role": "东吴重臣"
       }
     ],
     "result": "孙权暂时称臣以避免两面作战",
@@ -1452,6 +1580,14 @@
       {
         "person_id": "zhuge-liang",
         "role": "参与者"
+      },
+      {
+        "person_id": "xu-jing",
+        "role": "蜀汉大臣"
+      },
+      {
+        "person_id": "mi-zhu",
+        "role": "蜀汉大臣"
       }
     ],
     "result": "蜀汉建立，刘备称帝",
@@ -1475,6 +1611,18 @@
       {
         "person_id": "liu-bei",
         "role": "参与者"
+      },
+      {
+        "person_id": "shu-fan-qiang",
+        "role": "凶手"
+      },
+      {
+        "person_id": "shu-zhang-da",
+        "role": "凶手"
+      },
+      {
+        "person_id": "zhang-bao",
+        "role": "张飞之子"
       }
     ],
     "result": "张飞被部下刺杀，蜀汉再失大将",
@@ -1552,6 +1700,14 @@
       {
         "person_id": "cao-pi",
         "role": "参与者"
+      },
+      {
+        "person_id": "lu-xun",
+        "role": "吴臣"
+      },
+      {
+        "person_id": "zhuge-jin",
+        "role": "吴臣"
       }
     ],
     "result": "孙权称吴王，三足鼎立格局确立",
@@ -1691,6 +1847,14 @@
       {
         "person_id": "zhuge-liang",
         "role": "参与者"
+      },
+      {
+        "person_id": "shu-meng-da",
+        "role": "叛乱者"
+      },
+      {
+        "person_id": "wei-shen-yi",
+        "role": "参与者"
       }
     ],
     "result": "司马懿闪击擒杀孟达，粉碎蜀汉内应计划",
@@ -1772,6 +1936,14 @@
       {
         "person_id": "zhuge-liang",
         "role": "指挥者"
+      },
+      {
+        "person_id": "shu-chen-shi",
+        "role": "蜀将"
+      },
+      {
+        "person_id": "wei-hao-zhao",
+        "role": "魏将"
       }
     ],
     "result": "陈仓坚守不克，诸葛亮粮尽退军",
@@ -1795,6 +1967,14 @@
       {
         "person_id": "sun-quan",
         "role": "参与者"
+      },
+      {
+        "person_id": "zhuge-jin",
+        "role": "吴臣"
+      },
+      {
+        "person_id": "deng-zhi",
+        "role": "蜀使"
       }
     ],
     "result": "蜀吴互认帝号，联盟进一步巩固",
@@ -1818,6 +1998,14 @@
       {
         "person_id": "guo-huai",
         "role": "指挥者"
+      },
+      {
+        "person_id": "shu-chen-shi",
+        "role": "蜀将"
+      },
+      {
+        "person_id": "wei-yan",
+        "role": "蜀将"
       }
     ],
     "result": "蜀汉攻取武都阴平二郡，扩大陇右地盘",
@@ -1841,6 +2029,14 @@
       {
         "person_id": "zhuge-liang",
         "role": "参与者"
+      },
+      {
+        "person_id": "lu-xun",
+        "role": "吴臣"
+      },
+      {
+        "person_id": "zhuge-jin",
+        "role": "吴臣"
       }
     ],
     "result": "东吴正式建国，三国鼎立局面完成",
@@ -1984,6 +2180,14 @@
       {
         "person_id": "cao-rui",
         "role": "决策者"
+      },
+      {
+        "person_id": "other-gongsun-yuan",
+        "role": "辽东割据者"
+      },
+      {
+        "person_id": "guanqiu-jian",
+        "role": "魏将"
       }
     ],
     "result": "公孙渊被杀，辽东归魏，曹魏版图进一步扩大",
@@ -2154,6 +2358,18 @@
       {
         "person_id": "lu-xun",
         "role": "受害者"
+      },
+      {
+        "person_id": "sun-he",
+        "role": "太子"
+      },
+      {
+        "person_id": "sun-ba",
+        "role": "鲁王"
+      },
+      {
+        "person_id": "wu-wu-can",
+        "role": "太子党"
       }
     ],
     "result": "太子被废鲁王被杀，东吴朝廷元气大伤",
@@ -2177,6 +2393,14 @@
       {
         "person_id": "sima-yi",
         "role": "指挥者"
+      },
+      {
+        "person_id": "wei-linghu-yu",
+        "role": "同谋"
+      },
+      {
+        "person_id": "cao-biao",
+        "role": "拥立对象"
       }
     ],
     "result": "叛乱被镇压，王凌自杀，司马懿权势更盛",
@@ -2281,6 +2505,14 @@
       {
         "person_id": "jiang-wei",
         "role": "参与者"
+      },
+      {
+        "person_id": "shu-guo-xiu",
+        "role": "刺客"
+      },
+      {
+        "person_id": "liu-shan",
+        "role": "蜀帝"
       }
     ],
     "result": "费祎遇刺，蜀汉失去务实派领袖，姜维获得北伐自由",
@@ -2358,6 +2590,14 @@
       {
         "person_id": "sima-zhao",
         "role": "参与者"
+      },
+      {
+        "person_id": "guanqiu-jian",
+        "role": "叛乱者"
+      },
+      {
+        "person_id": "wen-qin",
+        "role": "叛乱者"
       }
     ],
     "result": "司马师病逝，司马昭继任执政",
@@ -2501,6 +2741,14 @@
       {
         "person_id": "sun-xiu",
         "role": "受害者"
+      },
+      {
+        "person_id": "puyang-xing",
+        "role": "拥立者"
+      },
+      {
+        "person_id": "zhang-bu",
+        "role": "拥立者"
       }
     ],
     "result": "暴君孙皓即位，东吴走向灭亡",
@@ -2551,6 +2799,14 @@
       {
         "person_id": "yang-hu",
         "role": "参与者"
+      },
+      {
+        "person_id": "wu-bu-chan",
+        "role": "叛将"
+      },
+      {
+        "person_id": "sun-hao",
+        "role": "吴帝"
       }
     ],
     "result": "陆抗平定叛乱击退晋军，东吴最后的辉煌",
@@ -2574,6 +2830,14 @@
       {
         "person_id": "sun-hao",
         "role": "参与者"
+      },
+      {
+        "person_id": "wu-lu-yan",
+        "role": "陆抗之子"
+      },
+      {
+        "person_id": "lu-ji-writer",
+        "role": "陆抗之子"
       }
     ],
     "result": "东吴失去最后的名将，灭亡进入倒计时",
@@ -2690,6 +2954,14 @@
       {
         "person_id": "zhang-bao-yj",
         "role": "守将"
+      },
+      {
+        "person_id": "zhang-liang-yj",
+        "role": "黄巾将领"
+      },
+      {
+        "person_id": "zhu-jun",
+        "role": "汉军将领"
       }
     ],
     "result": "黄巾北方主力瓦解。",
@@ -2713,6 +2985,14 @@
       {
         "person_id": "liu-bei",
         "role": "讨伐者"
+      },
+      {
+        "person_id": "guan-hai",
+        "role": "黄巾余部"
+      },
+      {
+        "person_id": "kong-rong",
+        "role": "北海相"
       }
     ],
     "result": "地方秩序长期动荡。",
@@ -2763,6 +3043,14 @@
       {
         "person_id": "han-xiandi",
         "role": "继任者"
+      },
+      {
+        "person_id": "he-taihou",
+        "role": "受害者"
+      },
+      {
+        "person_id": "li-ru",
+        "role": "董卓谋士"
       }
     ],
     "result": "汉献帝即位，董卓威权进一步扩张。",
@@ -3068,6 +3356,14 @@
       {
         "person_id": "yuan-shao",
         "role": "敌方统帅"
+      },
+      {
+        "person_id": "zhang-he",
+        "role": "曹操部将"
+      },
+      {
+        "person_id": "gao-lan",
+        "role": "袁绍部将"
       }
     ],
     "result": "袁绍势力进一步削弱。",
@@ -3118,6 +3414,14 @@
       {
         "person_id": "yuan-tan",
         "role": "败亡者"
+      },
+      {
+        "person_id": "yuan-shang",
+        "role": "袁氏势力"
+      },
+      {
+        "person_id": "cao-hong",
+        "role": "曹操部将"
       }
     ],
     "result": "袁谭败亡，河北进一步归曹。",
@@ -3682,6 +3986,14 @@
       {
         "person_id": "zhang-ni",
         "role": "蜀将"
+      },
+      {
+        "person_id": "xiahou-ba",
+        "role": "蜀将"
+      },
+      {
+        "person_id": "wei-xu-zhi",
+        "role": "魏将"
       }
     ],
     "result": "蜀军取得局部胜利。",
@@ -4130,6 +4442,14 @@
       {
         "person_id": "cao-rui",
         "role": "继任者"
+      },
+      {
+        "person_id": "cao-zhen",
+        "role": "辅政大臣"
+      },
+      {
+        "person_id": "chen-qun",
+        "role": "辅政大臣"
       }
     ],
     "result": "曹魏进入明帝时期。",
@@ -4153,6 +4473,14 @@
       {
         "person_id": "cao-fang",
         "role": "继任者"
+      },
+      {
+        "person_id": "cao-shuang",
+        "role": "辅政大臣"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "辅政大臣"
       }
     ],
     "result": "曹爽、司马懿辅政。",
@@ -4176,6 +4504,14 @@
       {
         "person_id": "cao-mao",
         "role": "继任者"
+      },
+      {
+        "person_id": "sima-shi",
+        "role": "废立者"
+      },
+      {
+        "person_id": "wei-empress-guo",
+        "role": "参与者"
       }
     ],
     "result": "司马师废曹芳，改立曹髦。",
@@ -4199,6 +4535,14 @@
       {
         "person_id": "cao-huan",
         "role": "继任者"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "拥立者"
+      },
+      {
+        "person_id": "wei-empress-guo",
+        "role": "参与者"
       }
     ],
     "result": "曹奂成为曹魏末代皇帝。",
@@ -4222,6 +4566,14 @@
       {
         "person_id": "liu-shan",
         "role": "继任者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "辅政大臣"
+      },
+      {
+        "person_id": "li-yan",
+        "role": "辅政大臣"
       }
     ],
     "result": "蜀汉进入后主时期。",
@@ -4245,6 +4597,14 @@
       {
         "person_id": "sun-liang",
         "role": "继任者"
+      },
+      {
+        "person_id": "zhuge-ke",
+        "role": "辅政大臣"
+      },
+      {
+        "person_id": "sun-jun",
+        "role": "宗室大臣"
       }
     ],
     "result": "诸葛恪辅政。",
@@ -4268,6 +4628,14 @@
       {
         "person_id": "sun-xiu",
         "role": "继任者"
+      },
+      {
+        "person_id": "sun-chen",
+        "role": "拥立者"
+      },
+      {
+        "person_id": "sun-jun",
+        "role": "前权臣"
       }
     ],
     "result": "孙休继位后清除孙綝。",
@@ -4291,6 +4659,14 @@
       {
         "person_id": "sun-hao",
         "role": "继任者"
+      },
+      {
+        "person_id": "puyang-xing",
+        "role": "拥立者"
+      },
+      {
+        "person_id": "zhang-bu",
+        "role": "拥立者"
       }
     ],
     "result": "孙吴进入末期。",
@@ -4314,6 +4690,14 @@
       {
         "person_id": "sima-shi",
         "role": "继任者"
+      },
+      {
+        "person_id": "cao-fang",
+        "role": "魏帝"
+      },
+      {
+        "person_id": "cao-shuang",
+        "role": "政敌"
       }
     ],
     "result": "司马师继续控制曹魏军政。",
@@ -4337,6 +4721,14 @@
       {
         "person_id": "sima-zhao",
         "role": "继任者"
+      },
+      {
+        "person_id": "cao-mao",
+        "role": "魏帝"
+      },
+      {
+        "person_id": "zhong-hui",
+        "role": "司马氏幕僚"
       }
     ],
     "result": "司马昭掌握曹魏实权。",
@@ -4356,6 +4748,14 @@
       {
         "person_id": "he-jin",
         "role": "逝者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhang-rang",
+        "role": "十常侍"
       }
     ],
     "result": "何进去世，相关势力格局随之变化",
@@ -4375,6 +4775,14 @@
       {
         "person_id": "wang-yun",
         "role": "逝者"
+      },
+      {
+        "person_id": "li-jue",
+        "role": "加害者"
+      },
+      {
+        "person_id": "guo-si",
+        "role": "加害者"
       }
     ],
     "result": "王允去世，相关势力格局随之变化",
@@ -4394,6 +4802,14 @@
       {
         "person_id": "sun-jian",
         "role": "逝者"
+      },
+      {
+        "person_id": "liu-biao",
+        "role": "敌方主君"
+      },
+      {
+        "person_id": "han-huang-zu",
+        "role": "伏击方"
       }
     ],
     "result": "孙坚去世，相关势力格局随之变化",
@@ -4413,6 +4829,14 @@
       {
         "person_id": "tao-qian",
         "role": "逝者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "继承徐州"
+      },
+      {
+        "person_id": "mi-zhu",
+        "role": "拥戴者"
       }
     ],
     "result": "陶谦去世，相关势力格局随之变化",
@@ -4432,6 +4856,18 @@
       {
         "person_id": "lv-bu",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "处决者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "劝杀者"
+      },
+      {
+        "person_id": "other-chen-gong",
+        "role": "同死者"
       }
     ],
     "result": "吕布去世，相关势力格局随之变化",
@@ -4451,6 +4887,14 @@
       {
         "person_id": "yuan-shu",
         "role": "逝者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "截击者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "敌对者"
       }
     ],
     "result": "袁术去世，相关势力格局随之变化",
@@ -4470,6 +4914,18 @@
       {
         "person_id": "liu-biao",
         "role": "逝者"
+      },
+      {
+        "person_id": "liu-cong",
+        "role": "继任者"
+      },
+      {
+        "person_id": "liu-qi",
+        "role": "长子"
+      },
+      {
+        "person_id": "cai-mao",
+        "role": "荆州将领"
       }
     ],
     "result": "刘表去世，相关势力格局随之变化",
@@ -4489,6 +4945,14 @@
       {
         "person_id": "xiahou-yuan",
         "role": "逝者"
+      },
+      {
+        "person_id": "huang-zhong",
+        "role": "击杀者"
+      },
+      {
+        "person_id": "fa-zheng",
+        "role": "刘备谋主"
       }
     ],
     "result": "夏侯渊去世，相关势力格局随之变化",
@@ -4508,6 +4972,18 @@
       {
         "person_id": "guan-yu",
         "role": "逝者"
+      },
+      {
+        "person_id": "lv-meng",
+        "role": "东吴统帅"
+      },
+      {
+        "person_id": "lu-xun",
+        "role": "东吴将领"
+      },
+      {
+        "person_id": "guan-ping",
+        "role": "同死者"
       }
     ],
     "result": "关羽去世，相关势力格局随之变化",
@@ -4527,6 +5003,14 @@
       {
         "person_id": "liu-bei",
         "role": "逝者"
+      },
+      {
+        "person_id": "liu-shan",
+        "role": "继任者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "托孤大臣"
       }
     ],
     "result": "刘备去世，相关势力格局随之变化",
@@ -4546,6 +5030,14 @@
       {
         "person_id": "cao-pi",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-rui",
+        "role": "继任者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "托孤大臣"
       }
     ],
     "result": "曹丕去世，相关势力格局随之变化",
@@ -4565,6 +5057,14 @@
       {
         "person_id": "zhao-yun",
         "role": "逝者"
+      },
+      {
+        "person_id": "liu-shan",
+        "role": "蜀帝"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "同僚"
       }
     ],
     "result": "赵云去世，相关势力格局随之变化",
@@ -4584,6 +5084,14 @@
       {
         "person_id": "cao-zhen",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-rui",
+        "role": "魏帝"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "魏将"
       }
     ],
     "result": "曹真去世，相关势力格局随之变化",
@@ -4603,6 +5111,18 @@
       {
         "person_id": "zhuge-liang",
         "role": "逝者"
+      },
+      {
+        "person_id": "jiang-wei",
+        "role": "蜀将"
+      },
+      {
+        "person_id": "yang-yi",
+        "role": "长史"
+      },
+      {
+        "person_id": "wei-yan",
+        "role": "蜀将"
       }
     ],
     "result": "诸葛亮去世，相关势力格局随之变化",
@@ -4622,6 +5142,14 @@
       {
         "person_id": "jiang-wan",
         "role": "逝者"
+      },
+      {
+        "person_id": "fei-yi",
+        "role": "继任执政"
+      },
+      {
+        "person_id": "liu-shan",
+        "role": "蜀帝"
       }
     ],
     "result": "蒋琬去世，相关势力格局随之变化",
@@ -4641,6 +5169,14 @@
       {
         "person_id": "cao-shuang",
         "role": "逝者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "政变者"
+      },
+      {
+        "person_id": "wei-huan-fan",
+        "role": "曹爽党羽"
       }
     ],
     "result": "曹爽去世，相关势力格局随之变化",
@@ -4660,6 +5196,14 @@
       {
         "person_id": "fei-yi",
         "role": "逝者"
+      },
+      {
+        "person_id": "shu-guo-xiu",
+        "role": "刺客"
+      },
+      {
+        "person_id": "liu-shan",
+        "role": "蜀帝"
       }
     ],
     "result": "费祎去世，相关势力格局随之变化",
@@ -4679,6 +5223,14 @@
       {
         "person_id": "sun-jun",
         "role": "逝者"
+      },
+      {
+        "person_id": "sun-chen",
+        "role": "继任权臣"
+      },
+      {
+        "person_id": "sun-liang",
+        "role": "吴帝"
       }
     ],
     "result": "孙峻去世，相关势力格局随之变化",
@@ -4698,6 +5250,18 @@
       {
         "person_id": "cao-mao",
         "role": "逝者"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "被讨伐者"
+      },
+      {
+        "person_id": "jia-chong",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "wei-cheng-ji-regicide",
+        "role": "弑君者"
       }
     ],
     "result": "曹髦去世，相关势力格局随之变化",
@@ -4717,6 +5281,18 @@
       {
         "person_id": "jiang-wei",
         "role": "逝者"
+      },
+      {
+        "person_id": "zhong-hui",
+        "role": "同乱者"
+      },
+      {
+        "person_id": "wei-wei-guan",
+        "role": "平乱者"
+      },
+      {
+        "person_id": "wei-tian-xu",
+        "role": "加害者"
       }
     ],
     "result": "姜维去世，相关势力格局随之变化",
@@ -4736,6 +5312,18 @@
       {
         "person_id": "zhong-hui",
         "role": "逝者"
+      },
+      {
+        "person_id": "jiang-wei",
+        "role": "同乱者"
+      },
+      {
+        "person_id": "wei-wei-guan",
+        "role": "平乱者"
+      },
+      {
+        "person_id": "wei-hu-lie",
+        "role": "魏将"
       }
     ],
     "result": "钟会去世，相关势力格局随之变化",
@@ -4755,6 +5343,14 @@
       {
         "person_id": "sima-zhao",
         "role": "逝者"
+      },
+      {
+        "person_id": "sima-yan",
+        "role": "继任者"
+      },
+      {
+        "person_id": "jia-chong",
+        "role": "晋臣"
       }
     ],
     "result": "司马昭去世，相关势力格局随之变化",
@@ -4774,6 +5370,14 @@
       {
         "person_id": "yang-hu",
         "role": "逝者"
+      },
+      {
+        "person_id": "du-yu",
+        "role": "继任军务"
+      },
+      {
+        "person_id": "sima-yan",
+        "role": "晋帝"
       }
     ],
     "result": "羊祜去世，相关势力格局随之变化",
@@ -4793,6 +5397,14 @@
       {
         "person_id": "sun-hao",
         "role": "逝者"
+      },
+      {
+        "person_id": "sima-yan",
+        "role": "晋帝"
+      },
+      {
+        "person_id": "lu-kang",
+        "role": "旧敌"
       }
     ],
     "result": "孙皓去世，相关势力格局随之变化",
@@ -4812,6 +5424,14 @@
       {
         "person_id": "zhang-bao-yj",
         "role": "逝者"
+      },
+      {
+        "person_id": "huangfu-song",
+        "role": "汉军统帅"
+      },
+      {
+        "person_id": "zhang-jue",
+        "role": "黄巾首领"
       }
     ],
     "result": "张宝去世，相关势力格局随之变化",
@@ -4831,6 +5451,14 @@
       {
         "person_id": "zhang-jue",
         "role": "逝者"
+      },
+      {
+        "person_id": "zhang-bao-yj",
+        "role": "弟弟"
+      },
+      {
+        "person_id": "zhang-liang-yj",
+        "role": "弟弟"
       }
     ],
     "result": "张角去世，相关势力格局随之变化",
@@ -4850,6 +5478,14 @@
       {
         "person_id": "zhang-liang-yj",
         "role": "逝者"
+      },
+      {
+        "person_id": "huangfu-song",
+        "role": "汉军统帅"
+      },
+      {
+        "person_id": "zhang-jue",
+        "role": "兄长"
       }
     ],
     "result": "张梁去世，相关势力格局随之变化",
@@ -4869,6 +5505,14 @@
       {
         "person_id": "duan-gui",
         "role": "逝者"
+      },
+      {
+        "person_id": "zhang-rang",
+        "role": "同党"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "诛宦者者"
       }
     ],
     "result": "段珪去世，相关势力格局随之变化",
@@ -4888,6 +5532,14 @@
       {
         "person_id": "han-lingdi",
         "role": "逝者"
+      },
+      {
+        "person_id": "he-jin",
+        "role": "外戚"
+      },
+      {
+        "person_id": "he-taihou",
+        "role": "皇后"
       }
     ],
     "result": "汉灵帝去世，相关势力格局随之变化",
@@ -4907,6 +5559,14 @@
       {
         "person_id": "he-taihou",
         "role": "逝者"
+      },
+      {
+        "person_id": "dong-zhuo",
+        "role": "加害者"
+      },
+      {
+        "person_id": "han-xiandi",
+        "role": "儿子"
       }
     ],
     "result": "何太后去世，相关势力格局随之变化",
@@ -4926,6 +5586,14 @@
       {
         "person_id": "zhang-rang",
         "role": "逝者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "诛宦者者"
+      },
+      {
+        "person_id": "he-jin",
+        "role": "引发者"
       }
     ],
     "result": "张让去世，相关势力格局随之变化",
@@ -4945,6 +5613,14 @@
       {
         "person_id": "zhao-zhong",
         "role": "逝者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "诛宦者者"
+      },
+      {
+        "person_id": "he-jin",
+        "role": "引发者"
       }
     ],
     "result": "赵忠去世，相关势力格局随之变化",
@@ -4964,6 +5640,14 @@
       {
         "person_id": "hua-xiong",
         "role": "逝者"
+      },
+      {
+        "person_id": "guan-yu",
+        "role": "击杀者"
+      },
+      {
+        "person_id": "sun-jian",
+        "role": "盟军将领"
       }
     ],
     "result": "华雄去世，相关势力格局随之变化",
@@ -4983,6 +5667,14 @@
       {
         "person_id": "cai-yong",
         "role": "逝者"
+      },
+      {
+        "person_id": "wang-yun",
+        "role": "处置者"
+      },
+      {
+        "person_id": "dong-zhuo",
+        "role": "关联者"
       }
     ],
     "result": "蔡邕去世，相关势力格局随之变化",
@@ -5002,6 +5694,14 @@
       {
         "person_id": "lu-zhi",
         "role": "逝者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "门生"
+      },
+      {
+        "person_id": "gongsun-zan",
+        "role": "门生"
       }
     ],
     "result": "卢植去世，相关势力格局随之变化",
@@ -5021,6 +5721,14 @@
       {
         "person_id": "niu-fu",
         "role": "逝者"
+      },
+      {
+        "person_id": "dong-zhuo",
+        "role": "主君"
+      },
+      {
+        "person_id": "li-jue",
+        "role": "西凉将领"
       }
     ],
     "result": "牛辅去世，相关势力格局随之变化",
@@ -5040,6 +5748,14 @@
       {
         "person_id": "xu-rong",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "敌方主君"
+      },
+      {
+        "person_id": "xiahou-dun",
+        "role": "曹操部将"
       }
     ],
     "result": "徐荣去世，相关势力格局随之变化",
@@ -5059,6 +5775,14 @@
       {
         "person_id": "cao-song",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "儿子"
+      },
+      {
+        "person_id": "other-zhang-xiu",
+        "role": "加害方"
       }
     ],
     "result": "曹嵩去世，相关势力格局随之变化",
@@ -5078,6 +5802,14 @@
       {
         "person_id": "huangfu-song",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "旧部"
+      },
+      {
+        "person_id": "han-huangfu-jianshou",
+        "role": "亲属"
       }
     ],
     "result": "皇甫嵩去世，相关势力格局随之变化",
@@ -5097,6 +5829,14 @@
       {
         "person_id": "zhu-jun",
         "role": "逝者"
+      },
+      {
+        "person_id": "dong-zhuo",
+        "role": "故主"
+      },
+      {
+        "person_id": "li-jue",
+        "role": "西凉将领"
       }
     ],
     "result": "朱儁去世，相关势力格局随之变化",
@@ -5116,6 +5856,14 @@
       {
         "person_id": "zhang-ji",
         "role": "逝者"
+      },
+      {
+        "person_id": "other-zhang-xiu",
+        "role": "部属"
+      },
+      {
+        "person_id": "liu-biao",
+        "role": "盟主"
       }
     ],
     "result": "张济去世，相关势力格局随之变化",
@@ -5135,6 +5883,14 @@
       {
         "person_id": "cao-ang",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "父亲"
+      },
+      {
+        "person_id": "tao-qian",
+        "role": "关联方"
       }
     ],
     "result": "曹昂去世，相关势力格局随之变化",
@@ -5154,6 +5910,14 @@
       {
         "person_id": "dian-wei",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "主君"
+      },
+      {
+        "person_id": "other-zhang-xiu",
+        "role": "敌方"
       }
     ],
     "result": "典韦去世，相关势力格局随之变化",
@@ -5173,6 +5937,14 @@
       {
         "person_id": "guo-si",
         "role": "逝者"
+      },
+      {
+        "person_id": "li-jue",
+        "role": "同党"
+      },
+      {
+        "person_id": "han-xiandi",
+        "role": "朝廷"
       }
     ],
     "result": "郭汜去世，相关势力格局随之变化",
@@ -5192,6 +5964,14 @@
       {
         "person_id": "liu-yao",
         "role": "逝者"
+      },
+      {
+        "person_id": "sun-ce",
+        "role": "盟友"
+      },
+      {
+        "person_id": "taishi-ci",
+        "role": "对手"
       }
     ],
     "result": "刘繇去世，相关势力格局随之变化",
@@ -5211,6 +5991,14 @@
       {
         "person_id": "li-jue",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "讨伐者"
+      },
+      {
+        "person_id": "han-xiandi",
+        "role": "朝廷"
       }
     ],
     "result": "李傕去世，相关势力格局随之变化",
@@ -5230,6 +6018,14 @@
       {
         "person_id": "gongsun-zan",
         "role": "逝者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "敌方"
+      },
+      {
+        "person_id": "other-gongsun-xu",
+        "role": "儿子"
       }
     ],
     "result": "公孙瓒去世，相关势力格局随之变化",
@@ -5249,6 +6045,14 @@
       {
         "person_id": "ji-ling",
         "role": "逝者"
+      },
+      {
+        "person_id": "yuan-shu",
+        "role": "主君"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "敌方"
       }
     ],
     "result": "纪灵去世，相关势力格局随之变化",
@@ -5268,6 +6072,14 @@
       {
         "person_id": "chunyu-qiong",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "袭击方"
+      },
+      {
+        "person_id": "xu-you",
+        "role": "献策者"
       }
     ],
     "result": "淳于琼去世，相关势力格局随之变化",
@@ -5287,6 +6099,14 @@
       {
         "person_id": "ju-shou",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "处决者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "主君"
       }
     ],
     "result": "沮授去世，相关势力格局随之变化",
@@ -5306,6 +6126,14 @@
       {
         "person_id": "tian-feng",
         "role": "逝者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "处决者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "敌方"
       }
     ],
     "result": "田丰去世，相关势力格局随之变化",
@@ -5325,6 +6153,14 @@
       {
         "person_id": "wen-chou",
         "role": "逝者"
+      },
+      {
+        "person_id": "guan-yu",
+        "role": "击杀者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "曹军主帅"
       }
     ],
     "result": "文丑去世，相关势力格局随之变化",
@@ -5344,6 +6180,14 @@
       {
         "person_id": "yan-liang",
         "role": "逝者"
+      },
+      {
+        "person_id": "guan-yu",
+        "role": "击杀者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "曹军主帅"
       }
     ],
     "result": "颜良去世，相关势力格局随之变化",
@@ -5363,6 +6207,14 @@
       {
         "person_id": "feng-ji",
         "role": "逝者"
+      },
+      {
+        "person_id": "yuan-shang",
+        "role": "袁氏继承者"
+      },
+      {
+        "person_id": "shen-pei",
+        "role": "同僚"
       }
     ],
     "result": "逢纪去世，相关势力格局随之变化",
@@ -5382,6 +6234,14 @@
       {
         "person_id": "ling-cao",
         "role": "逝者"
+      },
+      {
+        "person_id": "gan-ning",
+        "role": "击杀者"
+      },
+      {
+        "person_id": "ling-tong",
+        "role": "儿子"
       }
     ],
     "result": "凌操去世，相关势力格局随之变化",
@@ -5401,6 +6261,14 @@
       {
         "person_id": "wu-jing",
         "role": "逝者"
+      },
+      {
+        "person_id": "sun-ce",
+        "role": "外甥"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "继承势力"
       }
     ],
     "result": "吴景去世，相关势力格局随之变化",
@@ -5420,6 +6288,14 @@
       {
         "person_id": "gongsun-du",
         "role": "逝者"
+      },
+      {
+        "person_id": "other-gongsun-kang",
+        "role": "继任者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "北方霸主"
       }
     ],
     "result": "公孙度去世，相关势力格局随之变化",
@@ -5439,6 +6315,14 @@
       {
         "person_id": "shen-pei",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "处决者"
+      },
+      {
+        "person_id": "yuan-shang",
+        "role": "主君"
       }
     ],
     "result": "审配去世，相关势力格局随之变化",
@@ -5458,6 +6342,14 @@
       {
         "person_id": "sun-he-bohai",
         "role": "逝者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "宗族"
+      },
+      {
+        "person_id": "sun-shao",
+        "role": "继承部曲"
       }
     ],
     "result": "孙河去世，相关势力格局随之变化",
@@ -5477,6 +6369,14 @@
       {
         "person_id": "sun-yi",
         "role": "逝者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "兄长"
+      },
+      {
+        "person_id": "wu-gui-lan",
+        "role": "叛乱者"
       }
     ],
     "result": "孙翊去世，相关势力格局随之变化",
@@ -5496,6 +6396,14 @@
       {
         "person_id": "xu-you",
         "role": "逝者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "主君"
+      },
+      {
+        "person_id": "xu-chu",
+        "role": "冲突者"
       }
     ],
     "result": "许攸去世，相关势力格局随之变化",

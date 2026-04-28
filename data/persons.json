@@ -7539,5 +7539,1438 @@
     "source_urls": [
       "https://en.wikipedia.org/wiki/Shamoke"
     ]
+  },
+  {
+    "id": "han-ding-yuan",
+    "name": "丁原",
+    "courtesy_name": "建阳",
+    "title": "并州刺史",
+    "faction": "han",
+    "roles": [
+      "warlord",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 189,
+    "birth_place": "并州",
+    "description": "东汉末年并州刺史，吕布早年依附的主君，后在董卓入京后的权力斗争中被吕布所杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/丁原"
+    ]
+  },
+  {
+    "id": "other-lady-yan",
+    "name": "严氏",
+    "courtesy_name": null,
+    "title": "吕布妻",
+    "faction": "other",
+    "roles": [
+      "noblewoman"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "并州",
+    "description": "吕布正妻，见于吕布被围下邳时期的记载，曾劝阻吕布轻率出城。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/严氏"
+    ]
+  },
+  {
+    "id": "other-gao-shun",
+    "name": "高顺",
+    "courtesy_name": null,
+    "title": "陷阵营统领",
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 199,
+    "birth_place": "并州",
+    "description": "吕布麾下名将，以统率陷阵营著称，曾击破刘备军，吕布败亡后一同被处死。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/高顺"
+    ]
+  },
+  {
+    "id": "other-chen-gong",
+    "name": "陈宫",
+    "courtesy_name": "公台",
+    "title": "谋士",
+    "faction": "other",
+    "roles": [
+      "advisor",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 199,
+    "birth_place": "兖州东郡",
+    "description": "东汉末年谋士，先助曹操入主兖州，后投吕布，在下邳之战后被曹操处死。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/陈宫"
+    ]
+  },
+  {
+    "id": "other-bo-cai",
+    "name": "波才",
+    "courtesy_name": null,
+    "title": "黄巾军将领",
+    "faction": "other",
+    "roles": [
+      "rebel",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 184,
+    "birth_place": "豫州",
+    "description": "黄巾之乱豫州方面首领，曾在长社围攻皇甫嵩、朱儁军。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/波才"
+    ]
+  },
+  {
+    "id": "other-peng-tuo",
+    "name": "彭脱",
+    "courtesy_name": null,
+    "title": "黄巾军将领",
+    "faction": "other",
+    "roles": [
+      "rebel",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 184,
+    "birth_place": "汝南",
+    "description": "黄巾之乱汝南、颍川一带的黄巾首领之一，后被东汉军击败。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/彭脱"
+    ]
+  },
+  {
+    "id": "other-zhang-mancheng",
+    "name": "张曼成",
+    "courtesy_name": null,
+    "title": "神上使",
+    "faction": "other",
+    "roles": [
+      "rebel",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 184,
+    "birth_place": "南阳",
+    "description": "黄巾之乱南阳渠帅，自称神上使，攻杀南阳太守褚贡，后为秦颉所破。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张曼成"
+    ]
+  },
+  {
+    "id": "other-han-zhong-yt",
+    "name": "韩忠",
+    "courtesy_name": null,
+    "title": "黄巾军将领",
+    "faction": "other",
+    "roles": [
+      "rebel",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 184,
+    "birth_place": "南阳",
+    "description": "南阳黄巾军将领，在张曼成死后继续据守宛城，后向朱儁投降被杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/韩忠"
+    ]
+  },
+  {
+    "id": "other-zhao-hong",
+    "name": "赵弘",
+    "courtesy_name": null,
+    "title": "黄巾军将领",
+    "faction": "other",
+    "roles": [
+      "rebel",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 184,
+    "birth_place": "南阳",
+    "description": "南阳黄巾军将领，张曼成死后继起，被朱儁等东汉军击破。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/赵弘"
+    ]
+  },
+  {
+    "id": "other-bu-ji",
+    "name": "卜己",
+    "courtesy_name": null,
+    "title": "黄巾军将领",
+    "faction": "other",
+    "roles": [
+      "rebel",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 184,
+    "birth_place": "东郡",
+    "description": "黄巾之乱东郡渠帅，曾据守仓亭一带，后被皇甫嵩讨平。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/卜己"
+    ]
+  },
+  {
+    "id": "other-guan-cheng",
+    "name": "管承",
+    "courtesy_name": null,
+    "title": "海贼首领",
+    "faction": "other",
+    "roles": [
+      "rebel"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "青州",
+    "description": "汉末青州海贼首领，曾割据沿海，被曹操部将讨平。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/管承"
+    ]
+  },
+  {
+    "id": "other-zhang-yan",
+    "name": "张燕",
+    "courtesy_name": "飞燕",
+    "title": "平北将军",
+    "faction": "other",
+    "roles": [
+      "warlord",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "常山真定",
+    "description": "黑山军首领，聚众活跃于太行山一带，后接受曹操官爵。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张燕"
+    ]
+  },
+  {
+    "id": "other-sui-gu",
+    "name": "眭固",
+    "courtesy_name": "白兔",
+    "title": "黑山军将领",
+    "faction": "other",
+    "roles": [
+      "rebel",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 199,
+    "birth_place": "河内",
+    "description": "黑山军将领，曾与张杨旧部往来，后被曹操军击败。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/眭固"
+    ]
+  },
+  {
+    "id": "other-bai-rao",
+    "name": "白绕",
+    "courtesy_name": null,
+    "title": "黑山军将领",
+    "faction": "other",
+    "roles": [
+      "rebel",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "冀州",
+    "description": "黑山军将领之一，汉末在冀州、兖州边界活动。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/白绕"
+    ]
+  },
+  {
+    "id": "other-yu-du",
+    "name": "于毒",
+    "courtesy_name": null,
+    "title": "黑山军将领",
+    "faction": "other",
+    "roles": [
+      "rebel",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "冀州",
+    "description": "黑山军将领，曾袭扰魏郡、东郡一带。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/于毒"
+    ]
+  },
+  {
+    "id": "other-yang-feng",
+    "name": "杨奉",
+    "courtesy_name": null,
+    "title": "车骑将军",
+    "faction": "other",
+    "roles": [
+      "general",
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 197,
+    "birth_place": "河东",
+    "description": "白波军出身的汉末将领，护送汉献帝东归，后与曹操交战败亡。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/杨奉"
+    ]
+  },
+  {
+    "id": "other-han-xian",
+    "name": "韩暹",
+    "courtesy_name": null,
+    "title": "大将军",
+    "faction": "other",
+    "roles": [
+      "general",
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "河东",
+    "description": "白波军将领，曾参与护送汉献帝东归洛阳，后与杨奉失势。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/韩暹"
+    ]
+  },
+  {
+    "id": "other-hu-cai",
+    "name": "胡才",
+    "courtesy_name": null,
+    "title": "白波军将领",
+    "faction": "other",
+    "roles": [
+      "rebel",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "河东",
+    "description": "白波军将领之一，汉献帝东归时曾与李乐、杨奉等护驾。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/胡才"
+    ]
+  },
+  {
+    "id": "other-li-le",
+    "name": "李乐",
+    "courtesy_name": null,
+    "title": "白波军将领",
+    "faction": "other",
+    "roles": [
+      "rebel",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "河东",
+    "description": "白波军将领之一，参与汉献帝东归过程中的护卫与争夺。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/李乐"
+    ]
+  },
+  {
+    "id": "other-guo-tai",
+    "name": "郭太",
+    "courtesy_name": null,
+    "title": "白波军首领",
+    "faction": "other",
+    "roles": [
+      "rebel"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "河东白波谷",
+    "description": "白波军首领，汉末黄巾余部之一，活跃于河东白波谷。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/郭太"
+    ]
+  },
+  {
+    "id": "other-sui-yuanjin",
+    "name": "眭元进",
+    "courtesy_name": null,
+    "title": "袁绍部将",
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 200,
+    "birth_place": "冀州",
+    "description": "袁绍部将，官渡之战期间与韩猛等运粮，乌巢失利后被曹操军击破。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/眭元进"
+    ]
+  },
+  {
+    "id": "other-chang-xi",
+    "name": "昌豨",
+    "courtesy_name": null,
+    "title": "东海豪强",
+    "faction": "other",
+    "roles": [
+      "general",
+      "rebel"
+    ],
+    "birth_year": null,
+    "death_year": 206,
+    "birth_place": "东海",
+    "description": "泰山诸将之一，先后依附吕布、刘备、曹操，后反叛被于禁处置。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/昌豨"
+    ]
+  },
+  {
+    "id": "other-sun-guan",
+    "name": "孙观",
+    "courtesy_name": "仲台",
+    "title": "青州刺史",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "泰山",
+    "description": "泰山诸将之一，后归附曹操，参与曹魏早期征战。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙观"
+    ]
+  },
+  {
+    "id": "other-yin-li",
+    "name": "尹礼",
+    "courtesy_name": null,
+    "title": "泰山将领",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "泰山",
+    "description": "泰山诸将之一，后随臧霸集团归附曹操。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/尹礼"
+    ]
+  },
+  {
+    "id": "other-wu-dun",
+    "name": "吴敦",
+    "courtesy_name": null,
+    "title": "泰山将领",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "泰山",
+    "description": "泰山诸将之一，曾与臧霸、孙观等割据徐州、青州之间。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吴敦"
+    ]
+  },
+  {
+    "id": "other-chang-ba",
+    "name": "昌霸",
+    "courtesy_name": null,
+    "title": "泰山将领",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "泰山",
+    "description": "泰山诸将之一，属于臧霸集团，后归入曹魏势力。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/昌霸"
+    ]
+  },
+  {
+    "id": "other-cao-xing",
+    "name": "曹性",
+    "courtesy_name": null,
+    "title": "吕布部将",
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "并州",
+    "description": "吕布部将，史载曾在濮阳、下邳一带随吕布军作战。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹性"
+    ]
+  },
+  {
+    "id": "other-hao-meng",
+    "name": "郝萌",
+    "courtesy_name": null,
+    "title": "吕布部将",
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 196,
+    "birth_place": "河内",
+    "description": "吕布部将，曾在下邳反叛吕布，被高顺、曹性平定。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/郝萌"
+    ]
+  },
+  {
+    "id": "other-cheng-lian",
+    "name": "成廉",
+    "courtesy_name": null,
+    "title": "吕布骑将",
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "并州",
+    "description": "吕布麾下骁将，曾随吕布与曹操、袁术等势力周旋。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/成廉"
+    ]
+  },
+  {
+    "id": "other-wei-xu",
+    "name": "魏续",
+    "courtesy_name": null,
+    "title": "吕布部将",
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "并州",
+    "description": "吕布部将，下邳之战时与侯成、宋宪等降曹。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/魏续"
+    ]
+  },
+  {
+    "id": "other-song-xian",
+    "name": "宋宪",
+    "courtesy_name": null,
+    "title": "吕布部将",
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "并州",
+    "description": "吕布部将，下邳被围时参与擒获陈宫、高顺并归降曹操。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/宋宪"
+    ]
+  },
+  {
+    "id": "other-hou-cheng",
+    "name": "侯成",
+    "courtesy_name": null,
+    "title": "吕布部将",
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "并州",
+    "description": "吕布部将，下邳之战时率众归降曹操。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/侯成"
+    ]
+  },
+  {
+    "id": "shu-liu-yin",
+    "name": "柳隐",
+    "courtesy_name": null,
+    "title": "巴郡太守",
+    "faction": "shu",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "益州",
+    "description": "蜀汉后期将领，曾守巴郡，蜀亡后入晋。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/柳隐"
+    ]
+  },
+  {
+    "id": "shu-huo-jun",
+    "name": "霍峻",
+    "courtesy_name": "仲邈",
+    "title": "梓潼太守",
+    "faction": "shu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 178,
+    "death_year": 217,
+    "birth_place": "南郡枝江",
+    "description": "刘备部将，入蜀后镇守葭萌关，以少数兵力抗拒刘璋军多年。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/霍峻"
+    ]
+  },
+  {
+    "id": "shu-huo-yi",
+    "name": "霍弋",
+    "courtesy_name": "绍先",
+    "title": "南中都督",
+    "faction": "shu",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "南郡枝江",
+    "description": "霍峻之子，蜀汉后期镇守南中，蜀亡后降晋。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/霍弋"
+    ]
+  },
+  {
+    "id": "shu-luo-xian",
+    "name": "罗宪",
+    "courtesy_name": "令则",
+    "title": "巴东太守",
+    "faction": "shu",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": 218,
+    "death_year": 270,
+    "birth_place": "襄阳",
+    "description": "蜀汉后期将领，蜀亡后坚守永安抵御吴军，后仕晋。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/罗宪"
+    ]
+  },
+  {
+    "id": "shu-zong-yu",
+    "name": "宗预",
+    "courtesy_name": "德艳",
+    "title": "镇军大将军",
+    "faction": "shu",
+    "roles": [
+      "diplomat",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 264,
+    "birth_place": "南阳安众",
+    "description": "蜀汉官员、外交人物，多次出使东吴，蜀亡后迁徙洛阳。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/宗预"
+    ]
+  },
+  {
+    "id": "shu-mi-fang",
+    "name": "糜芳",
+    "courtesy_name": "子方",
+    "title": "南郡太守",
+    "faction": "shu",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "东海朐县",
+    "description": "刘备妻族，曾任南郡太守，关羽北伐时与傅士仁降吴。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/糜芳"
+    ]
+  },
+  {
+    "id": "shu-qin-mi",
+    "name": "秦宓",
+    "courtesy_name": "子敕",
+    "title": "蜀汉大夫",
+    "faction": "shu",
+    "roles": [
+      "scholar",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 226,
+    "birth_place": "广汉绵竹",
+    "description": "蜀汉学者、官员，以辩才和经学著称，曾与东吴使者张温论难。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/秦宓"
+    ]
+  },
+  {
+    "id": "shu-wu-ban",
+    "name": "吴班",
+    "courtesy_name": "元雄",
+    "title": "骠骑将军",
+    "faction": "shu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "陈留",
+    "description": "蜀汉将领，吴懿族弟，曾参加夷陵之战及诸葛亮北伐。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吴班"
+    ]
+  },
+  {
+    "id": "shu-chen-shi",
+    "name": "陈式",
+    "courtesy_name": null,
+    "title": "蜀汉将领",
+    "faction": "shu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "益州",
+    "description": "蜀汉将领，诸葛亮北伐时曾与魏延等攻取武都、阴平。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/陈式"
+    ]
+  },
+  {
+    "id": "shu-cheng-ji",
+    "name": "程畿",
+    "courtesy_name": "季然",
+    "title": "从事祭酒",
+    "faction": "shu",
+    "roles": [
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 222,
+    "birth_place": "巴西阆中",
+    "description": "刘备入蜀后的官员，夷陵之战败退时不肯弃船逃生而死。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/程畿"
+    ]
+  },
+  {
+    "id": "wei-wang-hun",
+    "name": "王浑",
+    "courtesy_name": "玄冲",
+    "title": "征东大将军",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": 223,
+    "death_year": 297,
+    "birth_place": "太原晋阳",
+    "description": "曹魏、晋初将领，参与灭吴战略部署，后为西晋重臣。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/王浑"
+    ]
+  },
+  {
+    "id": "wei-wei-guan",
+    "name": "卫瓘",
+    "courtesy_name": "伯玉",
+    "title": "司空",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": 220,
+    "death_year": 291,
+    "birth_place": "河东安邑",
+    "description": "曹魏、晋初官员，参与平定钟会、姜维之乱，后为西晋重臣。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/卫瓘"
+    ]
+  },
+  {
+    "id": "wei-xun-yi",
+    "name": "荀顗",
+    "courtesy_name": "景倩",
+    "title": "司空",
+    "faction": "wei",
+    "roles": [
+      "official"
+    ],
+    "birth_year": 205,
+    "death_year": 274,
+    "birth_place": "颍川颍阴",
+    "description": "荀彧之子，曹魏后期及西晋初年重臣，参与礼制建设。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/荀顗"
+    ]
+  },
+  {
+    "id": "wei-sima-wang",
+    "name": "司马望",
+    "courtesy_name": "子初",
+    "title": "司徒",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": 205,
+    "death_year": 271,
+    "birth_place": "河内温县",
+    "description": "司马氏宗族，曹魏后期将领，曾镇守关中防御蜀汉北伐。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/司马望"
+    ]
+  },
+  {
+    "id": "wei-cao-xun",
+    "name": "曹训",
+    "courtesy_name": null,
+    "title": "曹魏宗室",
+    "faction": "wei",
+    "roles": [
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "birth_place": "沛国谯县",
+    "description": "曹爽之弟，高平陵之变后与曹爽集团同被司马懿诛杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹训"
+    ]
+  },
+  {
+    "id": "wei-huan-fan",
+    "name": "桓范",
+    "courtesy_name": "元则",
+    "title": "大司农",
+    "faction": "wei",
+    "roles": [
+      "advisor",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "birth_place": "沛国龙亢",
+    "description": "曹魏官员，曹爽被司马懿控制后曾劝曹爽挟天子据许昌，失败后被杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/桓范"
+    ]
+  },
+  {
+    "id": "wei-wang-jing",
+    "name": "王经",
+    "courtesy_name": "彦纬",
+    "title": "尚书",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 260,
+    "birth_place": "清河",
+    "description": "曹魏官员，曾任雍州刺史抵御姜维，后因同情曹髦被司马昭所杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/王经"
+    ]
+  },
+  {
+    "id": "wei-xu-zhi",
+    "name": "徐质",
+    "courtesy_name": null,
+    "title": "曹魏将领",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 254,
+    "birth_place": "魏国",
+    "description": "曹魏将领，姜维北伐时与蜀军交战，后战死。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/徐质"
+    ]
+  },
+  {
+    "id": "wu-wu-can",
+    "name": "吾粲",
+    "courtesy_name": "孔休",
+    "title": "太子太傅",
+    "faction": "wu",
+    "roles": [
+      "official",
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": 245,
+    "birth_place": "吴郡乌程",
+    "description": "东吴官员、名士，支持太子孙和，在二宫之争中被孙权下狱处死。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吾粲"
+    ]
+  },
+  {
+    "id": "wu-quan-duan",
+    "name": "全端",
+    "courtesy_name": null,
+    "title": "东吴将领",
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴郡钱唐",
+    "description": "全琮族人，东吴后期将领，诸葛诞叛乱时率军赴寿春。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/全端"
+    ]
+  },
+  {
+    "id": "wu-lu-yin",
+    "name": "陆胤",
+    "courtesy_name": "敬宗",
+    "title": "交州刺史",
+    "faction": "wu",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴郡吴县",
+    "description": "陆逊族人，东吴将领，长期经营交州、广州地区。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/陆胤"
+    ]
+  },
+  {
+    "id": "wu-quan-shang",
+    "name": "全尚",
+    "courtesy_name": "子真",
+    "title": "城门校尉",
+    "faction": "wu",
+    "roles": [
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 258,
+    "birth_place": "吴郡钱唐",
+    "description": "东吴外戚，全皇后之父，孙綝政变时被杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/全尚"
+    ]
+  },
+  {
+    "id": "wu-quan-ji",
+    "name": "全纪",
+    "courtesy_name": null,
+    "title": "黄门侍郎",
+    "faction": "wu",
+    "roles": [
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 258,
+    "birth_place": "吴郡钱唐",
+    "description": "全尚之子，参与孙亮谋诛孙綝，事泄被杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/全纪"
+    ]
+  },
+  {
+    "id": "wu-tao-huang",
+    "name": "陶璜",
+    "courtesy_name": "世英",
+    "title": "交州牧",
+    "faction": "wu",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 290,
+    "birth_place": "丹阳秣陵",
+    "description": "东吴后期至西晋初年将领，长期镇守交州。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/陶璜"
+    ]
+  },
+  {
+    "id": "han-huang-zu",
+    "name": "黄祖",
+    "courtesy_name": null,
+    "title": "江夏太守",
+    "faction": "han",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 208,
+    "birth_place": "荆州",
+    "description": "刘表部将，长期镇守江夏，多次与孙坚、孙策、孙权交战。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/黄祖"
+    ]
+  },
+  {
+    "id": "shu-zhao-lei",
+    "name": "赵累",
+    "courtesy_name": null,
+    "title": "关羽部将",
+    "faction": "shu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 219,
+    "birth_place": "荆州",
+    "description": "关羽部将，随关羽守荆州，败走临沮时同被东吴俘杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/赵累"
+    ]
+  },
+  {
+    "id": "shu-fan-qiang",
+    "name": "范疆",
+    "courtesy_name": null,
+    "title": "张飞部将",
+    "faction": "shu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "蜀郡",
+    "description": "张飞帐下将领，与张达刺杀张飞后投奔东吴。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/范疆"
+    ]
+  },
+  {
+    "id": "shu-zhang-da",
+    "name": "张达",
+    "courtesy_name": null,
+    "title": "张飞部将",
+    "faction": "shu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "蜀郡",
+    "description": "张飞帐下将领，与范疆刺杀张飞后投奔东吴。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张达"
+    ]
+  },
+  {
+    "id": "wei-cheng-ji-regicide",
+    "name": "成济",
+    "courtesy_name": null,
+    "title": "太子舍人",
+    "faction": "wei",
+    "roles": [
+      "officer"
+    ],
+    "birth_year": null,
+    "death_year": 260,
+    "birth_place": "魏国",
+    "description": "曹魏军官，受贾充指挥，在曹髦讨伐司马昭时弑杀曹髦。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/成济"
+    ]
+  },
+  {
+    "id": "wei-cheng-cui",
+    "name": "成倅",
+    "courtesy_name": null,
+    "title": "曹魏军官",
+    "faction": "wei",
+    "roles": [
+      "officer"
+    ],
+    "birth_year": null,
+    "death_year": 260,
+    "birth_place": "魏国",
+    "description": "成济之兄，曹髦之变后与成济同被处死。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/成倅"
+    ]
+  },
+  {
+    "id": "wei-linghu-yu",
+    "name": "令狐愚",
+    "courtesy_name": "公治",
+    "title": "兖州刺史",
+    "faction": "wei",
+    "roles": [
+      "official",
+      "rebel"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "birth_place": "太原",
+    "description": "曹魏官员，王凌外甥，与王凌密谋拥立楚王曹彪。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/令狐愚"
+    ]
+  },
+  {
+    "id": "wei-hu-lie",
+    "name": "胡烈",
+    "courtesy_name": "玄武",
+    "title": "秦州刺史",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 270,
+    "birth_place": "安定临泾",
+    "description": "曹魏、晋初将领，参与灭蜀及平定钟会之乱。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/胡烈"
+    ]
+  },
+  {
+    "id": "wei-tian-xu",
+    "name": "田续",
+    "courtesy_name": null,
+    "title": "曹魏将领",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "魏国",
+    "description": "曹魏将领，灭蜀后参与乱局，史载曾杀害姜维。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/田续"
+    ]
+  },
+  {
+    "id": "wei-deng-zhong",
+    "name": "邓忠",
+    "courtesy_name": null,
+    "title": "邓艾之子",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 264,
+    "birth_place": "义阳棘阳",
+    "description": "邓艾之子，随父参与灭蜀，后在钟会之乱后被杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/邓忠"
+    ]
+  },
+  {
+    "id": "wei-shi-zuan",
+    "name": "师纂",
+    "courtesy_name": null,
+    "title": "曹魏将领",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 264,
+    "birth_place": "魏国",
+    "description": "邓艾属官，参与灭蜀，后与邓艾父子同被杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/师纂"
+    ]
+  },
+  {
+    "id": "other-qu-yi",
+    "name": "麴义",
+    "courtesy_name": null,
+    "title": "袁绍部将",
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "凉州",
+    "description": "袁绍部将，以强弩兵击败公孙瓒白马义从，后被袁绍所杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/麴义"
+    ]
+  },
+  {
+    "id": "han-dong-cheng",
+    "name": "董承",
+    "courtesy_name": null,
+    "title": "车骑将军",
+    "faction": "han",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": 200,
+    "birth_place": "冀州",
+    "description": "东汉外戚、将领，护送汉献帝东归，后参与衣带诏密谋反曹被杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/董承"
+    ]
+  },
+  {
+    "id": "other-gongsun-xu",
+    "name": "公孙续",
+    "courtesy_name": null,
+    "title": "公孙瓒之子",
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 199,
+    "birth_place": "辽西令支",
+    "description": "公孙瓒之子，易京被围时曾向黑山军求援。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/公孙续"
+    ]
+  },
+  {
+    "id": "shu-meng-da",
+    "name": "孟达",
+    "courtesy_name": "子度",
+    "title": "新城太守",
+    "faction": "shu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 228,
+    "birth_place": "扶风",
+    "description": "先仕刘璋、刘备，后降魏据新城，又谋归蜀，事泄为司马懿所破。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孟达"
+    ]
+  },
+  {
+    "id": "wei-shen-yi",
+    "name": "申仪",
+    "courtesy_name": null,
+    "title": "魏兴太守",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "魏兴",
+    "description": "新城一带地方将领，孟达反魏时没有响应，后为司马懿所用。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/申仪"
+    ]
+  },
+  {
+    "id": "wei-hao-zhao",
+    "name": "郝昭",
+    "courtesy_name": "伯道",
+    "title": "杂号将军",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 229,
+    "birth_place": "太原",
+    "description": "曹魏将领，守陈仓抵御诸葛亮第二次北伐，以寡敌众守城成功。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/郝昭"
+    ]
+  },
+  {
+    "id": "other-gongsun-yuan",
+    "name": "公孙渊",
+    "courtesy_name": "文懿",
+    "title": "燕王",
+    "faction": "other",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 238,
+    "birth_place": "辽东襄平",
+    "description": "辽东公孙氏末代统治者，叛魏自立为燕王，被司马懿征灭。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/公孙渊"
+    ]
+  },
+  {
+    "id": "shu-guo-xiu",
+    "name": "郭修",
+    "courtesy_name": null,
+    "title": "降将",
+    "faction": "shu",
+    "roles": [
+      "assassin",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 253,
+    "birth_place": "魏国",
+    "description": "曹魏降将，入蜀后刺杀蜀汉大将军费祎。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/郭修"
+    ]
+  },
+  {
+    "id": "wu-bu-chan",
+    "name": "步阐",
+    "courtesy_name": "仲思",
+    "title": "西陵督",
+    "faction": "wu",
+    "roles": [
+      "general",
+      "rebel"
+    ],
+    "birth_year": null,
+    "death_year": 272,
+    "birth_place": "临淮淮阴",
+    "description": "步骘之子，东吴西陵督，孙皓时叛吴降晋，引发西陵之战。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/步阐"
+    ]
+  },
+  {
+    "id": "wu-lu-yan",
+    "name": "陆晏",
+    "courtesy_name": null,
+    "title": "裨将军",
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 280,
+    "birth_place": "吴郡吴县",
+    "description": "陆抗之子，吴亡时参与抵抗晋军。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/陆晏"
+    ]
+  },
+  {
+    "id": "wei-empress-guo",
+    "name": "郭太后",
+    "courtesy_name": null,
+    "title": "明元郭皇后",
+    "faction": "wei",
+    "roles": [
+      "empress"
+    ],
+    "birth_year": null,
+    "death_year": 264,
+    "birth_place": "西平",
+    "description": "曹叡皇后，曹芳、曹髦时期为皇太后，参与曹魏后期废立事务。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/郭太后"
+    ]
+  },
+  {
+    "id": "other-zhang-xiu",
+    "name": "张绣",
+    "courtesy_name": null,
+    "title": "破羌将军",
+    "faction": "other",
+    "roles": [
+      "warlord",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 207,
+    "birth_place": "武威祖厉",
+    "description": "董卓旧部张济之侄，割据宛城，后降曹操。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张绣"
+    ]
+  },
+  {
+    "id": "han-huangfu-jianshou",
+    "name": "皇甫坚寿",
+    "courtesy_name": null,
+    "title": "东汉官员",
+    "faction": "han",
+    "roles": [
+      "official"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "安定朝那",
+    "description": "皇甫嵩之子，汉末名臣之后。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/皇甫坚寿"
+    ]
+  },
+  {
+    "id": "other-gongsun-kang",
+    "name": "公孙康",
+    "courtesy_name": null,
+    "title": "襄平侯",
+    "faction": "other",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "辽东襄平",
+    "description": "辽东太守公孙度之子，继掌辽东，曾斩袁尚、袁熙首级献曹操。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/公孙康"
+    ]
+  },
+  {
+    "id": "wu-gui-lan",
+    "name": "妫览",
+    "courtesy_name": null,
+    "title": "丹阳将领",
+    "faction": "wu",
+    "roles": [
+      "general",
+      "rebel"
+    ],
+    "birth_year": null,
+    "death_year": 204,
+    "birth_place": "丹阳",
+    "description": "孙翊部下，参与杀害孙翊，后被孙翊旧部诛杀。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/妫览"
+    ]
   }
 ]

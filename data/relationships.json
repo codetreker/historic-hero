@@ -24553,5 +24553,2120 @@
       "https://zh.wikipedia.org/wiki/唐咨",
       "https://zh.wikipedia.org/wiki/司马炎"
     ]
+  },
+  {
+    "id": "han-ding-yuan-lv-bu-lord-vassal",
+    "source": "han-ding-yuan",
+    "target": "lv-bu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "吕布曾依附或仕于丁原势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 189,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/丁原",
+      "https://zh.wikipedia.org/wiki/吕布"
+    ]
+  },
+  {
+    "id": "lv-bu-han-ding-yuan-killed-by",
+    "source": "lv-bu",
+    "target": "han-ding-yuan",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "丁原被部将吕布杀害，吕布随后投靠董卓。",
+    "bidirectional": false,
+    "start_year": 189,
+    "end_year": 189,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布",
+      "https://zh.wikipedia.org/wiki/丁原"
+    ]
+  },
+  {
+    "id": "lv-bu-other-lady-yan-husband-wife",
+    "source": "lv-bu",
+    "target": "other-lady-yan",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "严氏为吕布正妻。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布",
+      "https://zh.wikipedia.org/wiki/严氏"
+    ]
+  },
+  {
+    "id": "lv-bu-other-gao-shun-lord-vassal",
+    "source": "lv-bu",
+    "target": "other-gao-shun",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "高顺曾依附或仕于吕布势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布",
+      "https://zh.wikipedia.org/wiki/高顺"
+    ]
+  },
+  {
+    "id": "lv-bu-other-chen-gong-allies",
+    "source": "lv-bu",
+    "target": "other-chen-gong",
+    "type": "allies",
+    "label": "同盟",
+    "description": "陈宫辅佐吕布据守兖州、徐州。",
+    "bidirectional": true,
+    "start_year": 194,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布",
+      "https://zh.wikipedia.org/wiki/陈宫"
+    ]
+  },
+  {
+    "id": "lv-bu-liu-bei-rivals",
+    "source": "lv-bu",
+    "target": "liu-bei",
+    "type": "rivals",
+    "label": "对手",
+    "description": "吕布夺取刘备徐州，二人多次互相牵制。",
+    "bidirectional": false,
+    "start_year": 196,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布",
+      "https://zh.wikipedia.org/wiki/刘备"
+    ]
+  },
+  {
+    "id": "lv-bu-other-cao-xing-lord-vassal",
+    "source": "lv-bu",
+    "target": "other-cao-xing",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹性曾依附或仕于吕布势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布",
+      "https://zh.wikipedia.org/wiki/曹性"
+    ]
+  },
+  {
+    "id": "lv-bu-other-hao-meng-lord-vassal",
+    "source": "lv-bu",
+    "target": "other-hao-meng",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "郝萌曾依附或仕于吕布势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 196,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布",
+      "https://zh.wikipedia.org/wiki/郝萌"
+    ]
+  },
+  {
+    "id": "lv-bu-other-cheng-lian-lord-vassal",
+    "source": "lv-bu",
+    "target": "other-cheng-lian",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "成廉曾依附或仕于吕布势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布",
+      "https://zh.wikipedia.org/wiki/成廉"
+    ]
+  },
+  {
+    "id": "lv-bu-other-wei-xu-lord-vassal",
+    "source": "lv-bu",
+    "target": "other-wei-xu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "魏续曾依附或仕于吕布势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布",
+      "https://zh.wikipedia.org/wiki/魏续"
+    ]
+  },
+  {
+    "id": "lv-bu-other-song-xian-lord-vassal",
+    "source": "lv-bu",
+    "target": "other-song-xian",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "宋宪曾依附或仕于吕布势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布",
+      "https://zh.wikipedia.org/wiki/宋宪"
+    ]
+  },
+  {
+    "id": "lv-bu-other-hou-cheng-lord-vassal",
+    "source": "lv-bu",
+    "target": "other-hou-cheng",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "侯成曾依附或仕于吕布势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布",
+      "https://zh.wikipedia.org/wiki/侯成"
+    ]
+  },
+  {
+    "id": "other-hou-cheng-lv-bu-betrayal",
+    "source": "other-hou-cheng",
+    "target": "lv-bu",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "侯成在下邳之战中降曹，导致吕布集团瓦解。",
+    "bidirectional": false,
+    "start_year": 199,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/侯成",
+      "https://zh.wikipedia.org/wiki/吕布"
+    ]
+  },
+  {
+    "id": "other-song-xian-lv-bu-betrayal",
+    "source": "other-song-xian",
+    "target": "lv-bu",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "宋宪在下邳之战中参与降曹。",
+    "bidirectional": false,
+    "start_year": 199,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/宋宪",
+      "https://zh.wikipedia.org/wiki/吕布"
+    ]
+  },
+  {
+    "id": "other-wei-xu-lv-bu-betrayal",
+    "source": "other-wei-xu",
+    "target": "lv-bu",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "魏续在下邳之战中随侯成等降曹。",
+    "bidirectional": false,
+    "start_year": 199,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/魏续",
+      "https://zh.wikipedia.org/wiki/吕布"
+    ]
+  },
+  {
+    "id": "zhao-yun-zhuge-liang-colleagues",
+    "source": "zhao-yun",
+    "target": "zhuge-liang",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "赵云与诸葛亮同属相关势力或共同参与军事政治事务。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/赵云",
+      "https://zh.wikipedia.org/wiki/诸葛亮"
+    ]
+  },
+  {
+    "id": "zhao-yun-wei-yan-colleagues",
+    "source": "zhao-yun",
+    "target": "wei-yan",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "赵云与魏延同属相关势力或共同参与军事政治事务。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/赵云",
+      "https://zh.wikipedia.org/wiki/魏延"
+    ]
+  },
+  {
+    "id": "zhao-yun-liu-shan-protector",
+    "source": "zhao-yun",
+    "target": "liu-shan",
+    "type": "protector",
+    "label": "保护",
+    "description": "长坂坡之战中赵云保护幼主刘禅脱险。",
+    "bidirectional": false,
+    "start_year": 208,
+    "end_year": 208,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/赵云",
+      "https://zh.wikipedia.org/wiki/刘禅"
+    ]
+  },
+  {
+    "id": "zhao-yun-lady-mi-protector",
+    "source": "zhao-yun",
+    "target": "lady-mi",
+    "type": "protector",
+    "label": "保护",
+    "description": "长坂坡事迹中赵云寻护刘备家眷。",
+    "bidirectional": false,
+    "start_year": 208,
+    "end_year": 208,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/赵云",
+      "https://zh.wikipedia.org/wiki/糜夫人"
+    ]
+  },
+  {
+    "id": "zhao-yun-cao-cao-rivals",
+    "source": "zhao-yun",
+    "target": "cao-cao",
+    "type": "rivals",
+    "label": "对手",
+    "description": "长坂坡之战中赵云突围于曹操追击军之间。",
+    "bidirectional": false,
+    "start_year": 208,
+    "end_year": 208,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/赵云",
+      "https://zh.wikipedia.org/wiki/曹操"
+    ]
+  },
+  {
+    "id": "zhang-jue-zhang-bao-yj-siblings",
+    "source": "zhang-jue",
+    "target": "zhang-bao-yj",
+    "type": "siblings",
+    "label": "兄弟",
+    "description": "张宝为张角之弟，同为黄巾起义首领。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张角",
+      "https://zh.wikipedia.org/wiki/张宝"
+    ]
+  },
+  {
+    "id": "zhang-jue-zhang-liang-yj-siblings",
+    "source": "zhang-jue",
+    "target": "zhang-liang-yj",
+    "type": "siblings",
+    "label": "兄弟",
+    "description": "张梁为张角之弟，同为黄巾起义首领。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张角",
+      "https://zh.wikipedia.org/wiki/张梁"
+    ]
+  },
+  {
+    "id": "zhang-bao-yj-zhang-liang-yj-siblings",
+    "source": "zhang-bao-yj",
+    "target": "zhang-liang-yj",
+    "type": "siblings",
+    "label": "兄弟",
+    "description": "张宝、张梁同为张角之弟。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张宝",
+      "https://zh.wikipedia.org/wiki/张梁"
+    ]
+  },
+  {
+    "id": "zhang-jue-guan-hai-lord-vassal",
+    "source": "zhang-jue",
+    "target": "guan-hai",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "管亥曾依附或仕于张角势力。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张角",
+      "https://zh.wikipedia.org/wiki/管亥"
+    ]
+  },
+  {
+    "id": "guan-hai-kong-rong-rivals",
+    "source": "guan-hai",
+    "target": "kong-rong",
+    "type": "rivals",
+    "label": "对手",
+    "description": "管亥率黄巾余部围攻北海孔融。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/管亥",
+      "https://zh.wikipedia.org/wiki/孔融"
+    ]
+  },
+  {
+    "id": "meng-huo-zhurong-furen-husband-wife",
+    "source": "meng-huo",
+    "target": "zhurong-furen",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "祝融夫人为南中首领孟获之妻。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孟获",
+      "https://zh.wikipedia.org/wiki/祝融夫人"
+    ]
+  },
+  {
+    "id": "meng-huo-meng-you-siblings",
+    "source": "meng-huo",
+    "target": "meng-you",
+    "type": "siblings",
+    "label": "兄弟",
+    "description": "孟优为孟获之弟。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孟获",
+      "https://zh.wikipedia.org/wiki/孟优"
+    ]
+  },
+  {
+    "id": "meng-huo-duosi-dawang-allies",
+    "source": "meng-huo",
+    "target": "duosi-dawang",
+    "type": "allies",
+    "label": "同盟",
+    "description": "朵思大王为南中势力，曾与孟获阵营互相呼应。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孟获",
+      "https://zh.wikipedia.org/wiki/朵思大王"
+    ]
+  },
+  {
+    "id": "kebineng-cao-rui-rivals",
+    "source": "kebineng",
+    "target": "cao-rui",
+    "type": "rivals",
+    "label": "对手",
+    "description": "轲比能统合鲜卑势力，多次威胁曹魏北边。",
+    "bidirectional": false,
+    "start_year": 220,
+    "end_year": 235,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/轲比能",
+      "https://zh.wikipedia.org/wiki/曹叡"
+    ]
+  },
+  {
+    "id": "kebineng-tian-yu-rivals",
+    "source": "kebineng",
+    "target": "tian-yu",
+    "type": "rivals",
+    "label": "对手",
+    "description": "田豫在曹魏北疆长期牵制鲜卑轲比能。",
+    "bidirectional": false,
+    "start_year": 220,
+    "end_year": 235,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/轲比能",
+      "https://zh.wikipedia.org/wiki/田豫"
+    ]
+  },
+  {
+    "id": "tadun-yuan-shao-allies",
+    "source": "tadun",
+    "target": "yuan-shao",
+    "type": "allies",
+    "label": "同盟",
+    "description": "蹋顿所部乌桓曾支持袁氏势力。",
+    "bidirectional": true,
+    "start_year": 190,
+    "end_year": 207,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/蹋顿",
+      "https://zh.wikipedia.org/wiki/袁绍"
+    ]
+  },
+  {
+    "id": "tadun-yuan-xi-allies",
+    "source": "tadun",
+    "target": "yuan-xi",
+    "type": "allies",
+    "label": "同盟",
+    "description": "袁熙、袁尚败后投奔乌桓蹋顿。",
+    "bidirectional": true,
+    "start_year": 205,
+    "end_year": 207,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/蹋顿",
+      "https://zh.wikipedia.org/wiki/袁熙"
+    ]
+  },
+  {
+    "id": "tadun-cao-cao-rivals",
+    "source": "tadun",
+    "target": "cao-cao",
+    "type": "rivals",
+    "label": "对手",
+    "description": "曹操北征乌桓，在白狼山击破蹋顿。",
+    "bidirectional": false,
+    "start_year": 207,
+    "end_year": 207,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/蹋顿",
+      "https://zh.wikipedia.org/wiki/曹操"
+    ]
+  },
+  {
+    "id": "zhang-jue-other-bo-cai-lord-vassal",
+    "source": "zhang-jue",
+    "target": "other-bo-cai",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "波才曾依附或仕于张角势力。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 184,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张角",
+      "https://zh.wikipedia.org/wiki/波才"
+    ]
+  },
+  {
+    "id": "zhang-jue-other-peng-tuo-lord-vassal",
+    "source": "zhang-jue",
+    "target": "other-peng-tuo",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "彭脱曾依附或仕于张角势力。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 184,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张角",
+      "https://zh.wikipedia.org/wiki/彭脱"
+    ]
+  },
+  {
+    "id": "zhang-jue-other-zhang-mancheng-lord-vassal",
+    "source": "zhang-jue",
+    "target": "other-zhang-mancheng",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "张曼成曾依附或仕于张角势力。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 184,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张角",
+      "https://zh.wikipedia.org/wiki/张曼成"
+    ]
+  },
+  {
+    "id": "zhang-jue-other-han-zhong-yt-lord-vassal",
+    "source": "zhang-jue",
+    "target": "other-han-zhong-yt",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "韩忠曾依附或仕于张角势力。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 184,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张角",
+      "https://zh.wikipedia.org/wiki/韩忠"
+    ]
+  },
+  {
+    "id": "zhang-jue-other-zhao-hong-lord-vassal",
+    "source": "zhang-jue",
+    "target": "other-zhao-hong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "赵弘曾依附或仕于张角势力。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 184,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张角",
+      "https://zh.wikipedia.org/wiki/赵弘"
+    ]
+  },
+  {
+    "id": "zhang-jue-other-bu-ji-lord-vassal",
+    "source": "zhang-jue",
+    "target": "other-bu-ji",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "卜己曾依附或仕于张角势力。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 184,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张角",
+      "https://zh.wikipedia.org/wiki/卜己"
+    ]
+  },
+  {
+    "id": "other-bo-cai-huangfu-song-rivals",
+    "source": "other-bo-cai",
+    "target": "huangfu-song",
+    "type": "rivals",
+    "label": "对手",
+    "description": "波才在长社与皇甫嵩、朱儁军交战。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 184,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/波才",
+      "https://zh.wikipedia.org/wiki/皇甫嵩"
+    ]
+  },
+  {
+    "id": "other-peng-tuo-zhu-jun-rivals",
+    "source": "other-peng-tuo",
+    "target": "zhu-jun",
+    "type": "rivals",
+    "label": "对手",
+    "description": "彭脱在汝南、颍川一带被朱儁等汉军讨平。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 184,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/彭脱",
+      "https://zh.wikipedia.org/wiki/朱儁"
+    ]
+  },
+  {
+    "id": "other-zhang-mancheng-zhu-jun-rivals",
+    "source": "other-zhang-mancheng",
+    "target": "zhu-jun",
+    "type": "rivals",
+    "label": "对手",
+    "description": "张曼成死后南阳黄巾继续为朱儁所讨。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 184,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张曼成",
+      "https://zh.wikipedia.org/wiki/朱儁"
+    ]
+  },
+  {
+    "id": "other-zhang-yan-other-zhang-yan-lord-vassal",
+    "source": "other-zhang-yan",
+    "target": "other-zhang-yan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "张燕曾依附或仕于张燕势力。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 205,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张燕",
+      "https://zh.wikipedia.org/wiki/张燕"
+    ]
+  },
+  {
+    "id": "other-zhang-yan-other-sui-gu-lord-vassal",
+    "source": "other-zhang-yan",
+    "target": "other-sui-gu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "眭固曾依附或仕于张燕势力。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 205,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张燕",
+      "https://zh.wikipedia.org/wiki/眭固"
+    ]
+  },
+  {
+    "id": "other-zhang-yan-other-bai-rao-lord-vassal",
+    "source": "other-zhang-yan",
+    "target": "other-bai-rao",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "白绕曾依附或仕于张燕势力。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 205,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张燕",
+      "https://zh.wikipedia.org/wiki/白绕"
+    ]
+  },
+  {
+    "id": "other-zhang-yan-other-yu-du-lord-vassal",
+    "source": "other-zhang-yan",
+    "target": "other-yu-du",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "于毒曾依附或仕于张燕势力。",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 205,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张燕",
+      "https://zh.wikipedia.org/wiki/于毒"
+    ]
+  },
+  {
+    "id": "cao-cao-other-zhang-yan-lord-vassal",
+    "source": "cao-cao",
+    "target": "other-zhang-yan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "张燕曾依附或仕于曹操势力。",
+    "bidirectional": false,
+    "start_year": 205,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹操",
+      "https://zh.wikipedia.org/wiki/张燕"
+    ]
+  },
+  {
+    "id": "other-guan-cheng-cao-cao-rivals",
+    "source": "other-guan-cheng",
+    "target": "cao-cao",
+    "type": "rivals",
+    "label": "对手",
+    "description": "管承为青州海贼首领，后被曹操势力讨平。",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 210,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/管承",
+      "https://zh.wikipedia.org/wiki/曹操"
+    ]
+  },
+  {
+    "id": "other-sui-gu-cao-cao-rivals",
+    "source": "other-sui-gu",
+    "target": "cao-cao",
+    "type": "rivals",
+    "label": "对手",
+    "description": "眭固据射犬一带，后为曹操军击破。",
+    "bidirectional": false,
+    "start_year": 199,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/眭固",
+      "https://zh.wikipedia.org/wiki/曹操"
+    ]
+  },
+  {
+    "id": "other-bai-rao-cao-cao-rivals",
+    "source": "other-bai-rao",
+    "target": "cao-cao",
+    "type": "rivals",
+    "label": "对手",
+    "description": "白绕等黑山军曾进入东郡，被曹操击退。",
+    "bidirectional": false,
+    "start_year": 191,
+    "end_year": 191,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/白绕",
+      "https://zh.wikipedia.org/wiki/曹操"
+    ]
+  },
+  {
+    "id": "other-yu-du-cao-cao-rivals",
+    "source": "other-yu-du",
+    "target": "cao-cao",
+    "type": "rivals",
+    "label": "对手",
+    "description": "于毒等黑山军曾袭扰魏郡、东郡。",
+    "bidirectional": false,
+    "start_year": 192,
+    "end_year": 193,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/于毒",
+      "https://zh.wikipedia.org/wiki/曹操"
+    ]
+  },
+  {
+    "id": "han-xiandi-other-yang-feng-lord-vassal",
+    "source": "han-xiandi",
+    "target": "other-yang-feng",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "杨奉曾依附或仕于汉献帝势力。",
+    "bidirectional": false,
+    "start_year": 195,
+    "end_year": 196,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/汉献帝",
+      "https://zh.wikipedia.org/wiki/杨奉"
+    ]
+  },
+  {
+    "id": "han-xiandi-other-han-xian-lord-vassal",
+    "source": "han-xiandi",
+    "target": "other-han-xian",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "韩暹曾依附或仕于汉献帝势力。",
+    "bidirectional": false,
+    "start_year": 195,
+    "end_year": 196,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/汉献帝",
+      "https://zh.wikipedia.org/wiki/韩暹"
+    ]
+  },
+  {
+    "id": "han-xiandi-other-hu-cai-lord-vassal",
+    "source": "han-xiandi",
+    "target": "other-hu-cai",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "胡才曾依附或仕于汉献帝势力。",
+    "bidirectional": false,
+    "start_year": 195,
+    "end_year": 196,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/汉献帝",
+      "https://zh.wikipedia.org/wiki/胡才"
+    ]
+  },
+  {
+    "id": "han-xiandi-other-li-le-lord-vassal",
+    "source": "han-xiandi",
+    "target": "other-li-le",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "李乐曾依附或仕于汉献帝势力。",
+    "bidirectional": false,
+    "start_year": 195,
+    "end_year": 196,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/汉献帝",
+      "https://zh.wikipedia.org/wiki/李乐"
+    ]
+  },
+  {
+    "id": "han-xiandi-other-guo-tai-lord-vassal",
+    "source": "han-xiandi",
+    "target": "other-guo-tai",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "郭太曾依附或仕于汉献帝势力。",
+    "bidirectional": false,
+    "start_year": 195,
+    "end_year": 196,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/汉献帝",
+      "https://zh.wikipedia.org/wiki/郭太"
+    ]
+  },
+  {
+    "id": "other-yang-feng-other-han-xian-allies",
+    "source": "other-yang-feng",
+    "target": "other-han-xian",
+    "type": "allies",
+    "label": "同盟",
+    "description": "杨奉、韩暹同为护送汉献帝东归的白波军将领。",
+    "bidirectional": true,
+    "start_year": 195,
+    "end_year": 196,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/杨奉",
+      "https://zh.wikipedia.org/wiki/韩暹"
+    ]
+  },
+  {
+    "id": "other-hu-cai-other-li-le-allies",
+    "source": "other-hu-cai",
+    "target": "other-li-le",
+    "type": "allies",
+    "label": "同盟",
+    "description": "胡才、李乐同属白波军，参与献帝东归。",
+    "bidirectional": true,
+    "start_year": 195,
+    "end_year": 196,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/胡才",
+      "https://zh.wikipedia.org/wiki/李乐"
+    ]
+  },
+  {
+    "id": "other-yang-feng-cao-cao-rivals",
+    "source": "other-yang-feng",
+    "target": "cao-cao",
+    "type": "rivals",
+    "label": "对手",
+    "description": "曹操迎献帝后击败杨奉、韩暹。",
+    "bidirectional": false,
+    "start_year": 196,
+    "end_year": 197,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/杨奉",
+      "https://zh.wikipedia.org/wiki/曹操"
+    ]
+  },
+  {
+    "id": "yuan-shao-other-sui-yuanjin-lord-vassal",
+    "source": "yuan-shao",
+    "target": "other-sui-yuanjin",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "眭元进曾依附或仕于袁绍势力。",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 200,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/袁绍",
+      "https://zh.wikipedia.org/wiki/眭元进"
+    ]
+  },
+  {
+    "id": "cao-cao-other-chang-xi-lord-vassal",
+    "source": "cao-cao",
+    "target": "other-chang-xi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "昌豨曾依附或仕于曹操势力。",
+    "bidirectional": false,
+    "start_year": 198,
+    "end_year": 206,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹操",
+      "https://zh.wikipedia.org/wiki/昌豨"
+    ]
+  },
+  {
+    "id": "cao-cao-other-sun-guan-lord-vassal",
+    "source": "cao-cao",
+    "target": "other-sun-guan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "孙观曾依附或仕于曹操势力。",
+    "bidirectional": false,
+    "start_year": 198,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹操",
+      "https://zh.wikipedia.org/wiki/孙观"
+    ]
+  },
+  {
+    "id": "cao-cao-other-yin-li-lord-vassal",
+    "source": "cao-cao",
+    "target": "other-yin-li",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "尹礼曾依附或仕于曹操势力。",
+    "bidirectional": false,
+    "start_year": 198,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹操",
+      "https://zh.wikipedia.org/wiki/尹礼"
+    ]
+  },
+  {
+    "id": "cao-cao-other-wu-dun-lord-vassal",
+    "source": "cao-cao",
+    "target": "other-wu-dun",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "吴敦曾依附或仕于曹操势力。",
+    "bidirectional": false,
+    "start_year": 198,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹操",
+      "https://zh.wikipedia.org/wiki/吴敦"
+    ]
+  },
+  {
+    "id": "cao-cao-other-chang-ba-lord-vassal",
+    "source": "cao-cao",
+    "target": "other-chang-ba",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "昌霸曾依附或仕于曹操势力。",
+    "bidirectional": false,
+    "start_year": 198,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹操",
+      "https://zh.wikipedia.org/wiki/昌霸"
+    ]
+  },
+  {
+    "id": "other-sun-guan-zang-ba-colleagues",
+    "source": "other-sun-guan",
+    "target": "zang-ba",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "孙观与臧霸同属相关势力或共同参与军事政治事务。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙观",
+      "https://zh.wikipedia.org/wiki/臧霸"
+    ]
+  },
+  {
+    "id": "other-yin-li-zang-ba-colleagues",
+    "source": "other-yin-li",
+    "target": "zang-ba",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "尹礼与臧霸同属相关势力或共同参与军事政治事务。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/尹礼",
+      "https://zh.wikipedia.org/wiki/臧霸"
+    ]
+  },
+  {
+    "id": "other-wu-dun-zang-ba-colleagues",
+    "source": "other-wu-dun",
+    "target": "zang-ba",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "吴敦与臧霸同属相关势力或共同参与军事政治事务。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吴敦",
+      "https://zh.wikipedia.org/wiki/臧霸"
+    ]
+  },
+  {
+    "id": "other-chang-ba-zang-ba-colleagues",
+    "source": "other-chang-ba",
+    "target": "zang-ba",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "昌霸与臧霸同属相关势力或共同参与军事政治事务。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/昌霸",
+      "https://zh.wikipedia.org/wiki/臧霸"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-liu-yin-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-liu-yin",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "柳隐曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/柳隐"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-huo-jun-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-huo-jun",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "霍峻曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/霍峻"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-huo-yi-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-huo-yi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "霍弋曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/霍弋"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-luo-xian-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-luo-xian",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "罗宪曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/罗宪"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-zong-yu-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-zong-yu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "宗预曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/宗预"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-mi-fang-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-mi-fang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "糜芳曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/糜芳"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-qin-mi-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-qin-mi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "秦宓曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/秦宓"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-wu-ban-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-wu-ban",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "吴班曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/吴班"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-chen-shi-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-chen-shi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "陈式曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/陈式"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-cheng-ji-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-cheng-ji",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "程畿曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/程畿"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-zhao-lei-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-zhao-lei",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "赵累曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/赵累"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-fan-qiang-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-fan-qiang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "范疆曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/范疆"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-zhang-da-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-zhang-da",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "张达曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/张达"
+    ]
+  },
+  {
+    "id": "liu-shan-shu-huo-yi-lord-vassal",
+    "source": "liu-shan",
+    "target": "shu-huo-yi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "霍弋曾依附或仕于刘禅势力。",
+    "bidirectional": false,
+    "start_year": 223,
+    "end_year": 263,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘禅",
+      "https://zh.wikipedia.org/wiki/霍弋"
+    ]
+  },
+  {
+    "id": "liu-shan-shu-luo-xian-lord-vassal",
+    "source": "liu-shan",
+    "target": "shu-luo-xian",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "罗宪曾依附或仕于刘禅势力。",
+    "bidirectional": false,
+    "start_year": 223,
+    "end_year": 263,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘禅",
+      "https://zh.wikipedia.org/wiki/罗宪"
+    ]
+  },
+  {
+    "id": "liu-shan-shu-zong-yu-lord-vassal",
+    "source": "liu-shan",
+    "target": "shu-zong-yu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "宗预曾依附或仕于刘禅势力。",
+    "bidirectional": false,
+    "start_year": 223,
+    "end_year": 263,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘禅",
+      "https://zh.wikipedia.org/wiki/宗预"
+    ]
+  },
+  {
+    "id": "shu-wu-ban-zhuge-liang-colleagues",
+    "source": "shu-wu-ban",
+    "target": "zhuge-liang",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "吴班与诸葛亮同属相关势力或共同参与军事政治事务。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吴班",
+      "https://zh.wikipedia.org/wiki/诸葛亮"
+    ]
+  },
+  {
+    "id": "shu-chen-shi-wei-yan-colleagues",
+    "source": "shu-chen-shi",
+    "target": "wei-yan",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "陈式与魏延同属相关势力或共同参与军事政治事务。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/陈式",
+      "https://zh.wikipedia.org/wiki/魏延"
+    ]
+  },
+  {
+    "id": "shu-zhao-lei-guan-yu-colleagues",
+    "source": "shu-zhao-lei",
+    "target": "guan-yu",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "赵累与关羽同属相关势力或共同参与军事政治事务。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/赵累",
+      "https://zh.wikipedia.org/wiki/关羽"
+    ]
+  },
+  {
+    "id": "shu-fan-qiang-zhang-fei-betrayal",
+    "source": "shu-fan-qiang",
+    "target": "zhang-fei",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "范疆与张达刺杀张飞后投吴。",
+    "bidirectional": false,
+    "start_year": 221,
+    "end_year": 221,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/范疆",
+      "https://zh.wikipedia.org/wiki/张飞"
+    ]
+  },
+  {
+    "id": "shu-zhang-da-zhang-fei-betrayal",
+    "source": "shu-zhang-da",
+    "target": "zhang-fei",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "张达与范疆刺杀张飞后投吴。",
+    "bidirectional": false,
+    "start_year": 221,
+    "end_year": 221,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张达",
+      "https://zh.wikipedia.org/wiki/张飞"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-wang-hun-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-wang-hun",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "王浑曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/王浑"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-wei-guan-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-wei-guan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "卫瓘曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/卫瓘"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-xun-yi-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-xun-yi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "荀顗曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/荀顗"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-sima-wang-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-sima-wang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "司马望曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/司马望"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-cao-xun-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-cao-xun",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹训曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/曹训"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-huan-fan-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-huan-fan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "桓范曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/桓范"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-wang-jing-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-wang-jing",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "王经曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/王经"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-xu-zhi-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-xu-zhi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "徐质曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/徐质"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-cheng-ji-regicide-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-cheng-ji-regicide",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "成济曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/成济"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-cheng-cui-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-cheng-cui",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "成倅曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/成倅"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-linghu-yu-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-linghu-yu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "令狐愚曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/令狐愚"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-hu-lie-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-hu-lie",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "胡烈曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/胡烈"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-tian-xu-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-tian-xu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "田续曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/田续"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-deng-zhong-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-deng-zhong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "邓忠曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/邓忠"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-shi-zuan-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-shi-zuan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "师纂曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/师纂"
+    ]
+  },
+  {
+    "id": "sima-zhao-wei-wang-hun-lord-vassal",
+    "source": "sima-zhao",
+    "target": "wei-wang-hun",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "王浑曾依附或仕于司马昭势力。",
+    "bidirectional": false,
+    "start_year": 255,
+    "end_year": 265,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/司马昭",
+      "https://zh.wikipedia.org/wiki/王浑"
+    ]
+  },
+  {
+    "id": "sima-zhao-wei-wei-guan-lord-vassal",
+    "source": "sima-zhao",
+    "target": "wei-wei-guan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "卫瓘曾依附或仕于司马昭势力。",
+    "bidirectional": false,
+    "start_year": 263,
+    "end_year": 264,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/司马昭",
+      "https://zh.wikipedia.org/wiki/卫瓘"
+    ]
+  },
+  {
+    "id": "sima-zhao-wei-cheng-ji-regicide-lord-vassal",
+    "source": "sima-zhao",
+    "target": "wei-cheng-ji-regicide",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "成济曾依附或仕于司马昭势力。",
+    "bidirectional": false,
+    "start_year": 260,
+    "end_year": 260,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/司马昭",
+      "https://zh.wikipedia.org/wiki/成济"
+    ]
+  },
+  {
+    "id": "sima-zhao-wei-cheng-cui-lord-vassal",
+    "source": "sima-zhao",
+    "target": "wei-cheng-cui",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "成倅曾依附或仕于司马昭势力。",
+    "bidirectional": false,
+    "start_year": 260,
+    "end_year": 260,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/司马昭",
+      "https://zh.wikipedia.org/wiki/成倅"
+    ]
+  },
+  {
+    "id": "wei-deng-zhong-deng-ai-colleagues",
+    "source": "wei-deng-zhong",
+    "target": "deng-ai",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "邓忠与邓艾同属相关势力或共同参与军事政治事务。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/邓忠",
+      "https://zh.wikipedia.org/wiki/邓艾"
+    ]
+  },
+  {
+    "id": "wei-shi-zuan-deng-ai-colleagues",
+    "source": "wei-shi-zuan",
+    "target": "deng-ai",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "师纂与邓艾同属相关势力或共同参与军事政治事务。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/师纂",
+      "https://zh.wikipedia.org/wiki/邓艾"
+    ]
+  },
+  {
+    "id": "wang-ling-wei-linghu-yu-allies",
+    "source": "wang-ling",
+    "target": "wei-linghu-yu",
+    "type": "allies",
+    "label": "同盟",
+    "description": "王凌与令狐愚密谋拥立曹彪。",
+    "bidirectional": true,
+    "start_year": 249,
+    "end_year": 251,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/王凌",
+      "https://zh.wikipedia.org/wiki/令狐愚"
+    ]
+  },
+  {
+    "id": "sun-quan-wu-wu-can-lord-vassal",
+    "source": "sun-quan",
+    "target": "wu-wu-can",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "吾粲曾依附或仕于孙权势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙权",
+      "https://zh.wikipedia.org/wiki/吾粲"
+    ]
+  },
+  {
+    "id": "sun-quan-wu-quan-duan-lord-vassal",
+    "source": "sun-quan",
+    "target": "wu-quan-duan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "全端曾依附或仕于孙权势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙权",
+      "https://zh.wikipedia.org/wiki/全端"
+    ]
+  },
+  {
+    "id": "sun-quan-wu-lu-yin-lord-vassal",
+    "source": "sun-quan",
+    "target": "wu-lu-yin",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "陆胤曾依附或仕于孙权势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙权",
+      "https://zh.wikipedia.org/wiki/陆胤"
+    ]
+  },
+  {
+    "id": "sun-quan-wu-quan-shang-lord-vassal",
+    "source": "sun-quan",
+    "target": "wu-quan-shang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "全尚曾依附或仕于孙权势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙权",
+      "https://zh.wikipedia.org/wiki/全尚"
+    ]
+  },
+  {
+    "id": "sun-quan-wu-quan-ji-lord-vassal",
+    "source": "sun-quan",
+    "target": "wu-quan-ji",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "全纪曾依附或仕于孙权势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙权",
+      "https://zh.wikipedia.org/wiki/全纪"
+    ]
+  },
+  {
+    "id": "sun-quan-wu-tao-huang-lord-vassal",
+    "source": "sun-quan",
+    "target": "wu-tao-huang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "陶璜曾依附或仕于孙权势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙权",
+      "https://zh.wikipedia.org/wiki/陶璜"
+    ]
+  },
+  {
+    "id": "sun-hao-wu-tao-huang-lord-vassal",
+    "source": "sun-hao",
+    "target": "wu-tao-huang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "陶璜曾依附或仕于孙皓势力。",
+    "bidirectional": false,
+    "start_year": 264,
+    "end_year": 280,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙皓",
+      "https://zh.wikipedia.org/wiki/陶璜"
+    ]
+  },
+  {
+    "id": "wu-quan-duan-quan-cong-colleagues",
+    "source": "wu-quan-duan",
+    "target": "quan-cong",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "全端与全琮同属相关势力或共同参与军事政治事务。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/全端",
+      "https://zh.wikipedia.org/wiki/全琮"
+    ]
+  },
+  {
+    "id": "wu-quan-shang-wu-quan-ji-father-son",
+    "source": "wu-quan-shang",
+    "target": "wu-quan-ji",
+    "type": "father-son",
+    "label": "父子",
+    "description": "全尚为全纪之父。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/全尚",
+      "https://zh.wikipedia.org/wiki/全纪"
+    ]
+  },
+  {
+    "id": "liu-biao-han-huang-zu-lord-vassal",
+    "source": "liu-biao",
+    "target": "han-huang-zu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "黄祖曾依附或仕于刘表势力。",
+    "bidirectional": false,
+    "start_year": 190,
+    "end_year": 208,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘表",
+      "https://zh.wikipedia.org/wiki/黄祖"
+    ]
+  },
+  {
+    "id": "han-huang-zu-sun-jian-rivals",
+    "source": "han-huang-zu",
+    "target": "sun-jian",
+    "type": "rivals",
+    "label": "对手",
+    "description": "黄祖部将伏击孙坚，孙坚在襄阳战事中阵亡。",
+    "bidirectional": false,
+    "start_year": 191,
+    "end_year": 191,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/黄祖",
+      "https://zh.wikipedia.org/wiki/孙坚"
+    ]
+  },
+  {
+    "id": "han-huang-zu-sun-quan-rivals",
+    "source": "han-huang-zu",
+    "target": "sun-quan",
+    "type": "rivals",
+    "label": "对手",
+    "description": "孙权多次进攻江夏，最终击破黄祖。",
+    "bidirectional": false,
+    "start_year": 203,
+    "end_year": 208,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/黄祖",
+      "https://zh.wikipedia.org/wiki/孙权"
+    ]
+  },
+  {
+    "id": "yuan-shao-other-qu-yi-lord-vassal",
+    "source": "yuan-shao",
+    "target": "other-qu-yi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "麴义曾依附或仕于袁绍势力。",
+    "bidirectional": false,
+    "start_year": 191,
+    "end_year": 195,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/袁绍",
+      "https://zh.wikipedia.org/wiki/麴义"
+    ]
+  },
+  {
+    "id": "han-xiandi-han-dong-cheng-lord-vassal",
+    "source": "han-xiandi",
+    "target": "han-dong-cheng",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "董承曾依附或仕于汉献帝势力。",
+    "bidirectional": false,
+    "start_year": 195,
+    "end_year": 200,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/汉献帝",
+      "https://zh.wikipedia.org/wiki/董承"
+    ]
+  },
+  {
+    "id": "gongsun-zan-other-gongsun-xu-lord-vassal",
+    "source": "gongsun-zan",
+    "target": "other-gongsun-xu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "公孙续曾依附或仕于公孙瓒势力。",
+    "bidirectional": false,
+    "start_year": 190,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/公孙瓒",
+      "https://zh.wikipedia.org/wiki/公孙续"
+    ]
+  },
+  {
+    "id": "liu-bei-shu-meng-da-lord-vassal",
+    "source": "liu-bei",
+    "target": "shu-meng-da",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "孟达曾依附或仕于刘备势力。",
+    "bidirectional": false,
+    "start_year": 214,
+    "end_year": 220,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备",
+      "https://zh.wikipedia.org/wiki/孟达"
+    ]
+  },
+  {
+    "id": "cao-rui-shu-meng-da-lord-vassal",
+    "source": "cao-rui",
+    "target": "shu-meng-da",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "孟达曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": 220,
+    "end_year": 228,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/孟达"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-shen-yi-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-shen-yi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "申仪曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": 220,
+    "end_year": 228,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/申仪"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-hao-zhao-lord-vassal",
+    "source": "cao-rui",
+    "target": "wei-hao-zhao",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "郝昭曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": 220,
+    "end_year": 229,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/郝昭"
+    ]
+  },
+  {
+    "id": "cao-rui-other-gongsun-yuan-lord-vassal",
+    "source": "cao-rui",
+    "target": "other-gongsun-yuan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "公孙渊曾依附或仕于曹叡势力。",
+    "bidirectional": false,
+    "start_year": 220,
+    "end_year": 237,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/公孙渊"
+    ]
+  },
+  {
+    "id": "liu-shan-shu-guo-xiu-lord-vassal",
+    "source": "liu-shan",
+    "target": "shu-guo-xiu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "郭修曾依附或仕于刘禅势力。",
+    "bidirectional": false,
+    "start_year": 253,
+    "end_year": 253,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘禅",
+      "https://zh.wikipedia.org/wiki/郭修"
+    ]
+  },
+  {
+    "id": "sun-hao-wu-bu-chan-lord-vassal",
+    "source": "sun-hao",
+    "target": "wu-bu-chan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "步阐曾依附或仕于孙皓势力。",
+    "bidirectional": false,
+    "start_year": 264,
+    "end_year": 272,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙皓",
+      "https://zh.wikipedia.org/wiki/步阐"
+    ]
+  },
+  {
+    "id": "sun-hao-wu-lu-yan-lord-vassal",
+    "source": "sun-hao",
+    "target": "wu-lu-yan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "陆晏曾依附或仕于孙皓势力。",
+    "bidirectional": false,
+    "start_year": 274,
+    "end_year": 280,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙皓",
+      "https://zh.wikipedia.org/wiki/陆晏"
+    ]
+  },
+  {
+    "id": "cao-rui-wei-empress-guo-husband-wife",
+    "source": "cao-rui",
+    "target": "wei-empress-guo",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "郭太后为曹叡皇后。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡",
+      "https://zh.wikipedia.org/wiki/郭太后"
+    ]
+  },
+  {
+    "id": "zhang-ji-other-zhang-xiu-lord-vassal",
+    "source": "zhang-ji",
+    "target": "other-zhang-xiu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "张绣曾依附或仕于张济势力。",
+    "bidirectional": false,
+    "start_year": 192,
+    "end_year": 196,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张济",
+      "https://zh.wikipedia.org/wiki/张绣"
+    ]
+  },
+  {
+    "id": "huangfu-song-han-huangfu-jianshou-lord-vassal",
+    "source": "huangfu-song",
+    "target": "han-huangfu-jianshou",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "皇甫坚寿曾依附或仕于皇甫嵩势力。",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/皇甫嵩",
+      "https://zh.wikipedia.org/wiki/皇甫坚寿"
+    ]
+  },
+  {
+    "id": "huangfu-song-han-huangfu-jianshou-father-son",
+    "source": "huangfu-song",
+    "target": "han-huangfu-jianshou",
+    "type": "father-son",
+    "label": "父子",
+    "description": "皇甫坚寿为皇甫嵩之子。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/皇甫嵩",
+      "https://zh.wikipedia.org/wiki/皇甫坚寿"
+    ]
+  },
+  {
+    "id": "gongsun-du-other-gongsun-kang-father-son",
+    "source": "gongsun-du",
+    "target": "other-gongsun-kang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "公孙康为辽东太守公孙度之子。",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/公孙度",
+      "https://zh.wikipedia.org/wiki/公孙康"
+    ]
+  },
+  {
+    "id": "sun-yi-wu-gui-lan-lord-vassal",
+    "source": "sun-yi",
+    "target": "wu-gui-lan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "妫览曾依附或仕于孙翊势力。",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 204,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙翊",
+      "https://zh.wikipedia.org/wiki/妫览"
+    ]
   }
 ]
