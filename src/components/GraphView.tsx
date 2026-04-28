@@ -59,6 +59,7 @@ export default function GraphView() {
   const containerRef = useRef<HTMLDivElement>(null);
   const graphRef = useRef<Graph | null>(null);
   const destroyedRef = useRef(false);
+  const renderedRef = useRef(false);
   const { state, dispatch } = useApp();
 
   // Use ref for dispatch to avoid re-triggering graph effect
@@ -78,7 +79,7 @@ export default function GraphView() {
     dispatchRef.current({ type: 'SET_HIGHLIGHT', payload: person.id });
 
     const graph = graphRef.current;
-    if (!graph || destroyedRef.current) return;
+    if (!graph || destroyedRef.current || !renderedRef.current) return;
 
     try {
       const allNodeData = graph.getNodeData();
@@ -197,9 +198,14 @@ export default function GraphView() {
     });
 
     // Render only if not already destroyed by StrictMode cleanup
+    renderedRef.current = false;
     if (!destroyedRef.current) {
-      graph.render();
       graphRef.current = graph;
+      graph.render().then(() => {
+        if (!destroyedRef.current) {
+          renderedRef.current = true;
+        }
+      }).catch(() => { /* graph destroyed during render */ });
     } else {
       // StrictMode already ran cleanup before render finished
       try { graph.destroy(); } catch { /* noop */ }
@@ -207,6 +213,7 @@ export default function GraphView() {
 
     return () => {
       destroyedRef.current = true;
+      renderedRef.current = false;
       if (graphRef.current) {
         try { graphRef.current.destroy(); } catch { /* already destroyed */ }
         graphRef.current = null;
@@ -217,7 +224,7 @@ export default function GraphView() {
 
   useEffect(() => {
     const graph = graphRef.current;
-    if (!graph || destroyedRef.current) return;
+    if (!graph || destroyedRef.current || !renderedRef.current) return;
 
     if (!state.highlightedPersonId) {
       try {

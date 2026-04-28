@@ -11,7 +11,7 @@ import Legend from './components/Legend';
 import { FACTION_CONFIG } from './types';
 import type { Faction } from './types';
 
-const { Header, Content } = Layout;
+const { Header, Content, Sider } = Layout;
 
 const factionTabs = (Object.keys(FACTION_CONFIG) as Faction[]).map(f => ({
   key: f,
@@ -47,7 +47,9 @@ function AppInner() {
       </Header>
 
       <Layout style={{ flex: 1, overflow: 'hidden' }}>
-        <FilterPanel />
+        <Sider width={240} style={{ background: '#fff', borderRight: '1px solid #f0f0f0', overflow: 'auto' }}>
+          <FilterPanel />
+        </Sider>
         <Content style={{ position: 'relative', flex: 1, overflow: 'hidden' }}>
           <GraphView />
           <Legend />

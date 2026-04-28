@@ -91,7 +91,7 @@ export default function FilterPanel() {
   ];
 
   return (
-    <div style={{ width: 240, height: '100%', overflow: 'auto', borderRight: '1px solid #f0f0f0', padding: '12px 0' }}>
+    <div style={{ height: '100%', overflow: 'auto', padding: '12px 0' }}>
       <Collapse
         defaultActiveKey={['faction', 'role', 'relType']}
         ghost
