@@ -1,0 +1,2695 @@
+[
+  {
+    "id": "yellow-turban-rebellion",
+    "name": "黄巾之乱",
+    "year": 184,
+    "end_year": 185,
+    "location": "全国",
+    "type": "rebellion",
+    "description": "东汉末年，张角创立太平道，以\"苍天已死，黄天当立\"为口号，于184年发动大规模农民起义。黄巾军头裹黄巾，在全国各地同时起事，声势浩大。朝廷派皇甫嵩、朱儁、卢植等人率军镇压，曹操、刘备、孙坚等人也在此时崭露头角。起义虽被平定，但东汉朝廷威信大损，为平叛而下放军权给地方，导致群雄割据局面形成。",
+    "participants": [
+      {
+        "person_id": "zhang-jiao",
+        "role": "发起者"
+      },
+      {
+        "person_id": "huangfu-song",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhu-jun",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "lu-zhi",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      }
+    ],
+    "result": "东汉朝廷镇压黄巾军，但威信大损，地方军阀崛起",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yellow_Turban_Rebellion"
+    ]
+  },
+  {
+    "id": "liang-province-rebellion",
+    "name": "凉州之乱",
+    "year": 184,
+    "end_year": 189,
+    "location": "凉州",
+    "type": "rebellion",
+    "description": "与黄巾之乱同年，凉州（今甘肃一带）的羌族和汉族叛军也发动了大规模叛乱。北宫伯玉、李文侯、韩遂、边章等先后领导叛军，朝廷多次派兵征讨均未能彻底平定。凉州之乱持续数年，消耗了大量朝廷军力，也为日后董卓的崛起提供了军事基础，因为董卓正是在平定凉州叛乱中积累了强大的军事力量。",
+    "participants": [
+      {
+        "person_id": "han-sui",
+        "role": "发起者"
+      },
+      {
+        "person_id": "dong-zhuo",
+        "role": "参与者"
+      },
+      {
+        "person_id": "huangfu-song",
+        "role": "指挥者"
+      }
+    ],
+    "result": "叛乱持续多年，朝廷军力大耗，董卓借此崛起",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liang_Province_rebellion"
+    ]
+  },
+  {
+    "id": "ten-attendants-massacre",
+    "name": "十常侍之乱",
+    "year": 189,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "political",
+    "description": "189年汉灵帝驾崩后，大将军何进与袁绍密谋诛杀宦官集团「十常侍」。何进召董卓进京以逼迫何太后同意。然而十常侍先发制人，诱杀何进。袁绍随即率兵攻入皇宫，大肆屠杀宦官两千余人。十常侍挟持少帝刘辩和陈留王刘协出逃，最终投河自尽。此事件彻底终结了东汉延续百年的宦官与外戚之争，但也为董卓入京篡权创造了条件。",
+    "participants": [
+      {
+        "person_id": "he-jin",
+        "role": "发起者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "dong-zhuo",
+        "role": "参与者"
+      }
+    ],
+    "result": "宦官集团被消灭，但董卓趁乱进京控制朝政",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ten_Attendants"
+    ]
+  },
+  {
+    "id": "dong-zhuo-seizes-power",
+    "name": "董卓专权",
+    "year": 189,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "political",
+    "description": "189年，董卓率凉州军入京后，迅速控制了朝政。他废黜少帝刘辩，改立年幼的陈留王刘协为帝（即汉献帝），自封为相国，独揽大权。董卓在洛阳横行霸道，残暴不仁，毒杀废帝刘辩及何太后，纵容士兵劫掠百姓。其倒行逆施引发了各地诸侯的强烈反对，最终导致关东联军的形成。董卓的专权标志着东汉中央权威的彻底崩溃。",
+    "participants": [
+      {
+        "person_id": "dong-zhuo",
+        "role": "发起者"
+      },
+      {
+        "person_id": "emperor-xian",
+        "role": "受害者"
+      },
+      {
+        "person_id": "lu-bu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "wang-yun",
+        "role": "参与者"
+      }
+    ],
+    "result": "董卓废立皇帝、独揽朝政，东汉中央权威崩溃",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Zhuo"
+    ]
+  },
+  {
+    "id": "dong-zhuo-burns-luoyang",
+    "name": "董卓焚毁洛阳迁都长安",
+    "year": 190,
+    "end_year": null,
+    "location": "洛阳、长安",
+    "type": "political",
+    "description": "190年，面对关东联军的压力，董卓决定迁都长安。他强迫汉献帝和百官西迁，并驱赶洛阳数百万居民随行。为阻止联军追击，董卓下令焚毁洛阳宫殿、宗庙和民居，盗掘皇陵。千年古都洛阳化为废墟，无数百姓在迁徙途中死亡。此举不仅造成了巨大的人道灾难，更彻底摧毁了东汉帝国的物质根基，使中央政权名存实亡。",
+    "participants": [
+      {
+        "person_id": "dong-zhuo",
+        "role": "决策者"
+      },
+      {
+        "person_id": "emperor-xian",
+        "role": "受害者"
+      }
+    ],
+    "result": "洛阳被毁，朝廷迁至长安，中央权威进一步衰落",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/End_of_the_Han_dynasty"
+    ]
+  },
+  {
+    "id": "campaign-against-dong-zhuo",
+    "name": "关东联军讨董",
+    "year": 190,
+    "end_year": 191,
+    "location": "洛阳、荥阳",
+    "type": "battle",
+    "description": "190年春，各地诸侯组成联军讨伐董卓，推袁绍为盟主。联军成员包括曹操、袁术、孙坚、公孙瓒等十余路诸侯。然而联军内部各怀心思，缺乏统一指挥。董卓挟持汉献帝迁都长安，并焚毁洛阳。孙坚率部进攻，在阳人之战击败董卓军吕布，最终迫使董卓退往长安。联军虽名义上胜利，但随即因内部矛盾而解散，各诸侯割据一方，群雄割据局面正式形成。",
+    "participants": [
+      {
+        "person_id": "yuan-shao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-jian",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yuan-shu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "dong-zhuo",
+        "role": "指挥者"
+      }
+    ],
+    "result": "联军名义胜利但随即解散，群雄割据局面形成",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Campaign_against_Dong_Zhuo"
+    ]
+  },
+  {
+    "id": "battle-of-xiangyang-191",
+    "name": "襄阳之战",
+    "year": 191,
+    "end_year": null,
+    "location": "襄阳",
+    "type": "battle",
+    "description": "191年，孙坚在讨伐董卓后南下攻打荆州刘表。刘表派黄祖在樊城、邓县一带设伏，孙坚初战告捷，渡过汉水追击。然而在岘山一带遭到黄祖部队的伏击，孙坚中箭身亡，年仅三十七岁。孙坚之死是江东孙氏的重大损失，其长子孙策年方十七，被迫依附袁术。此战也使刘表稳固了对荆州的控制。",
+    "participants": [
+      {
+        "person_id": "sun-jian",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "liu-biao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "huang-zu",
+        "role": "指挥者"
+      }
+    ],
+    "result": "孙坚战死，刘表稳固荆州",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Xiangyang_(191)"
+    ]
+  },
+  {
+    "id": "battle-of-changan-192",
+    "name": "长安之战",
+    "year": 192,
+    "end_year": null,
+    "location": "长安",
+    "type": "battle",
+    "description": "董卓死后，王允拒绝赦免其旧部，董卓部将李傕、郭汜、樊稠等人恐惧被诛，在贾诩的建议下率军攻打长安。吕布战败出逃，王允及其全族被杀。李傕、郭汜控制了朝廷和汉献帝，但二人随后因争权互相攻伐，导致长安大乱。汉献帝在混乱中东归洛阳，但洛阳早已残破不堪，百官饥寒交迫，朝廷形同虚设。",
+    "participants": [
+      {
+        "person_id": "li-jue",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "guo-si",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "wang-yun",
+        "role": "受害者"
+      },
+      {
+        "person_id": "lu-bu",
+        "role": "参与者"
+      }
+    ],
+    "result": "李傕郭汜控制朝廷，长安大乱",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Chang%27an_(192)"
+    ]
+  },
+  {
+    "id": "battle-of-jieqiao",
+    "name": "界桥之战",
+    "year": 192,
+    "end_year": null,
+    "location": "界桥",
+    "type": "battle",
+    "description": "192年，袁绍与公孙瓒在界桥（今河北威县境内）爆发大战。公孙瓒拥有精锐的白马义从骑兵，初期占据优势。但袁绍部将麹义率领的强弩兵以逸待劳，在公孙瓒骑兵冲锋时万弩齐发，大败白马义从。公孙瓒主力被击溃，此战奠定了袁绍在冀州的霸主地位，也标志着河北争霸战的开始。",
+    "participants": [
+      {
+        "person_id": "yuan-shao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "gongsun-zan",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "qu-yi",
+        "role": "参与者"
+      }
+    ],
+    "result": "袁绍大胜，奠定冀州霸主地位",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Jieqiao"
+    ]
+  },
+  {
+    "id": "assassination-of-dong-zhuo",
+    "name": "董卓之死",
+    "year": 192,
+    "end_year": null,
+    "location": "长安",
+    "type": "death",
+    "description": "192年，司徒王允与董卓义子吕布合谋刺杀董卓。吕布因董卓曾多次暴怒险些杀他，加之与董卓侍女有私情，对董卓心怀怨恨。五月，吕布在未央宫门前亲手刺杀了董卓。董卓尸体被弃于街市，据说点燃其肚脐上的灯芯可燃烧数日。长安百姓欢庆，但好景不长，王允政策失误，拒绝赦免董卓旧部，最终被李傕、郭汜攻破长安并杀害。",
+    "participants": [
+      {
+        "person_id": "wang-yun",
+        "role": "发起者"
+      },
+      {
+        "person_id": "lu-bu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "dong-zhuo",
+        "role": "受害者"
+      }
+    ],
+    "result": "董卓被杀，但长安随即陷入李傕郭汜之乱",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Zhuo"
+    ]
+  },
+  {
+    "id": "cao-cao-invasion-xuzhou",
+    "name": "曹操征徐州",
+    "year": 193,
+    "end_year": 194,
+    "location": "徐州",
+    "type": "battle",
+    "description": "193年，陶谦部下张闿杀害了曹操之父曹嵩。曹操大怒，率军两次攻打徐州，所到之处屠城灭县，坑杀数万百姓。陶谦向刘备、公孙瓒求援，刘备率兵驰援徐州。194年陶谦病死，将徐州托付给刘备。曹操因后方兖州被吕布袭取而被迫撤军。此役是曹操早期最具争议的军事行动，大规模屠杀给其声誉带来负面影响。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "tao-qian",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹操因后方失守撤军，陶谦病死后刘备接管徐州",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Cao%27s_invasion_of_Xu_Province"
+    ]
+  },
+  {
+    "id": "battle-of-yan-province",
+    "name": "兖州之战",
+    "year": 194,
+    "end_year": 195,
+    "location": "兖州",
+    "type": "battle",
+    "description": "194年，曹操远征徐州时，陈宫和张邈背叛曹操，迎吕布入兖州。吕布迅速占领兖州大部，曹操仅保有鄄城、东阿、范县三城。曹操被迫从徐州撤军回师，与吕布展开长期拉锯战。经过一年多的战斗，曹操凭借荀彧、程昱等人的辅佐，最终在195年击败吕布，收复兖州。吕布败逃投奔刘备。此战对曹操而言是生死存亡之战。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "lu-bu",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "chen-gong",
+        "role": "参谋"
+      },
+      {
+        "person_id": "xun-yu",
+        "role": "参谋"
+      }
+    ],
+    "result": "曹操收复兖州，吕布败逃",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Yan_Province"
+    ]
+  },
+  {
+    "id": "emperor-xian-flees-changan",
+    "name": "天子东归",
+    "year": 195,
+    "end_year": 196,
+    "location": "长安、洛阳",
+    "type": "political",
+    "description": "195年，李傕与郭汜反目成仇，互相攻伐，长安大乱。汉献帝趁机在杨奉、董承等人护送下逃离长安东归洛阳。然而洛阳早已在董卓时期被焚毁，残破不堪，百官饥寒交迫，甚至有人饿死。朝廷名存实亡，天子流离失所。这一局面为曹操\"挟天子以令诸侯\"创造了绝佳机会。",
+    "participants": [
+      {
+        "person_id": "emperor-xian",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yang-feng",
+        "role": "参与者"
+      },
+      {
+        "person_id": "dong-cheng",
+        "role": "参与者"
+      },
+      {
+        "person_id": "li-jue",
+        "role": "参与者"
+      }
+    ],
+    "result": "汉献帝回到残破的洛阳，朝廷形同虚设",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/End_of_the_Han_dynasty"
+    ]
+  },
+  {
+    "id": "sun-ce-conquest-jiangdong",
+    "name": "孙策平定江东",
+    "year": 195,
+    "end_year": 199,
+    "location": "江东",
+    "type": "battle",
+    "description": "195年，孙策以父亲孙坚遗留的传国玉玺向袁术借兵，率千余人渡江东征。凭借勇猛善战和周瑜等人的辅佐，孙策连续击败刘繇、严白虎、王朗等地方势力，在短短数年内统一了江东六郡。孙策有\"小霸王\"之称，其军事征服为东吴政权奠定了领土基础。199年孙策基本完成了对江东的统一，为后来孙权建立东吴打下了坚实基础。",
+    "participants": [
+      {
+        "person_id": "sun-ce",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhou-yu",
+        "role": "参谋"
+      },
+      {
+        "person_id": "yuan-shu",
+        "role": "参与者"
+      }
+    ],
+    "result": "孙策统一江东六郡，奠定东吴基业",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ce%27s_conquests_in_Jiangdong"
+    ]
+  },
+  {
+    "id": "cao-cao-controls-emperor",
+    "name": "挟天子以令诸侯",
+    "year": 196,
+    "end_year": null,
+    "location": "许昌",
+    "type": "political",
+    "description": "196年，曹操在荀彧的建议下，率军迎接流落在外的汉献帝，将其安置到自己的根据地许县（许昌）。曹操名义上是汉臣，实际控制了朝廷和天子，以天子名义向各地诸侯发号施令。此举使曹操获得了巨大的政治优势：凡不服从者即为叛逆，凡归顺者则有朝廷名分。\"挟天子以令诸侯\"成为曹操最重要的政治资本，为其统一北方奠定了政治基础。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "决策者"
+      },
+      {
+        "person_id": "emperor-xian",
+        "role": "受害者"
+      },
+      {
+        "person_id": "xun-yu",
+        "role": "参谋"
+      }
+    ],
+    "result": "曹操控制天子，获得巨大政治优势",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/End_of_the_Han_dynasty"
+    ]
+  },
+  {
+    "id": "yuan-shu-declares-emperor",
+    "name": "袁术称帝",
+    "year": 197,
+    "end_year": null,
+    "location": "寿春",
+    "type": "political",
+    "description": "197年，袁术自恃拥有传国玉玺（实为孙策所献），在寿春僭越称帝，国号\"仲氏\"。此举遭到天下诸侯的一致反对，包括其兄袁绍。曹操以天子名义讨伐袁术，吕布、孙策也相继与袁术决裂。袁术众叛亲离，部下纷纷离去，领地日渐缩小。199年袁术穷途末路，在北上投奔袁绍的途中被刘备阻截，忧愤而死。袁术称帝是三国时期第一个僭号称帝者，也成为政治冒险失败的典型。",
+    "participants": [
+      {
+        "person_id": "yuan-shu",
+        "role": "发起者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "lu-bu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-ce",
+        "role": "参与者"
+      }
+    ],
+    "result": "袁术众叛亲离，199年忧愤而死",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shu"
+    ]
+  },
+  {
+    "id": "battle-of-wancheng",
+    "name": "宛城之战",
+    "year": 197,
+    "end_year": null,
+    "location": "宛城",
+    "type": "battle",
+    "description": "197年，曹操南征张绣。张绣初降后复叛，趁夜突袭曹操营寨。曹操措手不及，典韦为保护曹操殿后力战而死，曹操长子曹昂、侄子曹安民也在此战中阵亡。曹操本人险些丧命，依靠典韦的拼死保护才得以逃脱。此战是曹操军事生涯中最惨痛的失败之一。198年曹操再次攻打张绣未果，199年张绣在贾诩的劝说下归降曹操。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhang-xiu",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "jia-xu",
+        "role": "参谋"
+      },
+      {
+        "person_id": "dian-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹操惨败，长子曹昂和猛将典韦战死",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Wancheng"
+    ]
+  },
+  {
+    "id": "battle-of-xiapi",
+    "name": "下邳之战",
+    "year": 198,
+    "end_year": 199,
+    "location": "下邳",
+    "type": "battle",
+    "description": "198年，曹操联合刘备进攻占据徐州的吕布。吕布勇猛无比，但为人反复无常，部下离心。曹操率军围困下邳城，吕布固守不出。曹操采纳荀攸、郭嘉的建议，引沂水、泗水灌城。吕布部将宋宪、魏续反叛，捆绑谋士陈宫献城投降。吕布被擒后请求投降，刘备提醒曹操吕布反复无常，曹操遂将吕布缢杀于白门楼。一代猛将就此陨落。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "lu-bu",
+        "role": "受害者"
+      },
+      {
+        "person_id": "chen-gong",
+        "role": "参与者"
+      }
+    ],
+    "result": "吕布被擒杀，曹操占领徐州",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Xiapi"
+    ]
+  },
+  {
+    "id": "battle-of-yijing",
+    "name": "易京之战",
+    "year": 199,
+    "end_year": null,
+    "location": "易京",
+    "type": "battle",
+    "description": "199年，袁绍发动对公孙瓒的最后攻势。公孙瓒退守易京，修筑高楼深堑，囤积粮草企图固守。袁绍采取围困策略，切断其补给线路。公孙瓒派人向外求援未果，最终在袁绍军攻破易京时自焚而死。此战标志着袁绍统一河北四州（冀州、青州、幽州、并州），成为当时实力最强的诸侯，也为随后的官渡之战奠定了背景。",
+    "participants": [
+      {
+        "person_id": "yuan-shao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "gongsun-zan",
+        "role": "受害者"
+      }
+    ],
+    "result": "公孙瓒自焚而死，袁绍统一河北四州",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Yijing"
+    ]
+  },
+  {
+    "id": "conspiracy-of-dong-cheng",
+    "name": "衣带诏事件",
+    "year": 200,
+    "end_year": null,
+    "location": "许昌",
+    "type": "political",
+    "description": "建安四年（199年），汉献帝不甘做曹操的傀儡，秘密将讨伐曹操的诏书藏在衣带中，交给国舅董承。董承联络刘备、吉平等人密谋除曹。然而密谋败露，200年正月，曹操将董承及其同党全部处死。刘备此前已借故离开许昌前往徐州，得以幸免。衣带诏事件表明汉献帝试图夺回皇权的努力彻底失败，曹操对朝廷的控制更加严密。",
+    "participants": [
+      {
+        "person_id": "emperor-xian",
+        "role": "发起者"
+      },
+      {
+        "person_id": "dong-cheng",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      }
+    ],
+    "result": "密谋败露，董承等人被诛，曹操加强了对朝廷的控制",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Cheng_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "battle-of-baima",
+    "name": "白马之战",
+    "year": 200,
+    "end_year": null,
+    "location": "白马",
+    "type": "battle",
+    "description": "200年，官渡之战的前哨战。袁绍派大将颜良率军围攻白马（今河南滑县），曹操采用荀攸\"声东击西\"之计，佯装渡河袭击袁绍后方，趁袁绍分兵应对之际突袭白马。关羽在此战中阵斩颜良，解白马之围。随后袁绍又派文丑追击，曹操以辎重为诱饵设伏，再斩文丑。两战折损袁绍两员大将，严重打击了袁绍军的士气。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "guan-yu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "yan-liang",
+        "role": "受害者"
+      }
+    ],
+    "result": "曹操解白马之围，斩颜良、文丑",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Boma"
+    ]
+  },
+  {
+    "id": "battle-of-guandu",
+    "name": "官渡之战",
+    "year": 200,
+    "end_year": null,
+    "location": "官渡",
+    "type": "battle",
+    "description": "200年，袁绍率十万大军南下攻打曹操，曹操以不足三万兵力在官渡（今河南中牟东北）迎战。双方对峙数月，曹操粮草将尽，一度想撤退。关键时刻，袁绍谋士许攸因不被信任而投奔曹操，泄露袁绍屯粮于乌巢的情报。曹操亲率精锐奇袭乌巢，焚烧袁绍全部粮草。袁绍军心大乱，张郃、高览投降，袁军全线崩溃。官渡之战是中国历史上著名的以少胜多战例，奠定了曹操统一北方的基础。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "xu-you",
+        "role": "参谋"
+      },
+      {
+        "person_id": "xun-you",
+        "role": "参谋"
+      },
+      {
+        "person_id": "zhang-he",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹操以少胜多大败袁绍，奠定统一北方基础",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Guandu"
+    ]
+  },
+  {
+    "id": "death-of-sun-ce",
+    "name": "孙策之死",
+    "year": 200,
+    "end_year": null,
+    "location": "丹徒",
+    "type": "death",
+    "description": "200年，\"小霸王\"孙策在丹徒打猎时遭到许贡门客的刺杀，身受重伤。据载孙策面颊中箭，伤势严重。孙策自知不治，临终前将江东基业托付给年仅十八岁的弟弟孙权，并嘱咐张昭辅佐。孙策之死是三国历史的重大转折点——若孙策不死，可能趁官渡之战攻打许昌，三国格局或将完全不同。孙权继位后在张昭、周瑜等人辅佐下稳定了江东局势。",
+    "participants": [
+      {
+        "person_id": "sun-ce",
+        "role": "受害者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhang-zhao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhou-yu",
+        "role": "参与者"
+      }
+    ],
+    "result": "孙策遇刺身亡，孙权继承江东基业",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ce"
+    ]
+  },
+  {
+    "id": "battle-of-bowang",
+    "name": "博望之战",
+    "year": 202,
+    "end_year": null,
+    "location": "博望",
+    "type": "battle",
+    "description": "202年，曹操派夏侯惇率军南下攻打驻扎在新野的刘备。刘备在博望坡设伏，成功击败夏侯惇部，斩杀曹军将领夏侯兰。这是刘备流亡生涯中少有的胜利，虽然规模不大，但证明了刘备的军事才能，也使其在荆州的地位有所提升。此战在《三国演义》中被改编为诸葛亮出山后的\"火烧博望坡\"，但实际上此时诸葛亮尚未加入刘备阵营。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "xiahou-dun",
+        "role": "指挥者"
+      }
+    ],
+    "result": "刘备击败夏侯惇，取得难得的胜利",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Bowang"
+    ]
+  },
+  {
+    "id": "death-of-yuan-shao",
+    "name": "袁绍之死",
+    "year": 202,
+    "end_year": null,
+    "location": "冀州",
+    "type": "death",
+    "description": "202年，袁绍在官渡之战惨败后，忧愤成疾，于建安七年（202年）呕血而亡。袁绍死后，其子袁谭、袁尚争夺继承权，引发内战。曹操趁机各个击破：先联合袁谭击败袁尚，后又消灭袁谭。袁绍的覆灭过程表明，即便拥有强大实力，内部不和照样会导致败亡。袁绍之死标志着河北最大势力的瓦解，为曹操最终统一北方扫清了主要障碍。",
+    "participants": [
+      {
+        "person_id": "yuan-shao",
+        "role": "受害者"
+      },
+      {
+        "person_id": "yuan-tan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yuan-shang",
+        "role": "参与者"
+      }
+    ],
+    "result": "袁绍病亡，其子内讧，势力瓦解",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shao"
+    ]
+  },
+  {
+    "id": "battle-of-ye",
+    "name": "邺城之战",
+    "year": 204,
+    "end_year": null,
+    "location": "邺城",
+    "type": "battle",
+    "description": "204年，曹操围攻袁尚的根据地邺城（今河北临漳）。曹操先切断漳河上游的水源，再引漳河水灌城。邺城被围数月后粮尽，城中人相食。审配坚守不降，但其侄审荣打开城门投降。曹操攻占邺城后，将其作为自己的政治中心。邺城之战是曹操统一河北的关键之役，此后袁尚逃往乌桓，曹操继续追击，逐步统一整个北方。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "yuan-shang",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "shen-pei",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹操攻占邺城，以此为政治中心",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Ye"
+    ]
+  },
+  {
+    "id": "zhuge-liang-joins-liu-bei",
+    "name": "三顾茅庐",
+    "year": 207,
+    "end_year": null,
+    "location": "隆中",
+    "type": "political",
+    "description": "207年，刘备在荆州依附刘表期间，经徐庶推荐，三次亲往隆中（今湖北襄阳）拜访诸葛亮。诸葛亮被刘备的诚意感动，提出著名的\"隆中对\"战略：先取荆州为家，再取益州为基，联合孙权对抗曹操，待天下有变则两路北伐，恢复汉室。刘备得诸葛亮如鱼得水，三顾茅庐成为\"求贤若渴\"的千古佳话。隆中对确立了蜀汉此后数十年的基本战略方向。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "发起者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      }
+    ],
+    "result": "诸葛亮出山辅佐刘备，提出\"隆中对\"战略",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Liang"
+    ]
+  },
+  {
+    "id": "battle-of-white-wolf-mountain",
+    "name": "白狼山之战",
+    "year": 207,
+    "end_year": null,
+    "location": "白狼山",
+    "type": "battle",
+    "description": "207年，曹操为彻底消灭袁氏残余势力，远征乌桓。在白狼山（今辽宁喀喇沁左翼附近），曹军与乌桓蹋顿单于率领的数万骑兵遭遇。曹操命张辽为先锋冲阵，张辽斩杀蹋顿，乌桓军大败。袁尚、袁熙逃往辽东，后被公孙康杀死并将首级献于曹操。此战标志着曹操完成了对北方的统一，从黄河到辽东尽归其手，为日后南征奠定了基础。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhang-liao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yuan-shang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "guo-jia",
+        "role": "参谋"
+      }
+    ],
+    "result": "曹操大败乌桓，完成北方统一",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_White_Wolf_Mountain"
+    ]
+  },
+  {
+    "id": "sun-liu-alliance",
+    "name": "孙刘联盟",
+    "year": 208,
+    "end_year": null,
+    "location": "柴桑",
+    "type": "diplomatic",
+    "description": "208年，曹操统一北方后挥师南下，占领荆州。刘备危在旦夕，派诸葛亮前往柴桑（今江西九江）面见孙权，提出联合抗曹。诸葛亮以精妙的外交辞令说服了原本犹豫不决的孙权：曹操虽强但远道而来，北方士兵不习水战，且荆州降军人心不附。鲁肃、周瑜也力主抗曹。孙权最终决定联刘抗曹，孙刘联盟正式形成。这一联盟是赤壁之战胜利的关键，也是三分天下格局的基础。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "参谋"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "决策者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "lu-su",
+        "role": "参谋"
+      },
+      {
+        "person_id": "zhou-yu",
+        "role": "参与者"
+      }
+    ],
+    "result": "孙刘联盟正式形成，共同对抗曹操",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Red_Cliffs"
+    ]
+  },
+  {
+    "id": "battle-of-changban",
+    "name": "长坂坡之战",
+    "year": 208,
+    "end_year": null,
+    "location": "长坂坡",
+    "type": "battle",
+    "description": "208年，曹操率大军南征荆州，刘琮投降。刘备从樊城南撤，携带十万百姓同行，行军缓慢。曹操派精骑五千追击，在当阳长坂坡追上刘备。刘备军溃散，妻儿失散。赵云单骑救出刘备幼子刘禅，张飞率二十骑在当阳桥据水断桥，怒喝退曹军追兵。刘备虽然惨败，但成功逃至夏口与刘琦会合，为后来联合孙权抗曹保存了力量。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhao-yun",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhang-fei",
+        "role": "参与者"
+      }
+    ],
+    "result": "刘备惨败但逃脱，赵云救阿斗成千古佳话",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Changban"
+    ]
+  },
+  {
+    "id": "battle-of-red-cliffs",
+    "name": "赤壁之战",
+    "year": 208,
+    "end_year": 209,
+    "location": "赤壁",
+    "type": "battle",
+    "description": "208年冬，曹操率号称八十万大军（实约二十余万）南下，企图一举统一天下。孙刘联军约五万人在赤壁（今湖北赤壁市西北）迎击。曹军北方将士不习水战，且爆发疫病。周瑜采纳黄盖的诈降火攻之计，黄盖率载满引火之物的船只假装投降，接近曹军水寨后点火。火借东风，曹操连锁战船被烧毁殆尽，曹军大败。曹操率残部从华容道北撤。赤壁之战是中国历史上最著名的以少胜多战役之一，彻底粉碎了曹操统一天下的图谋，奠定了三分天下的格局。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhou-yu",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "参谋"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "决策者"
+      },
+      {
+        "person_id": "huang-gai",
+        "role": "参与者"
+      }
+    ],
+    "result": "孙刘联军以火攻大败曹军，奠定三分天下格局",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Red_Cliffs"
+    ]
+  },
+  {
+    "id": "battle-of-jiangxia-208",
+    "name": "江夏之战",
+    "year": 208,
+    "end_year": null,
+    "location": "江夏",
+    "type": "battle",
+    "description": "208年春，孙权派大军进攻荆州刘表的江夏太守黄祖。黄祖是孙坚的仇人（191年襄阳之战杀死孙坚），孙氏与黄祖已交锋多次。此次孙权大举来攻，以周瑜、吕蒙等指挥水军，甘宁率先登城，大败黄祖军。黄祖在逃亡途中被擒杀。江夏之战消灭了孙氏的宿敌，扩大了东吴在长江中游的势力范围，也为数月后的赤壁之战做了军事准备。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "huang-zu",
+        "role": "受害者"
+      },
+      {
+        "person_id": "gan-ning",
+        "role": "参与者"
+      },
+      {
+        "person_id": "lu-meng",
+        "role": "参与者"
+      }
+    ],
+    "result": "黄祖被杀，东吴控制长江中游",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Jiangxia"
+    ]
+  },
+  {
+    "id": "death-of-zhou-yu",
+    "name": "周瑜之死",
+    "year": 210,
+    "end_year": null,
+    "location": "巴丘",
+    "type": "death",
+    "description": "210年，赤壁之战的主将周瑜在策划西征益州时病逝于巴丘（今湖南岳阳），年仅三十六岁。周瑜是赤壁之战的灵魂人物，才华横溢，文武兼备，与孙策自幼结交，人称\"美周郎\"。临终前周瑜推荐鲁肃接替自己。周瑜之死使东吴失去了最具进取心的将领，其\"天下二分\"的进攻性战略也随之搁浅，鲁肃转而推行联刘抗曹的稳健路线。",
+    "participants": [
+      {
+        "person_id": "zhou-yu",
+        "role": "受害者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "lu-su",
+        "role": "参与者"
+      }
+    ],
+    "result": "东吴失去最具才华的统帅，鲁肃继任推行联刘路线",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhou_Yu"
+    ]
+  },
+  {
+    "id": "liu-bei-enters-yi-province",
+    "name": "刘备入蜀",
+    "year": 211,
+    "end_year": null,
+    "location": "益州",
+    "type": "political",
+    "description": "211年，益州牧刘璋担心曹操经汉中攻入益州，在张松的建议下邀请刘备入蜀帮助抵御外敌。刘备率数万军队入蜀，受到刘璋的热情接待和资助。然而这实际上是引狼入室：张松、法正早已暗中投靠刘备，计划里应外合夺取益州。刘备在蜀中暗中发展势力，笼络人心，为日后翻脸做准备。此举实现了\"隆中对\"中\"跨有荆益\"战略的第一步。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-zhang",
+        "role": "决策者"
+      },
+      {
+        "person_id": "zhang-song",
+        "role": "参谋"
+      },
+      {
+        "person_id": "fa-zheng",
+        "role": "参谋"
+      }
+    ],
+    "result": "刘备进入益州，为日后夺取蜀地埋下伏笔",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Bei%27s_takeover_of_Yi_Province"
+    ]
+  },
+  {
+    "id": "battle-of-tong-pass",
+    "name": "潼关之战",
+    "year": 211,
+    "end_year": null,
+    "location": "潼关",
+    "type": "battle",
+    "description": "211年，曹操以讨伐汉中张鲁为名，派兵经过关中。马超、韩遂等关中联军十余万人恐惧曹操假道灭虢，在潼关起兵抵抗。曹操亲率大军前往，在潼关、渭南一带与关中联军激战。曹操采用贾诩之计，先假意与马超、韩遂议和，再施离间计使二人互相猜忌。马超军心涣散，被曹操击败。马超退往凉州，后辗转投奔张鲁、刘备。此战平定关中，消除了曹操西方的威胁。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "ma-chao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "han-sui",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "jia-xu",
+        "role": "参谋"
+      }
+    ],
+    "result": "曹操用离间计大败关中联军，平定关中",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Tong_Pass_(211)"
+    ]
+  },
+  {
+    "id": "liu-bei-takes-yi-province",
+    "name": "刘备夺取益州",
+    "year": 214,
+    "end_year": null,
+    "location": "成都",
+    "type": "battle",
+    "description": "212年刘备与刘璋正式翻脸后，历经两年征战，先后攻克涪城、绵竹等要地。214年，诸葛亮、张飞、赵云率援军从荆州入蜀，分路进军。刘备大军围困成都，刘璋在马超归降刘备后被孤立，最终在谋士简雍的劝说下开城投降。刘备自领益州牧，实现了隆中对中\"跨有荆益\"的战略目标，拥有了与曹操、孙权三足鼎立的资本。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "参谋"
+      },
+      {
+        "person_id": "zhang-fei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhao-yun",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-zhang",
+        "role": "受害者"
+      },
+      {
+        "person_id": "ma-chao",
+        "role": "参与者"
+      }
+    ],
+    "result": "刘备夺取益州，实现跨有荆益的战略目标",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Bei%27s_takeover_of_Yi_Province"
+    ]
+  },
+  {
+    "id": "death-of-pang-tong",
+    "name": "庞统之死",
+    "year": 214,
+    "end_year": null,
+    "location": "落凤坡",
+    "type": "death",
+    "description": "214年，刘备在益州与刘璋翻脸开战，庞统（号凤雏）作为刘备的首席军师随军征战。在攻打雒城（今四川广汉）时，庞统率军进攻，不幸在战斗中被流矢射杀，年仅三十六岁。庞统与诸葛亮齐名，号称\"卧龙凤雏\"，其早逝对刘备是重大损失。刘备闻讯痛哭不已，后追谥庞统为靖侯。庞统之死迫使刘备紧急调诸葛亮、张飞、赵云从荆州入蜀增援。",
+    "participants": [
+      {
+        "person_id": "pang-tong",
+        "role": "受害者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "指挥者"
+      }
+    ],
+    "result": "庞统战死，刘备急调诸葛亮入蜀",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Pang_Tong"
+    ]
+  },
+  {
+    "id": "battle-of-hefei-215",
+    "name": "逍遥津之战",
+    "year": 215,
+    "end_year": null,
+    "location": "合肥",
+    "type": "battle",
+    "description": "215年，孙权趁曹操主力在汉中之际，率十万大军围攻合肥。曹操仅留张辽、李典、乐进七千守军。张辽在开战前夜精选八百勇士，次日黎明突袭孙权大营，直冲至孙权麾下，孙权大惊。激战后孙权军队士气低落，围攻十余日无果后撤退。撤退时张辽率军追击，在逍遥津桥差点活捉孙权。此战张辽威震江东，\"张辽止啼\"成为典故。合肥之战共发生五次，此为最著名一次。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhang-liao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "li-dian",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yue-jin",
+        "role": "参与者"
+      }
+    ],
+    "result": "张辽以少胜多大败孙权，威震江东",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Hefei_(215)"
+    ]
+  },
+  {
+    "id": "battle-of-yangping",
+    "name": "阳平关之战",
+    "year": 215,
+    "end_year": null,
+    "location": "阳平关",
+    "type": "battle",
+    "description": "215年，曹操率军征讨占据汉中的张鲁。张鲁领导的五斗米道政教合一政权统治汉中近三十年。曹军攻破阳平关，张鲁退往巴中。张鲁本欲投降刘备，但在部下劝说下最终向曹操投降。曹操得汉中后，谋士刘晔建议趁势攻打刚占据益州立足未稳的刘备，但曹操以\"既得陇，复望蜀\"为由拒绝。此后曹操回师，留夏侯渊守汉中，为日后汉中之战埋下伏笔。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhang-lu",
+        "role": "受害者"
+      },
+      {
+        "person_id": "xiahou-yuan",
+        "role": "参与者"
+      }
+    ],
+    "result": "张鲁投降，曹操占领汉中",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Yangping"
+    ]
+  },
+  {
+    "id": "cao-cao-becomes-king",
+    "name": "曹操封魏王",
+    "year": 216,
+    "end_year": null,
+    "location": "邺城",
+    "type": "political",
+    "description": "216年，汉献帝封曹操为魏王，加九锡，建魏国。曹操可以使用天子车服旌旗，出入如同天子仪仗，可设置百官，俨然一个独立王国。虽然曹操终其一生未称帝，但魏王的地位实际上已经与皇帝无异。曹操此前已封为魏公（213年），再进为魏王，是曹魏代汉的重要步骤。此举引发了部分忠汉大臣的不满，荀彧此前就因反对曹操加九锡而忧愤自杀。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "emperor-xian",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹操进封魏王，距篡汉仅一步之遥",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Cao"
+    ]
+  },
+  {
+    "id": "battle-of-hanzhong",
+    "name": "汉中之战",
+    "year": 217,
+    "end_year": 219,
+    "location": "汉中",
+    "type": "battle",
+    "description": "217至219年，刘备为夺取汉中与曹操展开了长达两年的大规模战役。汉中是益州的门户，战略位置极其重要。法正担任刘备的军师，建议刘备必须夺取汉中。刘备先后投入张飞、马超、赵云、黄忠等主力将领。219年初定军山之战中黄忠斩杀夏侯渊，曹军大败。曹操亲率大军来援但无法扭转战局，双方在汉中对峙后曹操选择撤军。刘备占领汉中全境，此战是蜀汉势力的巅峰。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "fa-zheng",
+        "role": "参谋"
+      },
+      {
+        "person_id": "huang-zhong",
+        "role": "参与者"
+      },
+      {
+        "person_id": "xiahou-yuan",
+        "role": "受害者"
+      }
+    ],
+    "result": "刘备夺取汉中，达到势力巅峰",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Hanzhong"
+    ]
+  },
+  {
+    "id": "liu-bei-becomes-king",
+    "name": "刘备称汉中王",
+    "year": 219,
+    "end_year": null,
+    "location": "沔阳",
+    "type": "political",
+    "description": "219年秋，刘备在夺取汉中后，在群臣的劝进下自立为汉中王，仿效当年高祖刘邦。刘备上表汉献帝（实际上表文不可能送达），以恢复汉室为旗号。封关羽、张飞、马超、黄忠、赵云为五虎上将，以诸葛亮为军师。此时刘备势力达到巅峰：坐拥荆州和益州，兵强马壮。然而盛极必衰，同年关羽在荆州的冒进行动很快就导致了灾难性的后果。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "发起者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "guan-yu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhang-fei",
+        "role": "参与者"
+      }
+    ],
+    "result": "刘备自立为汉中王，势力达到巅峰",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Bei"
+    ]
+  },
+  {
+    "id": "battle-of-dingjun-mountain",
+    "name": "定军山之战",
+    "year": 219,
+    "end_year": null,
+    "location": "定军山",
+    "type": "battle",
+    "description": "219年春，汉中之战的关键战役。法正建议刘备率军占据定军山高地，夏侯渊分兵来夺。黄忠在法正的指挥下，趁夏侯渊分兵之际居高临下突击，一举斩杀曹军主将夏侯渊。夏侯渊是曹操西线的最高指挥官，其阵亡导致曹军群龙无首，士气崩溃。张郃临时稳住局面，但已无力反攻。定军山之战是汉中之战的转折点，为刘备最终夺取汉中全境奠定了基础。",
+    "participants": [
+      {
+        "person_id": "huang-zhong",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "fa-zheng",
+        "role": "参谋"
+      },
+      {
+        "person_id": "xiahou-yuan",
+        "role": "受害者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "决策者"
+      },
+      {
+        "person_id": "zhang-he",
+        "role": "参与者"
+      }
+    ],
+    "result": "黄忠斩杀夏侯渊，汉中之战转折点",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Mount_Dingjun"
+    ]
+  },
+  {
+    "id": "battle-of-fancheng",
+    "name": "樊城之战",
+    "year": 219,
+    "end_year": null,
+    "location": "樊城、襄阳",
+    "type": "battle",
+    "description": "219年秋，关羽从荆州北伐，围攻曹仁守卫的樊城和襄阳。关羽利用汉水暴涨水淹曹军援军于禁所部七军，于禁投降，庞德被斩，威震华夏。曹操一度考虑迁都以避关羽锋芒。然而曹操采纳司马懿之计，联络孙权从背后夹击关羽。徐晃率军击破关羽的包围圈，关羽正面受挫。此战虽初期辉煌，但最终因吕蒙偷袭荆州而功亏一篑。",
+    "participants": [
+      {
+        "person_id": "guan-yu",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "cao-ren",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "xu-huang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yu-jin",
+        "role": "参与者"
+      },
+      {
+        "person_id": "pang-de",
+        "role": "受害者"
+      }
+    ],
+    "result": "关羽水淹七军威震华夏，但最终被曹吴夹击而败",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Fancheng"
+    ]
+  },
+  {
+    "id": "lu-meng-invades-jing",
+    "name": "吕蒙白衣渡江",
+    "year": 219,
+    "end_year": null,
+    "location": "荆州",
+    "type": "battle",
+    "description": "219年冬，趁关羽主力北攻樊城，东吴大都督吕蒙策划了一次精妙的偷袭行动。吕蒙先称病让年轻的陆逊接替自己，麻痹关羽使其抽调荆州守军北上。随后吕蒙率精兵乔装商人白衣渡江，沿途收买关羽设置的烽火台守卒，兵不血刃占领荆州重镇南郡、公安。关羽闻讯回师，但部下家属已被东吴优待，军心涣散，将士纷纷投降。此役是三国时期最成功的战略奇袭之一。",
+    "participants": [
+      {
+        "person_id": "lu-meng",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "决策者"
+      },
+      {
+        "person_id": "lu-xun",
+        "role": "参与者"
+      },
+      {
+        "person_id": "guan-yu",
+        "role": "受害者"
+      }
+    ],
+    "result": "东吴夺取荆州，关羽腹背受敌",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Meng%27s_invasion_of_Jing_Province"
+    ]
+  },
+  {
+    "id": "cao-pi-usurps-han",
+    "name": "曹丕篡汉",
+    "year": 220,
+    "end_year": null,
+    "location": "许昌",
+    "type": "succession",
+    "description": "220年十月，曹丕迫使汉献帝禅位，建立曹魏政权，定都洛阳，改元黄初。汉献帝被封为山阳公，得以善终。东汉王朝在延续了一百九十五年后正式灭亡。曹丕的\"禅让\"实际上是精心策划的权力交接：群臣三次劝进，汉献帝三次\"谦让\"，最终\"不得不\"接受。这套\"禅让\"戏码成为此后中国王朝更替的标准模板。曹丕篡汉标志着三国时代的正式开始。",
+    "participants": [
+      {
+        "person_id": "cao-pi",
+        "role": "发起者"
+      },
+      {
+        "person_id": "emperor-xian",
+        "role": "受害者"
+      }
+    ],
+    "result": "东汉灭亡，曹魏建立，三国时代正式开始",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "death-of-guan-yu",
+    "name": "关羽之死",
+    "year": 220,
+    "end_year": null,
+    "location": "临沮",
+    "type": "death",
+    "description": "219年末至220年初，关羽在荆州失守后率残部向西撤退，企图退回益州。然而吕蒙已封锁了所有退路，关羽在麦城被围。关羽拒绝投降，率数十骑突围，在临沮被东吴将领马忠伏击擒获。孙权劝降不成，将关羽及其子关平斩首。关羽之死震动天下：刘备失去了最重要的将领和荆州根据地，隆中对\"两路北伐\"的战略彻底破产，也直接导致了日后的夷陵之战。",
+    "participants": [
+      {
+        "person_id": "guan-yu",
+        "role": "受害者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "决策者"
+      },
+      {
+        "person_id": "lu-meng",
+        "role": "参与者"
+      }
+    ],
+    "result": "关羽父子被杀，蜀汉失去荆州，隆中对战略破产",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guan_Yu"
+    ]
+  },
+  {
+    "id": "death-of-cao-cao",
+    "name": "曹操之死",
+    "year": 220,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "death",
+    "description": "220年正月，曹操在洛阳病逝，终年六十六岁。曹操是三国时期最杰出的政治家、军事家和文学家，从一个小小的校尉起步，历经三十余年征战统一了北方大部分地区。他推行屯田制恢复生产，\"唯才是举\"打破门第观念，建安文学成就卓著。临终前曹操留下遗令，安排丧事从简，分香卖履给妻妾，不忘家人。其子曹丕继位为魏王，同年便迫汉献帝禅让，建立曹魏。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "受害者"
+      },
+      {
+        "person_id": "cao-pi",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹操病亡，曹丕继位魏王",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Cao"
+    ]
+  },
+  {
+    "id": "death-of-lu-meng",
+    "name": "吕蒙之死",
+    "year": 220,
+    "end_year": null,
+    "location": "建业",
+    "type": "death",
+    "description": "220年，东吴大都督吕蒙在成功夺取荆州后不久便病逝，年仅四十二岁。吕蒙原为一介武夫，后在孙权勉励下发奋读书，有\"士别三日当刮目相待\"的典故。吕蒙是夺取荆州、擒杀关羽的首功之臣，但他的早逝使东吴失去了一位出色的统帅。有传说称吕蒙是被关羽英灵所索命，这一说法在《三国演义》中被大加渲染。吕蒙死后，陆逊接任大都督。",
+    "participants": [
+      {
+        "person_id": "lu-meng",
+        "role": "受害者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      }
+    ],
+    "result": "吕蒙病逝，陆逊接任大都督",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Meng"
+    ]
+  },
+  {
+    "id": "sun-quan-submits-to-wei",
+    "name": "孙权向魏称臣",
+    "year": 221,
+    "end_year": null,
+    "location": "武昌",
+    "type": "diplomatic",
+    "description": "221年，孙权在夺取荆州、杀死关羽后面临蜀汉和曹魏的双重压力。为避免两面作战，孙权向曹丕称臣纳贡，接受曹魏封号。曹丕封孙权为吴王、大将军。孙权此举纯属权宜之计：一方面取得曹魏的暂时信任以专心应对刘备的报复性进攻，另一方面获取政治上的合法性。待夷陵之战击败刘备后，孙权便逐渐脱离曹魏的控制，最终于229年自立称帝。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "发起者"
+      },
+      {
+        "person_id": "cao-pi",
+        "role": "参与者"
+      }
+    ],
+    "result": "孙权暂时称臣以避免两面作战",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Quan"
+    ]
+  },
+  {
+    "id": "battle-of-xiaoting",
+    "name": "夷陵之战",
+    "year": 221,
+    "end_year": 222,
+    "location": "夷陵",
+    "type": "battle",
+    "description": "221年七月，刘备不顾诸葛亮、赵云等人劝阻，率数万大军东征孙权，名为替关羽报仇。孙权派陆逊为大都督率五万兵马抵抗。陆逊避敌锋芒，坚守不战长达七八个月，待蜀军疲惫懈怠后于222年六月发动全面反攻。陆逊采用火攻之计，火烧蜀军连营七百里，刘备大败，仅以身免，退至白帝城。夷陵之战是三国三大战役之最后一场，蜀汉损失惨重，元气大伤，三国鼎立的最终格局就此确立。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "lu-xun",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "决策者"
+      }
+    ],
+    "result": "陆逊火烧连营大败刘备，蜀汉国力大衰",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Xiaoting"
+    ]
+  },
+  {
+    "id": "liu-bei-becomes-emperor",
+    "name": "刘备称帝",
+    "year": 221,
+    "end_year": null,
+    "location": "成都",
+    "type": "succession",
+    "description": "221年四月，刘备在成都称帝，国号\"汉\"（史称蜀汉），年号章武。刘备称帝的理由是曹丕篡夺了汉室江山，他作为汉室宗亲有责任延续汉统。以诸葛亮为丞相，许靖为司徒。蜀汉政权以\"兴复汉室，还于旧都\"为政治号召，与曹魏争夺正统地位。然而刘备称帝后的第一个重大决策——东征孙权为关羽报仇——却带来了灾难性的后果。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "发起者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      }
+    ],
+    "result": "蜀汉建立，刘备称帝",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shu_Han"
+    ]
+  },
+  {
+    "id": "death-of-zhang-fei",
+    "name": "张飞之死",
+    "year": 221,
+    "end_year": null,
+    "location": "阆中",
+    "type": "death",
+    "description": "221年，刘备准备东征孙权为关羽报仇。张飞在阆中准备出发时，因鞭打部下张达、范强（一说范疆），二人怀恨在心，趁张飞酒醉熟睡之际将其刺杀，割下首级投奔东吴。张飞是蜀汉的开国元勋，与刘备、关羽桃园结义，勇猛无双，有万人敌之称。然而张飞性格暴烈，经常鞭打士卒，刘备曾多次告诫无果。张飞之死是刘备继失去关羽后的又一重大打击。",
+    "participants": [
+      {
+        "person_id": "zhang-fei",
+        "role": "受害者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": "张飞被部下刺杀，蜀汉再失大将",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Fei"
+    ]
+  },
+  {
+    "id": "wu-envoy-to-shu",
+    "name": "邓芝使吴",
+    "year": 222,
+    "end_year": null,
+    "location": "建业",
+    "type": "diplomatic",
+    "description": "222年夷陵之战后，蜀吴关系降至冰点。223年刘备死后，诸葛亮为修复两国关系，派外交家邓芝出使东吴。邓芝面对孙权时从容不迫，以\"蜀有重险之固，吴有三江之阻\"分析两国联合的战略必要性。孙权被说服，回派张温出使蜀汉，两国重归于好。邓芝后来又多次出使东吴，均圆满完成使命，深受孙权敬重。蜀吴联盟的修复对维持三国均势至关重要。",
+    "participants": [
+      {
+        "person_id": "deng-zhi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "决策者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "决策者"
+      }
+    ],
+    "result": "蜀吴关系修复，联盟重新建立",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Deng_Zhi"
+    ]
+  },
+  {
+    "id": "cao-pi-invades-wu",
+    "name": "曹丕伐吴",
+    "year": 222,
+    "end_year": 223,
+    "location": "长江沿线",
+    "type": "battle",
+    "description": "222至223年，曹丕因孙权拒绝送质子，两次率大军伐吴。第一次曹丕三路并进，但东吴凭借长江天险和水军优势，各路曹军均被击退。223年曹丕再次亲征至广陵，望长江叹曰\"魏虽有武骑千群，无所用之\"，无功而返。曹丕伐吴的失败证明了北方政权跨越长江作战的巨大困难，也证实了\"南人驾船，北人骑马\"的军事格局在短期内难以改变。",
+    "participants": [
+      {
+        "person_id": "cao-pi",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "lu-xun",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹丕两次伐吴均失败，无法突破长江防线",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi%27s_invasions_of_Eastern_Wu"
+    ]
+  },
+  {
+    "id": "sun-quan-declares-independence",
+    "name": "孙权称吴王",
+    "year": 222,
+    "end_year": null,
+    "location": "武昌",
+    "type": "succession",
+    "description": "222年，孙权在击败刘备后，曹丕封孙权为吴王，加九锡。孙权表面上向曹魏称臣以避免两面作战，但实际上保持独立。曹丕要求孙权送世子孙登为人质，孙权以各种理由推托不从。不久曹丕识破孙权并无真心臣服之意，于222年和223年两次大规模伐吴，但均被东吴击退。孙权称吴王标志着其正式建立独立政权，三国鼎立的格局进一步固化。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "发起者"
+      },
+      {
+        "person_id": "cao-pi",
+        "role": "参与者"
+      }
+    ],
+    "result": "孙权称吴王，三足鼎立格局确立",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Quan"
+    ]
+  },
+  {
+    "id": "shu-wu-alliance-renewed",
+    "name": "蜀吴重新结盟",
+    "year": 223,
+    "end_year": null,
+    "location": "建业、成都",
+    "type": "diplomatic",
+    "description": "223年，刘备死后，诸葛亮执掌蜀汉大权。面对曹魏的强大压力，诸葛亮决定放弃与东吴的仇恨，恢复孙刘联盟。他派邓芝出使东吴，向孙权阐明唇亡齿寒的道理。孙权也认识到蜀吴联盟对抗曹魏的必要性，两国重新建立了同盟关系。此后蜀吴联盟一直维持到蜀汉灭亡，虽然中间时有摩擦，但总体上保持了对曹魏的战略牵制态势。蜀吴联盟是三国格局维持数十年的关键因素。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "决策者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "决策者"
+      },
+      {
+        "person_id": "deng-zhi",
+        "role": "参与者"
+      }
+    ],
+    "result": "蜀吴恢复联盟，共同对抗曹魏",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shu_Han"
+    ]
+  },
+  {
+    "id": "death-of-liu-bei",
+    "name": "白帝城托孤",
+    "year": 223,
+    "end_year": null,
+    "location": "白帝城",
+    "type": "death",
+    "description": "223年四月，刘备在夷陵之战惨败后忧愤成疾，于白帝城（今重庆奉节）病逝，终年六十三岁。临终前刘备将幼子刘禅托付给诸葛亮，留下千古名言：\"君才十倍曹丕，必能安国，终定大事。若嗣子可辅，辅之；如其不才，君可自取。\"诸葛亮涕泣发誓鞠躬尽瘁。白帝城托孤成为中国历史上最著名的君臣佳话之一。刘备之死标志着蜀汉创业一代的结束，此后由诸葛亮执掌国政。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "受害者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-shan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "li-yan",
+        "role": "参与者"
+      }
+    ],
+    "result": "刘备病逝，诸葛亮受托辅政",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Bei"
+    ]
+  },
+  {
+    "id": "zhuge-liang-southern-campaign",
+    "name": "诸葛亮南征",
+    "year": 225,
+    "end_year": null,
+    "location": "南中",
+    "type": "battle",
+    "description": "225年春，诸葛亮率军南征平定南中叛乱。益州郡的雍闿、牂牁郡的朱褒、越嶲郡的高定联合南蛮首领孟获起兵叛乱。诸葛亮兵分三路进军，先平定雍闿（被高定部将所杀）、朱褒、高定，再深入不毛之地追击孟获。据载诸葛亮对孟获\"七擒七纵\"，以攻心为上的策略使其心服口服。南征的成功不仅平定了后方，还获得了南中的金银矿产和兵源补充，为日后北伐奠定了物质基础。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "meng-huo",
+        "role": "受害者"
+      },
+      {
+        "person_id": "ma-su",
+        "role": "参与者"
+      }
+    ],
+    "result": "平定南中叛乱，稳定后方，获取资源",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Liang%27s_Southern_Campaign"
+    ]
+  },
+  {
+    "id": "death-of-cao-pi",
+    "name": "曹丕之死",
+    "year": 226,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "succession",
+    "description": "226年六月，曹丕病逝于洛阳，年仅四十岁。曹丕是曹魏的开国皇帝，在位六年，实行九品中正制，对后世产生了深远影响。临终前曹丕命曹真、曹休、陈群、司马懿为辅政大臣，辅佐年仅二十三岁的太子曹叡即位（即魏明帝）。曹丕之死引发了三国局势的连锁反应：孙权看到曹魏权力交接的空档，开始更积极的军事行动；诸葛亮也加紧准备北伐。",
+    "participants": [
+      {
+        "person_id": "cao-pi",
+        "role": "受害者"
+      },
+      {
+        "person_id": "cao-rui",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-zhen",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹丕病逝，曹叡继位",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "xincheng-rebellion",
+    "name": "新城之变",
+    "year": 228,
+    "end_year": null,
+    "location": "新城",
+    "type": "battle",
+    "description": "228年，原蜀汉降将孟达密谋重新归蜀，与诸葛亮里应外合配合第一次北伐。然而消息泄露，司马懿得知后当机立断，不等请示朝廷便率军日夜兼程奔袭新城。孟达原以为司马懿远在宛城，至少需要一个月才能到达，结果司马懿仅用八天便兵临城下。孟达猝不及防，坚守十六天后城破被杀。此役展现了司马懿果断迅猛的军事风格，也使诸葛亮第一次北伐失去了一个重要的内应。",
+    "participants": [
+      {
+        "person_id": "sima-yi",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "meng-da",
+        "role": "受害者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      }
+    ],
+    "result": "司马懿闪击擒杀孟达，粉碎蜀汉内应计划",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xincheng_Rebellion"
+    ]
+  },
+  {
+    "id": "first-northern-expedition",
+    "name": "诸葛亮第一次北伐",
+    "year": 228,
+    "end_year": null,
+    "location": "陇右、街亭",
+    "type": "battle",
+    "description": "228年春，诸葛亮出师北伐，发表千古名篇《出师表》。蜀军声东击西，以赵云为疑兵出斜谷，诸葛亮率主力出祁山。陇右三郡（南安、天水、安定）纷纷响应投降，天水的姜维也在此时归降蜀汉。形势一片大好，但诸葛亮在关键的街亭之战中误用马谡。马谡违反军令上山扎营，被张郃切断水源围困大败。街亭失守导致全线崩盘，诸葛亮被迫撤军。回师后诸葛亮挥泪斩马谡，自贬三级以示负责。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "ma-su",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhang-he",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhao-yun",
+        "role": "参与者"
+      },
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": "街亭失守导致北伐失败，诸葛亮挥泪斩马谡",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Liang%27s_Northern_Expeditions"
+    ]
+  },
+  {
+    "id": "battle-of-shiting",
+    "name": "石亭之战",
+    "year": 228,
+    "end_year": null,
+    "location": "石亭",
+    "type": "battle",
+    "description": "228年，东吴鄱阳太守周鲂诈降曹魏，诱使大司马曹休率十万大军深入。曹休中计后，陆逊率东吴主力在石亭设伏，大败曹军。曹休损失惨重，万余人被斩杀，大量辎重军械被缴获。曹休羞愤成疾，不久病死。石亭之战是东吴对曹魏的一次重大军事胜利，严重削弱了曹魏在东线的军事力量，也间接促成了诸葛亮发动第二次北伐。",
+    "participants": [
+      {
+        "person_id": "lu-xun",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhou-fang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-xiu",
+        "role": "受害者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "决策者"
+      }
+    ],
+    "result": "东吴大败曹魏，曹休羞愤而死",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Shiting"
+    ]
+  },
+  {
+    "id": "second-northern-expedition",
+    "name": "诸葛亮第二次北伐",
+    "year": 228,
+    "end_year": 229,
+    "location": "陈仓",
+    "type": "battle",
+    "description": "228年冬，诸葛亮趁石亭之战曹魏东线兵力空虚，率数万大军出散关攻陈仓。然而曹魏将领郝昭以千余人坚守陈仓，依托坚固城防击退了蜀军的各种攻城手段。诸葛亮围城二十余日，粮尽退军。撤退途中在追击中斩杀魏将王双。第二次北伐虽未能攻克陈仓，但展示了蜀汉仍有持续向曹魏施压的能力，也暴露了蜀汉后勤保障的短板。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "hao-zhao",
+        "role": "指挥者"
+      }
+    ],
+    "result": "陈仓坚守不克，诸葛亮粮尽退军",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Liang%27s_Northern_Expeditions"
+    ]
+  },
+  {
+    "id": "shu-wu-mutual-recognition",
+    "name": "蜀吴互相承认",
+    "year": 229,
+    "end_year": null,
+    "location": "建业、成都",
+    "type": "diplomatic",
+    "description": "229年孙权称帝后，蜀汉朝廷内部对是否承认孙权帝号产生争议。有人认为应断绝与吴国的关系，因为天无二日。但诸葛亮力排众议，认为蜀吴联盟对抗曹魏至关重要，承认孙权帝号是维持联盟的必要让步。蜀汉派陈震出使东吴祝贺，双方约定灭魏后以豫、青、徐、幽州归蜀，荆、扬、交州归吴。这份\"分天下\"盟约虽然最终未能实现，但巩固了蜀吴联盟。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "决策者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      }
+    ],
+    "result": "蜀吴互认帝号，联盟进一步巩固",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shu_Han"
+    ]
+  },
+  {
+    "id": "third-northern-expedition",
+    "name": "诸葛亮第三次北伐",
+    "year": 229,
+    "end_year": null,
+    "location": "武都、阴平",
+    "type": "battle",
+    "description": "229年春，诸葛亮派陈式率军攻取武都（今甘肃成县）和阴平（今甘肃文县）二郡。曹魏雍州刺史郭淮率军来救，诸葛亮亲自出兵牵制，郭淮畏惧退走。蜀军顺利占领武都、阴平。这次北伐虽然规模不大，但成功扩大了蜀汉在陇右的地盘，为日后出祁山北伐提供了前进基地。战后后主刘禅恢复了诸葛亮此前因街亭之败而自贬的丞相职务。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "chen-shi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "guo-huai",
+        "role": "指挥者"
+      }
+    ],
+    "result": "蜀汉攻取武都阴平二郡，扩大陇右地盘",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Liang%27s_Northern_Expeditions"
+    ]
+  },
+  {
+    "id": "sun-quan-becomes-emperor",
+    "name": "孙权称帝",
+    "year": 229,
+    "end_year": null,
+    "location": "武昌",
+    "type": "succession",
+    "description": "229年四月，孙权在武昌正式称帝，国号吴，年号黄龙，后迁都建业（今南京）。至此三国正式鼎立：曹魏占据中原和北方，蜀汉据有巴蜀和汉中，东吴控制江东和荆州南部。孙权是三国君主中在位时间最长的，从200年继承江东到252年去世，共掌权五十余年。蜀汉与东吴互相承认对方帝位，约定灭魏后平分天下。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "发起者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      }
+    ],
+    "result": "东吴正式建国，三国鼎立局面完成",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Quan"
+    ]
+  },
+  {
+    "id": "cao-zhen-invades-shu",
+    "name": "曹真伐蜀",
+    "year": 230,
+    "end_year": null,
+    "location": "子午谷、汉中",
+    "type": "battle",
+    "description": "230年，曹魏大司马曹真策划大规模伐蜀，兵分多路：曹真率主力走子午谷，司马懿率军从汉水而上。然而入蜀道路崎岖险峻，加之连降大雨三十余日，栈道断绝，粮运不继。曹军困在山谷中进退两难，最终被迫撤军。此次伐蜀的失败证明了蜀地\"一夫当关万夫莫开\"的地理优势。曹真回师后不久病死，司马懿接替了他的军事指挥权，为日后司马氏掌权埋下伏笔。",
+    "participants": [
+      {
+        "person_id": "cao-zhen",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "指挥者"
+      }
+    ],
+    "result": "大雨阻路，曹魏伐蜀失败，曹真不久病死",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ziwu_Campaign"
+    ]
+  },
+  {
+    "id": "fourth-northern-expedition",
+    "name": "诸葛亮第四次北伐",
+    "year": 231,
+    "end_year": null,
+    "location": "祁山、卤城",
+    "type": "battle",
+    "description": "231年春，诸葛亮第四次北伐，再出祁山。此次北伐诸葛亮使用了自己发明的\"木牛\"运粮。在卤城之战中，诸葛亮设伏大败司马懿，斩杀曹魏军三千人，缴获大量战利品。张郃在追击蜀军撤退时中伏身亡（一说为司马懿命令追击导致）。然而由于后方李严假传军令催促撤军，加之粮草不继，诸葛亮被迫退兵。此役虽然战术上获胜，但战略目标未能达成。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhang-he",
+        "role": "受害者"
+      },
+      {
+        "person_id": "li-yan",
+        "role": "参与者"
+      }
+    ],
+    "result": "诸葛亮战术获胜但因粮尽退军，张郃战死",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Liang%27s_Northern_Expeditions"
+    ]
+  },
+  {
+    "id": "battle-of-wuzhang-plains",
+    "name": "五丈原之战",
+    "year": 234,
+    "end_year": null,
+    "location": "五丈原",
+    "type": "battle",
+    "description": "234年春，诸葛亮发动第五次也是最后一次北伐，率十万大军出斜谷，驻扎于五丈原（今陕西岐山南）。司马懿深知诸葛亮远道而来粮草有限，采取坚守不战的策略。诸葛亮多次挑战，甚至送女装羞辱司马懿，但司马懿稳如泰山。双方对峙百余日，诸葛亮积劳成疾。同年八月，诸葛亮病逝于五丈原军中，年仅五十四岁。蜀军秘不发丧，按诸葛亮遗计安全撤退。\"出师未捷身先死，长使英雄泪满襟\"，诸葛亮鞠躬尽瘁死而后已的精神感动后世无数人。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yang-yi",
+        "role": "参与者"
+      }
+    ],
+    "result": "诸葛亮病逝五丈原，北伐事业未竟而终",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Wuzhang_Plains"
+    ]
+  },
+  {
+    "id": "death-of-zhuge-liang",
+    "name": "诸葛亮病逝",
+    "year": 234,
+    "end_year": null,
+    "location": "五丈原",
+    "type": "death",
+    "description": "234年八月，蜀汉丞相诸葛亮在第五次北伐期间病逝于五丈原军中，享年五十四岁。诸葛亮是三国时期最杰出的政治家和战略家，辅佐刘备建立蜀汉，在刘备死后独力支撑国政十一年。他治蜀有方，赏罚分明，\"鞠躬尽瘁，死而后已\"成为后世忠臣贤相的典范。诸葛亮之死标志着蜀汉积极进取时代的结束，此后蜀汉由蒋琬、费祎主持守成路线。司马懿则借此机会进一步巩固在曹魏的地位。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "受害者"
+      },
+      {
+        "person_id": "jiang-wan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "fei-yi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": "蜀汉失去灵魂人物，由蒋琬继任执政",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Liang"
+    ]
+  },
+  {
+    "id": "sima-yi-liaodong-campaign",
+    "name": "司马懿平辽东",
+    "year": 238,
+    "end_year": null,
+    "location": "辽东",
+    "type": "battle",
+    "description": "238年，辽东公孙渊自立为燕王，与东吴结盟对抗曹魏。魏明帝曹叡派司马懿率四万大军远征辽东。司马懿采用围城打援的策略，先击退公孙渊的野战部队，再围困其都城襄平。连日暴雨使辽水泛滥，但司马懿坚持围城不退。城中粮尽人相食，公孙渊突围失败被杀。司马懿屠城，斩杀公孙渊以下将吏七千余人，辽东纳入曹魏版图。此役展示了司马懿残酷高效的军事风格。",
+    "participants": [
+      {
+        "person_id": "sima-yi",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "gongsun-yuan",
+        "role": "受害者"
+      },
+      {
+        "person_id": "cao-rui",
+        "role": "决策者"
+      }
+    ],
+    "result": "公孙渊被杀，辽东归魏，曹魏版图进一步扩大",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Yi%27s_Liaodong_campaign"
+    ]
+  },
+  {
+    "id": "death-of-cao-rui",
+    "name": "曹叡托孤",
+    "year": 239,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "succession",
+    "description": "239年正月，魏明帝曹叡病逝，年仅三十六岁。曹叡虽好大喜功、大兴土木，但在军事上颇有建树，多次挫败蜀汉和东吴的进攻。临终前曹叡立年仅八岁的养子曹芳为太子，以大将军曹爽和太尉司马懿为辅政大臣。这一安排为日后的权力斗争埋下了祸根：曹爽年轻气盛，与老谋深算的司马懿之间的矛盾日益尖锐，最终导致了高平陵之变。",
+    "participants": [
+      {
+        "person_id": "cao-rui",
+        "role": "受害者"
+      },
+      {
+        "person_id": "cao-fang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-shuang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹叡病逝，幼帝即位，曹爽与司马懿辅政",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Rui"
+    ]
+  },
+  {
+    "id": "battle-of-quebei",
+    "name": "芍陂之战",
+    "year": 241,
+    "end_year": null,
+    "location": "芍陂",
+    "type": "battle",
+    "description": "241年，东吴趁曹叡去世、曹魏主少国疑之际，发动大规模北伐。全琮攻淮南，诸葛瑾攻襄阳，诸葛恪攻六安。其中以全琮在芍陂（今安徽寿县南）的战事最为激烈，但最终被曹魏守将王凌击退。诸葛瑾等路也未能取得突破，东吴全线撤军。此战证明了曹魏在淮南和荆州北部的防线依然稳固，东吴很难在正面突破曹魏的防御体系。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "决策者"
+      },
+      {
+        "person_id": "wang-ling",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "quan-cong",
+        "role": "指挥者"
+      }
+    ],
+    "result": "东吴北伐失败，各路均被击退",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Quebei"
+    ]
+  },
+  {
+    "id": "battle-of-xingshi",
+    "name": "兴势之战",
+    "year": 244,
+    "end_year": null,
+    "location": "兴势",
+    "type": "battle",
+    "description": "244年，曹魏大将军曹爽为立军功树威望，不顾司马懿反对，率十余万大军伐蜀。曹爽从骆谷进军，蜀将王平以不到三万兵力在兴势（今陕西洋县北）设防阻击。王平利用险要地形顽强防守，费祎随后率援军赶到。曹魏军深入蜀境，补给线过长，粮草接济不上。曹爽被迫撤军，途中遭蜀军追击，伤亡惨重。此战严重损害了曹爽的威望，为司马懿发动高平陵政变埋下伏笔。",
+    "participants": [
+      {
+        "person_id": "cao-shuang",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "wang-ping",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "fei-yi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹爽伐蜀惨败，威望大损",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Xingshi"
+    ]
+  },
+  {
+    "id": "jiang-wei-northern-expeditions",
+    "name": "姜维北伐",
+    "year": 247,
+    "end_year": 262,
+    "location": "陇右、雍州",
+    "type": "battle",
+    "description": "247至262年间，蜀汉大将军姜维继承诸葛亮遗志，先后发动十一次北伐曹魏。姜维曾在洮西之战（255年）大败曹魏雍州刺史王经，斩俘数万人，这是蜀汉后期最大的军事胜利。然而姜维多次北伐劳而无功，连年用兵严重消耗了蜀汉本已有限的国力和民力。宦官黄皓专权，姜维与朝廷的关系日益紧张。262年最后一次北伐败于邓艾后，姜维不敢回成都，屯兵沓中以避祸。频繁北伐是蜀汉灭亡的重要原因之一。",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "deng-ai",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "参与者"
+      }
+    ],
+    "result": "十一次北伐互有胜负，但总体消耗了蜀汉国力",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Wei%27s_Northern_Expeditions"
+    ]
+  },
+  {
+    "id": "gaoping-tombs-incident",
+    "name": "高平陵之变",
+    "year": 249,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "political",
+    "description": "249年正月，曹爽兄弟陪同皇帝曹芳前往高平陵祭祀。司马懿趁机发动政变，关闭洛阳城门，控制武库和军营，奏请太后下令免去曹爽兄弟的职务。司马懿此前假装病重长达数年以麻痹曹爽。曹爽的谋臣桓范建议挟天子至许昌号令天下，但曹爽犹豫不决，最终交出兵权投降，天真地以为可以做富家翁。数日后曹爽及其党羽被以谋反罪灭族。高平陵之变是三国后期最重要的政治事件，司马氏从此掌握曹魏实权，为日后晋代魏铺平了道路。",
+    "participants": [
+      {
+        "person_id": "sima-yi",
+        "role": "发起者"
+      },
+      {
+        "person_id": "sima-shi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-shuang",
+        "role": "受害者"
+      },
+      {
+        "person_id": "cao-fang",
+        "role": "参与者"
+      }
+    ],
+    "result": "司马懿政变成功，曹爽被灭族，司马氏掌握曹魏大权",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Incident_at_Gaoping_Tombs"
+    ]
+  },
+  {
+    "id": "two-palaces-conflict",
+    "name": "二宫之争",
+    "year": 250,
+    "end_year": null,
+    "location": "建业",
+    "type": "political",
+    "description": "241至250年间，东吴爆发了严重的储位之争。太子孙和与鲁王孙霸各有支持者，朝廷分裂为两派。陆逊等名臣支持太子孙和，但遭到孙权猜忌。250年孙权最终废黜太子孙和（后被赐死），赐死鲁王孙霸，改立幼子孙亮为太子。此事件导致陆逊忧愤而死，大量东吴重臣被杀或流放，东吴朝廷元气大伤。二宫之争是孙权晚年最大的政治失误，严重削弱了东吴的政治根基。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "决策者"
+      },
+      {
+        "person_id": "lu-xun",
+        "role": "受害者"
+      }
+    ],
+    "result": "太子被废鲁王被杀，东吴朝廷元气大伤",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_He"
+    ]
+  },
+  {
+    "id": "wang-ling-rebellion",
+    "name": "王凌之叛",
+    "year": 251,
+    "end_year": null,
+    "location": "寿春",
+    "type": "rebellion",
+    "description": "251年，曹魏太尉王凌不满司马懿专权，密谋联合楚王曹彪起兵反对司马氏。王凌计划迎立曹彪为帝，以淮南军事重镇寿春为基地发动叛乱。然而司马懿提前得知消息，亲率大军南征。司马懿兵至后致书王凌，许以不杀。王凌自知无力抵抗，出城投降。但在押送洛阳途中，王凌绝望自杀。此后曹彪被赐死，王凌全族被诛。这是\"寿春三叛\"中的第一次，显示了曹魏内部对司马氏的不满。",
+    "participants": [
+      {
+        "person_id": "wang-ling",
+        "role": "发起者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "指挥者"
+      }
+    ],
+    "result": "叛乱被镇压，王凌自杀，司马懿权势更盛",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Ling%27s_Rebellion"
+    ]
+  },
+  {
+    "id": "death-of-sima-yi",
+    "name": "司马懿之死",
+    "year": 251,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "death",
+    "description": "251年九月，司马懿病逝于洛阳，享年七十三岁。司马懿是三国后期最重要的政治人物，早年辅佐曹操、曹丕、曹叡三代君主，后在高平陵之变中夺取曹魏实权。他以隐忍著称，装病数年以欺骗曹爽，堪称\"忍\"字功夫登峰造极。司马懿死后，其子司马师、司马昭相继掌权，延续并扩大了司马氏的势力。司马懿被追尊为晋宣帝，是西晋王朝的实际奠基者。",
+    "participants": [
+      {
+        "person_id": "sima-yi",
+        "role": "受害者"
+      },
+      {
+        "person_id": "sima-shi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "参与者"
+      }
+    ],
+    "result": "司马懿病逝，司马师继续掌权",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Yi"
+    ]
+  },
+  {
+    "id": "battle-of-dongxing",
+    "name": "东兴之战",
+    "year": 252,
+    "end_year": null,
+    "location": "东兴",
+    "type": "battle",
+    "description": "252年十二月，曹魏趁孙权新丧，三路伐吴。司马昭率军攻东兴（今安徽巢湖南），但东吴权臣诸葛恪率军四万迅速增援。东吴将领丁奉率三千敢死之士冒雪突袭魏军前锋，魏军大败，溃兵争渡浮桥，桥塌溺死者甚众。此战是新辅政的诸葛恪的辉煌胜利，东兴大捷使其威望达到顶峰。然而诸葛恪随即因骄傲自满，在次年北伐合肥新城时惨败，被宗室孙峻设计杀害。",
+    "participants": [
+      {
+        "person_id": "zhuge-ke",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "ding-feng",
+        "role": "参与者"
+      }
+    ],
+    "result": "东吴大胜，诸葛恪威望达到顶峰",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Dongxing"
+    ]
+  },
+  {
+    "id": "death-of-sun-quan",
+    "name": "孙权之死",
+    "year": 252,
+    "end_year": null,
+    "location": "建业",
+    "type": "death",
+    "description": "252年四月，东吴开国皇帝孙权病逝于建业，享年七十一岁。孙权是三国时期在位时间最长的君主，执掌江东五十余年。他早年英明神武，选贤任能，但晚年昏聩猜忌，引发\"二宫之争\"（太子孙和与鲁王孙霸的储位之争），导致大量功臣被杀或被贬。孙权死后幼子孙亮即位，权臣诸葛恪辅政。东吴此后陷入了频繁的政变和权臣专政，国力日衰。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "受害者"
+      },
+      {
+        "person_id": "zhuge-ke",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-liang",
+        "role": "参与者"
+      }
+    ],
+    "result": "孙权病逝，东吴开始走向衰落",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Quan"
+    ]
+  },
+  {
+    "id": "death-of-fei-yi",
+    "name": "费祎遇刺",
+    "year": 253,
+    "end_year": null,
+    "location": "汉寿",
+    "type": "death",
+    "description": "253年正月，蜀汉大将军费祎在汉寿举办新年宴会时，被曹魏降将郭修（一作郭循）刺杀身亡。费祎是诸葛亮指定的接班人之一，与蒋琬并为蜀汉\"四相\"的后两位。费祎执政期间奉行休养生息政策，多次压制姜维大规模北伐的冲动，认为蜀汉国力有限应以守为主。费祎之死打破了蜀汉内部的政策平衡，姜维随即获得了北伐的自由，开始了频繁的军事行动，加速消耗了蜀汉国力。",
+    "participants": [
+      {
+        "person_id": "fei-yi",
+        "role": "受害者"
+      },
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": "费祎遇刺，蜀汉失去务实派领袖，姜维获得北伐自由",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Fei_Yi"
+    ]
+  },
+  {
+    "id": "sima-shi-deposes-cao-fang",
+    "name": "司马师废帝",
+    "year": 254,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "political",
+    "description": "254年，曹魏皇帝曹芳暗中策划夺回皇权，密谋联合中书令李丰和张皇后之父张缉诛杀司马师。然而计划败露，司马师将李丰、张缉等人处死，并废黜曹芳，改立高贵乡公曹髦为帝。曹芳被贬为齐王，软禁一生。此事件进一步证明了曹魏皇帝已完全沦为司马氏的傀儡，司马家对曹魏朝廷的控制已经到了可以随意废立皇帝的地步。",
+    "participants": [
+      {
+        "person_id": "sima-shi",
+        "role": "发起者"
+      },
+      {
+        "person_id": "cao-fang",
+        "role": "受害者"
+      },
+      {
+        "person_id": "cao-mao",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹芳被废，曹髦即位，司马氏权力进一步膨胀",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Shi"
+    ]
+  },
+  {
+    "id": "guanqiu-jian-rebellion",
+    "name": "毌丘俭叛乱",
+    "year": 255,
+    "end_year": null,
+    "location": "寿春",
+    "type": "battle",
+    "description": "255年正月，镇东将军毌丘俭和扬州刺史文钦在寿春起兵反对司马师，这是\"寿春三叛\"中的第二次。二人打出讨伐司马师、匡扶魏室的旗号。司马师虽患眼疾刚刚手术（摘除眼球上的肉瘤），仍亲自率军出征。毌丘俭和文钦的叛军因缺乏广泛支持而迅速瓦解：毌丘俭被杀，文钦逃往东吴。司马师在平叛后不久因伤病加重而去世，其弟司马昭继任掌权。",
+    "participants": [
+      {
+        "person_id": "guanqiu-jian",
+        "role": "发起者"
+      },
+      {
+        "person_id": "wen-qin",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-shi",
+        "role": "指挥者"
+      }
+    ],
+    "result": "叛乱被镇压，毌丘俭被杀",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guanqiu_Jian_and_Wen_Qin%27s_Rebellion"
+    ]
+  },
+  {
+    "id": "death-of-sima-shi",
+    "name": "司马师之死",
+    "year": 255,
+    "end_year": null,
+    "location": "许昌",
+    "type": "death",
+    "description": "255年二月，司马师在平定毌丘俭叛乱后于许昌病逝，年仅四十八岁。司马师继承父亲司马懿的权势，掌控曹魏朝政四年。他性格沉稳果断，高平陵政变前夕暗中养死士三千而无人知晓。司马师在位期间废黜皇帝曹芳、镇压淮南叛乱，进一步巩固了司马氏的地位。临终前将权力移交给弟弟司马昭。司马师被追尊为晋景帝。",
+    "participants": [
+      {
+        "person_id": "sima-shi",
+        "role": "受害者"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "参与者"
+      }
+    ],
+    "result": "司马师病逝，司马昭继任执政",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Shi"
+    ]
+  },
+  {
+    "id": "zhuge-dan-rebellion",
+    "name": "诸葛诞叛乱",
+    "year": 257,
+    "end_year": 258,
+    "location": "寿春",
+    "type": "battle",
+    "description": "257年，征东大将军诸葛诞在寿春起兵反对司马昭，这是\"寿春三叛\"中的第三次也是规模最大的一次。诸葛诞拥兵十余万，并联络东吴出兵援助。司马昭亲率二十六万大军围攻寿春，围城近一年。城中粮尽，诸葛诞部将纷纷投降，东吴援军也被击退。258年初寿春城破，诸葛诞被杀，三族被诛。寿春三叛的失败标志着曹魏内部反司马势力被彻底铲除，司马氏取代曹魏已成定局。",
+    "participants": [
+      {
+        "person_id": "zhuge-dan",
+        "role": "发起者"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "wen-qin",
+        "role": "参与者"
+      }
+    ],
+    "result": "寿春城破，诸葛诞被杀，反司马势力被彻底铲除",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Dan%27s_Rebellion"
+    ]
+  },
+  {
+    "id": "cao-mao-killed",
+    "name": "曹髦之死",
+    "year": 260,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "political",
+    "description": "260年，曹魏皇帝曹髦不甘做傀儡，说出\"司马昭之心路人皆知\"的名言后，亲率数百名宫人和侍卫冲出皇宫，企图讨伐司马昭。司马昭的部下贾充命太子舍人成济刺杀曹髦，曹髦当场被弑。这是中国历史上罕见的臣子当街弑杀皇帝的事件。事后司马昭将成济灭族作为替罪羊，立年幼的曹奂为新帝。\"司马昭之心路人皆知\"成为形容野心家的千古名言。",
+    "participants": [
+      {
+        "person_id": "cao-mao",
+        "role": "受害者"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "发起者"
+      },
+      {
+        "person_id": "jia-chong",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹髦被弑，曹奂即位，司马昭篡位之心昭然若揭",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Mao"
+    ]
+  },
+  {
+    "id": "conquest-of-shu",
+    "name": "魏灭蜀之战",
+    "year": 263,
+    "end_year": null,
+    "location": "益州",
+    "type": "battle",
+    "description": "263年秋，司马昭发动灭蜀战争，派钟会、邓艾、诸葛绪率十八万大军分三路伐蜀。钟会率主力正面进攻，姜维退守剑阁天险据守。邓艾出奇兵，率精锐翻越七百里人迹罕至的阴平小道，凿山通路，出其不意直抵成都平原。诸葛亮之子诸葛瞻率军在绵竹抵抗，战死殉国。后主刘禅在谯周劝说下开城投降。蜀汉立国四十二年后灭亡。\"乐不思蜀\"的典故即出于此。此后钟会和姜维密谋造反未遂，双双被杀。",
+    "participants": [
+      {
+        "person_id": "sima-zhao",
+        "role": "决策者"
+      },
+      {
+        "person_id": "zhong-hui",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "deng-ai",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "jiang-wei",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "liu-shan",
+        "role": "受害者"
+      },
+      {
+        "person_id": "zhuge-zhan",
+        "role": "受害者"
+      }
+    ],
+    "result": "蜀汉灭亡，三国鼎立结束",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Conquest_of_Shu_by_Wei"
+    ]
+  },
+  {
+    "id": "zhong-hui-rebellion",
+    "name": "钟会之乱",
+    "year": 264,
+    "end_year": null,
+    "location": "成都",
+    "type": "rebellion",
+    "description": "264年正月，灭蜀主帅钟会在成都密谋叛乱。钟会先诬陷邓艾谋反，将其逮捕押送洛阳（邓艾后被杀）。随后钟会与降将姜维合谋，计划据蜀自立，效仿刘备割据一方。钟会伪造太后遗诏，企图率军反叛司马昭。然而消息泄露，部下将士不愿追随叛乱，发动兵变。钟会和姜维在乱军中被杀，数日之内成都城内血流成河。此事件是灭蜀战争的惨烈尾声。",
+    "participants": [
+      {
+        "person_id": "zhong-hui",
+        "role": "发起者"
+      },
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "deng-ai",
+        "role": "受害者"
+      }
+    ],
+    "result": "钟会、姜维被杀，邓艾被冤杀",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhong_Hui"
+    ]
+  },
+  {
+    "id": "sun-hao-succeeds",
+    "name": "孙皓即位",
+    "year": 264,
+    "end_year": null,
+    "location": "建业",
+    "type": "succession",
+    "description": "264年，东吴皇帝孙休病逝后，权臣濮阳兴和张布拥立孙权之孙孙皓即位。孙皓即位初期尚有明君之象，但很快暴露出残暴荒淫的本性。他大兴土木、宠信奸佞、残害忠良，先后杀害数十位大臣和宗室。东吴在孙皓的暴政下国力急剧衰落，人心离散，将领纷纷投降西晋。孙皓的暴虐统治为西晋灭吴创造了条件，东吴的灭亡已不可避免。",
+    "participants": [
+      {
+        "person_id": "sun-hao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-xiu",
+        "role": "受害者"
+      }
+    ],
+    "result": "暴君孙皓即位，东吴走向灭亡",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Hao"
+    ]
+  },
+  {
+    "id": "jin-replaces-wei",
+    "name": "晋代魏",
+    "year": 265,
+    "end_year": 266,
+    "location": "洛阳",
+    "type": "succession",
+    "description": "265年八月司马昭病逝后，其子司马炎继位为晋王。同年十二月（266年2月），司马炎效仿曹丕篡汉的故事，逼迫魏帝曹奂禅位，建立西晋王朝，定都洛阳，改元泰始。曹奂被封为陈留王，得以善终。曹魏政权在历经五帝四十五年后灭亡。从司马懿高平陵政变到司马炎称帝，司马氏用了十六年时间完成了从权臣到皇帝的转变。至此天下大势变为西晋对东吴的南北对峙。",
+    "participants": [
+      {
+        "person_id": "sima-yan",
+        "role": "发起者"
+      },
+      {
+        "person_id": "cao-huan",
+        "role": "受害者"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹魏灭亡，西晋建立，天下变为南北对峙",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jin_dynasty_(266%E2%80%93420)"
+    ]
+  },
+  {
+    "id": "battle-of-xiling",
+    "name": "西陵之战",
+    "year": 272,
+    "end_year": null,
+    "location": "西陵",
+    "type": "battle",
+    "description": "272年，东吴西陵督步阐叛吴降晋。西晋派杨肇率军从西陵方向增援步阐，同时派羊祜从江陵方向策应。东吴名将陆抗（陆逊之子）率军迅速包围西陵，一面围城打援击退晋军增援，一面攻克西陵城斩杀步阐。西陵之战是陆抗军事才能的集中体现，也是东吴最后一次重大军事胜利。此战证明只要东吴拥有优秀将领，依靠长江防线仍可抵御西晋。然而陆抗于274年病逝后，东吴再无能与西晋抗衡的将才。",
+    "participants": [
+      {
+        "person_id": "lu-kang",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "yang-hu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "bu-chan",
+        "role": "受害者"
+      }
+    ],
+    "result": "陆抗平定叛乱击退晋军，东吴最后的辉煌",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Xiling"
+    ]
+  },
+  {
+    "id": "death-of-lu-kang",
+    "name": "陆抗之死",
+    "year": 274,
+    "end_year": null,
+    "location": "建业",
+    "type": "death",
+    "description": "274年，东吴最后的名将陆抗病逝。陆抗是陆逊之子，才兼文武，是东吴后期最杰出的军事统帅。他曾多次上书孙皓要求加强西线防务，尤其是西陵的战略重要性，但均被暴君孙皓忽视。陆抗临终前再次上疏警告，但孙皓仍不采纳。陆抗死后，孙皓将其兵力分给五个儿子，各领一方，东吴西线防线从此支离破碎。晋武帝司马炎闻陆抗死讯，知灭吴时机已到，加紧了统一战争的准备。",
+    "participants": [
+      {
+        "person_id": "lu-kang",
+        "role": "受害者"
+      },
+      {
+        "person_id": "sun-hao",
+        "role": "参与者"
+      }
+    ],
+    "result": "东吴失去最后的名将，灭亡进入倒计时",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Kang_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "conquest-of-wu",
+    "name": "晋灭吴之战",
+    "year": 279,
+    "end_year": 280,
+    "location": "长江沿线",
+    "type": "battle",
+    "description": "279年冬，晋武帝司马炎发兵二十万，兵分六路大举伐吴。王濬率巴蜀水军沿长江顺流东下，杜预、王浑等分别从荆州、淮南方向进攻。东吴虽有二十三万军队，但因孙皓暴政导致人心离散，各地守将纷纷不战而降。王濬水军势如破竹，铁链横江等防御设施被轻松破除。280年三月，王濬大军抵达建业城下，孙皓仿效当年刘禅，面缚舆榇出降。三国时代至此终结，天下重归一统。从184年黄巾之乱到280年晋灭吴，近百年的战乱终于画上句号。",
+    "participants": [
+      {
+        "person_id": "sima-yan",
+        "role": "决策者"
+      },
+      {
+        "person_id": "du-yu",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "wang-jun",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "sun-hao",
+        "role": "受害者"
+      },
+      {
+        "person_id": "jia-chong",
+        "role": "参与者"
+      }
+    ],
+    "result": "东吴灭亡，三国时代终结，西晋统一天下",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Conquest_of_Wu_by_Jin"
+    ]
+  }
+]
