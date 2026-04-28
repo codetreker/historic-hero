@@ -9,10 +9,6 @@
     "description": "东汉末年，张角创立太平道，以\"苍天已死，黄天当立\"为口号，于184年发动大规模农民起义。黄巾军头裹黄巾，在全国各地同时起事，声势浩大。朝廷派皇甫嵩、朱儁、卢植等人率军镇压，曹操、刘备、孙坚等人也在此时崭露头角。起义虽被平定，但东汉朝廷威信大损，为平叛而下放军权给地方，导致群雄割据局面形成。",
     "participants": [
       {
-        "person_id": "zhang-jiao",
-        "role": "发起者"
-      },
-      {
         "person_id": "huangfu-song",
         "role": "指挥者"
       },
@@ -27,6 +23,10 @@
       {
         "person_id": "cao-cao",
         "role": "参与者"
+      },
+      {
+        "person_id": "zhang-jue",
+        "role": "发起者"
       }
     ],
     "result": "东汉朝廷镇压黄巾军，但威信大损，地方军阀崛起",
@@ -102,15 +102,15 @@
         "role": "发起者"
       },
       {
-        "person_id": "emperor-xian",
-        "role": "受害者"
-      },
-      {
-        "person_id": "lu-bu",
+        "person_id": "wang-yun",
         "role": "参与者"
       },
       {
-        "person_id": "wang-yun",
+        "person_id": "han-xiandi",
+        "role": "受害者"
+      },
+      {
+        "person_id": "lv-bu",
         "role": "参与者"
       }
     ],
@@ -133,7 +133,7 @@
         "role": "决策者"
       },
       {
-        "person_id": "emperor-xian",
+        "person_id": "han-xiandi",
         "role": "受害者"
       }
     ],
@@ -193,10 +193,6 @@
       {
         "person_id": "liu-biao",
         "role": "指挥者"
-      },
-      {
-        "person_id": "huang-zu",
-        "role": "指挥者"
       }
     ],
     "result": "孙坚战死，刘表稳固荆州",
@@ -226,7 +222,7 @@
         "role": "受害者"
       },
       {
-        "person_id": "lu-bu",
+        "person_id": "lv-bu",
         "role": "参与者"
       }
     ],
@@ -251,10 +247,6 @@
       {
         "person_id": "gongsun-zan",
         "role": "指挥者"
-      },
-      {
-        "person_id": "qu-yi",
-        "role": "参与者"
       }
     ],
     "result": "袁绍大胜，奠定冀州霸主地位",
@@ -276,12 +268,12 @@
         "role": "发起者"
       },
       {
-        "person_id": "lu-bu",
-        "role": "参与者"
-      },
-      {
         "person_id": "dong-zhuo",
         "role": "受害者"
+      },
+      {
+        "person_id": "lv-bu",
+        "role": "参与者"
       }
     ],
     "result": "董卓被杀，但长安随即陷入李傕郭汜之乱",
@@ -330,16 +322,12 @@
         "role": "指挥者"
       },
       {
-        "person_id": "lu-bu",
-        "role": "指挥者"
-      },
-      {
-        "person_id": "chen-gong",
-        "role": "参谋"
-      },
-      {
         "person_id": "xun-yu",
         "role": "参谋"
+      },
+      {
+        "person_id": "lv-bu",
+        "role": "指挥者"
       }
     ],
     "result": "曹操收复兖州，吕布败逃",
@@ -357,19 +345,11 @@
     "description": "195年，李傕与郭汜反目成仇，互相攻伐，长安大乱。汉献帝趁机在杨奉、董承等人护送下逃离长安东归洛阳。然而洛阳早已在董卓时期被焚毁，残破不堪，百官饥寒交迫，甚至有人饿死。朝廷名存实亡，天子流离失所。这一局面为曹操\"挟天子以令诸侯\"创造了绝佳机会。",
     "participants": [
       {
-        "person_id": "emperor-xian",
-        "role": "参与者"
-      },
-      {
-        "person_id": "yang-feng",
-        "role": "参与者"
-      },
-      {
-        "person_id": "dong-cheng",
-        "role": "参与者"
-      },
-      {
         "person_id": "li-jue",
+        "role": "参与者"
+      },
+      {
+        "person_id": "han-xiandi",
         "role": "参与者"
       }
     ],
@@ -419,12 +399,12 @@
         "role": "决策者"
       },
       {
-        "person_id": "emperor-xian",
-        "role": "受害者"
-      },
-      {
         "person_id": "xun-yu",
         "role": "参谋"
+      },
+      {
+        "person_id": "han-xiandi",
+        "role": "受害者"
       }
     ],
     "result": "曹操控制天子，获得巨大政治优势",
@@ -450,11 +430,11 @@
         "role": "参与者"
       },
       {
-        "person_id": "lu-bu",
+        "person_id": "sun-ce",
         "role": "参与者"
       },
       {
-        "person_id": "sun-ce",
+        "person_id": "lv-bu",
         "role": "参与者"
       }
     ],
@@ -474,10 +454,6 @@
     "participants": [
       {
         "person_id": "cao-cao",
-        "role": "指挥者"
-      },
-      {
-        "person_id": "zhang-xiu",
         "role": "指挥者"
       },
       {
@@ -512,12 +488,8 @@
         "role": "参与者"
       },
       {
-        "person_id": "lu-bu",
+        "person_id": "lv-bu",
         "role": "受害者"
-      },
-      {
-        "person_id": "chen-gong",
-        "role": "参与者"
       }
     ],
     "result": "吕布被擒杀，曹操占领徐州",
@@ -558,20 +530,16 @@
     "description": "建安四年（199年），汉献帝不甘做曹操的傀儡，秘密将讨伐曹操的诏书藏在衣带中，交给国舅董承。董承联络刘备、吉平等人密谋除曹。然而密谋败露，200年正月，曹操将董承及其同党全部处死。刘备此前已借故离开许昌前往徐州，得以幸免。衣带诏事件表明汉献帝试图夺回皇权的努力彻底失败，曹操对朝廷的控制更加严密。",
     "participants": [
       {
-        "person_id": "emperor-xian",
-        "role": "发起者"
-      },
-      {
-        "person_id": "dong-cheng",
-        "role": "参与者"
-      },
-      {
         "person_id": "liu-bei",
         "role": "参与者"
       },
       {
         "person_id": "cao-cao",
         "role": "参与者"
+      },
+      {
+        "person_id": "han-xiandi",
+        "role": "发起者"
       }
     ],
     "result": "密谋败露，董承等人被诛，曹操加强了对朝廷的控制",
@@ -926,15 +894,7 @@
         "role": "指挥者"
       },
       {
-        "person_id": "huang-zu",
-        "role": "受害者"
-      },
-      {
         "person_id": "gan-ning",
-        "role": "参与者"
-      },
-      {
-        "person_id": "lu-meng",
         "role": "参与者"
       }
     ],
@@ -1166,7 +1126,7 @@
         "role": "参与者"
       },
       {
-        "person_id": "emperor-xian",
+        "person_id": "han-xiandi",
         "role": "参与者"
       }
     ],
@@ -1321,10 +1281,6 @@
     "description": "219年冬，趁关羽主力北攻樊城，东吴大都督吕蒙策划了一次精妙的偷袭行动。吕蒙先称病让年轻的陆逊接替自己，麻痹关羽使其抽调荆州守军北上。随后吕蒙率精兵乔装商人白衣渡江，沿途收买关羽设置的烽火台守卒，兵不血刃占领荆州重镇南郡、公安。关羽闻讯回师，但部下家属已被东吴优待，军心涣散，将士纷纷投降。此役是三国时期最成功的战略奇袭之一。",
     "participants": [
       {
-        "person_id": "lu-meng",
-        "role": "指挥者"
-      },
-      {
         "person_id": "sun-quan",
         "role": "决策者"
       },
@@ -1356,7 +1312,7 @@
         "role": "发起者"
       },
       {
-        "person_id": "emperor-xian",
+        "person_id": "han-xiandi",
         "role": "受害者"
       }
     ],
@@ -1381,10 +1337,6 @@
       {
         "person_id": "sun-quan",
         "role": "决策者"
-      },
-      {
-        "person_id": "lu-meng",
-        "role": "参与者"
       }
     ],
     "result": "关羽父子被杀，蜀汉失去荆州，隆中对战略破产",
@@ -1424,10 +1376,6 @@
     "type": "death",
     "description": "220年，东吴大都督吕蒙在成功夺取荆州后不久便病逝，年仅四十二岁。吕蒙原为一介武夫，后在孙权勉励下发奋读书，有\"士别三日当刮目相待\"的典故。吕蒙是夺取荆州、擒杀关羽的首功之臣，但他的早逝使东吴失去了一位出色的统帅。有传说称吕蒙是被关羽英灵所索命，这一说法在《三国演义》中被大加渲染。吕蒙死后，陆逊接任大都督。",
     "participants": [
-      {
-        "person_id": "lu-meng",
-        "role": "受害者"
-      },
       {
         "person_id": "sun-quan",
         "role": "参与者"
@@ -1741,10 +1689,6 @@
         "role": "指挥者"
       },
       {
-        "person_id": "meng-da",
-        "role": "受害者"
-      },
-      {
         "person_id": "zhuge-liang",
         "role": "参与者"
       }
@@ -1803,10 +1747,6 @@
         "role": "指挥者"
       },
       {
-        "person_id": "zhou-fang",
-        "role": "参与者"
-      },
-      {
         "person_id": "cao-xiu",
         "role": "受害者"
       },
@@ -1831,10 +1771,6 @@
     "participants": [
       {
         "person_id": "zhuge-liang",
-        "role": "指挥者"
-      },
-      {
-        "person_id": "hao-zhao",
         "role": "指挥者"
       }
     ],
@@ -1878,10 +1814,6 @@
       {
         "person_id": "zhuge-liang",
         "role": "指挥者"
-      },
-      {
-        "person_id": "chen-shi",
-        "role": "参与者"
       },
       {
         "person_id": "guo-huai",
@@ -2048,10 +1980,6 @@
       {
         "person_id": "sima-yi",
         "role": "指挥者"
-      },
-      {
-        "person_id": "gongsun-yuan",
-        "role": "受害者"
       },
       {
         "person_id": "cao-rui",
@@ -2623,10 +2551,6 @@
       {
         "person_id": "yang-hu",
         "role": "参与者"
-      },
-      {
-        "person_id": "bu-chan",
-        "role": "受害者"
       }
     ],
     "result": "陆抗平定叛乱击退晋军，东吴最后的辉煌",
@@ -2690,6 +2614,2893 @@
     "result": "东吴灭亡，三国时代终结，西晋统一天下",
     "source_urls": [
       "https://en.wikipedia.org/wiki/Conquest_of_Wu_by_Jin"
+    ]
+  },
+  {
+    "id": "event-096",
+    "name": "颍川黄巾之战",
+    "year": 184,
+    "end_year": null,
+    "location": "颍川",
+    "type": "rebellion",
+    "description": "皇甫嵩、朱儁在颍川一带镇压波才等黄巾军，曹操亦率兵参与。",
+    "participants": [
+      {
+        "person_id": "huangfu-song",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhu-jun",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhang-jue",
+        "role": "起义领袖"
+      }
+    ],
+    "result": "黄巾主力在颍川受挫。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/颍川黄巾之战"
+    ]
+  },
+  {
+    "id": "event-097",
+    "name": "广宗之战",
+    "year": 184,
+    "end_year": null,
+    "location": "广宗",
+    "type": "rebellion",
+    "description": "东汉军围攻张角、张梁据守的广宗，是平定黄巾的核心战役之一。",
+    "participants": [
+      {
+        "person_id": "huangfu-song",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhang-jue",
+        "role": "起义领袖"
+      },
+      {
+        "person_id": "zhang-liang-yj",
+        "role": "守将"
+      }
+    ],
+    "result": "张角病死，张梁败亡。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/广宗之战"
+    ]
+  },
+  {
+    "id": "event-098",
+    "name": "下曲阳之战",
+    "year": 184,
+    "end_year": null,
+    "location": "下曲阳",
+    "type": "rebellion",
+    "description": "皇甫嵩继续进攻黄巾军，张宝所部被击破。",
+    "participants": [
+      {
+        "person_id": "huangfu-song",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "zhang-bao-yj",
+        "role": "守将"
+      }
+    ],
+    "result": "黄巾北方主力瓦解。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/下曲阳之战"
+    ]
+  },
+  {
+    "id": "event-099",
+    "name": "汝南黄巾余部活动",
+    "year": 185,
+    "end_year": 205,
+    "location": "汝南",
+    "type": "rebellion",
+    "description": "黄巾失败后各地余部长期活动，汝南、颍川一带成为群雄争夺区。",
+    "participants": [
+      {
+        "person_id": "gong-du",
+        "role": "黄巾余部"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "讨伐者"
+      }
+    ],
+    "result": "地方秩序长期动荡。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/汝南黄巾余部活动"
+    ]
+  },
+  {
+    "id": "event-100",
+    "name": "董卓入洛阳",
+    "year": 189,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "political",
+    "description": "何进被宦官杀害后，董卓率军入洛阳，控制朝廷。",
+    "participants": [
+      {
+        "person_id": "dong-zhuo",
+        "role": "掌权者"
+      },
+      {
+        "person_id": "he-jin",
+        "role": "被害者"
+      },
+      {
+        "person_id": "han-xiandi",
+        "role": "皇子"
+      }
+    ],
+    "result": "董卓掌控中央政权。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/董卓入洛阳"
+    ]
+  },
+  {
+    "id": "event-101",
+    "name": "废少帝立献帝",
+    "year": 189,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "succession",
+    "description": "董卓废黜少帝，改立刘协为汉献帝。",
+    "participants": [
+      {
+        "person_id": "dong-zhuo",
+        "role": "决策者"
+      },
+      {
+        "person_id": "han-xiandi",
+        "role": "继任者"
+      }
+    ],
+    "result": "汉献帝即位，董卓威权进一步扩张。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/废少帝立献帝"
+    ]
+  },
+  {
+    "id": "event-102",
+    "name": "迁都长安",
+    "year": 190,
+    "end_year": null,
+    "location": "长安",
+    "type": "political",
+    "description": "关东联军起兵后，董卓焚烧洛阳并迁都长安。",
+    "participants": [
+      {
+        "person_id": "dong-zhuo",
+        "role": "决策者"
+      },
+      {
+        "person_id": "li-ru",
+        "role": "谋士"
+      },
+      {
+        "person_id": "han-xiandi",
+        "role": "皇帝"
+      }
+    ],
+    "result": "洛阳残破，朝廷迁往长安。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/迁都长安"
+    ]
+  },
+  {
+    "id": "event-103",
+    "name": "孙坚入洛阳",
+    "year": 191,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "battle",
+    "description": "孙坚击退董卓军，进入被焚毁后的洛阳。",
+    "participants": [
+      {
+        "person_id": "sun-jian",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "dong-zhuo",
+        "role": "敌方统帅"
+      },
+      {
+        "person_id": "hua-xiong",
+        "role": "将领"
+      }
+    ],
+    "result": "孙坚声望上升，董卓退守关中。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙坚入洛阳"
+    ]
+  },
+  {
+    "id": "event-104",
+    "name": "王允诛董卓",
+    "year": 192,
+    "end_year": null,
+    "location": "长安",
+    "type": "political",
+    "description": "王允联合吕布发动宫廷政变，刺杀董卓。",
+    "participants": [
+      {
+        "person_id": "wang-yun",
+        "role": "策划者"
+      },
+      {
+        "person_id": "lv-bu",
+        "role": "执行者"
+      },
+      {
+        "person_id": "dong-zhuo",
+        "role": "被杀者"
+      }
+    ],
+    "result": "董卓身死，长安政局再度失控。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/王允诛董卓"
+    ]
+  },
+  {
+    "id": "event-105",
+    "name": "李傕郭汜攻长安",
+    "year": 192,
+    "end_year": null,
+    "location": "长安",
+    "type": "battle",
+    "description": "董卓旧部李傕、郭汜等攻入长安，击败王允。",
+    "participants": [
+      {
+        "person_id": "li-jue",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "guo-si",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "wang-yun",
+        "role": "被害者"
+      },
+      {
+        "person_id": "lv-bu",
+        "role": "败退者"
+      }
+    ],
+    "result": "董卓旧部重新控制朝廷。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/李傕郭汜攻长安"
+    ]
+  },
+  {
+    "id": "event-106",
+    "name": "献帝东归",
+    "year": 195,
+    "end_year": 196,
+    "location": "洛阳",
+    "type": "political",
+    "description": "汉献帝逃离李傕、郭汜控制，辗转东归洛阳。",
+    "participants": [
+      {
+        "person_id": "han-xiandi",
+        "role": "皇帝"
+      },
+      {
+        "person_id": "li-jue",
+        "role": "追击者"
+      },
+      {
+        "person_id": "guo-si",
+        "role": "追击者"
+      },
+      {
+        "person_id": "yang-biao",
+        "role": "护驾者"
+      }
+    ],
+    "result": "献帝脱离关中军阀控制。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/献帝东归"
+    ]
+  },
+  {
+    "id": "event-107",
+    "name": "曹操迎献帝",
+    "year": 196,
+    "end_year": null,
+    "location": "许县",
+    "type": "political",
+    "description": "曹操迎汉献帝至许县，形成挟天子以令诸侯的政治格局。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "主导者"
+      },
+      {
+        "person_id": "han-xiandi",
+        "role": "皇帝"
+      },
+      {
+        "person_id": "xun-yu",
+        "role": "谋划者"
+      }
+    ],
+    "result": "许都成为东汉末年政治中心。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹操迎献帝"
+    ]
+  },
+  {
+    "id": "event-108",
+    "name": "徐州让与刘备",
+    "year": 194,
+    "end_year": null,
+    "location": "徐州",
+    "type": "succession",
+    "description": "陶谦临终前让徐州于刘备，刘备由此成为一方牧守。",
+    "participants": [
+      {
+        "person_id": "tao-qian",
+        "role": "前任"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "继任者"
+      },
+      {
+        "person_id": "mi-zhu",
+        "role": "支持者"
+      }
+    ],
+    "result": "刘备取得徐州。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/徐州让与刘备"
+    ]
+  },
+  {
+    "id": "event-109",
+    "name": "吕布夺徐州",
+    "year": 196,
+    "end_year": null,
+    "location": "下邳",
+    "type": "political",
+    "description": "吕布乘刘备与袁术交战之机夺取徐州。",
+    "participants": [
+      {
+        "person_id": "lv-bu",
+        "role": "夺取者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "失地者"
+      },
+      {
+        "person_id": "zhang-fei",
+        "role": "守将"
+      }
+    ],
+    "result": "刘备失去徐州，被迫依附曹操。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布夺徐州"
+    ]
+  },
+  {
+    "id": "event-110",
+    "name": "延津之战",
+    "year": 200,
+    "end_year": null,
+    "location": "延津",
+    "type": "battle",
+    "description": "曹操在延津设伏击败袁绍军，文丑战死。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "wen-chou",
+        "role": "战死者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "敌方统帅"
+      }
+    ],
+    "result": "袁绍前锋受挫。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/延津之战"
+    ]
+  },
+  {
+    "id": "event-111",
+    "name": "乌巢之战",
+    "year": 200,
+    "end_year": null,
+    "location": "乌巢",
+    "type": "battle",
+    "description": "曹操夜袭乌巢，烧毁袁绍军粮。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "xu-you",
+        "role": "献策者"
+      },
+      {
+        "person_id": "chunyu-qiong",
+        "role": "守将"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "敌方统帅"
+      }
+    ],
+    "result": "袁绍军心崩溃，官渡局势逆转。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/乌巢之战"
+    ]
+  },
+  {
+    "id": "event-112",
+    "name": "仓亭之战",
+    "year": 201,
+    "end_year": null,
+    "location": "仓亭",
+    "type": "battle",
+    "description": "官渡之后曹操继续追击袁绍残部。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "敌方统帅"
+      }
+    ],
+    "result": "袁绍势力进一步削弱。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/仓亭之战"
+    ]
+  },
+  {
+    "id": "event-113",
+    "name": "黎阳之战",
+    "year": 202,
+    "end_year": 203,
+    "location": "黎阳",
+    "type": "battle",
+    "description": "曹操与袁谭、袁尚在黎阳交战。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "yuan-tan",
+        "role": "敌方"
+      },
+      {
+        "person_id": "yuan-shang",
+        "role": "敌方"
+      }
+    ],
+    "result": "袁氏兄弟退守冀州。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/黎阳之战"
+    ]
+  },
+  {
+    "id": "event-114",
+    "name": "南皮之战",
+    "year": 205,
+    "end_year": null,
+    "location": "南皮",
+    "type": "battle",
+    "description": "曹操攻灭袁谭。",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "yuan-tan",
+        "role": "败亡者"
+      }
+    ],
+    "result": "袁谭败亡，河北进一步归曹。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/南皮之战"
+    ]
+  },
+  {
+    "id": "event-115",
+    "name": "孙策遇刺",
+    "year": 200,
+    "end_year": null,
+    "location": "丹徒",
+    "type": "death",
+    "description": "孙策遭刺客袭击后伤重去世。",
+    "participants": [
+      {
+        "person_id": "sun-ce",
+        "role": "逝者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "继任者"
+      },
+      {
+        "person_id": "zhang-zhao",
+        "role": "托孤大臣"
+      }
+    ],
+    "result": "孙权继承江东。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙策遇刺"
+    ]
+  },
+  {
+    "id": "event-116",
+    "name": "赤壁孙刘结盟",
+    "year": 208,
+    "end_year": null,
+    "location": "柴桑",
+    "type": "diplomatic",
+    "description": "鲁肃、诸葛亮、周瑜推动孙刘联合抗曹。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "决策者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "盟友"
+      },
+      {
+        "person_id": "zhou-yu",
+        "role": "主战者"
+      },
+      {
+        "person_id": "lu-su",
+        "role": "斡旋者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "使者"
+      }
+    ],
+    "result": "孙刘联盟形成。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/赤壁孙刘结盟"
+    ]
+  },
+  {
+    "id": "event-117",
+    "name": "江陵之战",
+    "year": 208,
+    "end_year": 209,
+    "location": "江陵",
+    "type": "battle",
+    "description": "赤壁后周瑜进攻曹仁守卫的江陵。",
+    "participants": [
+      {
+        "person_id": "zhou-yu",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "cao-ren",
+        "role": "守将"
+      },
+      {
+        "person_id": "gan-ning",
+        "role": "参战者"
+      }
+    ],
+    "result": "孙权取得南郡。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/江陵之战"
+    ]
+  },
+  {
+    "id": "event-118",
+    "name": "雒城之战",
+    "year": 213,
+    "end_year": null,
+    "location": "雒城",
+    "type": "battle",
+    "description": "刘备军攻打刘璋重镇雒城，庞统中流矢身亡。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "统帅"
+      },
+      {
+        "person_id": "pang-tong",
+        "role": "战死者"
+      },
+      {
+        "person_id": "zhang-ren",
+        "role": "守将"
+      }
+    ],
+    "result": "刘备继续推进成都。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/雒城之战"
+    ]
+  },
+  {
+    "id": "event-119",
+    "name": "成都投降",
+    "year": 214,
+    "end_year": null,
+    "location": "成都",
+    "type": "succession",
+    "description": "刘璋向刘备投降，益州易主。",
+    "participants": [
+      {
+        "person_id": "liu-zhang",
+        "role": "前任"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "继任者"
+      },
+      {
+        "person_id": "fa-zheng",
+        "role": "谋臣"
+      }
+    ],
+    "result": "刘备取得益州。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/成都投降"
+    ]
+  },
+  {
+    "id": "event-120",
+    "name": "合肥之战",
+    "year": 215,
+    "end_year": null,
+    "location": "合肥",
+    "type": "battle",
+    "description": "张辽、李典、乐进在合肥击退孙权。",
+    "participants": [
+      {
+        "person_id": "zhang-liao",
+        "role": "指挥者"
+      },
+      {
+        "person_id": "li-dian",
+        "role": "参战者"
+      },
+      {
+        "person_id": "yue-jin",
+        "role": "参战者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "敌方统帅"
+      }
+    ],
+    "result": "孙权进攻合肥失败。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/合肥之战"
+    ]
+  },
+  {
+    "id": "event-121",
+    "name": "曹丕代汉",
+    "year": 220,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "succession",
+    "description": "曹丕逼迫汉献帝禅让，建立曹魏。",
+    "participants": [
+      {
+        "person_id": "cao-pi",
+        "role": "受禅者"
+      },
+      {
+        "person_id": "han-xiandi",
+        "role": "禅让者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "臣属"
+      }
+    ],
+    "result": "东汉正式灭亡，曹魏建立。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹丕代汉"
+    ]
+  },
+  {
+    "id": "event-122",
+    "name": "白帝城托孤",
+    "year": 223,
+    "end_year": null,
+    "location": "白帝城",
+    "type": "political",
+    "description": "刘备临终托孤诸葛亮、李严，刘禅继位。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "托孤者"
+      },
+      {
+        "person_id": "liu-shan",
+        "role": "继任者"
+      },
+      {
+        "person_id": "zhuge-liang",
+        "role": "辅政者"
+      },
+      {
+        "person_id": "li-yan",
+        "role": "辅政者"
+      }
+    ],
+    "result": "蜀汉进入诸葛亮辅政时期。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/白帝城托孤"
+    ]
+  },
+  {
+    "id": "event-123",
+    "name": "诸葛亮第五次北伐",
+    "year": 234,
+    "end_year": null,
+    "location": "五丈原",
+    "type": "battle",
+    "description": "诸葛亮率军驻五丈原，与司马懿长期对峙，病逝军中。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "统帅"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "魏方统帅"
+      },
+      {
+        "person_id": "wei-yan",
+        "role": "蜀将"
+      },
+      {
+        "person_id": "yang-yi",
+        "role": "撤军组织者"
+      }
+    ],
+    "result": "诸葛亮病逝，蜀军撤回。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/诸葛亮第五次北伐"
+    ]
+  },
+  {
+    "id": "event-124",
+    "name": "诸葛恪北伐",
+    "year": 253,
+    "end_year": null,
+    "location": "合肥新城",
+    "type": "battle",
+    "description": "诸葛恪率吴军大举攻魏，久攻不克。",
+    "participants": [
+      {
+        "person_id": "zhuge-ke",
+        "role": "统帅"
+      },
+      {
+        "person_id": "sun-liang",
+        "role": "皇帝"
+      },
+      {
+        "person_id": "zhang-te",
+        "role": "守将"
+      }
+    ],
+    "result": "吴军损失惨重，诸葛恪威望下降。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/诸葛恪北伐"
+    ]
+  },
+  {
+    "id": "event-125",
+    "name": "孙峻诛诸葛恪",
+    "year": 253,
+    "end_year": null,
+    "location": "建业",
+    "type": "political",
+    "description": "孙峻联合孙亮诛杀诸葛恪，接管吴国朝政。",
+    "participants": [
+      {
+        "person_id": "sun-jun",
+        "role": "发动者"
+      },
+      {
+        "person_id": "zhuge-ke",
+        "role": "被杀者"
+      },
+      {
+        "person_id": "sun-liang",
+        "role": "皇帝"
+      }
+    ],
+    "result": "孙峻掌权。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙峻诛诸葛恪"
+    ]
+  },
+  {
+    "id": "event-126",
+    "name": "毌丘俭文钦之乱",
+    "year": 255,
+    "end_year": null,
+    "location": "淮南",
+    "type": "rebellion",
+    "description": "毌丘俭、文钦起兵反对司马氏。",
+    "participants": [
+      {
+        "person_id": "guanqiu-jian",
+        "role": "叛乱者"
+      },
+      {
+        "person_id": "wen-qin",
+        "role": "叛乱者"
+      },
+      {
+        "person_id": "sima-shi",
+        "role": "镇压者"
+      },
+      {
+        "person_id": "wen-yang",
+        "role": "参战者"
+      }
+    ],
+    "result": "叛乱失败，文钦投吴。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/毌丘俭文钦之乱"
+    ]
+  },
+  {
+    "id": "event-127",
+    "name": "孙綝废孙亮",
+    "year": 258,
+    "end_year": null,
+    "location": "建业",
+    "type": "political",
+    "description": "孙綝废黜孙亮，改立孙休。",
+    "participants": [
+      {
+        "person_id": "sun-chen",
+        "role": "发动者"
+      },
+      {
+        "person_id": "sun-liang",
+        "role": "被废者"
+      },
+      {
+        "person_id": "sun-xiu",
+        "role": "继任者"
+      }
+    ],
+    "result": "孙休即位，孙綝权势达到顶点。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙綝废孙亮"
+    ]
+  },
+  {
+    "id": "event-128",
+    "name": "孙休诛孙綝",
+    "year": 258,
+    "end_year": null,
+    "location": "建业",
+    "type": "political",
+    "description": "孙休联合丁奉等诛杀孙綝。",
+    "participants": [
+      {
+        "person_id": "sun-xiu",
+        "role": "决策者"
+      },
+      {
+        "person_id": "sun-chen",
+        "role": "被杀者"
+      },
+      {
+        "person_id": "ding-feng",
+        "role": "执行者"
+      }
+    ],
+    "result": "孙綝势力被清除。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙休诛孙綝"
+    ]
+  },
+  {
+    "id": "event-129",
+    "name": "诸葛诞之乱",
+    "year": 257,
+    "end_year": 258,
+    "location": "寿春",
+    "type": "rebellion",
+    "description": "诸葛诞在寿春起兵反司马氏，并得到吴国援助。",
+    "participants": [
+      {
+        "person_id": "zhuge-dan",
+        "role": "叛乱者"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "镇压者"
+      },
+      {
+        "person_id": "wen-qin",
+        "role": "参战者"
+      },
+      {
+        "person_id": "zhuge-rong",
+        "role": "吴方将领"
+      }
+    ],
+    "result": "寿春被攻破，诸葛诞败亡。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/诸葛诞之乱"
+    ]
+  },
+  {
+    "id": "event-130",
+    "name": "曹髦讨司马昭",
+    "year": 260,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "political",
+    "description": "魏帝曹髦亲率左右讨伐司马昭，途中被贾充部下所杀。",
+    "participants": [
+      {
+        "person_id": "cao-mao",
+        "role": "皇帝"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "权臣"
+      },
+      {
+        "person_id": "jia-chong",
+        "role": "参与者"
+      }
+    ],
+    "result": "曹髦被杀，曹奂继位。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹髦讨司马昭"
+    ]
+  },
+  {
+    "id": "event-131",
+    "name": "姜维第一次北伐",
+    "year": 247,
+    "end_year": null,
+    "location": "陇西",
+    "type": "battle",
+    "description": "姜维随费祎限制下试探性出兵陇西。",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "统帅"
+      },
+      {
+        "person_id": "fei-yi",
+        "role": "制约者"
+      },
+      {
+        "person_id": "guo-huai",
+        "role": "魏将"
+      }
+    ],
+    "result": "蜀军未取得决定性成果。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/姜维第一次北伐"
+    ]
+  },
+  {
+    "id": "event-132",
+    "name": "姜维第二次北伐",
+    "year": 249,
+    "end_year": null,
+    "location": "麹山",
+    "type": "battle",
+    "description": "姜维筑城麹山进逼魏境，被郭淮、陈泰逼退。",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "统帅"
+      },
+      {
+        "person_id": "guo-huai",
+        "role": "魏将"
+      },
+      {
+        "person_id": "chen-tai",
+        "role": "魏将"
+      }
+    ],
+    "result": "麹山据点被魏军拔除。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/姜维第二次北伐"
+    ]
+  },
+  {
+    "id": "event-133",
+    "name": "姜维第三次北伐",
+    "year": 253,
+    "end_year": null,
+    "location": "南安",
+    "type": "battle",
+    "description": "费祎死后姜维加大北伐，围攻南安。",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "统帅"
+      },
+      {
+        "person_id": "chen-tai",
+        "role": "魏将"
+      },
+      {
+        "person_id": "xiahou-ba",
+        "role": "蜀将"
+      }
+    ],
+    "result": "蜀军因粮尽撤退。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/姜维第三次北伐"
+    ]
+  },
+  {
+    "id": "event-134",
+    "name": "姜维第四次北伐",
+    "year": 254,
+    "end_year": null,
+    "location": "狄道",
+    "type": "battle",
+    "description": "姜维攻魏陇西，迫使部分魏地降附。",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "统帅"
+      },
+      {
+        "person_id": "zhang-ni",
+        "role": "蜀将"
+      }
+    ],
+    "result": "蜀军取得局部胜利。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/姜维第四次北伐"
+    ]
+  },
+  {
+    "id": "event-135",
+    "name": "姜维第五次北伐",
+    "year": 255,
+    "end_year": null,
+    "location": "洮西",
+    "type": "battle",
+    "description": "姜维在洮西大破魏军，王经损失惨重。",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "统帅"
+      },
+      {
+        "person_id": "xiahou-ba",
+        "role": "蜀将"
+      },
+      {
+        "person_id": "chen-tai",
+        "role": "魏将"
+      }
+    ],
+    "result": "蜀汉取得姜维北伐最大胜利之一。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/姜维第五次北伐"
+    ]
+  },
+  {
+    "id": "event-136",
+    "name": "姜维段谷之败",
+    "year": 256,
+    "end_year": null,
+    "location": "段谷",
+    "type": "battle",
+    "description": "姜维与邓艾交战失利，蜀军损失严重。",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "统帅"
+      },
+      {
+        "person_id": "deng-ai",
+        "role": "魏将"
+      },
+      {
+        "person_id": "xiahou-ba",
+        "role": "蜀将"
+      }
+    ],
+    "result": "姜维威望受挫。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/姜维段谷之败"
+    ]
+  },
+  {
+    "id": "event-137",
+    "name": "姜维侯和之战",
+    "year": 262,
+    "end_year": null,
+    "location": "侯和",
+    "type": "battle",
+    "description": "姜维进攻魏境，在侯和被邓艾击退。",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "统帅"
+      },
+      {
+        "person_id": "deng-ai",
+        "role": "魏将"
+      },
+      {
+        "person_id": "liao-hua",
+        "role": "蜀将"
+      }
+    ],
+    "result": "蜀军撤回沓中。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/姜维侯和之战"
+    ]
+  },
+  {
+    "id": "event-138",
+    "name": "魏灭蜀战役",
+    "year": 263,
+    "end_year": null,
+    "location": "蜀地",
+    "type": "battle",
+    "description": "司马昭命邓艾、钟会、诸葛绪分路伐蜀。",
+    "participants": [
+      {
+        "person_id": "sima-zhao",
+        "role": "决策者"
+      },
+      {
+        "person_id": "deng-ai",
+        "role": "统帅"
+      },
+      {
+        "person_id": "zhong-hui",
+        "role": "统帅"
+      },
+      {
+        "person_id": "zhuge-xu",
+        "role": "统帅"
+      },
+      {
+        "person_id": "jiang-wei",
+        "role": "防御者"
+      }
+    ],
+    "result": "蜀汉覆灭。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/魏灭蜀战役"
+    ]
+  },
+  {
+    "id": "event-139",
+    "name": "剑阁对峙",
+    "year": 263,
+    "end_year": null,
+    "location": "剑阁",
+    "type": "battle",
+    "description": "姜维退守剑阁，阻挡钟会主力。",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "守将"
+      },
+      {
+        "person_id": "zhong-hui",
+        "role": "魏将"
+      },
+      {
+        "person_id": "liao-hua",
+        "role": "蜀将"
+      }
+    ],
+    "result": "钟会主力受阻，邓艾转走阴平。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/剑阁对峙"
+    ]
+  },
+  {
+    "id": "event-140",
+    "name": "邓艾偷渡阴平",
+    "year": 263,
+    "end_year": null,
+    "location": "阴平",
+    "type": "battle",
+    "description": "邓艾率军穿越阴平险道，直趋成都。",
+    "participants": [
+      {
+        "person_id": "deng-ai",
+        "role": "统帅"
+      },
+      {
+        "person_id": "zhuge-zhan",
+        "role": "抵抗者"
+      },
+      {
+        "person_id": "fu-qian",
+        "role": "参战者"
+      }
+    ],
+    "result": "魏军突破蜀汉后方防线。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/邓艾偷渡阴平"
+    ]
+  },
+  {
+    "id": "event-141",
+    "name": "刘禅降魏",
+    "year": 263,
+    "end_year": null,
+    "location": "成都",
+    "type": "succession",
+    "description": "邓艾兵临成都，刘禅出降。",
+    "participants": [
+      {
+        "person_id": "liu-shan",
+        "role": "降者"
+      },
+      {
+        "person_id": "deng-ai",
+        "role": "受降者"
+      },
+      {
+        "person_id": "qiao-zhou",
+        "role": "劝降者"
+      }
+    ],
+    "result": "蜀汉灭亡。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘禅降魏"
+    ]
+  },
+  {
+    "id": "event-142",
+    "name": "钟会姜维之乱",
+    "year": 264,
+    "end_year": null,
+    "location": "成都",
+    "type": "rebellion",
+    "description": "钟会与姜维试图据蜀反叛司马昭，旋即失败。",
+    "participants": [
+      {
+        "person_id": "zhong-hui",
+        "role": "叛乱者"
+      },
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "deng-ai",
+        "role": "被害者"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "平定者"
+      }
+    ],
+    "result": "钟会、姜维败亡。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/钟会姜维之乱"
+    ]
+  },
+  {
+    "id": "event-143",
+    "name": "司马炎代魏",
+    "year": 265,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "succession",
+    "description": "司马炎接受曹奂禅让，建立西晋。",
+    "participants": [
+      {
+        "person_id": "sima-yan",
+        "role": "受禅者"
+      },
+      {
+        "person_id": "cao-huan",
+        "role": "禅让者"
+      },
+      {
+        "person_id": "jia-chong",
+        "role": "重臣"
+      }
+    ],
+    "result": "曹魏灭亡，西晋建立。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/司马炎代魏"
+    ]
+  },
+  {
+    "id": "event-144",
+    "name": "羊祜镇襄阳",
+    "year": 269,
+    "end_year": 278,
+    "location": "襄阳",
+    "type": "political",
+    "description": "羊祜镇守荆州，长期经营伐吴战略。",
+    "participants": [
+      {
+        "person_id": "yang-hu",
+        "role": "镇守者"
+      },
+      {
+        "person_id": "lu-kang",
+        "role": "吴方对手"
+      },
+      {
+        "person_id": "sima-yan",
+        "role": "君主"
+      }
+    ],
+    "result": "晋吴边境态势向晋方倾斜。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/羊祜镇襄阳"
+    ]
+  },
+  {
+    "id": "event-145",
+    "name": "陆抗守西陵",
+    "year": 272,
+    "end_year": null,
+    "location": "西陵",
+    "type": "battle",
+    "description": "陆抗击败晋军并处理步阐叛吴事件。",
+    "participants": [
+      {
+        "person_id": "lu-kang",
+        "role": "吴方统帅"
+      },
+      {
+        "person_id": "yang-hu",
+        "role": "晋方统帅"
+      },
+      {
+        "person_id": "sun-hao",
+        "role": "吴帝"
+      }
+    ],
+    "result": "孙吴暂时稳定西陵防线。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/陆抗守西陵"
+    ]
+  },
+  {
+    "id": "event-146",
+    "name": "晋伐吴六路进军",
+    "year": 279,
+    "end_year": null,
+    "location": "长江沿线",
+    "type": "battle",
+    "description": "晋武帝发动灭吴总攻，王濬、杜预等分路进军。",
+    "participants": [
+      {
+        "person_id": "sima-yan",
+        "role": "决策者"
+      },
+      {
+        "person_id": "du-yu",
+        "role": "统帅"
+      },
+      {
+        "person_id": "wang-jun",
+        "role": "水军统帅"
+      },
+      {
+        "person_id": "jia-chong",
+        "role": "大都督"
+      },
+      {
+        "person_id": "sun-hao",
+        "role": "防御方"
+      }
+    ],
+    "result": "晋军全线压迫吴国。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/晋伐吴六路进军"
+    ]
+  },
+  {
+    "id": "event-147",
+    "name": "王濬楼船下益州",
+    "year": 279,
+    "end_year": 280,
+    "location": "长江上游",
+    "type": "battle",
+    "description": "王濬率楼船水师自益州顺流东下。",
+    "participants": [
+      {
+        "person_id": "wang-jun",
+        "role": "统帅"
+      },
+      {
+        "person_id": "du-yu",
+        "role": "协同者"
+      },
+      {
+        "person_id": "sun-hao",
+        "role": "敌方君主"
+      }
+    ],
+    "result": "晋军突破长江防线。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/王濬楼船下益州"
+    ]
+  },
+  {
+    "id": "event-148",
+    "name": "杜预取江陵",
+    "year": 280,
+    "end_year": null,
+    "location": "江陵",
+    "type": "battle",
+    "description": "杜预在荆州方向攻取江陵等地。",
+    "participants": [
+      {
+        "person_id": "du-yu",
+        "role": "统帅"
+      },
+      {
+        "person_id": "sima-yan",
+        "role": "君主"
+      },
+      {
+        "person_id": "sun-hao",
+        "role": "敌方君主"
+      }
+    ],
+    "result": "晋军打开荆州通道。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/杜预取江陵"
+    ]
+  },
+  {
+    "id": "event-149",
+    "name": "孙皓出降",
+    "year": 280,
+    "end_year": null,
+    "location": "建业",
+    "type": "succession",
+    "description": "王濬军至建业，孙皓出降。",
+    "participants": [
+      {
+        "person_id": "sun-hao",
+        "role": "降者"
+      },
+      {
+        "person_id": "wang-jun",
+        "role": "受降者"
+      },
+      {
+        "person_id": "sima-yan",
+        "role": "晋帝"
+      }
+    ],
+    "result": "孙吴灭亡，西晋统一。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙皓出降"
+    ]
+  },
+  {
+    "id": "event-150",
+    "name": "曹叡继位",
+    "year": 226,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "succession",
+    "description": "曹丕退场后，曹叡取得或承继政治地位。",
+    "participants": [
+      {
+        "person_id": "cao-pi",
+        "role": "前任"
+      },
+      {
+        "person_id": "cao-rui",
+        "role": "继任者"
+      }
+    ],
+    "result": "曹魏进入明帝时期。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹叡继位"
+    ]
+  },
+  {
+    "id": "event-151",
+    "name": "曹芳继位",
+    "year": 239,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "succession",
+    "description": "曹叡退场后，曹芳取得或承继政治地位。",
+    "participants": [
+      {
+        "person_id": "cao-rui",
+        "role": "前任"
+      },
+      {
+        "person_id": "cao-fang",
+        "role": "继任者"
+      }
+    ],
+    "result": "曹爽、司马懿辅政。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹芳继位"
+    ]
+  },
+  {
+    "id": "event-152",
+    "name": "曹芳被废",
+    "year": 254,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "succession",
+    "description": "曹芳退场后，曹髦取得或承继政治地位。",
+    "participants": [
+      {
+        "person_id": "cao-fang",
+        "role": "前任"
+      },
+      {
+        "person_id": "cao-mao",
+        "role": "继任者"
+      }
+    ],
+    "result": "司马师废曹芳，改立曹髦。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹芳被废"
+    ]
+  },
+  {
+    "id": "event-153",
+    "name": "曹奂继位",
+    "year": 260,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "succession",
+    "description": "曹髦退场后，曹奂取得或承继政治地位。",
+    "participants": [
+      {
+        "person_id": "cao-mao",
+        "role": "前任"
+      },
+      {
+        "person_id": "cao-huan",
+        "role": "继任者"
+      }
+    ],
+    "result": "曹奂成为曹魏末代皇帝。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹奂继位"
+    ]
+  },
+  {
+    "id": "event-154",
+    "name": "刘禅继位",
+    "year": 223,
+    "end_year": null,
+    "location": "成都",
+    "type": "succession",
+    "description": "刘备退场后，刘禅取得或承继政治地位。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "前任"
+      },
+      {
+        "person_id": "liu-shan",
+        "role": "继任者"
+      }
+    ],
+    "result": "蜀汉进入后主时期。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘禅继位"
+    ]
+  },
+  {
+    "id": "event-155",
+    "name": "孙亮继位",
+    "year": 252,
+    "end_year": null,
+    "location": "建业",
+    "type": "succession",
+    "description": "孙权退场后，孙亮取得或承继政治地位。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "前任"
+      },
+      {
+        "person_id": "sun-liang",
+        "role": "继任者"
+      }
+    ],
+    "result": "诸葛恪辅政。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙亮继位"
+    ]
+  },
+  {
+    "id": "event-156",
+    "name": "孙休继位",
+    "year": 258,
+    "end_year": null,
+    "location": "建业",
+    "type": "succession",
+    "description": "孙亮退场后，孙休取得或承继政治地位。",
+    "participants": [
+      {
+        "person_id": "sun-liang",
+        "role": "前任"
+      },
+      {
+        "person_id": "sun-xiu",
+        "role": "继任者"
+      }
+    ],
+    "result": "孙休继位后清除孙綝。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙休继位"
+    ]
+  },
+  {
+    "id": "event-157",
+    "name": "孙皓继位",
+    "year": 264,
+    "end_year": null,
+    "location": "建业",
+    "type": "succession",
+    "description": "孙休退场后，孙皓取得或承继政治地位。",
+    "participants": [
+      {
+        "person_id": "sun-xiu",
+        "role": "前任"
+      },
+      {
+        "person_id": "sun-hao",
+        "role": "继任者"
+      }
+    ],
+    "result": "孙吴进入末期。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙皓继位"
+    ]
+  },
+  {
+    "id": "event-158",
+    "name": "司马师继掌魏政",
+    "year": 251,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "succession",
+    "description": "司马懿退场后，司马师取得或承继政治地位。",
+    "participants": [
+      {
+        "person_id": "sima-yi",
+        "role": "前任"
+      },
+      {
+        "person_id": "sima-shi",
+        "role": "继任者"
+      }
+    ],
+    "result": "司马师继续控制曹魏军政。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/司马师继掌魏政"
+    ]
+  },
+  {
+    "id": "event-159",
+    "name": "司马昭继掌魏政",
+    "year": 255,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "succession",
+    "description": "司马师退场后，司马昭取得或承继政治地位。",
+    "participants": [
+      {
+        "person_id": "sima-shi",
+        "role": "前任"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "继任者"
+      }
+    ],
+    "result": "司马昭掌握曹魏实权。",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/司马昭继掌魏政"
+    ]
+  },
+  {
+    "id": "event-160",
+    "name": "何进之死",
+    "year": 189,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "何进谋诛宦官未果，被张让等十常侍杀害。",
+    "participants": [
+      {
+        "person_id": "he-jin",
+        "role": "逝者"
+      }
+    ],
+    "result": "何进去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/何进"
+    ]
+  },
+  {
+    "id": "event-161",
+    "name": "王允之死",
+    "year": 192,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "李傕、郭汜攻入长安后，王允被杀。",
+    "participants": [
+      {
+        "person_id": "wang-yun",
+        "role": "逝者"
+      }
+    ],
+    "result": "王允去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/王允"
+    ]
+  },
+  {
+    "id": "event-162",
+    "name": "孙坚之死",
+    "year": 191,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "孙坚进攻刘表时中伏身亡。",
+    "participants": [
+      {
+        "person_id": "sun-jian",
+        "role": "逝者"
+      }
+    ],
+    "result": "孙坚去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙坚"
+    ]
+  },
+  {
+    "id": "event-163",
+    "name": "陶谦之死",
+    "year": 194,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "陶谦去世前将徐州让与刘备。",
+    "participants": [
+      {
+        "person_id": "tao-qian",
+        "role": "逝者"
+      }
+    ],
+    "result": "陶谦去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/陶谦"
+    ]
+  },
+  {
+    "id": "event-164",
+    "name": "吕布之死",
+    "year": 199,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "吕布在下邳被曹操击败后处死。",
+    "participants": [
+      {
+        "person_id": "lv-bu",
+        "role": "逝者"
+      }
+    ],
+    "result": "吕布去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吕布"
+    ]
+  },
+  {
+    "id": "event-165",
+    "name": "袁术之死",
+    "year": 199,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "袁术称帝失败后病死。",
+    "participants": [
+      {
+        "person_id": "yuan-shu",
+        "role": "逝者"
+      }
+    ],
+    "result": "袁术去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/袁术"
+    ]
+  },
+  {
+    "id": "event-166",
+    "name": "刘表之死",
+    "year": 208,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "刘表去世后荆州继承危机爆发。",
+    "participants": [
+      {
+        "person_id": "liu-biao",
+        "role": "逝者"
+      }
+    ],
+    "result": "刘表去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘表"
+    ]
+  },
+  {
+    "id": "event-167",
+    "name": "夏侯渊之死",
+    "year": 219,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "夏侯渊在定军山被黄忠击杀。",
+    "participants": [
+      {
+        "person_id": "xiahou-yuan",
+        "role": "逝者"
+      }
+    ],
+    "result": "夏侯渊去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/夏侯渊"
+    ]
+  },
+  {
+    "id": "event-168",
+    "name": "关羽之死",
+    "year": 219,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "关羽失荆州后败走麦城，被孙权方面擒杀。",
+    "participants": [
+      {
+        "person_id": "guan-yu",
+        "role": "逝者"
+      }
+    ],
+    "result": "关羽去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/关羽"
+    ]
+  },
+  {
+    "id": "event-169",
+    "name": "刘备之死",
+    "year": 223,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "刘备夷陵战败后病逝白帝城。",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "逝者"
+      }
+    ],
+    "result": "刘备去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘备"
+    ]
+  },
+  {
+    "id": "event-170",
+    "name": "曹丕之死",
+    "year": 226,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "曹丕去世，曹叡继位。",
+    "participants": [
+      {
+        "person_id": "cao-pi",
+        "role": "逝者"
+      }
+    ],
+    "result": "曹丕去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹丕"
+    ]
+  },
+  {
+    "id": "event-171",
+    "name": "赵云之死",
+    "year": 229,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "赵云去世。",
+    "participants": [
+      {
+        "person_id": "zhao-yun",
+        "role": "逝者"
+      }
+    ],
+    "result": "赵云去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/赵云"
+    ]
+  },
+  {
+    "id": "event-172",
+    "name": "曹真之死",
+    "year": 231,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "曹真去世后，司马懿逐渐承担西线防务。",
+    "participants": [
+      {
+        "person_id": "cao-zhen",
+        "role": "逝者"
+      }
+    ],
+    "result": "曹真去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹真"
+    ]
+  },
+  {
+    "id": "event-173",
+    "name": "诸葛亮之死",
+    "year": 234,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "诸葛亮第五次北伐期间病逝五丈原。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "逝者"
+      }
+    ],
+    "result": "诸葛亮去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/诸葛亮"
+    ]
+  },
+  {
+    "id": "event-174",
+    "name": "蒋琬之死",
+    "year": 246,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "蒋琬去世，蜀汉政务由费祎等继续主持。",
+    "participants": [
+      {
+        "person_id": "jiang-wan",
+        "role": "逝者"
+      }
+    ],
+    "result": "蒋琬去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/蒋琬"
+    ]
+  },
+  {
+    "id": "event-175",
+    "name": "曹爽之死",
+    "year": 249,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "高平陵之变后曹爽被司马懿诛杀。",
+    "participants": [
+      {
+        "person_id": "cao-shuang",
+        "role": "逝者"
+      }
+    ],
+    "result": "曹爽去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹爽"
+    ]
+  },
+  {
+    "id": "event-176",
+    "name": "费祎之死",
+    "year": 253,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "费祎在宴会中遇刺身亡。",
+    "participants": [
+      {
+        "person_id": "fei-yi",
+        "role": "逝者"
+      }
+    ],
+    "result": "费祎去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/费祎"
+    ]
+  },
+  {
+    "id": "event-177",
+    "name": "孙峻之死",
+    "year": 256,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "孙峻掌权数年后病死。",
+    "participants": [
+      {
+        "person_id": "sun-jun",
+        "role": "逝者"
+      }
+    ],
+    "result": "孙峻去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙峻"
+    ]
+  },
+  {
+    "id": "event-178",
+    "name": "曹髦之死",
+    "year": 260,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "曹髦讨伐司马昭失败，被贾充部下所杀。",
+    "participants": [
+      {
+        "person_id": "cao-mao",
+        "role": "逝者"
+      }
+    ],
+    "result": "曹髦去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹髦"
+    ]
+  },
+  {
+    "id": "event-179",
+    "name": "姜维之死",
+    "year": 264,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "姜维参与钟会之乱失败后被杀。",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "逝者"
+      }
+    ],
+    "result": "姜维去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/姜维"
+    ]
+  },
+  {
+    "id": "event-180",
+    "name": "钟会之死",
+    "year": 264,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "钟会反叛司马昭失败，被乱兵所杀。",
+    "participants": [
+      {
+        "person_id": "zhong-hui",
+        "role": "逝者"
+      }
+    ],
+    "result": "钟会去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/钟会"
+    ]
+  },
+  {
+    "id": "event-181",
+    "name": "司马昭之死",
+    "year": 265,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "司马昭去世，司马炎继承晋王。",
+    "participants": [
+      {
+        "person_id": "sima-zhao",
+        "role": "逝者"
+      }
+    ],
+    "result": "司马昭去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/司马昭"
+    ]
+  },
+  {
+    "id": "event-182",
+    "name": "羊祜之死",
+    "year": 278,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "羊祜去世前后，灭吴战略逐步成熟。",
+    "participants": [
+      {
+        "person_id": "yang-hu",
+        "role": "逝者"
+      }
+    ],
+    "result": "羊祜去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/羊祜"
+    ]
+  },
+  {
+    "id": "event-183",
+    "name": "孙皓之死",
+    "year": 284,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "孙皓降晋后数年去世。",
+    "participants": [
+      {
+        "person_id": "sun-hao",
+        "role": "逝者"
+      }
+    ],
+    "result": "孙皓去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙皓"
+    ]
+  },
+  {
+    "id": "event-184",
+    "name": "张宝之死",
+    "year": 184,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "张宝于184年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "zhang-bao-yj",
+        "role": "逝者"
+      }
+    ],
+    "result": "张宝去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张宝"
+    ]
+  },
+  {
+    "id": "event-185",
+    "name": "张角之死",
+    "year": 184,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "张角于184年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "zhang-jue",
+        "role": "逝者"
+      }
+    ],
+    "result": "张角去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张角"
+    ]
+  },
+  {
+    "id": "event-186",
+    "name": "张梁之死",
+    "year": 184,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "张梁于184年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "zhang-liang-yj",
+        "role": "逝者"
+      }
+    ],
+    "result": "张梁去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张梁"
+    ]
+  },
+  {
+    "id": "event-187",
+    "name": "段珪之死",
+    "year": 189,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "段珪于189年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "duan-gui",
+        "role": "逝者"
+      }
+    ],
+    "result": "段珪去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/段珪"
+    ]
+  },
+  {
+    "id": "event-188",
+    "name": "汉灵帝之死",
+    "year": 189,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "汉灵帝于189年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "han-lingdi",
+        "role": "逝者"
+      }
+    ],
+    "result": "汉灵帝去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/汉灵帝"
+    ]
+  },
+  {
+    "id": "event-189",
+    "name": "何太后之死",
+    "year": 189,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "何太后于189年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "he-taihou",
+        "role": "逝者"
+      }
+    ],
+    "result": "何太后去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/何太后"
+    ]
+  },
+  {
+    "id": "event-190",
+    "name": "张让之死",
+    "year": 189,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "张让于189年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "zhang-rang",
+        "role": "逝者"
+      }
+    ],
+    "result": "张让去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张让"
+    ]
+  },
+  {
+    "id": "event-191",
+    "name": "赵忠之死",
+    "year": 189,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "赵忠于189年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "zhao-zhong",
+        "role": "逝者"
+      }
+    ],
+    "result": "赵忠去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/赵忠"
+    ]
+  },
+  {
+    "id": "event-192",
+    "name": "华雄之死",
+    "year": 191,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "华雄于191年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "hua-xiong",
+        "role": "逝者"
+      }
+    ],
+    "result": "华雄去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/华雄"
+    ]
+  },
+  {
+    "id": "event-193",
+    "name": "蔡邕之死",
+    "year": 192,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "蔡邕于192年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "cai-yong",
+        "role": "逝者"
+      }
+    ],
+    "result": "蔡邕去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/蔡邕"
+    ]
+  },
+  {
+    "id": "event-194",
+    "name": "卢植之死",
+    "year": 192,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "卢植于192年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "lu-zhi",
+        "role": "逝者"
+      }
+    ],
+    "result": "卢植去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/卢植"
+    ]
+  },
+  {
+    "id": "event-195",
+    "name": "牛辅之死",
+    "year": 192,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "牛辅于192年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "niu-fu",
+        "role": "逝者"
+      }
+    ],
+    "result": "牛辅去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/牛辅"
+    ]
+  },
+  {
+    "id": "event-196",
+    "name": "徐荣之死",
+    "year": 192,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "徐荣于192年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "xu-rong",
+        "role": "逝者"
+      }
+    ],
+    "result": "徐荣去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/徐荣"
+    ]
+  },
+  {
+    "id": "event-197",
+    "name": "曹嵩之死",
+    "year": 193,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "曹嵩于193年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "cao-song",
+        "role": "逝者"
+      }
+    ],
+    "result": "曹嵩去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹嵩"
+    ]
+  },
+  {
+    "id": "event-198",
+    "name": "皇甫嵩之死",
+    "year": 195,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "皇甫嵩于195年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "huangfu-song",
+        "role": "逝者"
+      }
+    ],
+    "result": "皇甫嵩去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/皇甫嵩"
+    ]
+  },
+  {
+    "id": "event-199",
+    "name": "朱儁之死",
+    "year": 195,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "朱儁于195年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "zhu-jun",
+        "role": "逝者"
+      }
+    ],
+    "result": "朱儁去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/朱儁"
+    ]
+  },
+  {
+    "id": "event-200",
+    "name": "张济之死",
+    "year": 196,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "张济于196年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "zhang-ji",
+        "role": "逝者"
+      }
+    ],
+    "result": "张济去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/张济"
+    ]
+  },
+  {
+    "id": "event-201",
+    "name": "曹昂之死",
+    "year": 197,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "曹昂于197年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "cao-ang",
+        "role": "逝者"
+      }
+    ],
+    "result": "曹昂去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/曹昂"
+    ]
+  },
+  {
+    "id": "event-202",
+    "name": "典韦之死",
+    "year": 197,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "典韦于197年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "dian-wei",
+        "role": "逝者"
+      }
+    ],
+    "result": "典韦去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/典韦"
+    ]
+  },
+  {
+    "id": "event-203",
+    "name": "郭汜之死",
+    "year": 197,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "郭汜于197年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "guo-si",
+        "role": "逝者"
+      }
+    ],
+    "result": "郭汜去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/郭汜"
+    ]
+  },
+  {
+    "id": "event-204",
+    "name": "刘繇之死",
+    "year": 197,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "刘繇于197年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "liu-yao",
+        "role": "逝者"
+      }
+    ],
+    "result": "刘繇去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/刘繇"
+    ]
+  },
+  {
+    "id": "event-205",
+    "name": "李傕之死",
+    "year": 198,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "李傕于198年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "li-jue",
+        "role": "逝者"
+      }
+    ],
+    "result": "李傕去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/李傕"
+    ]
+  },
+  {
+    "id": "event-206",
+    "name": "公孙瓒之死",
+    "year": 199,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "公孙瓒于199年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "gongsun-zan",
+        "role": "逝者"
+      }
+    ],
+    "result": "公孙瓒去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/公孙瓒"
+    ]
+  },
+  {
+    "id": "event-207",
+    "name": "纪灵之死",
+    "year": 199,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "纪灵于199年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "ji-ling",
+        "role": "逝者"
+      }
+    ],
+    "result": "纪灵去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/纪灵"
+    ]
+  },
+  {
+    "id": "event-208",
+    "name": "淳于琼之死",
+    "year": 200,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "淳于琼于200年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "chunyu-qiong",
+        "role": "逝者"
+      }
+    ],
+    "result": "淳于琼去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/淳于琼"
+    ]
+  },
+  {
+    "id": "event-209",
+    "name": "沮授之死",
+    "year": 200,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "沮授于200年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "ju-shou",
+        "role": "逝者"
+      }
+    ],
+    "result": "沮授去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/沮授"
+    ]
+  },
+  {
+    "id": "event-210",
+    "name": "田丰之死",
+    "year": 200,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "田丰于200年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "tian-feng",
+        "role": "逝者"
+      }
+    ],
+    "result": "田丰去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/田丰"
+    ]
+  },
+  {
+    "id": "event-211",
+    "name": "文丑之死",
+    "year": 200,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "文丑于200年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "wen-chou",
+        "role": "逝者"
+      }
+    ],
+    "result": "文丑去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/文丑"
+    ]
+  },
+  {
+    "id": "event-212",
+    "name": "颜良之死",
+    "year": 200,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "颜良于200年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "yan-liang",
+        "role": "逝者"
+      }
+    ],
+    "result": "颜良去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/颜良"
+    ]
+  },
+  {
+    "id": "event-213",
+    "name": "逢纪之死",
+    "year": 202,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "逢纪于202年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "feng-ji",
+        "role": "逝者"
+      }
+    ],
+    "result": "逢纪去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/逢纪"
+    ]
+  },
+  {
+    "id": "event-214",
+    "name": "凌操之死",
+    "year": 203,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "凌操于203年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "ling-cao",
+        "role": "逝者"
+      }
+    ],
+    "result": "凌操去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/凌操"
+    ]
+  },
+  {
+    "id": "event-215",
+    "name": "吴景之死",
+    "year": 203,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "吴景于203年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "wu-jing",
+        "role": "逝者"
+      }
+    ],
+    "result": "吴景去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/吴景"
+    ]
+  },
+  {
+    "id": "event-216",
+    "name": "公孙度之死",
+    "year": 204,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "公孙度于204年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "gongsun-du",
+        "role": "逝者"
+      }
+    ],
+    "result": "公孙度去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/公孙度"
+    ]
+  },
+  {
+    "id": "event-217",
+    "name": "审配之死",
+    "year": 204,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "审配于204年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "shen-pei",
+        "role": "逝者"
+      }
+    ],
+    "result": "审配去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/审配"
+    ]
+  },
+  {
+    "id": "event-218",
+    "name": "孙河之死",
+    "year": 204,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "孙河于204年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "sun-he-bohai",
+        "role": "逝者"
+      }
+    ],
+    "result": "孙河去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙河"
+    ]
+  },
+  {
+    "id": "event-219",
+    "name": "孙翊之死",
+    "year": 204,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "孙翊于204年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "sun-yi",
+        "role": "逝者"
+      }
+    ],
+    "result": "孙翊去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/孙翊"
+    ]
+  },
+  {
+    "id": "event-220",
+    "name": "许攸之死",
+    "year": 204,
+    "end_year": null,
+    "location": "三国各地",
+    "type": "death",
+    "description": "许攸于204年前后去世，其生涯属于三国历史人物谱系的一部分。",
+    "participants": [
+      {
+        "person_id": "xu-you",
+        "role": "逝者"
+      }
+    ],
+    "result": "许攸去世，相关势力格局随之变化",
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/许攸"
     ]
   }
 ]
