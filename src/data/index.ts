@@ -41,6 +41,29 @@ persons.forEach(p => {
 export const relTypeCounts: Record<string, number> = {};
 relationships.forEach(r => { relTypeCounts[r.type] = (relTypeCounts[r.type] || 0) + 1; });
 
+export const factionStats: Record<Faction, { count: number; topPersons: Person[] }> = {} as any;
+(Object.keys(factionCounts) as Faction[]).forEach(f => {
+  const factionPersons = persons.filter(p => p.faction === f);
+  const sorted = [...factionPersons].sort((a, b) => (degreeMap[b.id] || 0) - (degreeMap[a.id] || 0));
+  factionStats[f] = { count: factionPersons.length, topPersons: sorted.slice(0, 30) };
+});
+
+export const crossFactionRels: { source: Faction; target: Faction; count: number }[] = [];
+{
+  const pairCount: Record<string, number> = {};
+  relationships.forEach(r => {
+    const sf = personMap[r.source]?.faction;
+    const tf = personMap[r.target]?.faction;
+    if (!sf || !tf || sf === tf) return;
+    const key = [sf, tf].sort().join('-');
+    pairCount[key] = (pairCount[key] || 0) + 1;
+  });
+  Object.entries(pairCount).forEach(([key, count]) => {
+    const [s, t] = key.split('-') as [Faction, Faction];
+    crossFactionRels.push({ source: s, target: t, count });
+  });
+}
+
 export interface SearchEntry {
   id: string;
   name: string;

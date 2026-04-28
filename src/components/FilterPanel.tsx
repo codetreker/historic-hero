@@ -27,6 +27,8 @@ const REL_TYPE_LABELS: Record<RelationType, string> = {
 export default function FilterPanel() {
   const { state, dispatch } = useApp();
 
+  const isOverview = state.viewMode === 'overview';
+
   const factionOptions = (Object.keys(FACTION_CONFIG) as Faction[]).map(f => ({
     label: (
       <span>
@@ -92,20 +94,28 @@ export default function FilterPanel() {
 
   return (
     <div style={{ height: '100%', overflow: 'auto', padding: '12px 0' }}>
-      <Collapse
-        defaultActiveKey={['faction', 'role', 'relType']}
-        ghost
-        items={items}
-      />
-      <Space style={{ padding: '12px 16px' }}>
-        <Button
-          size="small"
-          icon={<ClearOutlined />}
-          onClick={() => dispatch({ type: 'CLEAR_FILTERS' })}
-        >
-          清除所有过滤
-        </Button>
-      </Space>
+      {isOverview ? (
+        <div style={{ padding: '24px 16px', color: '#999', textAlign: 'center' }}>
+          点击阵营节点查看详情
+        </div>
+      ) : (
+        <>
+          <Collapse
+            defaultActiveKey={['faction', 'role', 'relType']}
+            ghost
+            items={items}
+          />
+          <Space style={{ padding: '12px 16px' }}>
+            <Button
+              size="small"
+              icon={<ClearOutlined />}
+              onClick={() => dispatch({ type: 'CLEAR_FILTERS' })}
+            >
+              清除所有过滤
+            </Button>
+          </Space>
+        </>
+      )}
     </div>
   );
 }
