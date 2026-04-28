@@ -1,0 +1,7 @@
+services:
+  historic-hero:
+    image: cr.codetrek.work/default/historic-hero:latest
+    container_name: historic-hero
+    restart: unless-stopped
+    ports:
+      - "3470:80"

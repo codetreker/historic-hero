@@ -1,0 +1,75 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  REGISTRY: cr.codetrek.work
+  IMAGE: default/historic-hero
+  HARBOR_USER: admin
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate build tag
+        id: tag
+        run: echo "build_tag=$(date -u +%Y%m%d-%H%M%S)" >> "$GITHUB_OUTPUT"
+
+      - name: Login to Harbor
+        run: echo '${{ secrets.HARBOR_API_TOKEN }}' | docker login ${{ env.REGISTRY }} -u '${{ env.HARBOR_USER }}' --password-stdin
+
+      - name: Build and push
+        run: |
+          docker build \
+            -t ${{ env.REGISTRY }}/${{ env.IMAGE }}:${{ steps.tag.outputs.build_tag }} \
+            -t ${{ env.REGISTRY }}/${{ env.IMAGE }}:latest \
+            .
+          docker push ${{ env.REGISTRY }}/${{ env.IMAGE }}:${{ steps.tag.outputs.build_tag }}
+          docker push ${{ env.REGISTRY }}/${{ env.IMAGE }}:latest
+
+      - name: Deploy to server
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.OC_VM_HOST }}
+          username: ${{ secrets.OC_VM_USER }}
+          key: ${{ secrets.OC_VM_SSH_KEY }}
+          command_timeout: 5m
+          script: |
+            mkdir -p ~/dockers/historic-hero
+            cd ~/dockers/historic-hero
+            
+            # Write docker-compose.yml
+            cat > docker-compose.yml << 'EOF'
+            services:
+              historic-hero:
+                image: cr.codetrek.work/default/historic-hero:latest
+                container_name: historic-hero
+                restart: unless-stopped
+                ports:
+                  - "3470:80"
+            EOF
+            
+            docker compose pull
+            docker compose up -d --force-recreate
+            sleep 3
+            curl -sf http://localhost:3470/ > /dev/null && echo "✅ Healthy" || (echo "❌ Unhealthy" && exit 1)
+            docker image prune -f
+
+      - name: Tag release
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const tag = '${{ steps.tag.outputs.build_tag }}';
+            await github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: `refs/tags/v${tag}`,
+              sha: context.sha
+            });
+            core.info(`Tagged: v${tag}`);
