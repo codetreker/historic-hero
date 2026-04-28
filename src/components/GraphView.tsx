@@ -26,6 +26,44 @@ const RELATION_DASH: Record<string, number[]> = {
   'allies': [8, 4],
 };
 
+const REL_PRIORITY: Record<string, number> = {
+  'father-son': 0,
+  'mother-son': 1,
+  'husband-wife': 2,
+  'brothers': 3,
+  'sworn-brothers': 4,
+  'lord-vassal': 5,
+  'killed-by': 6,
+  'betrayal': 7,
+  'rivals': 8,
+  'master-student': 9,
+  'allies': 10,
+  'friends': 11,
+  'in-law': 12,
+  'successor': 13,
+  'subordinate': 14,
+  'colleagues': 15,
+};
+
+const MAX_RELS_PER_NODE = 15;
+
+function trimRelationships(rels: typeof relationships) {
+  const sorted = [...rels].sort(
+    (a, b) => (REL_PRIORITY[a.type] ?? 99) - (REL_PRIORITY[b.type] ?? 99),
+  );
+  const count: Record<string, number> = {};
+  const result: typeof rels = [];
+  for (const r of sorted) {
+    const sc = count[r.source] ?? 0;
+    const tc = count[r.target] ?? 0;
+    if (sc >= MAX_RELS_PER_NODE && tc >= MAX_RELS_PER_NODE) continue;
+    result.push(r);
+    count[r.source] = sc + 1;
+    count[r.target] = tc + 1;
+  }
+  return result;
+}
+
 function getFilteredData(state: AppState) {
   let filtered = persons;
 
@@ -52,6 +90,8 @@ function getFilteredData(state: AppState) {
     filteredRels = filteredRels.filter(r => state.selectedRelTypes.includes(r.type));
   }
 
+  filteredRels = trimRelationships(filteredRels);
+
   return { persons: filtered, relationships: filteredRels };
 }
 
@@ -60,11 +100,14 @@ export default function GraphView() {
   const graphRef = useRef<Graph | null>(null);
   const destroyedRef = useRef(false);
   const renderedRef = useRef(false);
+  const hoverNodeRef = useRef<string | null>(null);
   const { state, dispatch } = useApp();
 
-  // Use ref for dispatch to avoid re-triggering graph effect
   const dispatchRef = useRef(dispatch);
   dispatchRef.current = dispatch;
+
+  const stateRef = useRef(state);
+  stateRef.current = state;
 
   const handleNodeClick = useCallback((person: Person) => {
     dispatchRef.current({ type: 'SET_SELECTED_PERSON', payload: person });
@@ -90,11 +133,18 @@ export default function GraphView() {
           graph.setElementState(n.id as string, 'dim');
         }
       });
+      const allEdgeData = graph.getEdgeData();
+      allEdgeData.forEach(e => {
+        if (neighborIds.has(e.source as string) && neighborIds.has(e.target as string)) {
+          graph.setElementState(e.id as string, 'highlight');
+        } else {
+          graph.setElementState(e.id as string, 'dim');
+        }
+      });
       graph.focusElement(person.id);
     } catch { /* graph may have been destroyed */ }
   }, []);
 
-  // Memoize filter inputs to avoid unnecessary re-renders
   const filterKey = useMemo(
     () => JSON.stringify([state.selectedFactions, state.selectedRoles, state.selectedRelTypes, state.timeRange]),
     [state.selectedFactions, state.selectedRoles, state.selectedRelTypes, state.timeRange]
@@ -103,7 +153,6 @@ export default function GraphView() {
   useEffect(() => {
     if (!containerRef.current) return;
 
-    // Guard against StrictMode double-invoke
     destroyedRef.current = false;
 
     if (graphRef.current) {
@@ -175,16 +224,27 @@ export default function GraphView() {
           lineWidth: 1,
           lineDash: (d: EdgeData) => RELATION_DASH[d.data?.type as string] || [],
           endArrow: (d: EdgeData) => !d.data?.bidirectional,
-          labelText: (d: EdgeData) => (d.data?.label as string) || '',
+          labelText: '',
           labelFontSize: 9,
           labelFill: '#999',
+          opacity: 0.3,
+        },
+        state: {
+          highlight: {
+            opacity: 1,
+            lineWidth: 2,
+            labelText: (d: EdgeData) => (d.data?.label as string) || '',
+          },
+          dim: {
+            opacity: 0.08,
+          },
         },
       },
       layout: {
         type: 'd3-force',
         preventOverlap: true,
-        nodeSize: 40,
-        linkDistance: 120,
+        nodeSize: 50,
+        linkDistance: 200,
       },
       behaviors: ['drag-canvas', 'zoom-canvas', 'drag-element-force'],
     });
@@ -197,7 +257,46 @@ export default function GraphView() {
       }
     });
 
-    // Render only if not already destroyed by StrictMode cleanup
+    graph.on('node:mouseenter', (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
+      if (stateRef.current.highlightedPersonId) return;
+      const id = event?.target?.id;
+      if (!id || !renderedRef.current || destroyedRef.current) return;
+      hoverNodeRef.current = id;
+
+      const neighborIds = new Set<string>();
+      neighborIds.add(id);
+      (relsByPerson[id] || []).forEach(r => {
+        neighborIds.add(r.source);
+        neighborIds.add(r.target);
+      });
+
+      try {
+        graph.getNodeData().forEach(n => {
+          graph.setElementState(n.id as string, neighborIds.has(n.id as string) ? 'highlight' : 'dim');
+        });
+        graph.getEdgeData().forEach(e => {
+          const connected = neighborIds.has(e.source as string) && neighborIds.has(e.target as string)
+            && (e.source === id || e.target === id);
+          graph.setElementState(e.id as string, connected ? 'highlight' : 'dim');
+        });
+      } catch { /* noop */ }
+    });
+
+    graph.on('node:mouseleave', () => {
+      if (stateRef.current.highlightedPersonId) return;
+      hoverNodeRef.current = null;
+      if (!renderedRef.current || destroyedRef.current) return;
+
+      try {
+        graph.getNodeData().forEach(n => {
+          graph.setElementState(n.id as string, []);
+        });
+        graph.getEdgeData().forEach(e => {
+          graph.setElementState(e.id as string, []);
+        });
+      } catch { /* noop */ }
+    });
+
     renderedRef.current = false;
     if (!destroyedRef.current) {
       graphRef.current = graph;
@@ -207,7 +306,6 @@ export default function GraphView() {
         }
       }).catch(() => { /* graph destroyed during render */ });
     } else {
-      // StrictMode already ran cleanup before render finished
       try { graph.destroy(); } catch { /* noop */ }
     }
 
@@ -228,9 +326,11 @@ export default function GraphView() {
 
     if (!state.highlightedPersonId) {
       try {
-        const allNodeData = graph.getNodeData();
-        allNodeData.forEach(n => {
+        graph.getNodeData().forEach(n => {
           graph.setElementState(n.id as string, []);
+        });
+        graph.getEdgeData().forEach(e => {
+          graph.setElementState(e.id as string, []);
         });
       } catch { /* graph may have been destroyed */ }
     }

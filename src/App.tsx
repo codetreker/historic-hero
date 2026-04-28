@@ -1,4 +1,5 @@
-import { ConfigProvider, Layout, Typography, Tabs } from 'antd';
+import { ConfigProvider, Layout, Typography } from 'antd';
+import { CloseOutlined } from '@ant-design/icons';
 import zhCN from 'antd/locale/zh_CN';
 import { AppProvider, useApp } from './context/AppContext';
 import GraphView from './components/GraphView';
@@ -8,18 +9,13 @@ import PersonDetail from './components/DetailPanel';
 import EventDetail from './components/EventDetail';
 import TimelineNav from './components/TimelineNav';
 import Legend from './components/Legend';
-import { FACTION_CONFIG } from './types';
-import type { Faction } from './types';
 
-const { Header, Content, Sider } = Layout;
-
-const factionTabs = (Object.keys(FACTION_CONFIG) as Faction[]).map(f => ({
-  key: f,
-  label: FACTION_CONFIG[f].label,
-}));
+const { Header, Content, Sider, Footer } = Layout;
 
 function AppInner() {
   const { state, dispatch } = useApp();
+
+  const hasDetail = state.drawerVisible && (state.drawerMode === 'person' || state.drawerMode === 'event');
 
   return (
     <Layout style={{ height: '100vh' }}>
@@ -37,14 +33,9 @@ function AppInner() {
           历史英雄谱 · 三国
         </Typography.Title>
         <SearchBar />
-        <Tabs
-          activeKey={state.selectedFactions.length === 1 ? state.selectedFactions[0] : ''}
-          items={factionTabs}
-          onChange={(key) => dispatch({ type: 'SET_FACTIONS', payload: [key as Faction] })}
-          style={{ marginBottom: 0, flex: 1, minWidth: 0 }}
-          size="small"
-        />
       </Header>
+
+      <TimelineNav />
 
       <Layout style={{ flex: 1, overflow: 'hidden' }}>
         <Sider width={240} style={{ background: '#fff', borderRight: '1px solid #f0f0f0', overflow: 'auto' }}>
@@ -54,11 +45,28 @@ function AppInner() {
           <GraphView />
           <Legend />
         </Content>
+        <Sider width={360} style={{ background: '#fff', borderLeft: '1px solid #f0f0f0', overflow: 'auto', padding: 0 }}>
+          {hasDetail ? (
+            <div style={{ position: 'relative' }}>
+              <div
+                style={{ position: 'absolute', top: 12, right: 12, cursor: 'pointer', zIndex: 1 }}
+                onClick={() => dispatch({ type: 'TOGGLE_DRAWER', payload: { visible: false } })}
+              >
+                <CloseOutlined />
+              </div>
+              {state.drawerMode === 'person' ? <PersonDetail /> : <EventDetail />}
+            </div>
+          ) : (
+            <div style={{ padding: 24, color: '#999', textAlign: 'center', marginTop: 120 }}>
+              点击图谱中的人物节点查看详情
+            </div>
+          )}
+        </Sider>
       </Layout>
 
-      <TimelineNav />
-      <PersonDetail />
-      <EventDetail />
+      <Footer style={{ textAlign: 'center', background: '#fafafa', padding: '10px 0', height: 40, lineHeight: '20px', color: '#999', fontSize: 13 }}>
+        © 历史英雄谱 · 三国
+      </Footer>
     </Layout>
   );
 }
