@@ -11,7 +11,7 @@ import Legend from './components/Legend';
 import { FACTION_CONFIG } from './types';
 import type { Faction } from './types';
 
-const { Header, Content, Sider } = Layout;
+const { Header, Content, Sider, Footer } = Layout;
 
 const factionTabs = (Object.keys(FACTION_CONFIG) as Faction[]).map(f => ({
   key: f,
@@ -46,6 +46,8 @@ function AppInner() {
         />
       </Header>
 
+      <TimelineNav />
+
       <Layout style={{ flex: 1, overflow: 'hidden' }}>
         <Sider width={240} style={{ background: '#fff', borderRight: '1px solid #f0f0f0', overflow: 'auto' }}>
           <FilterPanel />
@@ -56,9 +58,11 @@ function AppInner() {
         </Content>
       </Layout>
 
-      <TimelineNav />
       <PersonDetail />
       <EventDetail />
+      <Footer style={{ textAlign: 'center', background: '#fafafa', padding: '10px 0', height: 40, lineHeight: '20px', color: '#999', fontSize: 13 }}>
+        © 历史英雄谱 · 三国
+      </Footer>
     </Layout>
   );
 }
