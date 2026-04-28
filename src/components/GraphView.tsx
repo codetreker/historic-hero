@@ -96,20 +96,15 @@ export default function GraphView({
         type: 'd3-force',
         preventOverlap: true,
         nodeSize: 30,
-        alphaDecay: 0.01,
-        forceSimulation: {
-          alphaMin: 0.001,
-        },
       },
       behaviors: ['drag-canvas', 'zoom-canvas', 'drag-element-force'],
     });
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    graph.on('node:click', (evt: any) => {
-      const nodeId = (evt as { target: { id: string } }).target?.id;
-      if (nodeId) {
-        const person = persons.find((p) => p.id === nodeId);
-        onSelectPerson(person || null);
+    graph.on('node:click', (event: any) => {
+      const id = event?.target?.id;
+      if (id) {
+        const person = persons.find((p) => p.id === id);
+        if (person) onSelectPerson(person);
       }
     });
 
