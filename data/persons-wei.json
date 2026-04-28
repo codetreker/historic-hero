@@ -1,0 +1,2315 @@
+[
+  {
+    "id": "cao-cao",
+    "name": "曹操",
+    "courtesy_name": "孟德",
+    "title": "武皇帝",
+    "faction": "wei",
+    "roles": [
+      "warlord",
+      "general",
+      "poet",
+      "politician"
+    ],
+    "birth_year": 155,
+    "death_year": 220,
+    "birth_place": "沛国谯县",
+    "description": "东汉末年杰出的政治家、军事家、文学家。挟天子以令诸侯，统一中国北方，奠定曹魏政权基础。官渡之战大败袁绍，确立北方霸主地位。同时也是建安文学的代表人物，著有《短歌行》《观沧海》等名篇。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Cao"
+    ]
+  },
+  {
+    "id": "cao-pi",
+    "name": "曹丕",
+    "courtesy_name": "子桓",
+    "title": "文皇帝",
+    "faction": "wei",
+    "roles": [
+      "emperor",
+      "poet"
+    ],
+    "birth_year": 187,
+    "death_year": 226,
+    "birth_place": "沛国谯县",
+    "description": "曹操次子，曹魏开国皇帝。逼迫汉献帝禅让，建立魏国，定都洛阳。在位期间推行九品中正制，加强中央集权。亦为建安文学家，著有《典论·论文》，是中国文学批评史上的重要著作。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "cao-rui",
+    "name": "曹叡",
+    "courtesy_name": "元仲",
+    "title": "明皇帝",
+    "faction": "wei",
+    "roles": [
+      "emperor"
+    ],
+    "birth_year": 205,
+    "death_year": 239,
+    "birth_place": "沛国谯县",
+    "description": "曹魏第二代皇帝，曹丕之子。在位期间成功抵御诸葛亮北伐和东吴进攻，任用曹真、司马懿等大将守卫边疆。晚年大兴土木，耗费国力，临终托孤于司马懿和曹爽，埋下曹魏权力更迭的隐患。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Rui"
+    ]
+  },
+  {
+    "id": "cao-fang",
+    "name": "曹芳",
+    "courtesy_name": "兰卿",
+    "title": "齐王",
+    "faction": "wei",
+    "roles": [
+      "emperor"
+    ],
+    "birth_year": 231,
+    "death_year": 274,
+    "birth_place": "沛国谯县",
+    "description": "曹魏第三位皇帝，曹叡养子。即位时年幼，由曹爽和司马懿辅政。高平陵之变后司马氏掌权，曹芳沦为傀儡皇帝。后因密谋夺权被司马师废黜，降为齐王。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Fang"
+    ]
+  },
+  {
+    "id": "cao-mao",
+    "name": "曹髦",
+    "courtesy_name": "彦士",
+    "title": "高贵乡公",
+    "faction": "wei",
+    "roles": [
+      "emperor"
+    ],
+    "birth_year": 241,
+    "death_year": 260,
+    "birth_place": "沛国谯县",
+    "description": "曹魏第四位皇帝，曹丕之孙。不甘为司马昭傀儡，曾言「司马昭之心路人皆知」。亲率侍卫讨伐司马昭，却被成济所杀，年仅二十岁。其悲壮之举为后世所叹。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Mao"
+    ]
+  },
+  {
+    "id": "cao-huan",
+    "name": "曹奂",
+    "courtesy_name": "景明",
+    "title": "元皇帝",
+    "faction": "wei",
+    "roles": [
+      "emperor"
+    ],
+    "birth_year": 246,
+    "death_year": 302,
+    "birth_place": "沛国谯县",
+    "description": "曹魏末代皇帝，曹操之孙。在位期间完全受制于司马氏，魏灭蜀之战在其名义下完成。咸熙二年被迫禅让于司马炎，曹魏灭亡。被封为陈留王，善终于永安元年。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Huan"
+    ]
+  },
+  {
+    "id": "cao-ren",
+    "name": "曹仁",
+    "courtesy_name": "子孝",
+    "title": "忠侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 168,
+    "death_year": 223,
+    "birth_place": "沛国谯县",
+    "description": "曹操从弟，曹魏名将。以善守闻名，樊城之战中坚守孤城抵御关羽水淹七军后的进攻，为曹魏稳定荆州防线立下大功。历任大将军、大司马，是曹操最信任的宗族将领之一。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Ren"
+    ]
+  },
+  {
+    "id": "cao-hong",
+    "name": "曹洪",
+    "courtesy_name": "子廉",
+    "title": "恭侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 232,
+    "birth_place": "沛国谯县",
+    "description": "曹操从弟，曹魏宗室将领。早年随曹操起兵，多次在危难时刻救曹操于险境，有「天下可以没有我曹洪，不能没有你」之典故。性格贪财吝啬，晚年因此几乎被曹丕处死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Hong"
+    ]
+  },
+  {
+    "id": "cao-zhen",
+    "name": "曹真",
+    "courtesy_name": "子丹",
+    "title": "元侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 231,
+    "birth_place": "沛国谯县",
+    "description": "曹操养子，曹魏名将。曹丕、曹叡两朝重臣，官至大将军、大司马。曾多次抵御诸葛亮北伐，与司马懿并列为曹魏西线防御的支柱。其子曹爽后成为辅政大臣。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhen"
+    ]
+  },
+  {
+    "id": "cao-shuang",
+    "name": "曹爽",
+    "courtesy_name": "昭伯",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician",
+      "regent"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "birth_place": "沛国谯县",
+    "description": "曹真之子，曹魏辅政大臣。曹叡托孤重臣之一，与司马懿共同辅政。独揽大权后骄奢跋扈，高平陵之变中被司马懿发动政变夺权，全族被诛。其覆灭标志着曹魏实权转入司马氏之手。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Shuang"
+    ]
+  },
+  {
+    "id": "xiahou-dun",
+    "name": "夏侯惇",
+    "courtesy_name": "元让",
+    "title": "忠侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 220,
+    "birth_place": "沛国谯县",
+    "description": "曹操同族兄弟，曹魏元勋将领。以勇猛忠诚著称，征吕布时左眼被流矢射中，拔矢啖睛的故事广为流传。虽非战功最显著的将领，但深受曹操信任，位列诸将之首。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Dun"
+    ]
+  },
+  {
+    "id": "xiahou-yuan",
+    "name": "夏侯渊",
+    "courtesy_name": "妙才",
+    "title": "愍侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 219,
+    "birth_place": "沛国谯县",
+    "description": "曹操同族兄弟，曹魏名将。以善于长途奔袭闻名，有「典军校尉夏侯渊，三日五百，六日一千」之称。平定西凉、征讨羌胡战功卓著。定军山之战中被黄忠所斩，为曹魏重大损失。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Yuan"
+    ]
+  },
+  {
+    "id": "xiahou-ba",
+    "name": "夏侯霸",
+    "courtesy_name": "仲权",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 259,
+    "birth_place": "沛国谯县",
+    "description": "夏侯渊之子，曹魏将领。司马懿诛杀曹爽后，因与曹氏关系密切而恐惧，投奔蜀汉。在蜀汉受到姜维重用，多次参与北伐战役。因其女嫁于张飞之子，与蜀汉皇室有姻亲关系。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Ba"
+    ]
+  },
+  {
+    "id": "xiahou-xuan",
+    "name": "夏侯玄",
+    "courtesy_name": "太初",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": 209,
+    "death_year": 254,
+    "birth_place": "沛国谯县",
+    "description": "夏侯尚之子，曹魏政治家、玄学家。为人风度翩翩，是正始名士的代表人物。曹爽执政时任征西将军，高平陵之变后被免职。后与李丰密谋推翻司马师，事败被杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Xuan"
+    ]
+  },
+  {
+    "id": "zhang-liao",
+    "name": "张辽",
+    "courtesy_name": "文远",
+    "title": "刚侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 169,
+    "death_year": 222,
+    "birth_place": "雁门马邑",
+    "description": "曹魏「五子良将」之首，三国时期顶级名将。曾先后效力于丁原、董卓、吕布，后归降曹操。逍遥津之战以八百勇士大破孙权十万大军，威震江东，「张辽止啼」成为千古佳话。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Liao"
+    ]
+  },
+  {
+    "id": "zhang-he",
+    "name": "张郃",
+    "courtesy_name": "儁乂",
+    "title": "壮侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 231,
+    "birth_place": "河间鄚县",
+    "description": "曹魏「五子良将」之一，以善于利用地形和巧变著称。原为袁绍部将，官渡之战后归降曹操。多次抵御诸葛亮北伐，街亭之战大败马谡，为曹魏西线防御的关键将领。木门道之战中中伏身亡。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_He"
+    ]
+  },
+  {
+    "id": "xu-huang",
+    "name": "徐晃",
+    "courtesy_name": "公明",
+    "title": "壮侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 227,
+    "birth_place": "河东杨县",
+    "description": "曹魏「五子良将」之一，以治军严整、作战勇猛著称。樊城之战中率军解围，大败关羽，被曹操赞为有「周亚夫之风」。一生征战四方，战功卓著，为曹魏立下汗马功劳。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Huang"
+    ]
+  },
+  {
+    "id": "yu-jin",
+    "name": "于禁",
+    "courtesy_name": "文则",
+    "title": "厉侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 221,
+    "birth_place": "泰山钜平",
+    "description": "曹魏「五子良将」之一，以治军严明闻名。早年随曹操南征北战，屡立战功。樊城之战中遭遇水淹七军，被迫投降关羽，后辗转归魏。晚节不保，曹丕令其拜谒曹操陵墓时羞愤而死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yu_Jin"
+    ]
+  },
+  {
+    "id": "yue-jin",
+    "name": "乐进",
+    "courtesy_name": "文谦",
+    "title": "威侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 218,
+    "birth_place": "阳平卫国",
+    "description": "曹魏「五子良将」之一，以骁勇善战著称。身材矮小但胆略过人，每战必先登陷阵。从曹操征讨四方，参与官渡之战、赤壁之战等重要战役，与张辽、李典共守合肥，功勋卓著。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yue_Jin"
+    ]
+  },
+  {
+    "id": "li-dian",
+    "name": "李典",
+    "courtesy_name": "曼成",
+    "title": "愍侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 215,
+    "birth_place": "山阳钜野",
+    "description": "曹魏将领，以儒雅好学、深明大义著称。虽与张辽有私怨，但在合肥之战中以大局为重，与张辽、乐进协力大破孙权。为人谦逊礼让，不与诸将争功，深受曹操器重。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Li_Dian"
+    ]
+  },
+  {
+    "id": "xu-chu",
+    "name": "许褚",
+    "courtesy_name": "仲康",
+    "title": "壮侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "沛国谯县",
+    "description": "曹操贴身护卫，以力大无穷闻名，人称「虎痴」。潼关之战中裸衣斗马超，威震敌军。多次在危急时刻保护曹操安全，是曹操最信任的亲卫将领。一生忠心耿耿，从无二心。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Chu"
+    ]
+  },
+  {
+    "id": "dian-wei",
+    "name": "典韦",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 197,
+    "birth_place": "陈留己吾",
+    "description": "曹操帐下猛将，任亲卫统领。膂力过人，善使双戟，有「古之恶来」之称。宛城之战中为掩护曹操撤退，独挡叛军于营门，力战而死。曹操痛失爱将，每过宛城必祭奠之。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dian_Wei"
+    ]
+  },
+  {
+    "id": "pang-de",
+    "name": "庞德",
+    "courtesy_name": "令明",
+    "title": "壮侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 219,
+    "birth_place": "南安狟道",
+    "description": "原为马超部将，后归降曹操。樊城之战中抬棺决战关羽，以示必死之志。水淹七军后被俘，宁死不降，被关羽斩首。曹操闻其忠烈，追谥壮侯，其子庞会后随钟会灭蜀，尽杀关氏后人。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Pang_De"
+    ]
+  },
+  {
+    "id": "deng-ai",
+    "name": "邓艾",
+    "courtesy_name": "士载",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 197,
+    "death_year": 264,
+    "birth_place": "义阳棘阳",
+    "description": "曹魏后期名将，灭蜀功臣。出身贫寒，因口吃而不被重用，后被司马懿赏识提拔。与姜维多年对峙于陇西。伐蜀之战中偷渡阴平，奇袭成都，迫使刘禅投降。功高震主，被钟会诬陷，冤死于绵竹。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Deng_Ai"
+    ]
+  },
+  {
+    "id": "zhong-hui",
+    "name": "钟会",
+    "courtesy_name": "士季",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": 225,
+    "death_year": 264,
+    "birth_place": "颍川长社",
+    "description": "钟繇之子，曹魏后期重要将领和谋士。才华横溢，深得司马昭信任。率大军伐蜀，与邓艾共灭蜀汉。灭蜀后野心膨胀，与姜维密谋叛乱，事败被杀。其一生展现了才华与野心并存的悲剧。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhong_Hui"
+    ]
+  },
+  {
+    "id": "guo-jia",
+    "name": "郭嘉",
+    "courtesy_name": "奉孝",
+    "title": "贞侯",
+    "faction": "wei",
+    "roles": [
+      "advisor",
+      "politician"
+    ],
+    "birth_year": 170,
+    "death_year": 207,
+    "birth_place": "颍川阳翟",
+    "description": "曹操帐下首席谋士之一，被誉为「鬼才」。先投袁绍，后转投曹操。献计破吕布、灭袁绍，十胜十败论奠定官渡之战决策。遗计定辽东，助曹操平定北方。英年早逝，曹操痛惜不已。赤壁之败后曹操叹曰「若奉孝在，不使孤至此」。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Jia"
+    ]
+  },
+  {
+    "id": "xun-yu",
+    "name": "荀彧",
+    "courtesy_name": "文若",
+    "title": "敬侯",
+    "faction": "wei",
+    "roles": [
+      "advisor",
+      "politician"
+    ],
+    "birth_year": 163,
+    "death_year": 212,
+    "birth_place": "颍川颍阴",
+    "description": "曹操首席战略顾问，被誉为「王佐之才」。为曹操制定统一北方的宏观战略，举荐了大量人才。官渡之战时坐镇后方稳定大局。后因反对曹操称魏公，与曹操产生分歧，最终忧愤而死。其忠于汉室的理想主义令人感慨。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xun_Yu"
+    ]
+  },
+  {
+    "id": "xun-you",
+    "name": "荀攸",
+    "courtesy_name": "公达",
+    "title": "敬侯",
+    "faction": "wei",
+    "roles": [
+      "advisor",
+      "politician"
+    ],
+    "birth_year": 157,
+    "death_year": 214,
+    "birth_place": "颍川颍阴",
+    "description": "荀彧之侄，曹操重要谋士。为人低调深沉，善于随机应变。官渡之战献计水淹乌巢，击破袁绍粮草，为曹操取得决定性胜利。一生献策无数却从不居功，被曹操誉为「谋主」。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xun_You"
+    ]
+  },
+  {
+    "id": "jia-xu",
+    "name": "贾诩",
+    "courtesy_name": "文和",
+    "title": "肃侯",
+    "faction": "wei",
+    "roles": [
+      "advisor",
+      "politician"
+    ],
+    "birth_year": 147,
+    "death_year": 223,
+    "birth_place": "武威姑臧",
+    "description": "三国时期最出色的谋士之一，被誉为「毒士」。先后辅佐董卓、李傕、张绣、曹操。献计张绣反叛致曹操丧子丧将，后助张绣归降。在曹丕争嗣中出谋划策，助曹丕成为太子。为人明哲保身，寿终正寝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jia_Xu"
+    ]
+  },
+  {
+    "id": "cheng-yu",
+    "name": "程昱",
+    "courtesy_name": "仲德",
+    "title": "肃侯",
+    "faction": "wei",
+    "roles": [
+      "advisor",
+      "politician",
+      "general"
+    ],
+    "birth_year": 141,
+    "death_year": 220,
+    "birth_place": "东郡东阿",
+    "description": "曹操早期重要谋士，以刚毅果断著称。曹操征徐州时献计守兖州三城，稳定后方。官渡之战期间与荀彧共守许都。为人性格刚烈，有智有谋有胆，是曹操集团中少数文武兼备的人物。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cheng_Yu"
+    ]
+  },
+  {
+    "id": "liu-ye",
+    "name": "刘晔",
+    "courtesy_name": "子扬",
+    "title": "景侯",
+    "faction": "wei",
+    "roles": [
+      "advisor",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 234,
+    "birth_place": "淮南成德",
+    "description": "汉室宗亲，曹魏重要谋士。善于审时度势，多次提出重要战略建议。曾建议曹操趁刘备立足未稳时攻取蜀地，又建议趁关羽被杀后孙刘联盟破裂之际伐吴。其建议多未被采纳，后以忧愤而终。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Ye_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "man-chong",
+    "name": "满宠",
+    "courtesy_name": "伯宁",
+    "title": "景侯",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 242,
+    "birth_place": "山阳昌邑",
+    "description": "曹魏重臣，历仕曹操、曹丕、曹叡三朝。以执法严明、刚正不阿闻名。任扬州都督期间多次击退东吴进攻，镇守东南防线数十年。为人清廉正直，是曹魏后期最得力的方面大员之一。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Man_Chong"
+    ]
+  },
+  {
+    "id": "jiang-ji",
+    "name": "蒋济",
+    "courtesy_name": "子通",
+    "title": "景侯",
+    "faction": "wei",
+    "roles": [
+      "advisor",
+      "politician"
+    ],
+    "birth_year": 188,
+    "death_year": 249,
+    "birth_place": "楚国平阿",
+    "description": "曹魏四朝元老，历仕曹操至曹芳。善于政论，多有谏言被采纳。高平陵之变中支持司马懿政变，以太尉之职出面安抚朝臣。事后因曹爽被灭族而深感愧疚，忧郁而死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Ji"
+    ]
+  },
+  {
+    "id": "chen-qun",
+    "name": "陈群",
+    "courtesy_name": "长文",
+    "title": "靖侯",
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 236,
+    "birth_place": "颍川许昌",
+    "description": "曹魏重要政治家，九品中正制的创立者。该制度深刻影响了此后数百年的中国官员选拔体系。历仕曹操、曹丕、曹叡三朝，官至司空。曹叡托孤大臣之一，为人正直稳重，是曹魏制度建设的核心人物。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Qun"
+    ]
+  },
+  {
+    "id": "hua-xin",
+    "name": "华歆",
+    "courtesy_name": "子鱼",
+    "title": "敬侯",
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 157,
+    "death_year": 232,
+    "birth_place": "平原高唐",
+    "description": "曹魏重臣，官至司徒、太尉。原为孙策部下，后归曹操。亲自入宫逼迫汉献帝禅让于曹丕，虽因此被后世诟病，但在任期间政绩斐然，为人清廉节俭。与管宁「割席断交」的故事广为人知。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Hua_Xin"
+    ]
+  },
+  {
+    "id": "wang-lang",
+    "name": "王朗",
+    "courtesy_name": "景兴",
+    "title": "成侯",
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 228,
+    "birth_place": "东海郯县",
+    "description": "曹魏重臣，官至司空、司徒。博学多才，精通经学。原为会稽太守，后归曹操。在曹魏朝廷地位崇高，以经学造诣和政治才能闻名。《三国演义》中被诸葛亮骂死的情节为虚构。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Lang"
+    ]
+  },
+  {
+    "id": "sima-lang",
+    "name": "司马朗",
+    "courtesy_name": "伯达",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 171,
+    "death_year": 217,
+    "birth_place": "河内温县",
+    "description": "司马懿之兄，司马八达之首。曹操帐下重要文官，曾任兖州刺史。为人宽厚仁慈，关心民生，提出恢复西周井田制的建议。征伐东吴时因军中瘟疫蔓延，亲自照料士兵而染病去世。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Lang"
+    ]
+  },
+  {
+    "id": "zhong-yao",
+    "name": "钟繇",
+    "courtesy_name": "元常",
+    "title": "成侯",
+    "faction": "wei",
+    "roles": [
+      "politician",
+      "calligrapher"
+    ],
+    "birth_year": 151,
+    "death_year": 230,
+    "birth_place": "颍川长社",
+    "description": "曹魏重臣，楷书鼻祖。官至太傅，与华歆、王朗并列三公。长期镇守关中，稳定西北局势。书法成就极高，被后世尊为「楷书之祖」，与王羲之并称「钟王」。其子钟会后为灭蜀主将。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhong_Yao"
+    ]
+  },
+  {
+    "id": "yang-xiu",
+    "name": "杨修",
+    "courtesy_name": "德祖",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 175,
+    "death_year": 219,
+    "birth_place": "弘农华阴",
+    "description": "出身弘农杨氏名门，才华横溢但恃才放旷。任曹操主簿，参与曹植争嗣。多次猜透曹操心思，「鸡肋」之典故即出于此。因卷入夺嫡之争且屡犯曹操忌讳，终被曹操以扰乱军心之罪处死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yang_Xiu"
+    ]
+  },
+  {
+    "id": "kong-rong",
+    "name": "孔融",
+    "courtesy_name": "文举",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": 153,
+    "death_year": 208,
+    "birth_place": "鲁国",
+    "description": "孔子二十世孙，建安七子之一。幼年以「孔融让梨」闻名。为人刚直敢言，多次讥讽曹操。反对曹操禁酒令，公然嘲讽其专权。终因言论触怒曹操，以「不孝」等罪名被杀，全家遇难。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Kong_Rong"
+    ]
+  },
+  {
+    "id": "cui-yan",
+    "name": "崔琰",
+    "courtesy_name": "季珪",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 216,
+    "birth_place": "清河东武城",
+    "description": "曹魏重要文臣，以正直刚毅著称。仪表堂堂，曹操曾让其代替自己接见匈奴使者。在选拔人才方面贡献卓著。后因书信中有被认为讥讽朝政的言辞，被曹操赐死，令人惋惜。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cui_Yan"
+    ]
+  },
+  {
+    "id": "mao-jie",
+    "name": "毛玠",
+    "courtesy_name": "孝先",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 216,
+    "birth_place": "陈留平丘",
+    "description": "曹操重要谋臣，提出「奉天子以令不臣，修耕植以蓄军资」的战略方针，为曹操统一北方奠定了政治和经济基础。为人清廉公正，负责选拔官吏，深受曹操信任。后受崔琰案牵连，被免官忧愤而死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Mao_Jie"
+    ]
+  },
+  {
+    "id": "chen-lin",
+    "name": "陈琳",
+    "courtesy_name": "孔璋",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": 217,
+    "birth_place": "广陵射阳",
+    "description": "建安七子之一，著名文学家。原为袁绍部下，曾为袁绍撰写讨伐曹操的檄文，痛骂曹操祖宗三代。袁绍兵败后归降曹操，曹操爱其才而不计前嫌。其文辞华美，长于章表书檄。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Lin"
+    ]
+  },
+  {
+    "id": "wang-can",
+    "name": "王粲",
+    "courtesy_name": "仲宣",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": 177,
+    "death_year": 217,
+    "birth_place": "山阳高平",
+    "description": "建安七子之首，才华冠绝当世。初投刘表不得重用，后归曹操。过目不忘，博闻强记，文学成就最高，代表作《登楼赋》《七哀诗》感人至深。建安二十二年随曹操征吴时染疫去世。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Can"
+    ]
+  },
+  {
+    "id": "cai-wenji",
+    "name": "蔡文姬",
+    "courtesy_name": "文姬",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "musician",
+      "poet"
+    ],
+    "birth_year": 177,
+    "death_year": null,
+    "birth_place": "陈留圉县",
+    "description": "东汉末年著名女诗人、音乐家，蔡邕之女。才华出众，精通音律。战乱中被匈奴掳去十二年，育有二子。后被曹操以重金赎回，改嫁董祀。著有《胡笳十八拍》《悲愤诗》，感人肺腑。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cai_Wenji"
+    ]
+  },
+  {
+    "id": "zhen-ji",
+    "name": "甄姬",
+    "courtesy_name": null,
+    "title": "文昭皇后",
+    "faction": "wei",
+    "roles": [
+      "consort"
+    ],
+    "birth_year": 183,
+    "death_year": 221,
+    "birth_place": "中山无极",
+    "description": "曹魏文昭皇后，曹叡之母。原为袁绍次子袁熙之妻，曹操攻破邺城后被曹丕纳为妻室。以美貌和才德著称，传说曹植《洛神赋》即以其为原型。后因失宠于曹丕，被赐死。曹叡即位后追谥文昭皇后。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Zhen"
+    ]
+  },
+  {
+    "id": "guo-nuwang",
+    "name": "郭女王",
+    "courtesy_name": null,
+    "title": "文德皇后",
+    "faction": "wei",
+    "roles": [
+      "consort"
+    ],
+    "birth_year": 184,
+    "death_year": 235,
+    "birth_place": "安平广宗",
+    "description": "曹魏文德皇后，曹丕正室。聪慧机敏，善于处理政务，深得曹丕信任和倚重。甄姬被赐死后立为皇后。曹叡即位后虽尊其为皇太后，但因生母甄姬之死对其心存芥蒂。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Empress_Guo_(Cao_Pi)"
+    ]
+  },
+  {
+    "id": "cao-zhi",
+    "name": "曹植",
+    "courtesy_name": "子建",
+    "title": "思王",
+    "faction": "wei",
+    "roles": [
+      "poet",
+      "noble"
+    ],
+    "birth_year": 192,
+    "death_year": 232,
+    "birth_place": "沛国谯县",
+    "description": "曹操之子，三国时期最杰出的诗人，与曹操、曹丕并称「三曹」。才高八斗，七步成诗。曾与曹丕争夺太子之位失败，此后受到严密监控和打压。代表作《洛神赋》《白马篇》《七步诗》等传颂千古。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhi"
+    ]
+  },
+  {
+    "id": "cao-zhang",
+    "name": "曹彰",
+    "courtesy_name": "子文",
+    "title": "威王",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": 223,
+    "birth_place": "沛国谯县",
+    "description": "曹操之子，以勇武善战闻名，黄须儿。曾率军北征乌桓，大破鲜卑，展现出卓越的军事才能。自幼好武，曹操问其志向时答以「好为将」。曹操去世后赴洛阳奔丧，不久暴毙，死因成谜。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhang"
+    ]
+  },
+  {
+    "id": "cao-chong",
+    "name": "曹冲",
+    "courtesy_name": "仓舒",
+    "title": "邓哀王",
+    "faction": "wei",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": 196,
+    "death_year": 208,
+    "birth_place": "沛国谯县",
+    "description": "曹操幼子，以神童著称。五六岁时即以「曹冲称象」的智慧闻名天下，展现出超凡的聪颖。为人仁厚，常替犯错者求情。不幸十三岁夭折，曹操悲痛欲绝，认为其有继承大业的潜质。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Chong"
+    ]
+  },
+  {
+    "id": "sima-yi",
+    "name": "司马懿",
+    "courtesy_name": "仲达",
+    "title": "宣皇帝",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician",
+      "regent"
+    ],
+    "birth_year": 179,
+    "death_year": 251,
+    "birth_place": "河内温县",
+    "description": "曹魏权臣，西晋王朝奠基人。历仕曹操、曹丕、曹叡、曹芳四朝，以隐忍深谋著称。多次抵御诸葛亮北伐，征讨辽东公孙渊。发动高平陵之变夺取曹魏实权，为司马氏篡魏奠定基础。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Yi"
+    ]
+  },
+  {
+    "id": "cao-xiu",
+    "name": "曹休",
+    "courtesy_name": "文烈",
+    "title": "壮侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 228,
+    "birth_place": "沛国谯县",
+    "description": "曹操族子，被曹操视如亲子。曹魏宗室重要将领，官至大司马。多次统兵与东吴作战，石亭之战中被陆逊设计大败，损失惨重。战败后忧愤成疾，不久去世。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Xiu"
+    ]
+  },
+  {
+    "id": "cao-chun",
+    "name": "曹纯",
+    "courtesy_name": "子和",
+    "title": "威侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 210,
+    "birth_place": "沛国谯县",
+    "description": "曹仁之弟，曹操精锐骑兵「虎豹骑」的统领。长坂坡之战追击刘备，南皮之战斩杀袁谭。虎豹骑是曹操最精锐的机动部队，曹纯指挥得当，战功卓著。英年早逝，曹操深为惋惜。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Chun"
+    ]
+  },
+  {
+    "id": "cao-ang",
+    "name": "曹昂",
+    "courtesy_name": "子脩",
+    "title": "愍王",
+    "faction": "wei",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": 197,
+    "birth_place": "沛国谯县",
+    "description": "曹操长子，为人至孝。宛城之战中张绣突然反叛，曹昂将自己的战马让给曹操逃生，自己力战而死。其舍身救父的壮举深受后人称颂。曹昂之死也导致了丁夫人与曹操决裂。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Ang"
+    ]
+  },
+  {
+    "id": "cao-biao",
+    "name": "曹彪",
+    "courtesy_name": "朱虎",
+    "title": "楚王",
+    "faction": "wei",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": 195,
+    "death_year": 251,
+    "birth_place": "沛国谯县",
+    "description": "曹操之子，封楚王。王凌密谋拥立其为帝以对抗司马懿，事败后被迫自杀。其遭遇反映了曹魏宗室在司马氏专权下的悲惨处境。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Biao"
+    ]
+  },
+  {
+    "id": "xiahou-shang",
+    "name": "夏侯尚",
+    "courtesy_name": "伯仁",
+    "title": "悼侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 225,
+    "birth_place": "沛国谯县",
+    "description": "夏侯渊从子，曹魏将领。与曹丕少年交好，深受信任。曹丕时期任征南大将军，镇守荆州，多次与东吴交战。其子夏侯玄为正始名士，孙女嫁于司马师。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Shang"
+    ]
+  },
+  {
+    "id": "xiahou-mao",
+    "name": "夏侯楙",
+    "courtesy_name": "子林",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "沛国谯县",
+    "description": "夏侯惇之子，曹操女婿。继承父爵，任安西将军镇守长安。诸葛亮第一次北伐时驻守关中，因才能平庸而被魏延轻视。后因宠幸小妾冷落正妻（曹操之女）而引发家庭纠纷。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Mao"
+    ]
+  },
+  {
+    "id": "xiahou-he",
+    "name": "夏侯和",
+    "courtesy_name": "义权",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "沛国谯县",
+    "description": "夏侯渊之子，曹魏后期将领。曹髦被杀时曾痛斥贾充弑君之罪。后在司马氏篡魏过程中审时度势，转投司马氏，入晋后官至太常。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_He"
+    ]
+  },
+  {
+    "id": "xiahou-wei",
+    "name": "夏侯威",
+    "courtesy_name": "季权",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "沛国谯县",
+    "description": "夏侯渊之子，曹魏将领。为人有识人之明，曾预言司马师必成大器。在曹魏后期官至兖州刺史，夏侯渊诸子中政治生涯较为顺遂者。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Wei"
+    ]
+  },
+  {
+    "id": "xiahou-hui",
+    "name": "夏侯惠",
+    "courtesy_name": "稚权",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "沛国谯县",
+    "description": "夏侯渊之子，曹魏文臣。以文才著称，善于辞令。在散骑常侍任上多有直谏，为人刚正不阿。早年即有才名，与夏侯玄等并称一时俊彦。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Hui"
+    ]
+  },
+  {
+    "id": "xu-shu",
+    "name": "徐庶",
+    "courtesy_name": "元直",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "advisor",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "颍川",
+    "description": "原为刘备谋士，向刘备推荐诸葛亮。后因母亲被曹操掳去而被迫转投曹营。传说其进曹营后终身不献一策，「徐庶进曹营——一言不发」成为著名歇后语。实际在曹魏任职至右中郎将。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Shu"
+    ]
+  },
+  {
+    "id": "jia-kui",
+    "name": "贾逵",
+    "courtesy_name": "梁道",
+    "title": "肃侯",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": 174,
+    "death_year": 228,
+    "birth_place": "河东襄陵",
+    "description": "曹魏将领兼政治家，以忠诚果断闻名。曹操去世时力排众议稳定局势。石亭之战中率军接应败退的曹休，避免了更大的损失。为人忠正，治理地方政绩显著，其子贾充后为西晋权臣。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jia_Kui_(general)"
+    ]
+  },
+  {
+    "id": "zhang-ji-derong",
+    "name": "张既",
+    "courtesy_name": "德容",
+    "title": "肃侯",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 223,
+    "birth_place": "冯翊高陵",
+    "description": "曹魏关中重要守将和地方官。多次平定西凉叛乱，安抚羌胡各族，稳定曹魏西北防线。治理雍凉地区政绩卓著，被誉为「国之良臣」。为人清廉正直，深得当地民心。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Ji_(Derong)"
+    ]
+  },
+  {
+    "id": "xu-miao",
+    "name": "徐邈",
+    "courtesy_name": "景山",
+    "title": "穆侯",
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 171,
+    "death_year": 249,
+    "birth_place": "燕国蓟县",
+    "description": "曹魏重要地方官，以清廉能干著称。曹操禁酒期间偷饮被罚，后悔过自新。长期治理凉州，政绩卓越，深得民心。为人正直宽厚，是曹魏后期杰出的地方治理人才。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Miao"
+    ]
+  },
+  {
+    "id": "xin-pi",
+    "name": "辛毗",
+    "courtesy_name": "佐治",
+    "title": "肃侯",
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "颍川阳翟",
+    "description": "曹魏重臣，以刚正直言著称。原为袁绍部下，后归曹操。在曹丕争嗣中支持曹丕。多次直言进谏，曹丕欲迁民充实洛阳时被其以持节力谏而止。其女辛宪英有识人之明。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xin_Pi"
+    ]
+  },
+  {
+    "id": "wang-ling",
+    "name": "王凌",
+    "courtesy_name": "彦云",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": 172,
+    "death_year": 251,
+    "birth_place": "太原祁县",
+    "description": "王允之侄，曹魏重臣。历任扬州刺史、太尉，长期镇守东南防线。高平陵之变后不满司马氏专权，密谋拥立楚王曹彪，事败后服毒自杀。是「淮南三叛」第一叛的发起者。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Ling_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "guanqiu-jian",
+    "name": "毌丘俭",
+    "courtesy_name": "仲恭",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 255,
+    "birth_place": "河东闻喜",
+    "description": "曹魏名将，忠于曹氏。曾征讨高句丽，攻破其都城丸都。司马师废黜曹芳后，与文钦在寿春起兵叛乱（淮南二叛），兵败被杀。其忠于曹魏的立场为后世所称道。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guanqiu_Jian"
+    ]
+  },
+  {
+    "id": "wen-qin",
+    "name": "文钦",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 258,
+    "birth_place": "沛国谯县",
+    "description": "曹魏将领，以勇猛著称。与毌丘俭共同发动淮南二叛，兵败后投奔东吴。后随诸葛诞起兵（淮南三叛），因与诸葛诞不和被杀。其子文鸯骁勇善战，有万夫不当之勇。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wen_Qin"
+    ]
+  },
+  {
+    "id": "zhuge-dan",
+    "name": "诸葛诞",
+    "courtesy_name": "公休",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 258,
+    "birth_place": "琅琊阳都",
+    "description": "诸葛亮族弟，曹魏后期将领。不满司马氏专权，在寿春发动叛乱（淮南三叛），据城坚守。城破后拒绝投降，被司马昭所杀。与诸葛亮效忠蜀汉、诸葛瑾效忠东吴并称「龙虎狗」。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Dan"
+    ]
+  },
+  {
+    "id": "zang-ba",
+    "name": "臧霸",
+    "courtesy_name": "宣高",
+    "title": "良成侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "泰山华县",
+    "description": "曹魏将领，原为陶谦、吕布部将。归降曹操后镇守青徐地区，稳定曹魏东部防线。在合肥之战中与张辽并肩作战。为人忠勇，治军有方，是曹魏地方守将的杰出代表。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zang_Ba"
+    ]
+  },
+  {
+    "id": "xu-you",
+    "name": "许攸",
+    "courtesy_name": "子远",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "advisor"
+    ],
+    "birth_year": null,
+    "death_year": 204,
+    "birth_place": "南阳",
+    "description": "原为袁绍谋士，官渡之战中因家人犯法被袁绍责罚，愤而投奔曹操。献计火烧乌巢，焚毁袁绍粮草，成为官渡之战的转折点。后因恃功自傲、屡次羞辱曹操而被杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_You_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "xing-yong",
+    "name": "邢颙",
+    "courtesy_name": "子昂",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 223,
+    "birth_place": "河间鄚县",
+    "description": "曹魏文臣，以清廉高洁著称，有「德行堂堂邢子昂」之称。曾任曹植家丞，后转辅曹丕。为人方正，不趋炎附势。官至太常、司隶校尉，是曹魏朝廷中品德最受推崇的文臣之一。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xing_Yong"
+    ]
+  },
+  {
+    "id": "jia-chong",
+    "name": "贾充",
+    "courtesy_name": "公闾",
+    "title": "鲁公",
+    "faction": "wei",
+    "roles": [
+      "politician",
+      "general"
+    ],
+    "birth_year": 217,
+    "death_year": 282,
+    "birth_place": "平阳襄陵",
+    "description": "贾逵之子，曹魏后期至西晋权臣。司马昭心腹，曹髦讨伐司马昭时，其部下成济弑杀曹髦。主持制定《泰始律》，对中国法制史有重要贡献。为人善于钻营，在司马氏篡魏过程中发挥关键作用。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jia_Chong"
+    ]
+  },
+  {
+    "id": "xu-xuan",
+    "name": "徐宣",
+    "courtesy_name": "宝坚",
+    "title": "贞侯",
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 167,
+    "death_year": 236,
+    "birth_place": "广陵海西",
+    "description": "曹魏重臣，以公正严明著称。曹操在世时即受重用，历任左护军、御史中丞等要职。为人刚直不阿，执法公正。曹丕称赞其为社稷之臣。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Xuan"
+    ]
+  },
+  {
+    "id": "zhang-fan",
+    "name": "张范",
+    "courtesy_name": "公仪",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "advisor",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "河内修武",
+    "description": "曹魏文臣，出身名门。为人淡泊名利，多次推辞高位。曹操敬重其品德，任命其为议郎参与军事谋划。以清高自守闻名，是曹魏朝廷中少见的隐士型人物。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Fan_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "zhang-ji-jingzhong",
+    "name": "张缉",
+    "courtesy_name": "敬仲",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 254,
+    "birth_place": "冯翊高陵",
+    "description": "张既之子，曹魏光禄大夫。其女为曹芳皇后。曹芳密谋诛杀司马师时参与其中，事败后被杀。因与皇室的姻亲关系而卷入政治漩涡，成为曹魏与司马氏权力斗争的牺牲品。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Ji_(Jingzhong)"
+    ]
+  },
+  {
+    "id": "cao-song",
+    "name": "曹嵩",
+    "courtesy_name": "巨高",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 193,
+    "birth_place": "沛国谯县",
+    "description": "曹操之父，宦官曹腾养子。官至太尉，家资巨万。陶谦部将张闿截杀曹嵩一家，成为曹操两次征讨徐州的导火索。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Song"
+    ]
+  },
+  {
+    "id": "cao-lin-pei",
+    "name": "曹林",
+    "courtesy_name": null,
+    "title": "沛穆王",
+    "faction": "wei",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": 256,
+    "birth_place": "沛国谯县",
+    "description": "曹操之子，封沛王。曹魏宗室成员，在曹魏历经多次封地变迁。未参与重大政治事件，得以保全善终。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Lin_(Prince_of_Pei)"
+    ]
+  },
+  {
+    "id": "cao-xiong",
+    "name": "曹熊",
+    "courtesy_name": null,
+    "title": "萧怀王",
+    "faction": "wei",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "沛国谯县",
+    "description": "曹操之子，卞夫人所生四子之幼者（与曹丕、曹彰、曹植同母）。体弱多病，早卒。曹丕即位后追封萧怀公。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Xiong"
+    ]
+  },
+  {
+    "id": "cao-gan",
+    "name": "曹幹",
+    "courtesy_name": null,
+    "title": "赵王",
+    "faction": "wei",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": 216,
+    "death_year": 261,
+    "birth_place": "沛国谯县",
+    "description": "曹操幼子，封赵王。因年幼受曹操特别宠爱。曹魏后期宗室成员，在司马氏专权时代安分度日。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Gan"
+    ]
+  },
+  {
+    "id": "cai-mao",
+    "name": "蔡瑁",
+    "courtesy_name": "德珪",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "襄阳",
+    "description": "荆州名族蔡氏家主，原为刘表部将。精通水战，刘琮投降后归附曹操。《三国演义》中蒋干中计导致蔡瑁被杀的故事为虚构，实际在曹魏任职至从事中郎。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cai_Mao"
+    ]
+  },
+  {
+    "id": "cai-yong",
+    "name": "蔡邕",
+    "courtesy_name": "伯喈",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "scholar",
+      "musician",
+      "politician"
+    ],
+    "birth_year": 132,
+    "death_year": 192,
+    "birth_place": "陈留圉县",
+    "description": "东汉末年著名文学家、书法家、音乐家，蔡文姬之父。精通经史，创制飞白书。被董卓强征入仕，董卓死后因叹息被王允所杀。一代文宗含冤而死，令后人扼腕。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cai_Yong"
+    ]
+  },
+  {
+    "id": "xu-gan",
+    "name": "徐幹",
+    "courtesy_name": "伟长",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "scholar"
+    ],
+    "birth_year": 170,
+    "death_year": 217,
+    "birth_place": "北海",
+    "description": "建安七子之一，著名文学家和哲学家。为人淡泊名利，潜心著述。代表作《中论》是三国时期重要的哲学著作，对后世影响深远。建安二十二年瘟疫中去世。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Gan"
+    ]
+  },
+  {
+    "id": "liu-zhen",
+    "name": "刘桢",
+    "courtesy_name": "公幹",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "scholar",
+      "poet"
+    ],
+    "birth_year": null,
+    "death_year": 217,
+    "birth_place": "东平宁阳",
+    "description": "建安七子之一，以诗歌见长。其五言诗刚健挺拔，曹丕称其「仗气爱奇，动多振绝」。因平视甄姬被罚为苦役。建安二十二年瘟疫中去世，与陈琳、王粲等同年病故。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Zhen_(poet)"
+    ]
+  },
+  {
+    "id": "ying-yang",
+    "name": "应玚",
+    "courtesy_name": "德琏",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": 217,
+    "birth_place": "汝南南顿",
+    "description": "建安七子之一，擅长辞赋。出身文学世家，祖父应劭为著名学者。在曹操幕中任五官将文学，与曹丕交好。建安二十二年瘟疫中去世。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ying_Yang"
+    ]
+  },
+  {
+    "id": "ruan-yu",
+    "name": "阮瑀",
+    "courtesy_name": "元瑜",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": 212,
+    "birth_place": "陈留尉氏",
+    "description": "建安七子之一，善于书表章檄。为曹操军中文书，代笔书信文辞优美。其子阮籍为竹林七贤之一。蔡邕曾称其有「奇才」。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ruan_Yu"
+    ]
+  },
+  {
+    "id": "cang-ci",
+    "name": "仓慈",
+    "courtesy_name": "孝仁",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 174,
+    "death_year": 240,
+    "birth_place": "淮南",
+    "description": "曹魏敦煌太守，以治理边疆和促进丝路贸易著称。任内保护来往商旅，处理与西域各国关系。去世后西域各族为其举哀立祠，是曹魏边疆治理的典范。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cang_Ci"
+    ]
+  },
+  {
+    "id": "zao-zhi",
+    "name": "枣祗",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "颍川长社",
+    "description": "曹操帐下重要文臣，屯田制度的主要倡导者和执行者。提出并推行军屯民屯政策，解决了曹操军队的粮食供给问题，为曹操统一北方提供了关键的经济基础。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zao_Zhi"
+    ]
+  },
+  {
+    "id": "wen-yang",
+    "name": "文鸯",
+    "courtesy_name": "次骞",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 238,
+    "death_year": 291,
+    "birth_place": "沛国谯县",
+    "description": "文钦之子，曹魏末期至西晋猛将。十八岁随父起兵讨伐司马师，单骑冲阵七进七出，勇冠三军。父死后投降司马昭，入晋后曾大破鲜卑。后被诬陷灭族，结局悲惨。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wen_Yang_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "sima-shi",
+    "name": "司马师",
+    "courtesy_name": "子元",
+    "title": "景皇帝",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician",
+      "regent"
+    ],
+    "birth_year": 208,
+    "death_year": 255,
+    "birth_place": "河内温县",
+    "description": "司马懿长子，曹魏权臣。继承父亲权位后废黜曹芳，另立曹髦为帝。平定毌丘俭、文钦之乱。为人沉着冷静，执政期间大权独揽。因眼疾加重在军中去世，权位传弟司马昭。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Shi"
+    ]
+  },
+  {
+    "id": "sima-zhao",
+    "name": "司马昭",
+    "courtesy_name": "子上",
+    "title": "文皇帝",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician",
+      "regent"
+    ],
+    "birth_year": 211,
+    "death_year": 265,
+    "birth_place": "河内温县",
+    "description": "司马懿次子，曹魏末期权臣。继兄司马师之后掌控曹魏朝政，「司马昭之心路人皆知」即出自此时。派钟会、邓艾灭蜀，后受封晋王。去世后其子司马炎代魏建晋。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Zhao"
+    ]
+  },
+  {
+    "id": "zhang-te",
+    "name": "张特",
+    "courtesy_name": "子产",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "涿郡",
+    "description": "曹魏守将，以合肥新城保卫战闻名。诸葛恪率东吴大军围城数月，张特以少胜多坚守城池，假意投降争取时间修补城防，最终等来援军解围。被封为列侯。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Te"
+    ]
+  },
+  {
+    "id": "zhang-hu",
+    "name": "张虎",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "雁门马邑",
+    "description": "张辽之子，继承父爵。虽无父亲之赫赫战功，但在曹魏军中亦有一定地位。作为名将之后，其生平虽不显赫但承袭了张辽的荣誉。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Hu_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "chang-lin",
+    "name": "常林",
+    "courtesy_name": "伯槐",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 223,
+    "birth_place": "河内温县",
+    "description": "曹魏文臣，以清廉正直著称。少年时即有气节，后入仕曹魏，历任少府、大司农等职。为人公正无私，是曹魏朝廷中德望很高的文臣。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chang_Lin_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "cao-zhao",
+    "name": "曹肇",
+    "courtesy_name": "长思",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 244,
+    "birth_place": "沛国谯县",
+    "description": "曹休之子，曹魏宗室将领。继承父爵，官至散骑常侍。曹叡临终时一度被列为托孤大臣，后被改为曹爽和司马懿。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhao"
+    ]
+  },
+  {
+    "id": "cao-xi",
+    "name": "曹羲",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "birth_place": "沛国谯县",
+    "description": "曹爽之弟，曹魏宗室将领。任中领军，掌握禁军。高平陵之变中与曹爽一同被擒，随后被灭族。曾多次劝谏曹爽收敛权欲但不被采纳。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Xi"
+    ]
+  },
+  {
+    "id": "cao-tai",
+    "name": "曹泰",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "沛国谯县",
+    "description": "曹仁之子，继承父爵。在曹魏军中任职，参与多次对东吴的军事行动。作为宗室将领延续了曹仁的军事传统。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Tai"
+    ]
+  },
+  {
+    "id": "ji-kang",
+    "name": "嵇康",
+    "courtesy_name": "叔夜",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "scholar",
+      "musician"
+    ],
+    "birth_year": 224,
+    "death_year": 263,
+    "birth_place": "谯郡铚县",
+    "description": "竹林七贤之首，三国时期著名思想家、音乐家。曹魏宗室女婿，为人放达不羁。因不愿与司马氏合作，被钟会诬陷处死。临刑弹奏《广陵散》，成为千古绝唱。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ji_Kang"
+    ]
+  },
+  {
+    "id": "he-yan",
+    "name": "何晏",
+    "courtesy_name": "平叔",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "birth_place": "南阳宛县",
+    "description": "何进之孙，曹操养子。正始玄学的创始人之一，以清谈和哲学思辨闻名。曹爽执政时任吏部尚书。高平陵之变后被司马懿诛杀。其玄学思想对魏晋风度影响深远。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/He_Yan"
+    ]
+  },
+  {
+    "id": "deng-zhi",
+    "name": "邓忠",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 264,
+    "birth_place": "义阳棘阳",
+    "description": "邓艾之子，随父参与伐蜀之战。阴平奇袭中在绵竹关与诸葛瞻交战。蜀亡后随父被钟会诬陷，在绵竹与父同时遇害。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Deng_Zhong"
+    ]
+  },
+  {
+    "id": "wang-ji",
+    "name": "王基",
+    "courtesy_name": "伯舆",
+    "title": "景侯",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": 190,
+    "death_year": 261,
+    "birth_place": "东莱曲城",
+    "description": "曹魏名将兼能臣。平定毌丘俭之乱和诸葛诞之乱中建立重大军功。为人文武兼备，治理荆州政绩卓著。是曹魏后期最有才能的方面大员之一。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Ji_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "wang-shuang",
+    "name": "王双",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 228,
+    "birth_place": null,
+    "description": "曹魏将领，以勇猛闻名。诸葛亮第一次北伐退兵时追击蜀军，被诸葛亮设伏斩杀。《三国演义》中对其有更多艺术化描写。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Shuang_(Cao_Wei)"
+    ]
+  },
+  {
+    "id": "guo-huai",
+    "name": "郭淮",
+    "courtesy_name": "伯济",
+    "title": "贞侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 255,
+    "birth_place": "太原阳曲",
+    "description": "曹魏西线名将，长期镇守雍凉地区。多次抵御诸葛亮和姜维的北伐，战功卓著。善于利用地理优势和联合羌胡部族作战。官至车骑将军，是曹魏后期西线防御的支柱。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Huai"
+    ]
+  },
+  {
+    "id": "chen-tai",
+    "name": "陈泰",
+    "courtesy_name": "玄伯",
+    "title": "穆侯",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 260,
+    "birth_place": "颍川许昌",
+    "description": "陈群之子，曹魏后期名将。在陇西多次击败姜维，以善于用兵著称。为人正直，曹髦被杀后力主严惩凶手。因司马昭不肯追究贾充等人，陈泰忧愤呕血而死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Tai"
+    ]
+  },
+  {
+    "id": "du-ji",
+    "name": "杜畿",
+    "courtesy_name": "伯侯",
+    "title": "戴侯",
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 163,
+    "death_year": 224,
+    "birth_place": "京兆杜陵",
+    "description": "曹魏著名地方官。任河东太守十六年，政绩斐然，治下百姓安居乐业。荀彧称其为「有杰出才能的人」。后在试验水上运粮的楼船时不幸溺亡。其子杜恕、孙杜预均为杰出人物。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Du_Ji"
+    ]
+  },
+  {
+    "id": "du-yu",
+    "name": "杜预",
+    "courtesy_name": "元凯",
+    "title": "当阳侯",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "scholar"
+    ],
+    "birth_year": 222,
+    "death_year": 285,
+    "birth_place": "京兆杜陵",
+    "description": "杜畿之孙，曹魏末至西晋名将兼学者。博学多才，号称「杜武库」。西晋灭吴之战中率军南下，功勋卓著。同时也是著名的《春秋左氏传》注释家，文武全才。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Du_Yu"
+    ]
+  },
+  {
+    "id": "zhong-you",
+    "name": "钟毓",
+    "courtesy_name": "稚叔",
+    "title": "惠侯",
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 263,
+    "birth_place": "颍川长社",
+    "description": "钟繇之子，钟会之兄。自幼聪颖，与钟会并称「二钟」。在曹魏任青州刺史等职。钟会叛乱时，钟毓已先去世，但其家族免于连坐之祸。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhong_Yu_(Cao_Wei)"
+    ]
+  },
+  {
+    "id": "yang-hu",
+    "name": "羊祜",
+    "courtesy_name": "叔子",
+    "title": "南城侯",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": 221,
+    "death_year": 278,
+    "birth_place": "泰山南城",
+    "description": "曹魏末至西晋重要战略家。蔡文姬外甥。长期镇守襄阳，与东吴陆抗对峙，以德服人。制定灭吴战略但未等到实施便去世。死后百姓为其立碑，「堕泪碑」之典故流传千古。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yang_Hu"
+    ]
+  },
+  {
+    "id": "deng-yang",
+    "name": "邓飏",
+    "courtesy_name": "玄茂",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "birth_place": "南阳新野",
+    "description": "曹爽党羽，正始年间权臣。与何晏、丁谧等并称曹爽集团核心成员。为人浮华轻薄，贪财好权。高平陵之变后随曹爽被诛。时人称其等为「台中三狗」。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Deng_Yang"
+    ]
+  },
+  {
+    "id": "ding-mi",
+    "name": "丁谧",
+    "courtesy_name": "彦靖",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "birth_place": "沛国",
+    "description": "曹爽党羽，为曹爽出谋划策的核心谋士。建议曹爽架空司马懿，将其明升暗降为太傅。高平陵之变后被诛。其激进策略反而加速了曹爽集团的覆灭。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ding_Mi"
+    ]
+  },
+  {
+    "id": "li-sheng",
+    "name": "李胜",
+    "courtesy_name": "公昭",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "birth_place": "南阳",
+    "description": "曹爽党羽。奉命探望装病的司马懿，被司马懿以老病昏聩的演技所骗，回报曹爽「司马懿已不足虑」。高平陵之变后被诛。其误判成为曹爽集团覆灭的重要诱因。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Li_Sheng_(Cao_Wei)"
+    ]
+  },
+  {
+    "id": "bi-gui",
+    "name": "毕轨",
+    "courtesy_name": "昭先",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "birth_place": "东平",
+    "description": "曹爽党羽，任司隶校尉。与邓飏等人同为曹爽集团核心成员。高平陵之变后被诛。其子毕兰亦同时被杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Bi_Gui"
+    ]
+  },
+  {
+    "id": "wang-can-shuangquan",
+    "name": "王观",
+    "courtesy_name": "伟台",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 260,
+    "birth_place": "东郡廪丘",
+    "description": "曹魏重臣，以廉洁著称。任少府时，曹爽欲借库钱被其严辞拒绝。高平陵之变中支持司马懿。后任太尉，曹髦讨伐司马昭时，以印绶交还为由保持中立。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Guan_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "tian-yu",
+    "name": "田豫",
+    "courtesy_name": "国让",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 171,
+    "death_year": 252,
+    "birth_place": "渔阳雍奴",
+    "description": "曹魏北方边防名将。长期镇守边疆，多次击退鲜卑、乌桓等族入侵。善于以少胜多，用计退敌。为人廉洁奉公，是曹魏长期被低估的杰出将领。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Tian_Yu"
+    ]
+  },
+  {
+    "id": "qian-zhao",
+    "name": "牵招",
+    "courtesy_name": "子经",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 231,
+    "birth_place": "安平观津",
+    "description": "曹魏北方守将，善于处理与鲜卑等游牧民族的关系。与田豫并称曹魏北疆双壁。为人忠勇，治理边境政绩卓著，多次化解北方边患。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Qian_Zhao"
+    ]
+  },
+  {
+    "id": "liu-fu",
+    "name": "刘馥",
+    "courtesy_name": "元颖",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 208,
+    "birth_place": "沛国相县",
+    "description": "曹操任命的扬州刺史。在合肥地区修建城防、兴修水利、招抚流民，将一片战乱废墟建设成为曹魏东南防线的坚固堡垒。为后来张辽守合肥奠定了基础。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Fu_(Cao_Wei)"
+    ]
+  },
+  {
+    "id": "xu-yi",
+    "name": "徐奕",
+    "courtesy_name": "季才",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 219,
+    "birth_place": "东莞",
+    "description": "曹操帐下文臣，以忠直著称。曹操征汉中时任留府长史镇守后方。为人公正廉明，不畏权贵，是曹操后方稳定的重要人物。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Yi_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "si-ma-fu",
+    "name": "司马孚",
+    "courtesy_name": "叔达",
+    "title": "安平王",
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 180,
+    "death_year": 272,
+    "birth_place": "河内温县",
+    "description": "司马懿之弟，司马八达之一。虽为司马氏成员，但对曹魏忠心耿耿。曹髦被杀时亲自抱尸痛哭。西晋建立后坚持自称魏臣，至死不改。高寿九十三岁，是三国最长寿的名人之一。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Fu"
+    ]
+  },
+  {
+    "id": "zhuge-xu",
+    "name": "诸葛绪",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "琅琊阳都",
+    "description": "曹魏将领，伐蜀之战中任雍州刺史。奉命率三万大军堵截姜维退路，但被姜维声东击西甩开。后因延误军机被钟会弹劾押送洛阳，免于蜀地乱局之祸。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Xu"
+    ]
+  },
+  {
+    "id": "zhang-chunhua",
+    "name": "张春华",
+    "courtesy_name": null,
+    "title": "宣穆皇后",
+    "faction": "wei",
+    "roles": [
+      "consort"
+    ],
+    "birth_year": 189,
+    "death_year": 247,
+    "birth_place": "河内平皋",
+    "description": "司马懿正室，司马师、司马昭之母。为人刚毅果断，司马懿装病拒绝曹操征召时，张春华亲手杀死目击真相的婢女以灭口。后因司马懿宠幸侧室而失宠，忧郁而终。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Chunhua"
+    ]
+  },
+  {
+    "id": "zhong-hui-mu",
+    "name": "卞夫人",
+    "courtesy_name": null,
+    "title": "武宣皇后",
+    "faction": "wei",
+    "roles": [
+      "consort"
+    ],
+    "birth_year": 160,
+    "death_year": 230,
+    "birth_place": "琅琊开阳",
+    "description": "曹操正室，曹丕、曹彰、曹植、曹熊之母。出身歌舞伎家庭，以贤德著称。为人节俭低调，多次在家庭纷争中调和矛盾。曹丕称帝后尊为皇太后，在后宫事务中发挥稳定作用。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Bian"
+    ]
+  },
+  {
+    "id": "han-hao",
+    "name": "韩浩",
+    "courtesy_name": "元嗣",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "河内",
+    "description": "曹操帐下将领，与枣祗共同推行屯田制度。为人忠勇果断，在关键时刻多次维护军纪。曹操征讨各方时，韩浩负责后勤和屯田事务，对曹魏经济基础贡献重大。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Han_Hao_(Cao_Wei)"
+    ]
+  },
+  {
+    "id": "lu-yu",
+    "name": "卢毓",
+    "courtesy_name": "子家",
+    "title": "容城侯",
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 183,
+    "death_year": 257,
+    "birth_place": "涿郡涿县",
+    "description": "卢植之子，曹魏重臣。以识人用人著称，曹叡称赞其选拔人才「不可画饼充饥」（成语出处）。历仕四朝，官至司空。为人正直，在选才用人方面贡献突出。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Yu_(Cao_Wei)"
+    ]
+  },
+  {
+    "id": "wang-su",
+    "name": "王肃",
+    "courtesy_name": "子雍",
+    "title": "景侯",
+    "faction": "wei",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": 195,
+    "death_year": 256,
+    "birth_place": "东海郯县",
+    "description": "王朗之子，曹魏经学家、政治家。注解六经，与郑玄学派对立，形成「王学」一派。其女王元姬嫁司马昭，为西晋武帝司马炎之母，故被追尊为景皇帝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Su_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "xin-xianying",
+    "name": "辛宪英",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": 191,
+    "death_year": 269,
+    "birth_place": "颍川阳翟",
+    "description": "辛毗之女，曹魏至西晋著名才女。以识人和预见政局变化著称。曾预言曹丕争嗣必胜、高平陵之变曹爽必败、钟会伐蜀必叛。每次预言都应验，被誉为三国时期最有远见的女性。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xin_Xianying"
+    ]
+  },
+  {
+    "id": "wen-pin",
+    "name": "文聘",
+    "courtesy_name": "仲业",
+    "title": "壮侯",
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "南阳宛县",
+    "description": "原为刘表大将，刘琮降曹后效力曹操。镇守江夏数十年，多次击退东吴进攻，是曹魏荆州防线的重要将领。为人忠义，初降时因未能保全刘表基业而痛哭，曹操赞其忠臣。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wen_Pin"
+    ]
+  },
+  {
+    "id": "lu-qian",
+    "name": "吕虔",
+    "courtesy_name": "子恪",
+    "title": "万年亭侯",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "任城",
+    "description": "曹魏将领，长期担任泰山太守。以刚毅果断著称，平定当地盗贼，稳定地方秩序。传说其佩刀有「三公之象」，后将佩刀赠予王祥，王祥果然位至三公。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Qian"
+    ]
+  },
+  {
+    "id": "zhang-lu",
+    "name": "张鲁",
+    "courtesy_name": "公祺",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "warlord",
+      "religious_leader"
+    ],
+    "birth_year": 163,
+    "death_year": 216,
+    "birth_place": "沛国丰县",
+    "description": "五斗米道第三代天师，割据汉中近三十年。以道教治理地方，建立独特的政教合一政权。曹操征汉中时投降，被封为镇南将军。其家族对道教的发展影响深远。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Lu_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "xu-you-caowei",
+    "name": "许靖",
+    "courtesy_name": "文休",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 222,
+    "birth_place": "汝南平舆",
+    "description": "东汉末年名士，与从弟许劭并称「二许」。以品评人物闻名当世，月旦评即其所创。辗转多方后入蜀投刘璋，刘备入蜀后任司徒。虽非典型魏臣，但在汉末人物品评文化中地位重要。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Jing_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "han-ji",
+    "name": "韩暨",
+    "courtesy_name": "公至",
+    "title": "南乡亭侯",
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 159,
+    "death_year": 238,
+    "birth_place": "南阳堵阳",
+    "description": "曹魏重要技术官僚。任监冶谒者时改良冶铁技术，推广水排鼓风法，使冶铁效率提高数倍。这一技术革新对曹魏的武器装备和经济发展贡献巨大。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Han_Ji_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "su-ze",
+    "name": "苏则",
+    "courtesy_name": "文师",
+    "title": "都亭侯",
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 223,
+    "birth_place": "扶风武功",
+    "description": "曹魏西北地方官。任金城太守时平定西域叛乱，恢复丝路通道。为人刚直不阿，敢于直言进谏。曹丕即位后因直言触怒曹丕，忧愤而死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Su_Ze"
+    ]
+  },
+  {
+    "id": "wang-chang",
+    "name": "王昶",
+    "courtesy_name": "文舒",
+    "title": "穆侯",
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 259,
+    "birth_place": "太原晋阳",
+    "description": "曹魏后期重要将领，官至司空。长期镇守荆州，多次与东吴交战。著有《治论》《兵书》，以家训教子闻名。在曹魏后期政局动荡中保持中立，是文武兼备的重臣。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Chang_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "cao-jie",
+    "name": "曹节",
+    "courtesy_name": null,
+    "title": "献穆皇后",
+    "faction": "wei",
+    "roles": [
+      "consort"
+    ],
+    "birth_year": null,
+    "death_year": 260,
+    "birth_place": "沛国谯县",
+    "description": "曹操之女，汉献帝皇后。曹丕逼迫汉献帝禅让时，曹节怒斥曹丕「天不祚尔」。虽为曹氏女，但忠于汉室，其刚烈性格与丈夫的懦弱形成鲜明对比。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Empress_Cao_Jie"
+    ]
+  }
+]

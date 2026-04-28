@@ -1,0 +1,2073 @@
+[
+  {
+    "id": "sun-jian",
+    "name": "孙坚",
+    "courtesy_name": "文台",
+    "title": "武烈皇帝（追谥）",
+    "faction": "wu",
+    "roles": [
+      "warlord",
+      "general"
+    ],
+    "birth_year": 155,
+    "death_year": 191,
+    "birth_place": "吴郡富春",
+    "description": "东吴政权的奠基者，孙策、孙权之父。少年时即以勇武闻名，曾参与平定黄巾之乱和讨伐董卓，在讨董之战中斩杀华雄（正史记载），并据传获得传国玉玺。后任长沙太守，在攻打刘表部将黄祖时中伏身亡。其子孙策、孙权继承其基业，最终建立东吴。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Jian"
+    ]
+  },
+  {
+    "id": "sun-ce",
+    "name": "孙策",
+    "courtesy_name": "伯符",
+    "title": "长沙桓王（追谥）",
+    "faction": "wu",
+    "roles": [
+      "warlord",
+      "general"
+    ],
+    "birth_year": 175,
+    "death_year": 200,
+    "birth_place": "吴郡富春",
+    "description": "孙坚长子，东吴政权的实际创建者，人称“小霸王”。父亲死后借兵于袁术，率部横扫江东，先后击败刘繇、严白虎、王朗等割据势力，统一江东六郡。用人不拘一格，与周瑜情同手足。年仅二十五岁时遇刺身亡，临终将基业托付弟弟孙权。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ce"
+    ]
+  },
+  {
+    "id": "sun-quan",
+    "name": "孙权",
+    "courtesy_name": "仲谋",
+    "title": "大皇帝",
+    "faction": "wu",
+    "roles": [
+      "emperor"
+    ],
+    "birth_year": 182,
+    "death_year": 252,
+    "birth_place": "吴郡富春",
+    "description": "东吴开国皇帝，孙坚次子，孙策之弟。十八岁继承兄长基业，善于用人，在赤壁之战中联合刘备大败曹操。222年称吴王，229年正式称帝，定都建业（今南京）。在位三十余年，政权稳固，但晚年因立嗣之争引发“二宫之变”，政局动荡。曹操曾赞叹“生子当如孙仲谋”。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Quan"
+    ]
+  },
+  {
+    "id": "sun-liang",
+    "name": "孙亮",
+    "courtesy_name": null,
+    "title": "会稽王",
+    "faction": "wu",
+    "roles": [
+      "emperor"
+    ],
+    "birth_year": 243,
+    "death_year": 260,
+    "birth_place": "建业",
+    "description": "东吴第二任皇帝，孙权幼子。252年即位时年仅十岁，由诸葛恪、孙峻辅政。在位期间朝政先后被诸葛恪、孙峻、孙綝把持。258年被权臣孙綝废为会稽王，后又贬为侯官侯，据说在流放途中自杀或被杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Liang"
+    ]
+  },
+  {
+    "id": "sun-xiu",
+    "name": "孙休",
+    "courtesy_name": null,
+    "title": "景皇帝",
+    "faction": "wu",
+    "roles": [
+      "emperor"
+    ],
+    "birth_year": 235,
+    "death_year": 264,
+    "birth_place": "建业",
+    "description": "东吴第三任皇帝，孙权第六子。258年被孙綝拥立为帝，即位后联合张布、丁奉发动政变诛杀孙綝，收回皇权。在位期间重视教育，颁布兴学令，但国力已渐衰弱。264年病逝，同年蜀汉灭亡。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Xiu_(emperor)"
+    ]
+  },
+  {
+    "id": "sun-hao",
+    "name": "孙皓",
+    "courtesy_name": "元宗",
+    "title": "归命侯",
+    "faction": "wu",
+    "roles": [
+      "emperor"
+    ],
+    "birth_year": 242,
+    "death_year": 284,
+    "birth_place": "建业",
+    "description": "东吴末代皇帝，孙和之子，孙权之孙。即位初期尚有明政，后渐趋暴虐荒淫，滥杀大臣。280年西晋大举伐吴，孙皓出降，东吴灭亡，三国归晋。投降后被封为归命侯，284年病死于洛阳。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Hao"
+    ]
+  },
+  {
+    "id": "zhou-yu",
+    "name": "周瑜",
+    "courtesy_name": "公瑾",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general",
+      "strategist"
+    ],
+    "birth_year": 175,
+    "death_year": 210,
+    "birth_place": "庐江舒县",
+    "description": "东吴名将，与孙策为总角之交，人称“周郎”。精通音律，容貌俊美，有“曲有误、周郎顾”之典。赤壁之战中任大都督，以火攻大败曹操八十万大军，奠定三国鼎立格局。后在南郡之战中箭负伤，36岁英年早逝。其妻为小乔。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhou_Yu"
+    ]
+  },
+  {
+    "id": "lu-su",
+    "name": "鲁肃",
+    "courtesy_name": "子敬",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "strategist",
+      "general"
+    ],
+    "birth_year": 172,
+    "death_year": 217,
+    "birth_place": "临淮东城",
+    "description": "东吴重臣，战略家。早年即向孙权提出“鼎足江东”的战略构想（榻上策），主张联刘抗曹。赤壁之战前力排众议促成孙刘联盟，是赤壁大捷的关键推动者。周瑜死后继任都督，主持荆州外交。为人豪爽大度，有“指囷相赠”的美名。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Su"
+    ]
+  },
+  {
+    "id": "lv-meng",
+    "name": "吕蒙",
+    "courtesy_name": "子明",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 178,
+    "death_year": 219,
+    "birth_place": "汝南富陂",
+    "description": "东吴名将，早年以勇武著称但不好读书，经孙权劝学后发奋读书，留下“士别三日当刮目相待”“吴下阿蒙”等典故。鲁肃死后接任都督，白衣渡江奇袭荆州，擒杀关羽，夺回荆州全境。功成后不久即病逝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Meng"
+    ]
+  },
+  {
+    "id": "lu-xun",
+    "name": "陆逊",
+    "courtesy_name": "伯言",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": 183,
+    "death_year": 245,
+    "birth_place": "吴郡吴县",
+    "description": "东吴名将，吴郡四大家族陆氏代表人物。夷陵之战中任大都督，以火烧连营大败刘备，一战成名。后长期镇守荆州，官至丞相。文武兼备，为东吴中后期的顶梁柱，但晚年卷入太子之争，受孙权猜忌，忧愤而死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Xun_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "lu-kang",
+    "name": "陆抗",
+    "courtesy_name": "幼节",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 226,
+    "death_year": 274,
+    "birth_place": "吴郡吴县",
+    "description": "陆逊之子，东吴后期最杰出的将领。镇守荆州抵御西晋名将羊祜，双方互敬互重，留下“陆抗羊祜”的佳话。在西陵之战中大破步阐叛军和西晋援军，为东吴续命数年。临终上疏警告西陵之重要，惜未被孙皓采纳。其死后六年东吴灭亡。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Kang_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "gan-ning",
+    "name": "甘宁",
+    "courtesy_name": "兴霸",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 220,
+    "birth_place": "巴郡临江",
+    "description": "东吴猛将，早年为锦帆贼，后归降孙权。以勇猛著称，曾率百骑劫曹营，令曹军惊恐不已（“百骑劫魏营”）。在合肥之战、濡须之战中多次立功，孙权赞其可比张辽。性格豪迈粗犷，善待部下。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gan_Ning"
+    ]
+  },
+  {
+    "id": "taishi-ci",
+    "name": "太史慈",
+    "courtesy_name": "子义",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 166,
+    "death_year": 206,
+    "birth_place": "东莱黄县",
+    "description": "东吴早期名将，弓马娴熟，武艺超群。原为刘繇部将，曾与孙策在神亭岭大战不分胜负。后被孙策收服，成为其麾下大将。孙策深信其忠义，委以重任。病逝时年仅四十一岁，临终留下“大丈夫生于乱世，当带三尺剑立不世之功”的名言。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Taishi_Ci"
+    ]
+  },
+  {
+    "id": "huang-gai",
+    "name": "黄盖",
+    "courtesy_name": "公覆",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "零陵泉陵",
+    "description": "东吴宿将，历仕孙坚、孙策、孙权三代，为“江东十二虎臣”之一。赤壁之战中献苦肉计，诈降曹操，以火船冲击曹军水寨，是赤壁大捷的关键人物之一。治理地方有方，恩威并施，所到之处盗贼敛迹。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Huang_Gai"
+    ]
+  },
+  {
+    "id": "cheng-pu",
+    "name": "程普",
+    "courtesy_name": "德谋",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 210,
+    "birth_place": "右北平土垠",
+    "description": "东吴宿将，历仕孙坚、孙策、孙权三代，为江东元勋之一。赤壁之战中任右都督协助周瑜指挥作战。为人宽厚刚正，初因资历深厚不服周瑜年轻，但后来折服于周瑜的才华，称赞“与周公瑾交，若饮醇醪，不觉自醉”。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cheng_Pu"
+    ]
+  },
+  {
+    "id": "han-dang",
+    "name": "韩当",
+    "courtesy_name": "义公",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 226,
+    "birth_place": "辽西令支",
+    "description": "东吴宿将，历仕孙坚、孙策、孙权三代。弓马娴熟，膂力过人，随孙坚征讨四方，屡立战功。赤壁之战和夷陵之战中均有参战。官至昭武将军，封爵石城侯。为东吴建国立下汗马功劳的元勋老将之一。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Han_Dang"
+    ]
+  },
+  {
+    "id": "ling-tong",
+    "name": "凌统",
+    "courtesy_name": "公绩",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 189,
+    "death_year": 217,
+    "birth_place": "吴郡余杭",
+    "description": "东吴名将凌操之子，少年英武。合肥之战中拼死保护孙权突围，力战张辽追兵，身负重伤仍死战不退，事后孙权感动流泪。因父亲凌操被甘宁所杀，一度与甘宁不睦，后在孙权调和下化解仇怨。年仅二十九岁英年早逝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ling_Tong"
+    ]
+  },
+  {
+    "id": "ding-feng",
+    "name": "丁奉",
+    "courtesy_name": "承渊",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 271,
+    "birth_place": "庐江安丰",
+    "description": "东吴后期名将，历仕孙权、孙亮、孙休、孙皓四朝。东兴之战中雪中奋短兵，大破魏军，一战成名。后参与诛杀权臣孙綝的政变，助孙休夺回皇权。晚年官至大将军，是东吴最后的元老名将。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ding_Feng_(general)"
+    ]
+  },
+  {
+    "id": "xu-sheng",
+    "name": "徐盛",
+    "courtesy_name": "文向",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "琅邪莒县",
+    "description": "东吴名将。在濡须口之战中表现英勇，以少胜多击退曹军。223年曹丕率大军南征时，徐盛沿江设疑城（假城楼），曹丕望之叹息退兵。官至安东将军，封芜湖侯。治军严整，屡建奇功。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Sheng"
+    ]
+  },
+  {
+    "id": "zhu-ran",
+    "name": "朱然",
+    "courtesy_name": "义封",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 182,
+    "death_year": 249,
+    "birth_place": "丹阳故鄣",
+    "description": "东吴名将，原姓施，过继给朱治为子。与孙权少时同学，关系亲密。参与擒杀关羽之役，夷陵之战中与陆逊并肩作战。后镇守江陵，魏将曹真率数万大军围攻江陵六个月不能克，朱然因此威名远震。官至左大司马、右军师。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Ran"
+    ]
+  },
+  {
+    "id": "pan-zhang",
+    "name": "潘璋",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 234,
+    "birth_place": "东郡发干",
+    "description": "东吴将领，勇猛善战。在吕蒙白衣渡江袭取荆州之役中，率部截断关羽退路，其部将马忠擒获关羽。夷陵之战中斩杀蜀将冯习。作战勇猛但性格贪财奢侈，治军以严刑著称。官至右将军。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Pan_Zhang"
+    ]
+  },
+  {
+    "id": "zhang-zhao",
+    "name": "张昭",
+    "courtesy_name": "子布",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "advisor"
+    ],
+    "birth_year": 156,
+    "death_year": 236,
+    "birth_place": "彭城",
+    "description": "东吴重臣，与张纮并称“二张”。孙策创业时即辅佐在侧，孙策临终托孤说“内事不决问张昭”。博学多才，直言敢谏，曾多次犯颜直谏孙权。赤壁之战前主张降曹，因此未被孙权任命为丞相。晚年性格固执，与孙权多次冲突，但始终受到尊重。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Zhao_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "zhang-hong",
+    "name": "张纮",
+    "courtesy_name": "子纲",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "advisor"
+    ],
+    "birth_year": 153,
+    "death_year": 212,
+    "birth_place": "广陵",
+    "description": "东吴谋臣，与张昭并称“二张”。孙策创业前曾向其问策，张纮为其规划了据江东以成霸业的战略蓝图。文采出众，曾出使许都与曹操打交道。建议孙权定都秣陵（后改名建业），奠定了东吴的都城选址。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Hong_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "zhuge-jin",
+    "name": "诸葛瑾",
+    "courtesy_name": "子瑜",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "general"
+    ],
+    "birth_year": 174,
+    "death_year": 241,
+    "birth_place": "琅邪阳都",
+    "description": "东吴重臣，诸葛亮之兄。为人温厚诚信，深受孙权信任，多次出使蜀汉调停外交。面容狭长（“驴脸”趣事为后世传诵）。官至大将军、左都护，封宛陵侯。虽与弟弟诸葛亮分事吴蜀，但兄弟间始终保持信义。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Jin"
+    ]
+  },
+  {
+    "id": "zhuge-ke",
+    "name": "诸葛恪",
+    "courtesy_name": "元逊",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "general"
+    ],
+    "birth_year": 203,
+    "death_year": 253,
+    "birth_place": "琅邪阳都",
+    "description": "诸葛瑾之子，东吴权臣。少时即以聪慧著称，有“诸葛恪得驴”等机智故事。孙权临终托孤，任大将军、太傅辅政。东兴之战大败魏军，威望达到顶峰，但随后征合肥新城惨败，性格变得刚愎自用。253年被孙峻设计杀害于宴席之上，满门被灭。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Ke"
+    ]
+  },
+  {
+    "id": "gu-yong",
+    "name": "顾雍",
+    "courtesy_name": "元叹",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 168,
+    "death_year": 243,
+    "birth_place": "吴郡吴县",
+    "description": "东吴丞相，吴郡四大家族顾氏代表人物。少年师从蔡邕，深受器重（“元叹”之名即蔡邕所取）。为人沉默寡言，处事公正严谨。任丞相十九年，治国有方，从不饮酒失态。为东吴文官之首，稳定了孙权时期的朝政。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gu_Yong"
+    ]
+  },
+  {
+    "id": "lu-kai",
+    "name": "陆凯",
+    "courtesy_name": "敬风",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 270,
+    "birth_place": "吴郡吴县",
+    "description": "陆逊族侄，东吴后期重臣。为人正直敢言，多次上疏直谏暴君孙皓，批评其奢侈无度和滥杀无辜。官至左丞相，与陆抗一文一武支撑东吴后期政局。有“折梅寄友”的佳话——曾折梅花寄赠好友范晔并赋诗。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Kai"
+    ]
+  },
+  {
+    "id": "bu-zhi",
+    "name": "步骘",
+    "courtesy_name": "子山",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 247,
+    "birth_place": "临淮淮阴",
+    "description": "东吴重臣，官至丞相。早年避乱江东，与诸葛瑾等交好。曾任交州刺史，平定交州地区，经营南方。后回朝担任骠骑将军，顾雍死后继任丞相。为人宽厚有度，善于治理地方，对东吴稳定南方功不可没。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Bu_Zhi"
+    ]
+  },
+  {
+    "id": "kan-ze",
+    "name": "阚泽",
+    "courtesy_name": "德润",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "advisor"
+    ],
+    "birth_year": null,
+    "death_year": 243,
+    "birth_place": "会稽山阴",
+    "description": "东吴文臣，博学多才。出身贫寒，靠替人抄书得以读书。赤壁之战中为黄盖传递诈降书至曹营（演义情节）。后任太子太傅，教导太子孙登。官至中书令、太子太傅，以学识渊博著称。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Kan_Ze"
+    ]
+  },
+  {
+    "id": "yu-fan",
+    "name": "虞翻",
+    "courtesy_name": "仲翔",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": 164,
+    "death_year": 233,
+    "birth_place": "会稽余姚",
+    "description": "东吴学者、官员。精通《易经》，学术造诣极高。性格刚直不阿，多次犯颜直谏孙权，因言获罪被流放交州十余年，但在流放期间仍讲学授徒，弟子数百人。赤壁之战前曾反对投降，后在收服关羽之役中劝降关羽。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yu_Fan"
+    ]
+  },
+  {
+    "id": "wu-guotai",
+    "name": "吴国太",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": 207,
+    "birth_place": "吴郡吴县",
+    "description": "孙坚正妻吴氏，孙策和孙权之母。在三国演义中被称为“吴国太”。孙策遇刺临终时，嘱咐孙权“内事不决问张昭，外事不决问周瑜”，她协助年幼的孙权稳定了政权过渡。孙权称帝后追尊为武烈皇后。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Wu_(Sun_Jian%27s_wife)"
+    ]
+  },
+  {
+    "id": "sun-shangxiang",
+    "name": "孙尚香",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴郡富春",
+    "description": "孙权之妹，刘备夫人。正史中仅称“孙夫人”，“孙尚香”为后世演义所取。性格刚烈，好舞刀弄剑，侍女皆持武器。孙刘联盟期间嫁与刘备，后被孙权召回东吴。在演义和戏曲中是极具魅力的女性角色。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Sun"
+    ]
+  },
+  {
+    "id": "da-qiao",
+    "name": "大乔",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "庐江皖县",
+    "description": "东汉末年美女，乔公之长女，孙策之妻。与妹妹小乔并称“二乔”，以美貌闻名于世。曹操筑铜雀台，苏轼词中有“东风不与周郎便，铜雀春深锁二乔”之句。正史记载极少，主要见于文学作品。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Two_Qiaos"
+    ]
+  },
+  {
+    "id": "xiao-qiao",
+    "name": "小乔",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "庐江皖县",
+    "description": "东汉末年美女，乔公之次女，周瑜之妻。与姐姐大乔并称“二乔”。在三国演义中，诸葛亮用“铜雀台赋”激怒周瑜，称曹操欲取二乔，促使周瑜决意抗曹。正史记载极少，但在文学和艺术中形象鲜明。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Two_Qiaos"
+    ]
+  },
+  {
+    "id": "zhou-tai",
+    "name": "周泰",
+    "courtesy_name": "幼平",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "九江下蔡",
+    "description": "东吴猛将，以忠勇著称。早年随孙策征战，在宣城之战中为救孙权身中十二处创伤，几乎丧命。孙权曾在宴会上令周泰解衣展示伤疤，指着每处伤痕述说战功，感动在场众将。后任濡须督，镇守要地。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhou_Tai"
+    ]
+  },
+  {
+    "id": "jiang-qin",
+    "name": "蒋钦",
+    "courtesy_name": "公奕",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 220,
+    "birth_place": "九江寿春",
+    "description": "东吴将领，早年随孙策征战江东，为“江东十二虎臣”之一。为人公正廉洁，虽身居高位却家无余财，妻子衣着简朴。合肥之战中协助孙权撤退。善于治理水军，官至右护军。孙权赞其公正无私。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Qin"
+    ]
+  },
+  {
+    "id": "he-qi",
+    "name": "贺齐",
+    "courtesy_name": "公苗",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 227,
+    "birth_place": "会稽山阴",
+    "description": "东吴将领，长期负责平定山越叛乱，为东吴稳定后方做出重大贡献。善于山地作战，多次征讨山越成功，将大量山越人口编入军队和农耕，增强了东吴国力。为人奢华好装饰，但军事才能出众。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/He_Qi_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "quan-cong",
+    "name": "全琮",
+    "courtesy_name": "子璜",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 249,
+    "birth_place": "吴郡钱唐",
+    "description": "东吴将领，孙权女婿（娶孙鲁班）。早年以散家财募兵著称，后屡建战功。曾参与擒杀关羽之役和夷陵之战，后任大司马，为东吴后期重要将领。因娶公主，家族势力显赫，但也因此卷入宫廷政治。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Quan_Cong"
+    ]
+  },
+  {
+    "id": "zhu-huan",
+    "name": "朱桓",
+    "courtesy_name": "休穆",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 177,
+    "death_year": 238,
+    "birth_place": "吴郡吴县",
+    "description": "东吴名将，以勇猛善战著称。在濡须之战中以少胜多大败曹仁，斩杀魏将常雕。为人豪爽好客，倾财赈济穷困，深受部下爱戴。但性格刚烈暴躁，晚年精神失常，屡与同僚冲突。官至前将军、青州牧。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Huan"
+    ]
+  },
+  {
+    "id": "lv-fan",
+    "name": "吕范",
+    "courtesy_name": "子衡",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 228,
+    "birth_place": "汝南细阳",
+    "description": "东吴重臣，早年即追随孙策创业，负责军政事务。为人忠诚可靠，孙策曾将后方事务全权交付。孙权时期官至大司马，但任命下达时已病逝。善于理财治军，性格谨慎缜密，为东吴的行政管理做出重要贡献。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Fan"
+    ]
+  },
+  {
+    "id": "sun-jun",
+    "name": "孙峻",
+    "courtesy_name": "子远",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "general"
+    ],
+    "birth_year": 219,
+    "death_year": 256,
+    "birth_place": "吴郡富春",
+    "description": "东吴权臣，孙坚弟孙静的曾孙。孙权晚年受宠，孙权死后联合孙亮设计诛杀辅政大臣诸葛恪，独揽朝政。执政期间诛杀异己，跋扈专权。后率军北征失败，病死于军中，将权力传给堂弟孙綝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Jun_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "sun-chen",
+    "name": "孙綝",
+    "courtesy_name": "子通",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 231,
+    "death_year": 258,
+    "birth_place": "吴郡富春",
+    "description": "东吴权臣，孙峻堂弟。孙峻死后继掌朝政，飞扬跋扈，废黜皇帝孙亮，改立孙休为帝。专权期间残害忠良，引起朝野不满。孙休即位后联合张布、丁奉发动政变将其诛杀，年仅二十八岁。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Chen"
+    ]
+  },
+  {
+    "id": "zhang-bu",
+    "name": "张布",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 264,
+    "birth_place": null,
+    "description": "东吴大臣。孙休时期的重要人物，协助孙休发动政变诛杀权臣孙綝，深受孙休信任。孙休死后，与濮阳兴共同拥立孙皓为帝。然而孙皓即位后猜忌功臣，张布被孙皓所杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Bu_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "puyang-xing",
+    "name": "濮阳兴",
+    "courtesy_name": "子元",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 264,
+    "birth_place": "陈留",
+    "description": "东吴大臣，官至丞相。孙休时期为重臣，孙休死后与张布共同拥立孙皓为帝。然而孙皓即位仅月余，便将濮阳兴流放并杀害，其家族也被诛灭。是东吴后期政治动荡的缩影。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Puyang_Xing"
+    ]
+  },
+  {
+    "id": "sun-deng",
+    "name": "孙登",
+    "courtesy_name": "子高",
+    "title": "宣太子（追谥）",
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": 209,
+    "death_year": 241,
+    "birth_place": "吴郡富春",
+    "description": "孙权长子，东吴第一任太子。为人仁孝恭谨，礼贤下士，深得朝臣爱戴。多次劝谏孙权施行仁政，留下多篇有见地的上疏。不幸英年早逝，年仅三十三岁。临终上疏推荐贤才，言辞恳切，孙权读后痛哭不已。其早逝间接导致后来的太子之争。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Deng_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "sun-he",
+    "name": "孙和",
+    "courtesy_name": "子孝",
+    "title": "文皇帝（追谥）",
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": 224,
+    "death_year": 253,
+    "birth_place": "吴郡富春",
+    "description": "孙权第三子，孙皓之父。孙登死后被立为太子，但与弟弟孙霸争夺储位引发“二宫之变”，朝臣分裂为两派。最终孙权废黜孙和，将其贬为南阳王。孙亮即位后，被权臣孙峻逼迫自杀。其子孙皓后来成为东吴末帝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_He_(Zixiao)"
+    ]
+  },
+  {
+    "id": "lv-dai",
+    "name": "吕岱",
+    "courtesy_name": "定公",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": 161,
+    "death_year": 256,
+    "birth_place": "广陵海陵",
+    "description": "东吴元老将领，高寿九十六岁。长期经略南方交州，平定士燮家族叛乱，安定岭南地区。晚年任大司马，是东吴任职资历最深的将领之一。为人清廉俭朴，家无余财。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Dai"
+    ]
+  },
+  {
+    "id": "zhu-zhi",
+    "name": "朱治",
+    "courtesy_name": "君理",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "general"
+    ],
+    "birth_year": 156,
+    "death_year": 224,
+    "birth_place": "丹阳故鄣",
+    "description": "东吴元勋，朱然养父。早年随孙坚征战，是孙氏集团最早的追随者之一。孙策死后辅助孙权，长期担任吴郡太守，治理地方有方。为人正直清廉，多次举荐贤才。被孙权尊为长辈，免其跪拜之礼。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Zhi"
+    ]
+  },
+  {
+    "id": "lu-ji-188",
+    "name": "陆绩",
+    "courtesy_name": "公纪",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": 188,
+    "death_year": 219,
+    "birth_place": "吴郡吴县",
+    "description": "东吴文臣，陆康之子，陆逊从父。幼年时有“怀橘遗亲”的孝行佳话（被列入二十四孝）。博学多才，精通天文历法，但性格耿直，常与人争论。赤壁之战前主张降曹。后任郁林太守，英年早逝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Ji_(Three_Kingdoms_politician)"
+    ]
+  },
+  {
+    "id": "sun-yi",
+    "name": "孙翊",
+    "courtesy_name": "叔弼",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 184,
+    "death_year": 204,
+    "birth_place": "吴郡富春",
+    "description": "孙坚第三子，孙策、孙权之弟。性格刚烈勇猛，颇似孙策。孙策死后曾被部分人支持继位，但最终孙权继承大业。后任丹阳太守，被身边亲近之人妫览、戴员暗杀。其妻徐氏为其复仇，设计诛杀了凶手。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Yi_(son_of_Sun_Jian)"
+    ]
+  },
+  {
+    "id": "sun-shao",
+    "name": "孙韶",
+    "courtesy_name": "公礼",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 188,
+    "death_year": 241,
+    "birth_place": "吴郡富春",
+    "description": "孙河之侄（后过继为子），东吴将领。少年时即统领孙河旧部镇守京口，抵御曹魏进攻。长期戍守北方边境，多次击退魏军侵扰。善于防守作战，为东吴北线安全做出重要贡献。官至镇北将军。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Shao_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "sun-huan",
+    "name": "孙桓",
+    "courtesy_name": "叔武",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 198,
+    "death_year": null,
+    "birth_place": "吴郡富春",
+    "description": "孙河之子，东吴将领。夷陵之战中率军抵抗刘备主力，坚守夷道城，虽一度被围但坚持到陆逊反攻。作战勇猛，深受孙权器重，被赞为“宗室颜渊”。后任建武将军，封丹徒侯。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Huan_(Jiming)"
+    ]
+  },
+  {
+    "id": "sun-ben",
+    "name": "孙贲",
+    "courtesy_name": "伯阳",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴郡富春",
+    "description": "孙坚兄长孙羌之子，孙策、孙权堂兄。孙坚死后统领其旧部，后随孙策平定江东。孙策时期任豫章太守，为孙氏宗族早期重要将领。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ben"
+    ]
+  },
+  {
+    "id": "sun-jing",
+    "name": "孙静",
+    "courtesy_name": "幼台",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴郡富春",
+    "description": "孙坚幼弟。孙策平定江东时曾率家族宗兵相助，协助攻克会稽。孙策欲以其为官，但孙静无意仕途，选择留居故乡。其后代孙峻、孙綝在东吴后期成为权臣。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Jing"
+    ]
+  },
+  {
+    "id": "sun-yu",
+    "name": "孙瑜",
+    "courtesy_name": "仲异",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 177,
+    "death_year": 215,
+    "birth_place": "吴郡富春",
+    "description": "孙坚弟孙静之子，东吴宗室将领。好读书，礼贤下士，颇有才名。曾任丹阳太守、奋威将军等职。周瑜筹划攻取益州时病死，孙瑜也在同年去世，使攻蜀计划搁浅。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Yu_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "sun-jiao",
+    "name": "孙皎",
+    "courtesy_name": "叔朗",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 219,
+    "birth_place": "吴郡富春",
+    "description": "孙坚弟孙静之子，东吴宗室将领。为人宽厚好客，礼贤下士。镇守夏口等要地，是东吴中坚力量。在吕蒙白衣渡江之役中负责后方支援。与甘宁有过争执，经吕蒙调和后和解。不久病逝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Jiao"
+    ]
+  },
+  {
+    "id": "pan-jun",
+    "name": "潘濬",
+    "courtesy_name": "承明",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 239,
+    "birth_place": "武陵汉寿",
+    "description": "原为刘备荆州治中从事，吕蒙夺取荆州后归降东吴。初降时痛哭流涕，经孙权亲自慰问后效力东吴，深受信任。后主持平定武陵蛮夷叛乱，治理荆州南部。为人刚正严厉，官至太常。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Pan_Jun"
+    ]
+  },
+  {
+    "id": "chen-wu",
+    "name": "陈武",
+    "courtesy_name": "子烈",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 215,
+    "birth_place": "庐江松滋",
+    "description": "东吴将领，“江东十二虎臣”之一。为人仁厚好施，深得部下爱戴。早年随孙策征战，勇猛善战。合肥之战中（215年）与张辽军激战，力战身亡。孙权闻讯大为悲痛，以厚礼安葬。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Wu_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "dong-xi",
+    "name": "董袭",
+    "courtesy_name": "元代",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 213,
+    "birth_place": "会稽余姚",
+    "description": "东吴将领，“江东十二虎臣”之一。身材魁梧，膂力过人。早年随孙策平定江东。濡须口之战中遭遇暴风翻船，部下劝其弃船逃生，董袭拒绝退却，坚持在船上指挥作战，最终战死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Xi_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "hu-zong",
+    "name": "胡综",
+    "courtesy_name": "伟则",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 243,
+    "birth_place": "汝南固始",
+    "description": "东吴文臣，善于撰写文书檄文。早年与孙权一同读书，深得信任。为孙权起草诸多重要文件和外交文书，文辞犀利。参与平定诸多内部事务，官至偏将军。与是仪、徐详并称东吴“文书三杰”。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Hu_Zong"
+    ]
+  },
+  {
+    "id": "xue-zong",
+    "name": "薛综",
+    "courtesy_name": "敬文",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": 243,
+    "birth_place": "沛郡竹邑",
+    "description": "东吴文臣，博学多才，精通经学。曾随吕岱平定交州之乱，任交州刺史治理南方。后回朝任太子太傅，教导太子。善于辩论，曾在与蜀汉使臣的外交场合中维护东吴尊严。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xue_Zong"
+    ]
+  },
+  {
+    "id": "yan-jun",
+    "name": "严畯",
+    "courtesy_name": "曼才",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "彭城",
+    "description": "东吴文臣，精通《诗经》《三礼》等经学。鲁肃死后，孙权曾欲任命严畯为濡须都督接替鲁肃之职，但严畯自知非将才，坚辞不受，推荐吕蒙接任，孙权从之。为人谦逊好学，著有《孝经传》等。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yan_Jun_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "zhang-wen-wu",
+    "name": "张温",
+    "courtesy_name": "惠恕",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 193,
+    "death_year": 230,
+    "birth_place": "吴郡吴县",
+    "description": "东吴文臣，少年即有才名。曾出使蜀汉，与诸葛亮对答如流，展现了东吴的文化实力。然而回国后被孙权猜忌，以“暨艳案”为借口将其免官流放，最终郁郁而终。年仅三十八岁。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Wen_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "luo-tong",
+    "name": "骆统",
+    "courtesy_name": "公绪",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "general"
+    ],
+    "birth_year": 193,
+    "death_year": 228,
+    "birth_place": "会稽乌伤",
+    "description": "东吴文武双全之臣。幼年母亲改嫁后仍以孝闻名。多次上疏针砭时弊，建议孙权减轻赋税、爱惜民力。也参与军事行动，在荆州之战等战役中有功。官至偏将军、濡须督。年仅三十六岁去世。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Luo_Tong"
+    ]
+  },
+  {
+    "id": "wei-zhao",
+    "name": "韦昭",
+    "courtesy_name": "弘嗣",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "scholar",
+      "politician"
+    ],
+    "birth_year": 204,
+    "death_year": 273,
+    "birth_place": "吴郡云阳",
+    "description": "东吴著名学者、史学家。著有《吴书》五十五卷，是三国时期重要的史学著作（后被裴松之大量引用注释《三国志》）。孙皓时期因拒绝为孙皓歌功颂德而被下狱处死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wei_Zhao"
+    ]
+  },
+  {
+    "id": "xue-ying",
+    "name": "薛莹",
+    "courtesy_name": "道言",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": 282,
+    "birth_place": "沛郡竹邑",
+    "description": "薛综之子，东吴后期文臣。继承父亲学问，续修《吴书》。曾多次上疏劝谏孙皓，但不被采纳。东吴亡后入晋，继续完成史学著作。为东吴历史记录的保存做出了重要贡献。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xue_Ying"
+    ]
+  },
+  {
+    "id": "hua-he",
+    "name": "华覈",
+    "courtesy_name": "永先",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": 278,
+    "birth_place": "吴郡武进",
+    "description": "东吴后期文臣。参与修撰《吴书》，文辞典雅。多次上疏劝谏孙皓减少劳役、节约开支，但均被忽视。在东吴末年仍坚持直言进谏，为东吴忠直之臣的代表。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Hua_He"
+    ]
+  },
+  {
+    "id": "shi-xie",
+    "name": "士燮",
+    "courtesy_name": "威彦",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "warlord"
+    ],
+    "birth_year": 137,
+    "death_year": 226,
+    "birth_place": "苍梧广信",
+    "description": "东吴交州割据者，被越南视为重要历史人物。家族世代经营交州，在交州拥有极大影响力。名义上臣服于孙权，实际半独立统治交州四十余年。学养深厚，推广中原文化于岭南。其死后子弟叛吴，被吕岱平定。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shi_Xie"
+    ]
+  },
+  {
+    "id": "shi-yi",
+    "name": "是仪",
+    "courtesy_name": "子羽",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "北海营陵",
+    "description": "东吴文臣，原姓“氏”，因孔融嘲讽“氏”字为“民无上”，遂改姓“是”。为人谨慎清廉，不治产业，深受孙权信任。历任多种官职，从不参与结党营私。为东吴清正之臣的典范。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shi_Yi_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "wu-jing",
+    "name": "吴景",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 203,
+    "birth_place": "吴郡吴县",
+    "description": "孙坚妻弟（吴国太之弟），孙策、孙权舅父。随孙坚、孙策征战，任丹阳太守等职。孙策平定江东时给予重要支持，是孙氏家族早期的重要外戚将领。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wu_Jing_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "zhuge-rong",
+    "name": "诸葛融",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 253,
+    "birth_place": "琅邪阳都",
+    "description": "诸葛瑾幼子，诸葛恪之弟。性格豪放不羁，善于交际宴饮。兄长诸葛恪被诛杀后，诸葛融亦遭连坐被逼自杀，诸葛瑾一脉在东吴至此绝嗣。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Rong"
+    ]
+  },
+  {
+    "id": "zhu-ju",
+    "name": "朱据",
+    "courtesy_name": "子范",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 253,
+    "birth_place": "吴郡吴县",
+    "description": "东吴将领，孙权女婿（娶孙鲁育）。文武兼备，为人正直。在“二宫之变”中支持太子孙和，被贬官流放。孙峻掌权后将其赐死。朱然之侄，为吴郡四大家族朱氏代表人物之一。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Ju"
+    ]
+  },
+  {
+    "id": "lv-ju",
+    "name": "吕据",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 256,
+    "birth_place": "汝南细阳",
+    "description": "吕范之子，东吴后期将领。继承父亲爵位，善于军事。孙峻死后曾企图联合诸将推翻权臣孙綝，但事败被迫自杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Ju"
+    ]
+  },
+  {
+    "id": "teng-yin",
+    "name": "滕胤",
+    "courtesy_name": "承嗣",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 256,
+    "birth_place": "北海剧县",
+    "description": "东吴重臣，孙权女婿。为人公正廉明，官至太常。孙峻死后与吕据联合反对孙綝专权，事败被杀。代表了东吴后期忠臣对抗权臣的悲剧。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Teng_Yin"
+    ]
+  },
+  {
+    "id": "liu-zan",
+    "name": "留赞",
+    "courtesy_name": "正明",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 255,
+    "birth_place": "会稽长山",
+    "description": "东吴将领。少年以勇力闻名，长期参与征讨山越等军事行动。后参与对魏寿春之役，不幸在战役中战死。为东吴中期实干型将领的代表。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Zan_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "sun-ba",
+    "name": "孙霸",
+    "courtesy_name": "子威",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": 250,
+    "birth_place": "吴郡富春",
+    "description": "孙权第四子，封鲁王。与太子孙和争夺储位，引发“二宫之变”，朝臣分裂为太子党和鲁王党，政局动荡数年。最终孙权将太子孙和废黜，同时赐死孙霸，这场内斗严重削弱了东吴国力。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ba"
+    ]
+  },
+  {
+    "id": "ling-cao",
+    "name": "凌操",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 203,
+    "birth_place": "吴郡余杭",
+    "description": "东吴将领，凌统之父。随孙策征伐江东，以勇猛善战著称。在攻打黄祖时率先登城，被黄祖部将甘宁射杀。其子凌统后来也成为东吴名将，因此事曾与甘宁结仇。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ling_Cao"
+    ]
+  },
+  {
+    "id": "sun-luban",
+    "name": "孙鲁班",
+    "courtesy_name": null,
+    "title": "全公主",
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴郡富春",
+    "description": "孙权长女，先嫁周循（周瑜之子），后嫁全琮，故称“全公主”。在“二宫之变”中积极参与政治阴谋，陷害太子孙和及其母王夫人，支持鲁王孙霸，对东吴后期政局产生了极大的负面影响。孙皓即位后将其流放。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Luban"
+    ]
+  },
+  {
+    "id": "sun-luyu",
+    "name": "孙鲁育",
+    "courtesy_name": null,
+    "title": "朱公主",
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": 255,
+    "birth_place": "吴郡富春",
+    "description": "孙权幼女，先嫁朱据，故称“朱公主”。在“二宫之变”中同情太子孙和，与姐姐孙鲁班立场对立。后被孙峻以谋反罪名杀害。其悲剧命运反映了东吴后期残酷的宫廷政治。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Luyu"
+    ]
+  },
+  {
+    "id": "wan-yu",
+    "name": "万彧",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 272,
+    "birth_place": null,
+    "description": "东吴大臣。曾任乌程令时与孙皓交好，孙休死后力荐孙皓继位。孙皓即位后一度受重用，但后因与孙皓嫌隙被逼自杀。是东吴末期拥立之功反成祸端的典型案例。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wan_Yu"
+    ]
+  },
+  {
+    "id": "cen-hun",
+    "name": "岑昏",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 280,
+    "birth_place": null,
+    "description": "东吴末期佞臣，深受暴君孙皓宠信。善于谄媚逢迎，助长孙皓暴政。建议在长江中设置铁索拦江以阻止晋军南下，但未能阻挡晋军攻势。东吴灭亡时被群臣杀死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cen_Hun"
+    ]
+  },
+  {
+    "id": "shen-ying",
+    "name": "沈莹",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 280,
+    "birth_place": null,
+    "description": "东吴末期将领，最后的忠义之将之一。著有《临海水土志》，记录了台湾（夷洲）的风土人情，是关于台湾最早的文献记载之一。280年晋军灭吴之战中率“丹阳锐卒”力战不敌，兵败被杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shen_Ying_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "zhang-ti",
+    "name": "张悌",
+    "courtesy_name": "巨先",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 236,
+    "death_year": 280,
+    "birth_place": "襄阳",
+    "description": "东吴末任丞相。280年晋军大举南下时率军迎战，明知不可为而为之，对部下说“吴之将亡，贤愚所知”，但仍拒绝投降。与晋军激战后兵败被杀，以身殉国，是东吴亡国之际少数保持气节的大臣。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Ti"
+    ]
+  },
+  {
+    "id": "zhongli-mu",
+    "name": "钟离牧",
+    "courtesy_name": "子干",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 271,
+    "birth_place": "会稽山阴",
+    "description": "东吴后期将领兼文臣。为人正直清廉，善于治理地方。曾在武陵地区平定蛮族叛乱，以文武兼施著称。官至前将军、假节，是东吴后期能臣的代表。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhongli_Mu"
+    ]
+  },
+  {
+    "id": "zhu-yi",
+    "name": "朱异",
+    "courtesy_name": "季文",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 257,
+    "birth_place": "吴郡吴县",
+    "description": "朱桓之子，东吴后期将领。继承父亲军职，善于军事。在第三次寿春之战（257年）中因战事不利被权臣孙綝处死，实为政治牺牲品。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Yi_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "song-qian",
+    "name": "宋谦",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "东吴将领，早年随孙策征战江东，立有战功。合肥之战中随孙权出征，遭遇张辽突袭时与徐盛一同败退。后继续在东吴军中服役，为孙氏早期追随者之一。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Song_Qian_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "shi-ji",
+    "name": "施绩",
+    "courtesy_name": "公绪",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 270,
+    "birth_place": "丹阳故鄣",
+    "description": "东吴后期将领，原名朱绩，朱然之子，后复本姓施。继承父亲镇守荆州的重任。在东吴后期与陆抗同为西线抵御西晋的主力将领。官至上大将军。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shi_Ji_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "he-shao",
+    "name": "贺邵",
+    "courtesy_name": "兴伯",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 275,
+    "birth_place": "会稽山阴",
+    "description": "东吴后期文臣，贺齐之孙。以直言敢谏著称，多次上疏批评孙皓暴政。后被孙皓以酷刑折磨致死，据说被用烧红的锯子锯断舌头。是暴君孙皓迫害忠臣的典型受害者。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/He_Shao"
+    ]
+  },
+  {
+    "id": "sun-fen",
+    "name": "孙奋",
+    "courtesy_name": "子扬",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": 270,
+    "birth_place": "吴郡富春",
+    "description": "孙权第五子，封齐王。性格暴虐，多次违法乱纪被降封。孙皓即位后恢复其王爵，但不久因被怀疑谋反而被孙皓诛杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Fen"
+    ]
+  },
+  {
+    "id": "zhang-cheng",
+    "name": "张承",
+    "courtesy_name": "仲嗣",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "general"
+    ],
+    "birth_year": 178,
+    "death_year": 244,
+    "birth_place": "彭城",
+    "description": "张昭之子，东吴将领兼文臣。继承父亲的学问和才干，文武兼备。娶孙权之女，成为驸马。官至奋威将军，在孙权朝担任重要军政职务。为人有远见，在“二宫之变”中保持中立。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Cheng_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "chen-biao",
+    "name": "陈表",
+    "courtesy_name": "文奥",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "庐江松滋",
+    "description": "陈武之子，东吴将领。继承父志，以勇武忠义著称。善于抚恤士卒，将自己的财物分赐部下，深得军心。曾率“无难军”征讨山越，立有军功。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Biao"
+    ]
+  },
+  {
+    "id": "sun-feng",
+    "name": "孙奉",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": 270,
+    "birth_place": "吴郡富春",
+    "description": "孙策之孙，孙绍之子。因为孙策后人在东吴一直受到猜忌，地位不高。孙皓即位后，有谶语称“孙策之后当王”，孙皓遂将孙奉诛杀以绝后患。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Feng"
+    ]
+  },
+  {
+    "id": "wu-fan",
+    "name": "吴范",
+    "courtesy_name": "文则",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "advisor"
+    ],
+    "birth_year": null,
+    "death_year": 226,
+    "birth_place": "会稽上虞",
+    "description": "东吴术士，精通天文历法和占卜之术。多次为孙权预测军事行动的吉凶，屡有应验。曾准确预测赤壁之战和夷陵之战的结果。孙权对其言听计从，但其预测也有失准的时候。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wu_Fan"
+    ]
+  },
+  {
+    "id": "zhao-da",
+    "name": "赵达",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "advisor"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "河南",
+    "description": "东吴术士，精通术数。据说能通过数学推演预知吉凶祸福，准确度极高。孙权多次向其问卜，曾预言东吴国祚。因不肯将术数秘法传人，其术后来失传。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhao_Da_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "quan-yi",
+    "name": "全怿",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴郡钱唐",
+    "description": "全琮之子，东吴将领。第三次寿春之战期间（257-258年），因不满孙綝专权，在前线率部投降曹魏。其叛降对东吴军事行动造成重大打击。全氏家族在东吴后期经历了从显赫到衰落的转变。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Quan_Yi"
+    ]
+  },
+  {
+    "id": "tang-zi",
+    "name": "唐咨",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "利城",
+    "description": "原为曹魏叛将，逃奔东吴后受到重用。在东吴多次参与对魏作战。第三次寿春之战中随孙綝军出征。后来的事迹不详。为三国时期频繁更换阵营的武将之典型。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Tang_Zi"
+    ]
+  },
+  {
+    "id": "sun-kuang",
+    "name": "孙匡",
+    "courtesy_name": "季佐",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴郡富春",
+    "description": "孙坚第四子，孙策、孙权之弟。娶曹操侄女为妻，是孙曹两家联姻的产物。被封为乌程侯，但因部下纵火烧毁军粮被免职。早逝，事迹记载不多。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Kuang"
+    ]
+  },
+  {
+    "id": "ma-zhong-wu",
+    "name": "马忠",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "东吴将领，潘璋部将。在吕蒙白衣渡江夺取荆州之役中，于临沮截获并擒获败退的关羽及其子关平。因擒关羽而闻名，但在正史中记载极少。注意区别于蜀汉同名将领马忠（狐笃）。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Zhong_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "zheng-quan",
+    "name": "郑泉",
+    "courtesy_name": "文渊",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "陈郡",
+    "description": "东吴文臣，嗜酒如命。曾出使蜀汉，与刘备对答时机智幽默。最著名的逸事是他说“死后愿葬在陶器作坊旁，百年后化为泥土可做酒壶”，表达了对酒的极致热爱。为三国时期的名士逸闻。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zheng_Quan"
+    ]
+  },
+  {
+    "id": "liu-ji-wu",
+    "name": "刘基",
+    "courtesy_name": "敬舆",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "东莱牟平",
+    "description": "扬州刺史刘繇之子。刘繇被孙策击败后病死，刘基后归降孙权，因才学受到重用。官至大司农，为东吴治理经济出力。为人温和谦让，在东吴朝中颇有声望。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Ji_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "deng-dang",
+    "name": "邓当",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "东吴将领，吕蒙姐夫。吕蒙少年时即随邓当出征，在军中崭露头角。邓当死后，吕蒙被推荐接管其部曲，开始了自己的军事生涯。可以说是吕蒙军事道路上的引路人。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Deng_Dang"
+    ]
+  },
+  {
+    "id": "sun-he-bohai",
+    "name": "孙河",
+    "courtesy_name": "伯海",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 204,
+    "birth_place": "吴郡富春",
+    "description": "孙氏宗族将领，原姓俞，因忠勇被孙策赐姓孙。历仕孙坚、孙策、孙权，以勇猛著称。孙翊遇害后赶赴丹阳处理善后，被叛将妫览、戴员杀害。其子孙韶、孙桓均为东吴名将。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_He_(Eastern_Wu_general)"
+    ]
+  },
+  {
+    "id": "zhang-fen",
+    "name": "张奋",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "彭城",
+    "description": "张昭之子，东吴将领。善于制造攻城器械，曾自行设计制作一种巨型攻城弩。后在孙权攻合肥之战等行动中使用其发明的器械。官至殿中都尉。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Zhao_(Eastern_Wu)#Family"
+    ]
+  },
+  {
+    "id": "xu-xiang",
+    "name": "徐详",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "东吴文臣，与胡综、是仪并为孙权亲信文书官员。负责起草文书、处理机密事务。为人低调谨慎，深受孙权信任，是东吴行政系统中的重要幕僚。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Xiang_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "zhu-huan-232",
+    "name": "朱宣",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "东吴将领，在夷陵之战等重要战役中随军出征。参与东吴多次对魏和对蜀的军事行动。正史记载较少的中层将领代表。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Eastern_Wu"
+    ]
+  },
+  {
+    "id": "zhang-chun",
+    "name": "张纯",
+    "courtesy_name": "元基",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴郡吴县",
+    "description": "东吴文臣，以品行端正著称。在东吴朝中任职多年，恪尽职守。属于东吴吴郡士族中的中坚力量，为维护地方治理和朝廷运转做出贡献。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(Z)"
+    ]
+  },
+  {
+    "id": "zhang-jun",
+    "name": "张俊",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 270,
+    "birth_place": null,
+    "description": "东吴后期文臣。在孙皓暴政时期仍坚守岗位，为维持东吴末年的政务运转做出努力。270年去世。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(Z)"
+    ]
+  },
+  {
+    "id": "gu-tan",
+    "name": "顾谭",
+    "courtesy_name": "子默",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 246,
+    "birth_place": "吴郡吴县",
+    "description": "顾雍之孙，东吴文臣。少年有才名，任太子太傅辅导太子孙和。在“二宫之变”中坚定支持太子孙和，被鲁王党陷害流放交州，最终客死异乡。为东吴名门子弟悲剧命运的缩影。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gu_Tan"
+    ]
+  },
+  {
+    "id": "gu-cheng",
+    "name": "顾承",
+    "courtesy_name": "子直",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 246,
+    "birth_place": "吴郡吴县",
+    "description": "顾雍之孙，顾谭之弟。文武兼备，曾在芍陂之战中与张休一起迫降魏将秦晃。与兄长顾谭同因支持太子孙和而被流放，同年病死于流放地。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gu_Cheng"
+    ]
+  },
+  {
+    "id": "zhang-zhao-shang",
+    "name": "张尚",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "广陵",
+    "description": "张纮之孙，东吴文臣。继承家学，有才名。在东吴后期朝中任职，但因与暴君孙皓不和而遭到迫害。反映了东吴士族在孙皓暴政下的困境。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(Z)"
+    ]
+  },
+  {
+    "id": "lu-ji-writer",
+    "name": "陆机",
+    "courtesy_name": "士衡",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "scholar",
+      "politician"
+    ],
+    "birth_year": 261,
+    "death_year": 303,
+    "birth_place": "吴郡华亭",
+    "description": "陆抗之子，西晋著名文学家。东吴灭亡后入洛阳，以文才震动中原。著有《文赋》，是中国文学理论史上的重要篇章。后在八王之乱中因受谗被杀。临刑前叹曰“华亭鹤唳，岂可复闻乎”。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Ji"
+    ]
+  },
+  {
+    "id": "lu-yun",
+    "name": "陆云",
+    "courtesy_name": "士龙",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "scholar",
+      "politician"
+    ],
+    "birth_year": 262,
+    "death_year": 303,
+    "birth_place": "吴郡华亭",
+    "description": "陆抗之子，陆机之弟，西晋文学家。与兄长并称“二陆”。才华横溢，与兄同赴洛阳仕晋。在八王之乱中与陆机一同被杀，年仅四十二岁。其死标志着东吴陆氏家族的最终衰落。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Yun"
+    ]
+  },
+  {
+    "id": "sun-fu",
+    "name": "孙辅",
+    "courtesy_name": "国仪",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴郡富春",
+    "description": "孙坚兄长孙羌之子，孙贲之弟。随孙策平定江东，任庐陵太守等职。后因暗中与曹操通信被孙权发现，被免官软禁，部曲被收编。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Fu"
+    ]
+  },
+  {
+    "id": "zhu-zhi-junli",
+    "name": "朱纪",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "丹阳故鄣",
+    "description": "朱治之子，东吴将领。继承父亲的爵位和部曲，在东吴军中服役。为孙氏宗亲朱氏家族第二代代表。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Zhi"
+    ]
+  },
+  {
+    "id": "he-shao-wu",
+    "name": "贺达",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "会稽山阴",
+    "description": "贺齐之子，东吴将领。继承父亲军职，参与平定山越等军事行动，延续了贺氏家族在东吴的军事传统。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/He_Qi_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "zhang-xiu-wu",
+    "name": "张休",
+    "courtesy_name": "叔嗣",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 244,
+    "birth_place": "彭城",
+    "description": "张昭之孙，张承之子。少年有才名，与诸葛恪、顾谭等并称为东吴“四友”。在芍陂之战中立功，但后在“二宫之变”中因支持太子孙和被流放赐死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Xiu_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "ling-feng",
+    "name": "凌封",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴郡余杭",
+    "description": "凌统之子。凌统英年早逝后，孙权亲自抚养其二子凌封、凌烈。凌封继承父亲爵位，在东吴军中服役，延续了凌氏在东吴的军事传统。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ling_Tong"
+    ]
+  },
+  {
+    "id": "sun-huan-jiming",
+    "name": "孙奂",
+    "courtesy_name": "季明",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 195,
+    "death_year": 234,
+    "birth_place": "吴郡富春",
+    "description": "孙坚弟孙静之子，东吴宗室将领。继承兄长孙瑜的部曲和职务，镇守江北要地。为人宽仁好施，治军有方。官至扬武将军，封沙羡侯。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Huan_(Jiming)"
+    ]
+  },
+  {
+    "id": "liang-guang",
+    "name": "梁广",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "会稽句章",
+    "description": "东吴文人，以文才著称。在东吴文化圈中有一定影响力，参与了东吴时期的文学创作活动。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(L)"
+    ]
+  },
+  {
+    "id": "lei-tan",
+    "name": "雷谭",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "东吴将领，参与多次军事行动。在东吴的南方军事行动和边境防御中有所贡献。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(L)"
+    ]
+  }
+]

@@ -1,0 +1,1373 @@
+[
+  {
+    "id": "han-lingdi",
+    "name": "汉灵帝",
+    "courtesy_name": null,
+    "title": "孝灵皇帝",
+    "faction": "han",
+    "roles": [
+      "emperor"
+    ],
+    "birth_year": 156,
+    "death_year": 189,
+    "birth_place": "河间国解渎亭",
+    "description": "东汉第十二位皇帝，名刘宏。在位期间宠信宦官十常侍，卖官鬻爵，朝政腐败。184年爆发黄巾之乱，虽被镇压但汉室权威大损。设西园八校尉，间接促成地方军阀割据。189年驾崩，终年三十三岁。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Emperor_Ling_of_Han"
+    ]
+  },
+  {
+    "id": "han-xiandi",
+    "name": "汉献帝",
+    "courtesy_name": "伯和",
+    "title": "孝献皇帝",
+    "faction": "han",
+    "roles": [
+      "emperor"
+    ],
+    "birth_year": 181,
+    "death_year": 234,
+    "birth_place": "洛阳",
+    "description": "东汉末代皇帝，名刘协。董卓废少帝后立其为帝，此后先后被董卓、李傕、曹操控制，沦为傀儡。建安元年被曹操迎至许都，'挟天子以令诸侯'。220年被迫禅位于曹丕，封山阳公，234年病逝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Emperor_Xian_of_Han"
+    ]
+  },
+  {
+    "id": "he-jin",
+    "name": "何进",
+    "courtesy_name": "遂高",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general",
+      "minister"
+    ],
+    "birth_year": null,
+    "death_year": 189,
+    "birth_place": "南阳郡宛县",
+    "description": "东汉大将军，何皇后异母兄。因妹为皇后而位极人臣。汉灵帝死后欲诛杀宦官十常侍，召董卓等外兵入京。因犹豫不决，被宦官张让等诱入宫中杀害，其死引发洛阳大乱，间接导致董卓专权。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/He_Jin"
+    ]
+  },
+  {
+    "id": "he-taihou",
+    "name": "何太后",
+    "courtesy_name": null,
+    "title": "灵思皇后",
+    "faction": "han",
+    "roles": [
+      "consort"
+    ],
+    "birth_year": null,
+    "death_year": 189,
+    "birth_place": "南阳郡宛县",
+    "description": "汉灵帝皇后，何进之妹。出身屠户之家，以美貌入宫得宠。灵帝死后以太后身份临朝称制，反对何进诛杀宦官。董卓入京后被逼下毒杀少帝，后被董卓鸩杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Empress_He_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "wang-yun",
+    "name": "王允",
+    "courtesy_name": "子师",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "minister"
+    ],
+    "birth_year": 137,
+    "death_year": 192,
+    "birth_place": "太原郡祁县",
+    "description": "东汉末年司徒，忠于汉室的重臣。巧施连环计，利用吕布与董卓的矛盾，联合吕布成功刺杀董卓。短暂掌权后因处置不当，拒绝赦免董卓旧部，被李傕、郭汜攻破长安后处死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Yun_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "fu-wan",
+    "name": "伏完",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "minister"
+    ],
+    "birth_year": null,
+    "death_year": 209,
+    "birth_place": "琅琊郡东武",
+    "description": "东汉末年外戚，伏皇后之父。任辅国将军、中散大夫等职。与汉献帝密谋除曹操，事泄后全家被杀。女儿伏寿（伏皇后）亦被曹操废黜处死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Fu_Wan"
+    ]
+  },
+  {
+    "id": "fu-shou",
+    "name": "伏寿",
+    "courtesy_name": null,
+    "title": "孝献伏皇后",
+    "faction": "han",
+    "roles": [
+      "consort"
+    ],
+    "birth_year": null,
+    "death_year": 214,
+    "birth_place": "琅琊郡东武",
+    "description": "汉献帝皇后，伏完之女。曾密书其父图谋诛杀曹操，事败后被曹操废黜。214年被幽禁而死，所生二皇子亦被毒杀。其悲惨遭遇是汉室衰亡的缩影。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Fu_Shou"
+    ]
+  },
+  {
+    "id": "yang-biao",
+    "name": "杨彪",
+    "courtesy_name": "文先",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "minister"
+    ],
+    "birth_year": 142,
+    "death_year": 225,
+    "birth_place": "弘农郡华阴",
+    "description": "东汉末年重臣，弘农杨氏名门出身，历任三公要职。董卓迁都时力谏不果，曹操专权时仍坚守臣节。其子杨修因才华招忌被曹操所杀。杨彪悲痛至极，称'愧无金日磾之先见'。活至八十余岁高龄。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yang_Biao"
+    ]
+  },
+  {
+    "id": "kong-rong",
+    "name": "孔融",
+    "courtesy_name": "文举",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "minister",
+      "scholar"
+    ],
+    "birth_year": 153,
+    "death_year": 208,
+    "birth_place": "鲁国",
+    "description": "东汉末年名士，孔子二十世孙，建安七子之一。幼时以'让梨'故事闻名。任北海相时抗击黄巾军，后入朝为官。性格刚直，多次顶撞曹操，最终以'不孝'等罪名被曹操处死，全家遇害。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Kong_Rong"
+    ]
+  },
+  {
+    "id": "lu-zhi",
+    "name": "卢植",
+    "courtesy_name": "子干",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general",
+      "scholar"
+    ],
+    "birth_year": 139,
+    "death_year": 192,
+    "birth_place": "涿郡涿县",
+    "description": "东汉末年名将、大儒，刘备的老师。精通经学，师从大儒马融。黄巾之乱时率军讨伐张角，因拒绝贿赂宦官被免职。后参与朝政，反对董卓废帝。为人刚毅正直，文武兼备。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Zhi_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "huangfu-song",
+    "name": "皇甫嵩",
+    "courtesy_name": "义真",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 195,
+    "birth_place": "安定郡朝那",
+    "description": "东汉末年名将，平定黄巾之乱的主要功臣。与朱儁、卢植并称讨伐黄巾三大将。用兵灵活，火攻大破黄巾主力。后被董卓排挤，董卓死后复出任太尉等职。一生廉洁，军功卓著。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Huangfu_Song"
+    ]
+  },
+  {
+    "id": "zhu-jun",
+    "name": "朱儁",
+    "courtesy_name": "公伟",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 195,
+    "birth_place": "会稽郡上虞",
+    "description": "东汉末年名将，与皇甫嵩并肩平定黄巾之乱。出身寒微但有军事才能，以少胜多击败黄巾军。后因反对李傕郭汜专权而忧愤发病去世。为汉末少有的忠义良将。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Jun"
+    ]
+  },
+  {
+    "id": "zhang-rang",
+    "name": "张让",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "eunuch"
+    ],
+    "birth_year": null,
+    "death_year": 189,
+    "birth_place": "颍川郡",
+    "description": "东汉末年十常侍之首，宦官集团领袖。与赵忠等人深受汉灵帝宠信，把持朝政，卖官鬻爵。灵帝称张让为'阿父'。何进谋诛宦官时先下手杀死何进，随后被袁绍等攻入宫中，投河自尽。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Rang"
+    ]
+  },
+  {
+    "id": "zhao-zhong",
+    "name": "赵忠",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "eunuch"
+    ],
+    "birth_year": null,
+    "death_year": 189,
+    "birth_place": "安平郡",
+    "description": "东汉末年十常侍之一，与张让并为宦官集团核心人物。汉灵帝称其为'阿母'，可见宠信之深。189年何进被杀后宫中大乱，赵忠在袁绍等人的清洗中被杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhao_Zhong"
+    ]
+  },
+  {
+    "id": "duan-gui",
+    "name": "段珪",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "eunuch"
+    ],
+    "birth_year": null,
+    "death_year": 189,
+    "birth_place": null,
+    "description": "东汉末年十常侍之一。189年参与杀害大将军何进。宫中大乱后挟持汉少帝和陈留王（后汉献帝）出逃，被卢植等追上后投河自尽。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ten_Attendants"
+    ]
+  },
+  {
+    "id": "cao-jie",
+    "name": "曹节",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "eunuch"
+    ],
+    "birth_year": null,
+    "death_year": 181,
+    "birth_place": "南阳郡新野",
+    "description": "东汉末年大宦官，十常侍的前辈。桓帝、灵帝时期权倾朝野，官至大长秋。曾参与拥立灵帝，打压外戚窦武和名士陈蕃的'党锢之祸'，是宦官专权的代表人物。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Jie_(eunuch)"
+    ]
+  },
+  {
+    "id": "hou-lan",
+    "name": "侯览",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "eunuch"
+    ],
+    "birth_year": null,
+    "death_year": 172,
+    "birth_place": "山阳郡防东",
+    "description": "东汉桓帝、灵帝时期大宦官。贪婪残暴，大肆侵占民田、残害忠良。其母兄宗族横行乡里，督邮张俭上书弹劾而被迫害。后在朝臣压力下被免职，自杀而死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Hou_Lan"
+    ]
+  },
+  {
+    "id": "dong-zhuo",
+    "name": "董卓",
+    "courtesy_name": "仲颖",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 192,
+    "birth_place": "凉州陇西郡临洮县",
+    "description": "东汉末年权臣，凉州军阀。何进死后率兵入洛阳，废少帝立献帝，自任太师独揽朝政。暴虐无道，焚毁洛阳迁都长安。关东诸侯起兵讨伐。192年被王允、吕布合谋刺杀，尸体点灯，脂肪燃烧数日。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Zhuo"
+    ]
+  },
+  {
+    "id": "li-ru",
+    "name": "李儒",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "strategist"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "董卓首席谋士，为董卓出谋划策。奉董卓之命毒杀废帝刘辩。董卓被杀后下落不明。在《三国演义》中被塑造为阴险狡诈的谋士形象，多次为董卓献计。正史记载较少。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Li_Ru"
+    ]
+  },
+  {
+    "id": "lv-bu",
+    "name": "吕布",
+    "courtesy_name": "奉先",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general",
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 199,
+    "birth_place": "五原郡九原县",
+    "description": "东汉末年名将，号称三国第一猛将。先后投靠丁原、董卓，皆反叛杀之。后流转各方，占据徐州。辕门射戟调停刘备与袁术之争。198年被曹操围困于下邳，部下叛变，被俘后缢杀。人中吕布，马中赤兔。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Bu"
+    ]
+  },
+  {
+    "id": "diao-chan",
+    "name": "貂蝉",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "other"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "中国古代四大美女之一，《三国演义》虚构人物，正史无载。小说中为王允义女，施连环计离间董卓与吕布，使吕布杀董卓。被誉为以美貌改变历史进程的女性，'闭月'之貌。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Diaochan"
+    ]
+  },
+  {
+    "id": "li-jue",
+    "name": "李傕",
+    "courtesy_name": "稚然",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 198,
+    "birth_place": "凉州北地郡",
+    "description": "董卓旧部，凉州军阀。董卓死后与郭汜率军攻破长安杀王允，挟持汉献帝专权。后与郭汜内斗，长安大乱。献帝东归后势力衰落，198年被曹操部将击败俘杀，夷三族。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Li_Jue_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "guo-si",
+    "name": "郭汜",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 197,
+    "birth_place": "凉州张掖郡",
+    "description": "董卓旧部，凉州军阀。与李傕合力攻破长安后共掌朝政，二人后因猜忌反目成仇，在长安城内大战，百姓惨遭兵祸。197年被部下伍习所杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Si"
+    ]
+  },
+  {
+    "id": "zhang-ji",
+    "name": "张济",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 196,
+    "birth_place": "凉州武威郡祖厉",
+    "description": "董卓旧部，凉州军阀。董卓死后参与李傕郭汜攻打长安。后因粮尽率军攻打刘表的南阳郡穰城，中流矢而死。其侄张绣继承其军队，后降曹操。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Ji_(warlord)"
+    ]
+  },
+  {
+    "id": "niu-fu",
+    "name": "牛辅",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 192,
+    "birth_place": null,
+    "description": "董卓女婿，凉州军将领。董卓被杀时驻兵陕县，闻讯后军心涣散。试图携带金银逃走时被部下所杀。其部将李傕、郭汜后来攻破长安，为董卓报仇。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Niu_Fu"
+    ]
+  },
+  {
+    "id": "hua-xiong",
+    "name": "华雄",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 191,
+    "birth_place": null,
+    "description": "董卓麾下猛将。关东联军讨董时镇守汜水关，连斩联军数将。《三国演义》中被关羽'温酒斩华雄'，实际正史记载为孙坚所杀。为三国演义中塑造关羽勇武形象的重要配角。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Hua_Xiong"
+    ]
+  },
+  {
+    "id": "xu-rong",
+    "name": "徐荣",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 192,
+    "birth_place": "辽东郡襄平",
+    "description": "董卓麾下大将，辽东人。在讨董之战中先后击败曹操和孙坚，是董卓军中最能打的将领。董卓死后归附王允，率军抵抗李傕郭汜，兵败战死。正史中战功卓著但常被忽略。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Rong"
+    ]
+  },
+  {
+    "id": "yuan-shao",
+    "name": "袁绍",
+    "courtesy_name": "本初",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 202,
+    "birth_place": "汝南郡汝阳",
+    "description": "东汉末年最强大的北方军阀，四世三公的汝南袁氏出身。讨董联军盟主，击败公孙瓒统一河北四州。200年官渡之战中以十倍兵力败于曹操，因刚愎自用、不听谋士谏言而功败垂成。202年忧愤而死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shao"
+    ]
+  },
+  {
+    "id": "yuan-tan",
+    "name": "袁谭",
+    "courtesy_name": "显思",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 205,
+    "birth_place": "汝南郡汝阳",
+    "description": "袁绍长子，袁绍死后与弟袁尚争夺继承权。被袁尚击败后竟投靠仇敌曹操求援，后又背叛曹操。205年被曹操围攻南皮，城破战死。袁氏兄弟内讧加速了河北势力的覆灭。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Tan"
+    ]
+  },
+  {
+    "id": "yuan-xi",
+    "name": "袁熙",
+    "courtesy_name": "显奕",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 207,
+    "birth_place": "汝南郡汝阳",
+    "description": "袁绍次子，任幽州刺史。其妻甄氏美貌绝伦，后被曹丕纳为妻。袁绍死后与弟袁尚北逃乌桓，207年被公孙康所杀，首级送与曹操。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Xi"
+    ]
+  },
+  {
+    "id": "yuan-shang",
+    "name": "袁尚",
+    "courtesy_name": "显甫",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 207,
+    "birth_place": "汝南郡汝阳",
+    "description": "袁绍幼子，因貌美而深受袁绍宠爱，被立为继承人。袁绍死后继位冀州，与兄袁谭争斗不休。被曹操击败后与袁熙北逃乌桓，207年被公孙康诱杀，首级送曹操。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shang"
+    ]
+  },
+  {
+    "id": "yan-liang",
+    "name": "颜良",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 200,
+    "birth_place": null,
+    "description": "袁绍麾下名将，与文丑并称河北双雄。官渡之战前锋，围攻白马时被关羽策马冲阵斩杀。关羽斩颜良是《三国演义》中最著名的战斗场景之一，正史亦有记载。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yan_Liang"
+    ]
+  },
+  {
+    "id": "wen-chou",
+    "name": "文丑",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 200,
+    "birth_place": null,
+    "description": "袁绍麾下名将，与颜良齐名。官渡之战中率军追击曹操，中曹操诱敌之计大败，混战中被杀。《三国演义》中描写为关羽所斩，但正史仅记载死于乱军之中。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wen_Chou"
+    ]
+  },
+  {
+    "id": "shen-pei",
+    "name": "审配",
+    "courtesy_name": "正南",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "strategist",
+      "minister"
+    ],
+    "birth_year": null,
+    "death_year": 204,
+    "birth_place": "魏郡",
+    "description": "袁绍谋士，忠诚刚烈。支持袁尚为继承人，与袁谭派系对立。曹操围攻邺城时坚守数月，城破被俘后拒绝投降。临刑前要求面北而死，称'我主在北'。为三国忠臣典范。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shen_Pei"
+    ]
+  },
+  {
+    "id": "ju-shou",
+    "name": "沮授",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "strategist"
+    ],
+    "birth_year": null,
+    "death_year": 200,
+    "birth_place": "广平郡",
+    "description": "袁绍首席谋士，眼光长远。曾劝袁绍迎汉献帝、缓攻曹操、持久消耗，均被拒绝。官渡之战前力谏分兵渐进不可急战，不听。战败被俘后拒降曹操，图谋逃归袁绍，被杀。曹操叹惜其才。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ju_Shou"
+    ]
+  },
+  {
+    "id": "tian-feng",
+    "name": "田丰",
+    "courtesy_name": "元皓",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "strategist"
+    ],
+    "birth_year": null,
+    "death_year": 200,
+    "birth_place": "巨鹿郡",
+    "description": "袁绍重要谋士，刚直敢言。多次献计均被采纳助袁绍统一河北。官渡之战前力劝袁绍不可轻进，因言辞激烈被袁绍下狱。袁绍兵败后羞于面对田丰，听信谗言将其杀害。其死令人扼腕。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Tian_Feng"
+    ]
+  },
+  {
+    "id": "xu-you",
+    "name": "许攸",
+    "courtesy_name": "子远",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "strategist"
+    ],
+    "birth_year": null,
+    "death_year": 204,
+    "birth_place": "南阳郡",
+    "description": "袁绍谋士，后叛投曹操。官渡之战中因家人犯法被审配收捕，怒而投奔曹操，献计火烧袁绍粮仓乌巢，成为官渡之战的转折点。后因恃功骄横被许褚所杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_You_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "guo-tu",
+    "name": "郭图",
+    "courtesy_name": "公则",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "strategist"
+    ],
+    "birth_year": null,
+    "death_year": 205,
+    "birth_place": "颍川郡",
+    "description": "袁绍谋士，善于迎合但多出馊主意。官渡之战中力主急攻，导致袁绍轻敌冒进。又诬陷张郃、高览导致二将叛投曹操。后随袁谭，205年袁谭兵败时一同被杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Tu"
+    ]
+  },
+  {
+    "id": "feng-ji",
+    "name": "逢纪",
+    "courtesy_name": "元图",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "strategist"
+    ],
+    "birth_year": null,
+    "death_year": 202,
+    "birth_place": "南阳郡",
+    "description": "袁绍谋士，与审配同为袁尚派系。曾与审配合作排挤田丰、沮授。袁绍死后支持袁尚继位，在袁谭袁尚兄弟争位中被袁谭所杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Feng_Ji"
+    ]
+  },
+  {
+    "id": "chunyu-qiong",
+    "name": "淳于琼",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 200,
+    "birth_place": "颍川郡",
+    "description": "袁绍大将，曾为西园八校尉之一。官渡之战中奉命守卫粮仓乌巢，因饮酒疏于防备被曹操奇袭，粮草尽毁。被俘后遭曹操割鼻羞辱后斩杀。乌巢之败直接导致袁绍官渡惨败。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chunyu_Qiong"
+    ]
+  },
+  {
+    "id": "gao-lan",
+    "name": "高览",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "袁绍麾下大将，与张郃齐名。官渡之战中被郭图诬陷，与张郃一同阵前投降曹操。正史中投曹后记载甚少。《三国演义》中被赵云一枪刺死于穰山之战。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gao_Lan"
+    ]
+  },
+  {
+    "id": "zhang-he",
+    "name": "张郃",
+    "courtesy_name": "儁乂",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 231,
+    "birth_place": "河间郡鄚县",
+    "description": "袁绍大将，后归曹魏成为五子良将之一。官渡之战中被郭图陷害，与高览一同降曹。善用地形，巧于战术。街亭之战大败马谡，为诸葛亮最忌惮的魏将。231年追击蜀军时中伏身亡。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_He"
+    ]
+  },
+  {
+    "id": "yuan-shu",
+    "name": "袁术",
+    "courtesy_name": "公路",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": 155,
+    "death_year": 199,
+    "birth_place": "汝南郡汝阳",
+    "description": "东汉末年军阀，袁绍异母弟。割据淮南，197年僭号称帝建'仲氏'，成为众矢之的。曹操、刘备、吕布、孙策先后攻击。众叛亲离，穷途末路时想喝蜜水而不得，吐血而死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shu"
+    ]
+  },
+  {
+    "id": "ji-ling",
+    "name": "纪灵",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 199,
+    "birth_place": null,
+    "description": "袁术麾下大将，使三尖两刃刀。曾率大军攻打刘备，被吕布辕门射戟调停。袁术败亡时一同覆灭。《三国演义》中与关羽大战三十回合不分胜负，颇显武勇。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ji_Ling"
+    ]
+  },
+  {
+    "id": "yang-hong-yuanshu",
+    "name": "杨弘",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "strategist"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "袁术谋士，为袁术的重要参谋。袁术称帝等重大决策均有参与。袁术败亡后曾欲投袁绍，途中被刘备截获。正史记载简略，主要见于《三国演义》。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shu"
+    ]
+  },
+  {
+    "id": "tao-qian",
+    "name": "陶谦",
+    "courtesy_name": "恭祖",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": 132,
+    "death_year": 194,
+    "birth_place": "丹阳郡",
+    "description": "东汉末年徐州牧。曹操之父曹嵩在徐州被杀，曹操以此为由两次大举进攻徐州，屠城报复。陶谦向刘备求援，临终前将徐州托付刘备。为人温厚但治军不严。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Tao_Qian_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "liu-biao",
+    "name": "刘表",
+    "courtesy_name": "景升",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": 142,
+    "death_year": 208,
+    "birth_place": "山阳郡高平",
+    "description": "东汉末年荆州牧，汉室宗亲。单骑入荆州平定叛乱，治理荆州十余年使之成为乱世中的安定之地。但胸无大志，坐观天下纷争而不作为。208年病逝，荆州随即被曹操攻取。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Biao"
+    ]
+  },
+  {
+    "id": "liu-qi",
+    "name": "刘琦",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 209,
+    "birth_place": "山阳郡高平",
+    "description": "刘表长子。因继母蔡氏和蔡瑁排挤，向诸葛亮问计后自请外镇江夏。刘表死后未能继位，刘琮降曹。刘琦与刘备联合抗曹，赤壁之战后任荆州刺史，不久病逝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Qi_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "liu-cong",
+    "name": "刘琮",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "山阳郡高平",
+    "description": "刘表次子，因蔡氏支持被立为继承人。208年曹操大军南下时不战而降，将荆州拱手相让。降曹后被封为列侯迁往青州，此后事迹不详。其不战而降令许多荆州旧臣愤恨。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Cong_(warlord)"
+    ]
+  },
+  {
+    "id": "cai-mao",
+    "name": "蔡瑁",
+    "courtesy_name": "德珪",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "襄阳郡",
+    "description": "荆州豪族蔡氏代表，刘表后妻蔡氏之弟。掌握荆州水军。支持刘琮为继承人，排挤刘琦。曹操南下时力主投降，降曹后任从事中郎等职。《三国演义》中因蒋干盗书被曹操误杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cai_Mao"
+    ]
+  },
+  {
+    "id": "kuai-yue",
+    "name": "蒯越",
+    "courtesy_name": "异度",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "strategist"
+    ],
+    "birth_year": null,
+    "death_year": 214,
+    "birth_place": "襄阳郡中庐",
+    "description": "荆州名士，刘表重要谋士。曾助刘表单骑平定荆州，献计诱杀宗贼首领。刘表死后劝刘琮降曹。曹操得荆州后称'不喜得荆州，喜得蒯异度耳'。后在曹魏任光禄勋。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Kuai_Yue"
+    ]
+  },
+  {
+    "id": "liu-zhang",
+    "name": "刘璋",
+    "courtesy_name": "季玉",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 219,
+    "birth_place": "江夏郡竟陵",
+    "description": "东汉末年益州牧，汉室宗亲，刘焉之子。性格懦弱暗弱，不能驾驭部下。张松、法正暗通刘备，刘璋引狼入室迎刘备入蜀。214年被刘备围攻成都后投降，被遣往荆州公安。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Zhang_(warlord)"
+    ]
+  },
+  {
+    "id": "zhang-ren",
+    "name": "张任",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 213,
+    "birth_place": "蜀郡",
+    "description": "刘璋麾下猛将，忠勇过人。在雒城之战中设伏射杀庞统于落凤坡（小说情节）。兵败被刘备俘获后拒绝投降，称'老臣终不复事二主'，慷慨就义。刘备叹惜其忠义。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Ren_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "zhang-song",
+    "name": "张松",
+    "courtesy_name": "子乔",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "strategist"
+    ],
+    "birth_year": null,
+    "death_year": 212,
+    "birth_place": "蜀郡成都",
+    "description": "刘璋别驾，内应刘备入蜀的关键人物。才华出众但形貌短小。出使曹操时受冷遇，转而投靠刘备，献西川地图。后因兄张肃告密而被刘璋处死。其叛主行为虽助刘备取蜀，但为人争议。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Song_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "gongsun-zan",
+    "name": "公孙瓒",
+    "courtesy_name": "伯珪",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 199,
+    "birth_place": "辽西郡令支",
+    "description": "东汉末年北方军阀，割据幽州。以'白马义从'精锐骑兵闻名，镇守边疆抗击乌桓。刘备早年曾在其麾下效力。后与袁绍争霸河北，因刚愎自用逐渐失势，被袁绍围攻易京楼后自焚而死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Zan"
+    ]
+  },
+  {
+    "id": "gongsun-du",
+    "name": "公孙度",
+    "courtesy_name": "升济",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": 150,
+    "death_year": 204,
+    "birth_place": "辽东郡襄平",
+    "description": "东汉末年辽东太守，割据辽东半岛建立独立政权。东征高句丽，西伐乌桓，南取山东半岛部分地区，北拓疆域。自立为辽东侯、平州牧。其家族统治辽东数十年，至孙公孙渊时被司马懿灭族。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Du"
+    ]
+  },
+  {
+    "id": "ma-teng",
+    "name": "马腾",
+    "courtesy_name": "寿成",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 212,
+    "birth_place": "扶风郡茂陵",
+    "description": "东汉末年西凉军阀，马超之父。自称伏波将军马援后裔，与韩遂并据凉州。后被曹操征召入朝为卫尉，实为人质。马超起兵反曹后，马腾及在京家属被曹操全部处死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Teng"
+    ]
+  },
+  {
+    "id": "han-sui",
+    "name": "韩遂",
+    "courtesy_name": "文约",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 215,
+    "birth_place": "凉州金城郡",
+    "description": "东汉末年西凉军阀，与马腾并据凉州数十年。曾参与凉州之乱，反复无常。211年与马超联军反曹，被曹操离间计瓦解联盟，潼关大败。此后势力日衰，215年被部下所杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Han_Sui"
+    ]
+  },
+  {
+    "id": "zhang-lu",
+    "name": "张鲁",
+    "courtesy_name": "公祺",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 216,
+    "birth_place": "沛国丰县",
+    "description": "东汉末年割据汉中的军阀，五斗米道第三代天师。以政教合一方式治理汉中近三十年，设义舍、置义米供路人免费食用。215年曹操征汉中时投降，封阆中侯。其道教传承延续至今。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Lu_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "liu-yao",
+    "name": "刘繇",
+    "courtesy_name": "正礼",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": 156,
+    "death_year": 197,
+    "birth_place": "东莱郡牟平",
+    "description": "东汉末年扬州刺史，汉室宗亲。被朝廷任命治理扬州，但势力薄弱。被孙策击败后退往豫章，不久病逝。其子刘基后仕于东吴。为汉末地方势力中较早被消灭的诸侯之一。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Yao"
+    ]
+  },
+  {
+    "id": "yan-baihu",
+    "name": "严白虎",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴郡",
+    "description": "东汉末年江东地方豪强，自称'东吴德王'。占据吴郡一带，拥兵数万。孙策平定江东时被击败，逃奔余杭。后被许贡门客所杀（一说被部下所杀）。正史记载甚少。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yan_Baihu"
+    ]
+  },
+  {
+    "id": "shi-xie",
+    "name": "士燮",
+    "courtesy_name": "威彦",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": 137,
+    "death_year": 226,
+    "birth_place": "苍梧郡广信",
+    "description": "东汉末年交州地方长官，实际统治交州（今越南北部及两广南部）四十余年。学问渊博，治理有方，使交州在乱世中保持安定繁荣。后归附东吴，被孙权封为左将军。在越南历史上地位崇高。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shi_Xie"
+    ]
+  },
+  {
+    "id": "sima-yi",
+    "name": "司马懿",
+    "courtesy_name": "仲达",
+    "title": "宣帝",
+    "faction": "jin",
+    "roles": [
+      "strategist",
+      "general",
+      "minister"
+    ],
+    "birth_year": 179,
+    "death_year": 251,
+    "birth_place": "河内郡温县",
+    "description": "曹魏重臣，西晋王朝的实际奠基者。初仕曹操，历事四朝，以隐忍著称。多次抵御诸葛亮北伐，平定辽东公孙渊。249年发动高平陵之变夺取曹魏实权。其孙司马炎建立西晋后追尊为宣帝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Yi"
+    ]
+  },
+  {
+    "id": "sima-shi",
+    "name": "司马师",
+    "courtesy_name": "子元",
+    "title": "景帝",
+    "faction": "jin",
+    "roles": [
+      "general",
+      "minister"
+    ],
+    "birth_year": 208,
+    "death_year": 255,
+    "birth_place": "河内郡温县",
+    "description": "司马懿长子，西晋奠基者之一。继父执政后废魏帝曹芳，另立曹髦。平定毌丘俭、文钦叛乱。为人沉稳刚毅，治国理政颇有章法。255年病逝，权力交予弟司马昭。西晋建立后追尊为景帝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Shi"
+    ]
+  },
+  {
+    "id": "sima-zhao",
+    "name": "司马昭",
+    "courtesy_name": "子上",
+    "title": "文帝",
+    "faction": "jin",
+    "roles": [
+      "general",
+      "minister"
+    ],
+    "birth_year": 211,
+    "death_year": 265,
+    "birth_place": "河内郡温县",
+    "description": "司马懿次子，司马师之弟，西晋奠基者。继兄执政后权倾朝野，魏帝曹髦愤而亲征被杀，时人称'司马昭之心路人皆知'。263年派钟会、邓艾灭蜀汉。封晋王，未及篡位即病逝。追尊为文帝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Zhao"
+    ]
+  },
+  {
+    "id": "sima-yan",
+    "name": "司马炎",
+    "courtesy_name": "安世",
+    "title": "武帝",
+    "faction": "jin",
+    "roles": [
+      "emperor"
+    ],
+    "birth_year": 236,
+    "death_year": 290,
+    "birth_place": "河内郡温县",
+    "description": "西晋开国皇帝，司马昭之子。265年逼迫魏帝曹奂禅位建立西晋。280年灭东吴统一天下，结束三国分裂局面。前期励精图治，后期骄奢淫逸。分封诸王种下'八王之乱'祸根。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Emperor_Wu_of_Jin"
+    ]
+  },
+  {
+    "id": "yang-hu",
+    "name": "羊祜",
+    "courtesy_name": "叔子",
+    "title": null,
+    "faction": "jin",
+    "roles": [
+      "general",
+      "strategist"
+    ],
+    "birth_year": 221,
+    "death_year": 278,
+    "birth_place": "泰山郡南城",
+    "description": "西晋名将，镇守荆州与东吴对峙多年。以德服人，与吴将陆抗相互尊重，传为佳话。临终上书力主伐吴，制定灭吴战略。其去世后荆州百姓为之落泪，岘山立碑纪念，称'堕泪碑'。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yang_Hu"
+    ]
+  },
+  {
+    "id": "du-yu",
+    "name": "杜预",
+    "courtesy_name": "元凯",
+    "title": null,
+    "faction": "jin",
+    "roles": [
+      "general",
+      "scholar"
+    ],
+    "birth_year": 222,
+    "death_year": 285,
+    "birth_place": "京兆郡杜陵",
+    "description": "西晋名将兼学者，继羊祜镇守荆州。280年率军伐吴，势如破竹灭亡东吴，为统一天下立首功。同时是著名的《左传》注释家，号称'杜武库'，意指其学识文武兼备如武器库般丰富。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Du_Yu"
+    ]
+  },
+  {
+    "id": "wang-jun",
+    "name": "王濬",
+    "courtesy_name": "士治",
+    "title": null,
+    "faction": "jin",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 206,
+    "death_year": 286,
+    "birth_place": "弘农郡湖县",
+    "description": "西晋灭吴功臣。奉命在蜀地建造大型战船，训练水军。280年伐吴时率楼船顺江而下，火烧铁锁横江，直取建业。刘禹锡《西塞山怀古》'王濬楼船下益州，金陵王气黯然收'即咏此事。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Jun_(Western_Jin)"
+    ]
+  },
+  {
+    "id": "jia-chong",
+    "name": "贾充",
+    "courtesy_name": "公闾",
+    "title": null,
+    "faction": "jin",
+    "roles": [
+      "minister"
+    ],
+    "birth_year": 217,
+    "death_year": 282,
+    "birth_place": "平阳郡襄陵",
+    "description": "西晋开国功臣，司马昭心腹。魏帝曹髦亲征讨伐司马昭时，贾充指使成济弑杀曹髦。后参与西晋代魏的全过程，封鲁公。为人阴险善于权谋，但其女贾南风后来祸乱西晋朝政。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jia_Chong"
+    ]
+  },
+  {
+    "id": "zhang-jue",
+    "name": "张角",
+    "courtesy_name": null,
+    "title": "天公将军",
+    "faction": "other",
+    "roles": [
+      "rebel"
+    ],
+    "birth_year": null,
+    "death_year": 184,
+    "birth_place": "巨鹿郡",
+    "description": "黄巾起义领袖，太平道教主。创立太平道，以符水治病传教，十余年间信徒达数十万。184年以'苍天已死，黄天当立'为口号发动起义，席卷八州。起义虽被镇压，但张角已于当年病死。黄巾之乱直接动摇了东汉统治根基。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Jue"
+    ]
+  },
+  {
+    "id": "zhang-bao-yj",
+    "name": "张宝",
+    "courtesy_name": null,
+    "title": "地公将军",
+    "faction": "other",
+    "roles": [
+      "rebel"
+    ],
+    "birth_year": null,
+    "death_year": 184,
+    "birth_place": "巨鹿郡",
+    "description": "黄巾起义副首领，张角之弟，号'地公将军'。与张角、张梁三兄弟共同发动黄巾起义。在下曲阳被皇甫嵩击败后阵亡（一说被部下所杀）。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Bao_(Yellow_Turbans)"
+    ]
+  },
+  {
+    "id": "zhang-liang-yj",
+    "name": "张梁",
+    "courtesy_name": null,
+    "title": "人公将军",
+    "faction": "other",
+    "roles": [
+      "rebel"
+    ],
+    "birth_year": null,
+    "death_year": 184,
+    "birth_place": "巨鹿郡",
+    "description": "黄巾起义副首领，张角三弟，号'人公将军'。张角病死后继续领导黄巾军作战。在广宗被皇甫嵩夜袭大败，战死沙场。其死标志着黄巾主力的覆灭。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Liang_(Yellow_Turbans)"
+    ]
+  },
+  {
+    "id": "guan-hai",
+    "name": "管亥",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "rebel"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "黄巾军余部首领。黄巾主力覆灭后率残部在青州一带活动，围攻北海相孔融。孔融向刘备求援，刘备率兵解围。《三国演义》中被关羽所斩。正史记载简略。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guan_Hai"
+    ]
+  },
+  {
+    "id": "zhurong-furen",
+    "name": "祝融夫人",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "《三国演义》虚构人物，孟获之妻。自称火神祝融后裔，善使飞刀，武艺高强。诸葛亮南征时曾亲自上阵擒获蜀将张嶷、马忠，后被赵云、魏延设计擒获。正史无载。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Zhurong"
+    ]
+  },
+  {
+    "id": "meng-you",
+    "name": "孟优",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "other"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "《三国演义》人物，孟获之弟。诸葛亮七擒孟获时多次充当使者和先锋。曾以毒泉和蛮兵阻挡蜀军，均被诸葛亮化解。正史无载，为小说虚构角色。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Meng_Huo"
+    ]
+  },
+  {
+    "id": "duosi-dawang",
+    "name": "朵思大王",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "other"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "《三国演义》人物，南蛮秃龙洞洞主。诸葛亮南征时为孟获盟友，以毒泉（哑泉、灭泉、黑泉、柔泉）阻挡蜀军。后被诸葛亮用计击败。正史无载，为小说虚构角色。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Meng_Huo"
+    ]
+  },
+  {
+    "id": "kebineng",
+    "name": "轲比能",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 235,
+    "birth_place": null,
+    "description": "三国时期鲜卑族首领，统一漠南鲜卑各部。多次骚扰曹魏北方边境，一度联合诸葛亮夹击曹魏。235年被曹魏派遣的刺客韩龙暗杀，其部落随之分裂瓦解。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Kebineng"
+    ]
+  },
+  {
+    "id": "tadun",
+    "name": "蹋顿",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "warlord"
+    ],
+    "birth_year": null,
+    "death_year": 207,
+    "birth_place": null,
+    "description": "三国时期乌桓族首领，辽西乌桓单于。袁绍与乌桓联姻，袁尚袁熙兵败后投奔蹋顿。207年曹操远征乌桓，白狼山之战中张辽阵斩蹋顿，乌桓主力溃散。此战奠定曹操北方霸权。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Tadun"
+    ]
+  },
+  {
+    "id": "shamoke",
+    "name": "沙摩柯",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 222,
+    "birth_place": null,
+    "description": "三国时期武陵蛮族首领。221年刘备伐吴时征召沙摩柯率蛮兵助战。夷陵之战中射杀吴将甘宁。刘备大败后沙摩柯在乱军中被周泰部下所杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shamoke"
+    ]
+  }
+]
