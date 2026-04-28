@@ -130,7 +130,7 @@ function getFactionDetailData(faction: Faction, state: AppState) {
       id: p.id,
       data: { name: p.name, faction: p.faction, degree },
       style: {
-        size: isCore ? Math.max(30, Math.min(60, degree * 4 + 20)) : 18,
+        size: isCore ? Math.max(20, Math.min(35, degree * 3 + 15)) : 14,
         fill: isCore ? FACTION_CONFIG[p.faction].color : FACTION_CONFIG[p.faction].color,
         opacity: isCore ? 1 : 0.7,
         stroke: '#fff',
@@ -318,8 +318,9 @@ export default function GraphView() {
         layout: {
           type: 'd3-force',
           preventOverlap: true,
-          nodeSize: 50,
-          linkDistance: 200,
+          nodeSize: 40,
+          linkDistance: 400,
+          nodeStrength: -300,
         },
         behaviors: ['drag-canvas', 'zoom-canvas', 'drag-element-force'],
       });
