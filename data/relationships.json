@@ -1,0 +1,6062 @@
+[
+  {
+    "id": "liu-bei-guan-yu-sworn-brothers",
+    "source": "liu-bei",
+    "target": "guan-yu",
+    "type": "sworn-brothers",
+    "label": "结义兄弟",
+    "description": "桃园三结义",
+    "bidirectional": true,
+    "start_year": 184,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Oath_of_the_Peach_Garden"
+    ]
+  },
+  {
+    "id": "liu-bei-zhang-fei-sworn-brothers",
+    "source": "liu-bei",
+    "target": "zhang-fei",
+    "type": "sworn-brothers",
+    "label": "结义兄弟",
+    "description": "桃园三结义",
+    "bidirectional": true,
+    "start_year": 184,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Oath_of_the_Peach_Garden"
+    ]
+  },
+  {
+    "id": "guan-yu-zhang-fei-sworn-brothers",
+    "source": "guan-yu",
+    "target": "zhang-fei",
+    "type": "sworn-brothers",
+    "label": "结义兄弟",
+    "description": "桃园三结义",
+    "bidirectional": true,
+    "start_year": 184,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Oath_of_the_Peach_Garden"
+    ]
+  },
+  {
+    "id": "cao-song-cao-cao-father-son",
+    "source": "cao-song",
+    "target": "cao-cao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹嵩为曹操之父",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 193,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Song"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-ang-father-son",
+    "source": "cao-cao",
+    "target": "cao-ang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹操长子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 197,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Ang"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-pi-father-son",
+    "source": "cao-cao",
+    "target": "cao-pi",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹操次子，魏文帝",
+    "bidirectional": false,
+    "start_year": 187,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-zhi-father-son",
+    "source": "cao-cao",
+    "target": "cao-zhi",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹操之子，才高八斗",
+    "bidirectional": false,
+    "start_year": 192,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhi"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-zhang-father-son",
+    "source": "cao-cao",
+    "target": "cao-zhang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹操之子，黄须儿",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhang"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-chong-father-son",
+    "source": "cao-cao",
+    "target": "cao-chong",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹操幼子，神童",
+    "bidirectional": false,
+    "start_year": 196,
+    "end_year": 208,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Chong"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-biao-father-son",
+    "source": "cao-cao",
+    "target": "cao-biao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹操之子，封楚王",
+    "bidirectional": false,
+    "start_year": 195,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Biao"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-xiong-father-son",
+    "source": "cao-cao",
+    "target": "cao-xiong",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹操之子，卞夫人所生幼子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Xiong"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-lin-pei-father-son",
+    "source": "cao-cao",
+    "target": "cao-lin-pei",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹操之子，封沛王",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Lin_(Prince_of_Pei)"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-gan-father-son",
+    "source": "cao-cao",
+    "target": "cao-gan",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹操幼子，封赵王",
+    "bidirectional": false,
+    "start_year": 216,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Gan"
+    ]
+  },
+  {
+    "id": "cao-pi-cao-rui-father-son",
+    "source": "cao-pi",
+    "target": "cao-rui",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹丕之子，魏明帝",
+    "bidirectional": false,
+    "start_year": 205,
+    "end_year": 226,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Rui"
+    ]
+  },
+  {
+    "id": "cao-zhen-cao-shuang-father-son",
+    "source": "cao-zhen",
+    "target": "cao-shuang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹真之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 231,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Shuang"
+    ]
+  },
+  {
+    "id": "cao-zhen-cao-xi-father-son",
+    "source": "cao-zhen",
+    "target": "cao-xi",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹真之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 231,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Xi"
+    ]
+  },
+  {
+    "id": "cao-ren-cao-tai-father-son",
+    "source": "cao-ren",
+    "target": "cao-tai",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹仁之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 223,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Tai"
+    ]
+  },
+  {
+    "id": "cao-xiu-cao-zhao-father-son",
+    "source": "cao-xiu",
+    "target": "cao-zhao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹休之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 228,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhao"
+    ]
+  },
+  {
+    "id": "cao-ren-cao-chun-brothers",
+    "source": "cao-ren",
+    "target": "cao-chun",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "曹仁之弟",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Chun"
+    ]
+  },
+  {
+    "id": "cao-pi-cao-zhi-brothers",
+    "source": "cao-pi",
+    "target": "cao-zhi",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "七步诗，兄弟相残",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhi"
+    ]
+  },
+  {
+    "id": "cao-pi-cao-zhang-brothers",
+    "source": "cao-pi",
+    "target": "cao-zhang",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "同为曹操之子",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhang"
+    ]
+  },
+  {
+    "id": "cao-pi-cao-chong-brothers",
+    "source": "cao-pi",
+    "target": "cao-chong",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "同为曹操之子",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Chong"
+    ]
+  },
+  {
+    "id": "cao-zhi-cao-zhang-brothers",
+    "source": "cao-zhi",
+    "target": "cao-zhang",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "同为卞夫人所生",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhang"
+    ]
+  },
+  {
+    "id": "sun-jian-sun-ce-father-son",
+    "source": "sun-jian",
+    "target": "sun-ce",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙坚长子",
+    "bidirectional": false,
+    "start_year": 175,
+    "end_year": 191,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ce"
+    ]
+  },
+  {
+    "id": "sun-jian-sun-quan-father-son",
+    "source": "sun-jian",
+    "target": "sun-quan",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙坚次子",
+    "bidirectional": false,
+    "start_year": 182,
+    "end_year": 191,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Quan"
+    ]
+  },
+  {
+    "id": "sun-jian-sun-yi-father-son",
+    "source": "sun-jian",
+    "target": "sun-yi",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙坚第三子",
+    "bidirectional": false,
+    "start_year": 184,
+    "end_year": 191,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Yi_(son_of_Sun_Jian)"
+    ]
+  },
+  {
+    "id": "sun-jian-sun-kuang-father-son",
+    "source": "sun-jian",
+    "target": "sun-kuang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙坚第四子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 191,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Kuang"
+    ]
+  },
+  {
+    "id": "sun-ce-sun-quan-brothers",
+    "source": "sun-ce",
+    "target": "sun-quan",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "孙策与孙权",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Quan"
+    ]
+  },
+  {
+    "id": "sun-ce-sun-yi-brothers",
+    "source": "sun-ce",
+    "target": "sun-yi",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "同为孙坚之子",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Yi_(son_of_Sun_Jian)"
+    ]
+  },
+  {
+    "id": "sun-quan-sun-yi-brothers",
+    "source": "sun-quan",
+    "target": "sun-yi",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "同为孙坚之子",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Yi_(son_of_Sun_Jian)"
+    ]
+  },
+  {
+    "id": "sun-quan-sun-deng-father-son",
+    "source": "sun-quan",
+    "target": "sun-deng",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙权长子",
+    "bidirectional": false,
+    "start_year": 209,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Deng_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "sun-quan-sun-he-father-son",
+    "source": "sun-quan",
+    "target": "sun-he",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙权第三子",
+    "bidirectional": false,
+    "start_year": 224,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_He_(Zixiao)"
+    ]
+  },
+  {
+    "id": "sun-quan-sun-ba-father-son",
+    "source": "sun-quan",
+    "target": "sun-ba",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙权第四子，鲁王",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ba"
+    ]
+  },
+  {
+    "id": "sun-quan-sun-fen-father-son",
+    "source": "sun-quan",
+    "target": "sun-fen",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙权第五子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Fen"
+    ]
+  },
+  {
+    "id": "sun-quan-sun-xiu-father-son",
+    "source": "sun-quan",
+    "target": "sun-xiu",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙权第六子",
+    "bidirectional": false,
+    "start_year": 235,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Xiu_(emperor)"
+    ]
+  },
+  {
+    "id": "sun-quan-sun-liang-father-son",
+    "source": "sun-quan",
+    "target": "sun-liang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙权幼子",
+    "bidirectional": false,
+    "start_year": 243,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Liang"
+    ]
+  },
+  {
+    "id": "sun-quan-sun-luban-father-son",
+    "source": "sun-quan",
+    "target": "sun-luban",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙权长女",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Luban"
+    ]
+  },
+  {
+    "id": "sun-quan-sun-luyu-father-son",
+    "source": "sun-quan",
+    "target": "sun-luyu",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙权幼女",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Luyu"
+    ]
+  },
+  {
+    "id": "sun-he-sun-hao-father-son",
+    "source": "sun-he",
+    "target": "sun-hao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙和之子，吴末帝",
+    "bidirectional": false,
+    "start_year": 242,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Hao"
+    ]
+  },
+  {
+    "id": "sun-he-sun-ba-brothers",
+    "source": "sun-he",
+    "target": "sun-ba",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "二宫之变中争储",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Conflict_of_the_two_palaces"
+    ]
+  },
+  {
+    "id": "sun-jing-sun-yu-father-son",
+    "source": "sun-jing",
+    "target": "sun-yu",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙静之子",
+    "bidirectional": false,
+    "start_year": 177,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Yu_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "sun-jing-sun-jiao-father-son",
+    "source": "sun-jing",
+    "target": "sun-jiao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙静之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Jiao"
+    ]
+  },
+  {
+    "id": "liu-bei-liu-shan-father-son",
+    "source": "liu-bei",
+    "target": "liu-shan",
+    "type": "father-son",
+    "label": "父子",
+    "description": "刘备之子，蜀后主",
+    "bidirectional": false,
+    "start_year": 207,
+    "end_year": 223,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Shan"
+    ]
+  },
+  {
+    "id": "liu-bei-liu-feng-father-son",
+    "source": "liu-bei",
+    "target": "liu-feng",
+    "type": "father-son",
+    "label": "父子",
+    "description": "刘备养子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Feng"
+    ]
+  },
+  {
+    "id": "liu-shan-liu-chen-father-son",
+    "source": "liu-shan",
+    "target": "liu-chen",
+    "type": "father-son",
+    "label": "父子",
+    "description": "刘禅第五子，北地王",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Chen_(Shu_Han)"
+    ]
+  },
+  {
+    "id": "guan-yu-guan-ping-father-son",
+    "source": "guan-yu",
+    "target": "guan-ping",
+    "type": "father-son",
+    "label": "父子",
+    "description": "关羽之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guan_Ping"
+    ]
+  },
+  {
+    "id": "guan-yu-guan-xing-father-son",
+    "source": "guan-yu",
+    "target": "guan-xing",
+    "type": "father-son",
+    "label": "父子",
+    "description": "关羽之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guan_Xing"
+    ]
+  },
+  {
+    "id": "guan-yu-guan-suo-father-son",
+    "source": "guan-yu",
+    "target": "guan-suo",
+    "type": "father-son",
+    "label": "父子",
+    "description": "关羽第三子（传说）",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": []
+  },
+  {
+    "id": "zhang-fei-zhang-bao-father-son",
+    "source": "zhang-fei",
+    "target": "zhang-bao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "张飞长子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Bao_(Shu_Han)"
+    ]
+  },
+  {
+    "id": "zhang-fei-zhang-shao-father-son",
+    "source": "zhang-fei",
+    "target": "zhang-shao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "张飞次子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Fei#Family_and_descendants"
+    ]
+  },
+  {
+    "id": "sima-yi-sima-shi-father-son",
+    "source": "sima-yi",
+    "target": "sima-shi",
+    "type": "father-son",
+    "label": "父子",
+    "description": "司马懿长子",
+    "bidirectional": false,
+    "start_year": 208,
+    "end_year": 251,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Shi"
+    ]
+  },
+  {
+    "id": "sima-yi-sima-zhao-father-son",
+    "source": "sima-yi",
+    "target": "sima-zhao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "司马懿次子",
+    "bidirectional": false,
+    "start_year": 211,
+    "end_year": 251,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Zhao"
+    ]
+  },
+  {
+    "id": "sima-zhao-sima-yan-father-son",
+    "source": "sima-zhao",
+    "target": "sima-yan",
+    "type": "father-son",
+    "label": "父子",
+    "description": "司马昭之子，晋武帝",
+    "bidirectional": false,
+    "start_year": 236,
+    "end_year": 265,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Emperor_Wu_of_Jin"
+    ]
+  },
+  {
+    "id": "sima-shi-sima-zhao-brothers",
+    "source": "sima-shi",
+    "target": "sima-zhao",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "司马师与司马昭",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Zhao"
+    ]
+  },
+  {
+    "id": "sima-lang-sima-yi-brothers",
+    "source": "sima-lang",
+    "target": "sima-yi",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "司马朗与司马懿为兄弟",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Lang"
+    ]
+  },
+  {
+    "id": "sima-yi-si-ma-fu-brothers",
+    "source": "sima-yi",
+    "target": "si-ma-fu",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "司马懿与司马孚兄弟",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Fu"
+    ]
+  },
+  {
+    "id": "sima-yi-sima-shi-successor",
+    "source": "sima-yi",
+    "target": "sima-shi",
+    "type": "successor",
+    "label": "继任者",
+    "description": "司马师继承司马懿权力",
+    "bidirectional": false,
+    "start_year": 251,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Shi"
+    ]
+  },
+  {
+    "id": "sima-shi-sima-zhao-successor",
+    "source": "sima-shi",
+    "target": "sima-zhao",
+    "type": "successor",
+    "label": "继任者",
+    "description": "司马昭继承司马师权力",
+    "bidirectional": false,
+    "start_year": 255,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Zhao"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-pi-successor",
+    "source": "cao-cao",
+    "target": "cao-pi",
+    "type": "successor",
+    "label": "继任者",
+    "description": "曹丕继承曹操魏王位",
+    "bidirectional": false,
+    "start_year": 220,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "cao-pi-cao-rui-successor",
+    "source": "cao-pi",
+    "target": "cao-rui",
+    "type": "successor",
+    "label": "继任者",
+    "description": "曹叡继承曹丕帝位",
+    "bidirectional": false,
+    "start_year": 226,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Rui"
+    ]
+  },
+  {
+    "id": "cao-rui-cao-fang-successor",
+    "source": "cao-rui",
+    "target": "cao-fang",
+    "type": "successor",
+    "label": "继任者",
+    "description": "曹芳继承曹叡帝位",
+    "bidirectional": false,
+    "start_year": 239,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Fang"
+    ]
+  },
+  {
+    "id": "cao-fang-cao-mao-successor",
+    "source": "cao-fang",
+    "target": "cao-mao",
+    "type": "successor",
+    "label": "继任者",
+    "description": "曹髦继曹芳帝位",
+    "bidirectional": false,
+    "start_year": 254,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Mao"
+    ]
+  },
+  {
+    "id": "cao-mao-cao-huan-successor",
+    "source": "cao-mao",
+    "target": "cao-huan",
+    "type": "successor",
+    "label": "继任者",
+    "description": "曹奂继曹髦帝位",
+    "bidirectional": false,
+    "start_year": 260,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Huan"
+    ]
+  },
+  {
+    "id": "sun-jian-sun-ce-successor",
+    "source": "sun-jian",
+    "target": "sun-ce",
+    "type": "successor",
+    "label": "继任者",
+    "description": "孙策继承孙坚势力",
+    "bidirectional": false,
+    "start_year": 191,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ce"
+    ]
+  },
+  {
+    "id": "sun-ce-sun-quan-successor",
+    "source": "sun-ce",
+    "target": "sun-quan",
+    "type": "successor",
+    "label": "继任者",
+    "description": "孙权继承孙策基业",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Quan"
+    ]
+  },
+  {
+    "id": "sun-quan-sun-liang-successor",
+    "source": "sun-quan",
+    "target": "sun-liang",
+    "type": "successor",
+    "label": "继任者",
+    "description": "孙亮继孙权帝位",
+    "bidirectional": false,
+    "start_year": 252,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Liang"
+    ]
+  },
+  {
+    "id": "sun-liang-sun-xiu-successor",
+    "source": "sun-liang",
+    "target": "sun-xiu",
+    "type": "successor",
+    "label": "继任者",
+    "description": "孙休继孙亮帝位",
+    "bidirectional": false,
+    "start_year": 258,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Xiu_(emperor)"
+    ]
+  },
+  {
+    "id": "sun-xiu-sun-hao-successor",
+    "source": "sun-xiu",
+    "target": "sun-hao",
+    "type": "successor",
+    "label": "继任者",
+    "description": "孙皓继孙休帝位",
+    "bidirectional": false,
+    "start_year": 264,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Hao"
+    ]
+  },
+  {
+    "id": "liu-bei-liu-shan-successor",
+    "source": "liu-bei",
+    "target": "liu-shan",
+    "type": "successor",
+    "label": "继任者",
+    "description": "刘禅继承刘备帝位",
+    "bidirectional": false,
+    "start_year": 223,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Shan"
+    ]
+  },
+  {
+    "id": "zhou-yu-lu-su-successor",
+    "source": "zhou-yu",
+    "target": "lu-su",
+    "type": "successor",
+    "label": "继任者",
+    "description": "鲁肃接任大都督",
+    "bidirectional": false,
+    "start_year": 210,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Su"
+    ]
+  },
+  {
+    "id": "lu-su-lv-meng-successor",
+    "source": "lu-su",
+    "target": "lv-meng",
+    "type": "successor",
+    "label": "继任者",
+    "description": "吕蒙接任都督",
+    "bidirectional": false,
+    "start_year": 217,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Meng"
+    ]
+  },
+  {
+    "id": "lv-meng-lu-xun-successor",
+    "source": "lv-meng",
+    "target": "lu-xun",
+    "type": "successor",
+    "label": "继任者",
+    "description": "陆逊接任镇守荆州",
+    "bidirectional": false,
+    "start_year": 219,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Xun_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "zhuge-liang-jiang-wan-successor",
+    "source": "zhuge-liang",
+    "target": "jiang-wan",
+    "type": "successor",
+    "label": "继任者",
+    "description": "蒋琬继诸葛亮执政",
+    "bidirectional": false,
+    "start_year": 234,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Wan"
+    ]
+  },
+  {
+    "id": "jiang-wan-fei-yi-successor",
+    "source": "jiang-wan",
+    "target": "fei-yi",
+    "type": "successor",
+    "label": "继任者",
+    "description": "费祎继蒋琬执政",
+    "bidirectional": false,
+    "start_year": 246,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Fei_Yi"
+    ]
+  },
+  {
+    "id": "lu-xun-lu-kang-successor",
+    "source": "lu-xun",
+    "target": "lu-kang",
+    "type": "successor",
+    "label": "继任者",
+    "description": "陆抗继承陆逊镇守荆州",
+    "bidirectional": false,
+    "start_year": 245,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Kang_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "liu-bei-sun-shangxiang-husband-wife",
+    "source": "liu-bei",
+    "target": "sun-shangxiang",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "孙刘联姻",
+    "bidirectional": true,
+    "start_year": 209,
+    "end_year": 211,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Sun"
+    ]
+  },
+  {
+    "id": "liu-bei-lady-gan-husband-wife",
+    "source": "liu-bei",
+    "target": "lady-gan",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "刘备与甘夫人",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 209,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Gan"
+    ]
+  },
+  {
+    "id": "liu-bei-lady-mi-husband-wife",
+    "source": "liu-bei",
+    "target": "lady-mi",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "刘备与糜夫人",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Mi"
+    ]
+  },
+  {
+    "id": "cao-pi-zhen-ji-husband-wife",
+    "source": "cao-pi",
+    "target": "zhen-ji",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "曹丕与甄姬",
+    "bidirectional": true,
+    "start_year": 204,
+    "end_year": 221,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Zhen"
+    ]
+  },
+  {
+    "id": "cao-pi-guo-nuwang-husband-wife",
+    "source": "cao-pi",
+    "target": "guo-nuwang",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "曹丕与郭女王",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 226,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Empress_Guo_(Cao_Pi)"
+    ]
+  },
+  {
+    "id": "zhou-yu-xiao-qiao-husband-wife",
+    "source": "zhou-yu",
+    "target": "xiao-qiao",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "周瑜与小乔",
+    "bidirectional": true,
+    "start_year": 199,
+    "end_year": 210,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Two_Qiaos"
+    ]
+  },
+  {
+    "id": "sun-ce-da-qiao-husband-wife",
+    "source": "sun-ce",
+    "target": "da-qiao",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "孙策与大乔",
+    "bidirectional": true,
+    "start_year": 199,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Two_Qiaos"
+    ]
+  },
+  {
+    "id": "lv-bu-diao-chan-husband-wife",
+    "source": "lv-bu",
+    "target": "diao-chan",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "吕布与貂蝉",
+    "bidirectional": true,
+    "start_year": 192,
+    "end_year": 198,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Diaochan"
+    ]
+  },
+  {
+    "id": "sima-yi-zhang-chunhua-husband-wife",
+    "source": "sima-yi",
+    "target": "zhang-chunhua",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "司马懿与张春华",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 247,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Chunhua"
+    ]
+  },
+  {
+    "id": "sun-jian-wu-guotai-husband-wife",
+    "source": "sun-jian",
+    "target": "wu-guotai",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "孙坚与吴夫人",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 191,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Wu_(Sun_Jian%27s_wife)"
+    ]
+  },
+  {
+    "id": "liu-shan-empress-zhang-1-husband-wife",
+    "source": "liu-shan",
+    "target": "empress-zhang-1",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "刘禅与敬哀张皇后",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 237,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Empress_Zhang_(Liu_Shan%27s_first_wife)"
+    ]
+  },
+  {
+    "id": "liu-shan-empress-zhang-2-husband-wife",
+    "source": "liu-shan",
+    "target": "empress-zhang-2",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "刘禅与张皇后（张飞次女）",
+    "bidirectional": true,
+    "start_year": 237,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Empress_Zhang_(Liu_Shan%27s_second_wife)"
+    ]
+  },
+  {
+    "id": "cao-cao-zhong-hui-mu-husband-wife",
+    "source": "cao-cao",
+    "target": "zhong-hui-mu",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "曹操与卞夫人",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Bian"
+    ]
+  },
+  {
+    "id": "dong-zhuo-diao-chan-husband-wife",
+    "source": "dong-zhuo",
+    "target": "diao-chan",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "董卓与貂蝉（演义情节）",
+    "bidirectional": true,
+    "start_year": 189,
+    "end_year": 192,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Diaochan"
+    ]
+  },
+  {
+    "id": "sun-luban-quan-cong-husband-wife",
+    "source": "sun-luban",
+    "target": "quan-cong",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "孙鲁班嫁全琮",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Quan_Cong"
+    ]
+  },
+  {
+    "id": "sun-luyu-zhu-ju-husband-wife",
+    "source": "sun-luyu",
+    "target": "zhu-ju",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "孙鲁育嫁朱据",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 253,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Ju"
+    ]
+  },
+  {
+    "id": "cai-yong-cai-wenji-father-son",
+    "source": "cai-yong",
+    "target": "cai-wenji",
+    "type": "father-son",
+    "label": "父子",
+    "description": "蔡邕为蔡文姬之父",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 192,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cai_Wenji"
+    ]
+  },
+  {
+    "id": "cao-cao-guo-jia-lord-vassal",
+    "source": "cao-cao",
+    "target": "guo-jia",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操帐下鬼才谋士",
+    "bidirectional": false,
+    "start_year": 196,
+    "end_year": 207,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Jia"
+    ]
+  },
+  {
+    "id": "cao-cao-xun-yu-lord-vassal",
+    "source": "cao-cao",
+    "target": "xun-yu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操首席战略顾问",
+    "bidirectional": false,
+    "start_year": 191,
+    "end_year": 212,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xun_Yu"
+    ]
+  },
+  {
+    "id": "cao-cao-xun-you-lord-vassal",
+    "source": "cao-cao",
+    "target": "xun-you",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操谋主",
+    "bidirectional": false,
+    "start_year": 196,
+    "end_year": 214,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xun_You"
+    ]
+  },
+  {
+    "id": "cao-cao-jia-xu-lord-vassal",
+    "source": "cao-cao",
+    "target": "jia-xu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "毒士归曹",
+    "bidirectional": false,
+    "start_year": 199,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jia_Xu"
+    ]
+  },
+  {
+    "id": "cao-cao-cheng-yu-lord-vassal",
+    "source": "cao-cao",
+    "target": "cheng-yu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操早期谋士",
+    "bidirectional": false,
+    "start_year": 192,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cheng_Yu"
+    ]
+  },
+  {
+    "id": "cao-cao-zhang-liao-lord-vassal",
+    "source": "cao-cao",
+    "target": "zhang-liao",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "五子良将之首",
+    "bidirectional": false,
+    "start_year": 198,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Liao"
+    ]
+  },
+  {
+    "id": "cao-cao-xu-huang-lord-vassal",
+    "source": "cao-cao",
+    "target": "xu-huang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "五子良将",
+    "bidirectional": false,
+    "start_year": 196,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Huang"
+    ]
+  },
+  {
+    "id": "cao-cao-yu-jin-lord-vassal",
+    "source": "cao-cao",
+    "target": "yu-jin",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "五子良将",
+    "bidirectional": false,
+    "start_year": 192,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yu_Jin"
+    ]
+  },
+  {
+    "id": "cao-cao-yue-jin-lord-vassal",
+    "source": "cao-cao",
+    "target": "yue-jin",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "五子良将",
+    "bidirectional": false,
+    "start_year": 192,
+    "end_year": 218,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yue_Jin"
+    ]
+  },
+  {
+    "id": "cao-cao-zhang-he-lord-vassal",
+    "source": "cao-cao",
+    "target": "zhang-he",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "官渡之战后归曹",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_He"
+    ]
+  },
+  {
+    "id": "cao-cao-xu-chu-lord-vassal",
+    "source": "cao-cao",
+    "target": "xu-chu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操贴身护卫虎痴",
+    "bidirectional": false,
+    "start_year": 197,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Chu"
+    ]
+  },
+  {
+    "id": "cao-cao-dian-wei-lord-vassal",
+    "source": "cao-cao",
+    "target": "dian-wei",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操亲卫统领",
+    "bidirectional": false,
+    "start_year": 194,
+    "end_year": 197,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dian_Wei"
+    ]
+  },
+  {
+    "id": "cao-cao-xiahou-dun-lord-vassal",
+    "source": "cao-cao",
+    "target": "xiahou-dun",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操宗族将领",
+    "bidirectional": false,
+    "start_year": 190,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Dun"
+    ]
+  },
+  {
+    "id": "cao-cao-xiahou-yuan-lord-vassal",
+    "source": "cao-cao",
+    "target": "xiahou-yuan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操宗族将领",
+    "bidirectional": false,
+    "start_year": 190,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Yuan"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-ren-lord-vassal",
+    "source": "cao-cao",
+    "target": "cao-ren",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操从弟",
+    "bidirectional": false,
+    "start_year": 190,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Ren"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-hong-lord-vassal",
+    "source": "cao-cao",
+    "target": "cao-hong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操从弟",
+    "bidirectional": false,
+    "start_year": 190,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Hong"
+    ]
+  },
+  {
+    "id": "cao-cao-li-dian-lord-vassal",
+    "source": "cao-cao",
+    "target": "li-dian",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操将领",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 215,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Li_Dian"
+    ]
+  },
+  {
+    "id": "cao-cao-pang-de-lord-vassal",
+    "source": "cao-cao",
+    "target": "pang-de",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "庞德归曹",
+    "bidirectional": false,
+    "start_year": 211,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Pang_De"
+    ]
+  },
+  {
+    "id": "cao-cao-sima-yi-lord-vassal",
+    "source": "cao-cao",
+    "target": "sima-yi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "司马懿仕曹操",
+    "bidirectional": false,
+    "start_year": 208,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Yi"
+    ]
+  },
+  {
+    "id": "cao-cao-liu-ye-lord-vassal",
+    "source": "cao-cao",
+    "target": "liu-ye",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操谋士",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Ye_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "cao-cao-man-chong-lord-vassal",
+    "source": "cao-cao",
+    "target": "man-chong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "满宠仕曹操",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Man_Chong"
+    ]
+  },
+  {
+    "id": "cao-cao-chen-qun-lord-vassal",
+    "source": "cao-cao",
+    "target": "chen-qun",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "九品中正制创立者",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Qun"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-zhen-lord-vassal",
+    "source": "cao-cao",
+    "target": "cao-zhen",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操养子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhen"
+    ]
+  },
+  {
+    "id": "cao-cao-mao-jie-lord-vassal",
+    "source": "cao-cao",
+    "target": "mao-jie",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "提出屯田战略",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 216,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Mao_Jie"
+    ]
+  },
+  {
+    "id": "liu-bei-zhuge-liang-lord-vassal",
+    "source": "liu-bei",
+    "target": "zhuge-liang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "三顾茅庐，鱼水之情",
+    "bidirectional": false,
+    "start_year": 207,
+    "end_year": 223,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Liang"
+    ]
+  },
+  {
+    "id": "liu-bei-zhao-yun-lord-vassal",
+    "source": "liu-bei",
+    "target": "zhao-yun",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "常山赵子龙",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 223,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhao_Yun"
+    ]
+  },
+  {
+    "id": "liu-bei-huang-zhong-lord-vassal",
+    "source": "liu-bei",
+    "target": "huang-zhong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "老当益壮",
+    "bidirectional": false,
+    "start_year": 209,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Huang_Zhong"
+    ]
+  },
+  {
+    "id": "liu-bei-ma-chao-lord-vassal",
+    "source": "liu-bei",
+    "target": "ma-chao",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "马超归蜀",
+    "bidirectional": false,
+    "start_year": 214,
+    "end_year": 222,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Chao"
+    ]
+  },
+  {
+    "id": "liu-bei-wei-yan-lord-vassal",
+    "source": "liu-bei",
+    "target": "wei-yan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "魏延受刘备器重",
+    "bidirectional": false,
+    "start_year": 211,
+    "end_year": 223,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wei_Yan"
+    ]
+  },
+  {
+    "id": "liu-bei-pang-tong-lord-vassal",
+    "source": "liu-bei",
+    "target": "pang-tong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "凤雏归蜀",
+    "bidirectional": false,
+    "start_year": 210,
+    "end_year": 214,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Pang_Tong"
+    ]
+  },
+  {
+    "id": "liu-bei-fa-zheng-lord-vassal",
+    "source": "liu-bei",
+    "target": "fa-zheng",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "法正为刘备谋主",
+    "bidirectional": false,
+    "start_year": 214,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Fa_Zheng"
+    ]
+  },
+  {
+    "id": "liu-bei-jian-yong-lord-vassal",
+    "source": "liu-bei",
+    "target": "jian-yong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "刘备早期追随者",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jian_Yong"
+    ]
+  },
+  {
+    "id": "liu-bei-mi-zhu-lord-vassal",
+    "source": "liu-bei",
+    "target": "mi-zhu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "糜竺资助刘备",
+    "bidirectional": false,
+    "start_year": 194,
+    "end_year": 221,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Mi_Zhu"
+    ]
+  },
+  {
+    "id": "liu-bei-sun-qian-lord-vassal",
+    "source": "liu-bei",
+    "target": "sun-qian",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "刘备谋臣",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Qian"
+    ]
+  },
+  {
+    "id": "sun-quan-zhou-yu-lord-vassal",
+    "source": "sun-quan",
+    "target": "zhou-yu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "赤壁大都督",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 210,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhou_Yu"
+    ]
+  },
+  {
+    "id": "sun-quan-lu-su-lord-vassal",
+    "source": "sun-quan",
+    "target": "lu-su",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "战略家，促成孙刘联盟",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 217,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Su"
+    ]
+  },
+  {
+    "id": "sun-quan-lv-meng-lord-vassal",
+    "source": "sun-quan",
+    "target": "lv-meng",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "白衣渡江",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Meng"
+    ]
+  },
+  {
+    "id": "sun-quan-lu-xun-lord-vassal",
+    "source": "sun-quan",
+    "target": "lu-xun",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "夷陵之战大都督",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 245,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Xun_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "sun-quan-gan-ning-lord-vassal",
+    "source": "sun-quan",
+    "target": "gan-ning",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "百骑劫魏营",
+    "bidirectional": false,
+    "start_year": 208,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gan_Ning"
+    ]
+  },
+  {
+    "id": "sun-quan-zhang-zhao-lord-vassal",
+    "source": "sun-quan",
+    "target": "zhang-zhao",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "内事不决问张昭",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 236,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Zhao_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "sun-quan-gu-yong-lord-vassal",
+    "source": "sun-quan",
+    "target": "gu-yong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "东吴丞相",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 243,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gu_Yong"
+    ]
+  },
+  {
+    "id": "sun-quan-taishi-ci-lord-vassal",
+    "source": "sun-quan",
+    "target": "taishi-ci",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "太史慈效力孙权",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 206,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Taishi_Ci"
+    ]
+  },
+  {
+    "id": "sun-quan-huang-gai-lord-vassal",
+    "source": "sun-quan",
+    "target": "huang-gai",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "三朝老将",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Huang_Gai"
+    ]
+  },
+  {
+    "id": "sun-quan-ding-feng-lord-vassal",
+    "source": "sun-quan",
+    "target": "ding-feng",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "东吴后期名将",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 271,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ding_Feng_(general)"
+    ]
+  },
+  {
+    "id": "sun-quan-zhuge-jin-lord-vassal",
+    "source": "sun-quan",
+    "target": "zhuge-jin",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "诸葛瑾效力东吴",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 241,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Jin"
+    ]
+  },
+  {
+    "id": "liu-shan-zhuge-liang-lord-vassal",
+    "source": "liu-shan",
+    "target": "zhuge-liang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "诸葛亮辅政后主",
+    "bidirectional": false,
+    "start_year": 223,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Liang"
+    ]
+  },
+  {
+    "id": "liu-shan-jiang-wei-lord-vassal",
+    "source": "liu-shan",
+    "target": "jiang-wei",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "姜维继诸葛亮遗志北伐",
+    "bidirectional": false,
+    "start_year": 234,
+    "end_year": 263,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Wei"
+    ]
+  },
+  {
+    "id": "liu-shan-jiang-wan-lord-vassal",
+    "source": "liu-shan",
+    "target": "jiang-wan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "蒋琬为蜀汉执政",
+    "bidirectional": false,
+    "start_year": 234,
+    "end_year": 246,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Wan"
+    ]
+  },
+  {
+    "id": "liu-shan-fei-yi-lord-vassal",
+    "source": "liu-shan",
+    "target": "fei-yi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "费祎执政",
+    "bidirectional": false,
+    "start_year": 234,
+    "end_year": 253,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Fei_Yi"
+    ]
+  },
+  {
+    "id": "liu-shan-dong-yun-lord-vassal",
+    "source": "liu-shan",
+    "target": "dong-yun",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "董允正直辅政",
+    "bidirectional": false,
+    "start_year": 223,
+    "end_year": 246,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Yun"
+    ]
+  },
+  {
+    "id": "dong-zhuo-lv-bu-lord-vassal",
+    "source": "dong-zhuo",
+    "target": "lv-bu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "董卓认吕布为义子",
+    "bidirectional": false,
+    "start_year": 189,
+    "end_year": 192,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Bu"
+    ]
+  },
+  {
+    "id": "yuan-shao-yan-liang-lord-vassal",
+    "source": "yuan-shao",
+    "target": "yan-liang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "袁绍大将",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yan_Liang"
+    ]
+  },
+  {
+    "id": "yuan-shao-wen-chou-lord-vassal",
+    "source": "yuan-shao",
+    "target": "wen-chou",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "袁绍大将",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wen_Chou"
+    ]
+  },
+  {
+    "id": "yuan-shao-tian-feng-lord-vassal",
+    "source": "yuan-shao",
+    "target": "tian-feng",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "袁绍谋士",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Tian_Feng"
+    ]
+  },
+  {
+    "id": "yuan-shao-ju-shou-lord-vassal",
+    "source": "yuan-shao",
+    "target": "ju-shou",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "袁绍谋士",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ju_Shou"
+    ]
+  },
+  {
+    "id": "yuan-shao-shen-pei-lord-vassal",
+    "source": "yuan-shao",
+    "target": "shen-pei",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "袁绍忠臣",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 204,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shen_Pei"
+    ]
+  },
+  {
+    "id": "yuan-shao-guo-tu-lord-vassal",
+    "source": "yuan-shao",
+    "target": "guo-tu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "袁绍谋士",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 205,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Tu"
+    ]
+  },
+  {
+    "id": "yuan-shao-feng-ji-lord-vassal",
+    "source": "yuan-shao",
+    "target": "feng-ji",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "袁绍谋士",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Feng_Ji"
+    ]
+  },
+  {
+    "id": "yuan-shao-gao-lan-lord-vassal",
+    "source": "yuan-shao",
+    "target": "gao-lan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "袁绍大将",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gao_Lan"
+    ]
+  },
+  {
+    "id": "yuan-shao-chunyu-qiong-lord-vassal",
+    "source": "yuan-shao",
+    "target": "chunyu-qiong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "乌巢守将",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chunyu_Qiong"
+    ]
+  },
+  {
+    "id": "zhuge-liang-jiang-wei-master-student",
+    "source": "zhuge-liang",
+    "target": "jiang-wei",
+    "type": "master-student",
+    "label": "师徒",
+    "description": "诸葛亮传授衣钵给姜维",
+    "bidirectional": false,
+    "start_year": 228,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Wei"
+    ]
+  },
+  {
+    "id": "lu-zhi-liu-bei-master-student",
+    "source": "lu-zhi",
+    "target": "liu-bei",
+    "type": "master-student",
+    "label": "师徒",
+    "description": "卢植为刘备老师",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Zhi"
+    ]
+  },
+  {
+    "id": "cai-yong-gu-yong-master-student",
+    "source": "cai-yong",
+    "target": "gu-yong",
+    "type": "master-student",
+    "label": "师徒",
+    "description": "蔡邕教授顾雍",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 192,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gu_Yong"
+    ]
+  },
+  {
+    "id": "zhuge-liang-ma-su-master-student",
+    "source": "zhuge-liang",
+    "target": "ma-su",
+    "type": "master-student",
+    "label": "师徒",
+    "description": "诸葛亮器重马谡",
+    "bidirectional": false,
+    "start_year": 214,
+    "end_year": 228,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Su"
+    ]
+  },
+  {
+    "id": "lu-zhi-gongsun-zan-master-student",
+    "source": "lu-zhi",
+    "target": "gongsun-zan",
+    "type": "master-student",
+    "label": "师徒",
+    "description": "卢植为公孙瓒老师",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Zan"
+    ]
+  },
+  {
+    "id": "cao-cao-liu-bei-rivals",
+    "source": "cao-cao",
+    "target": "liu-bei",
+    "type": "rivals",
+    "label": "对手",
+    "description": "三国争霸",
+    "bidirectional": true,
+    "start_year": 200,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Three_Kingdoms"
+    ]
+  },
+  {
+    "id": "cao-cao-sun-quan-rivals",
+    "source": "cao-cao",
+    "target": "sun-quan",
+    "type": "rivals",
+    "label": "对手",
+    "description": "赤壁之战以来对峙",
+    "bidirectional": true,
+    "start_year": 208,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Red_Cliffs"
+    ]
+  },
+  {
+    "id": "zhuge-liang-sima-yi-rivals",
+    "source": "zhuge-liang",
+    "target": "sima-yi",
+    "type": "rivals",
+    "label": "对手",
+    "description": "六出祁山，宿命对决",
+    "bidirectional": true,
+    "start_year": 228,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Liang%27s_Northern_Expeditions"
+    ]
+  },
+  {
+    "id": "zhou-yu-zhuge-liang-rivals",
+    "source": "zhou-yu",
+    "target": "zhuge-liang",
+    "type": "rivals",
+    "label": "对手",
+    "description": "既生瑜何生亮",
+    "bidirectional": true,
+    "start_year": 208,
+    "end_year": 210,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhou_Yu"
+    ]
+  },
+  {
+    "id": "guan-yu-lv-meng-rivals",
+    "source": "guan-yu",
+    "target": "lv-meng",
+    "type": "rivals",
+    "label": "对手",
+    "description": "荆州争夺",
+    "bidirectional": true,
+    "start_year": 215,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Meng"
+    ]
+  },
+  {
+    "id": "jiang-wei-deng-ai-rivals",
+    "source": "jiang-wei",
+    "target": "deng-ai",
+    "type": "rivals",
+    "label": "对手",
+    "description": "蜀魏陇西争锋",
+    "bidirectional": true,
+    "start_year": 247,
+    "end_year": 263,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Deng_Ai"
+    ]
+  },
+  {
+    "id": "jiang-wei-guo-huai-rivals",
+    "source": "jiang-wei",
+    "target": "guo-huai",
+    "type": "rivals",
+    "label": "对手",
+    "description": "北伐对阵",
+    "bidirectional": true,
+    "start_year": 247,
+    "end_year": 255,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Huai"
+    ]
+  },
+  {
+    "id": "cao-cao-yuan-shao-rivals",
+    "source": "cao-cao",
+    "target": "yuan-shao",
+    "type": "rivals",
+    "label": "对手",
+    "description": "官渡之战宿命对决",
+    "bidirectional": true,
+    "start_year": 190,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Guandu"
+    ]
+  },
+  {
+    "id": "cao-cao-lv-bu-rivals",
+    "source": "cao-cao",
+    "target": "lv-bu",
+    "type": "rivals",
+    "label": "对手",
+    "description": "多次交锋",
+    "bidirectional": true,
+    "start_year": 194,
+    "end_year": 198,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Bu"
+    ]
+  },
+  {
+    "id": "liu-bei-cao-pi-rivals",
+    "source": "liu-bei",
+    "target": "cao-pi",
+    "type": "rivals",
+    "label": "对手",
+    "description": "蜀魏对立",
+    "bidirectional": true,
+    "start_year": 220,
+    "end_year": 223,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "liu-bei-sun-quan-rivals",
+    "source": "liu-bei",
+    "target": "sun-quan",
+    "type": "rivals",
+    "label": "对手",
+    "description": "夷陵之战",
+    "bidirectional": true,
+    "start_year": 219,
+    "end_year": 222,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Xiaoting"
+    ]
+  },
+  {
+    "id": "lu-xun-liu-bei-rivals",
+    "source": "lu-xun",
+    "target": "liu-bei",
+    "type": "rivals",
+    "label": "对手",
+    "description": "夷陵之战中击败刘备",
+    "bidirectional": true,
+    "start_year": 222,
+    "end_year": 222,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Xiaoting"
+    ]
+  },
+  {
+    "id": "lu-kang-yang-hu-rivals",
+    "source": "lu-kang",
+    "target": "yang-hu",
+    "type": "rivals",
+    "label": "对手",
+    "description": "敬重对手，陆抗vs羊祜",
+    "bidirectional": true,
+    "start_year": 270,
+    "end_year": 274,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Kang_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "ma-chao-cao-cao-rivals",
+    "source": "ma-chao",
+    "target": "cao-cao",
+    "type": "rivals",
+    "label": "对手",
+    "description": "潼关之战",
+    "bidirectional": true,
+    "start_year": 211,
+    "end_year": 212,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Tong_Pass_(211)"
+    ]
+  },
+  {
+    "id": "yuan-shao-yuan-shu-rivals",
+    "source": "yuan-shao",
+    "target": "yuan-shu",
+    "type": "rivals",
+    "label": "对手",
+    "description": "袁绍与袁术兄弟不和",
+    "bidirectional": true,
+    "start_year": 190,
+    "end_year": 199,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shu"
+    ]
+  },
+  {
+    "id": "yuan-shao-gongsun-zan-rivals",
+    "source": "yuan-shao",
+    "target": "gongsun-zan",
+    "type": "rivals",
+    "label": "对手",
+    "description": "界桥之战等对峙",
+    "bidirectional": true,
+    "start_year": 191,
+    "end_year": 199,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Zan"
+    ]
+  },
+  {
+    "id": "cao-cao-ma-teng-rivals",
+    "source": "cao-cao",
+    "target": "ma-teng",
+    "type": "rivals",
+    "label": "对手",
+    "description": "西凉vs中原",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 211,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Teng"
+    ]
+  },
+  {
+    "id": "sun-ce-liu-yao-rivals",
+    "source": "sun-ce",
+    "target": "liu-yao",
+    "type": "rivals",
+    "label": "对手",
+    "description": "孙策击败刘繇",
+    "bidirectional": true,
+    "start_year": 195,
+    "end_year": 196,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Yao"
+    ]
+  },
+  {
+    "id": "zhuge-liang-cao-zhen-rivals",
+    "source": "zhuge-liang",
+    "target": "cao-zhen",
+    "type": "rivals",
+    "label": "对手",
+    "description": "北伐对阵",
+    "bidirectional": true,
+    "start_year": 228,
+    "end_year": 231,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhen"
+    ]
+  },
+  {
+    "id": "sima-yi-zhuge-dan-rivals",
+    "source": "sima-yi",
+    "target": "zhuge-dan",
+    "type": "rivals",
+    "label": "对手",
+    "description": "淮南叛乱",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 258,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Dan"
+    ]
+  },
+  {
+    "id": "cao-pi-cao-zhi-rivals",
+    "source": "cao-pi",
+    "target": "cao-zhi",
+    "type": "rivals",
+    "label": "对手",
+    "description": "夺嫡之争",
+    "bidirectional": true,
+    "start_year": 210,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhi"
+    ]
+  },
+  {
+    "id": "cao-shuang-sima-yi-rivals",
+    "source": "cao-shuang",
+    "target": "sima-yi",
+    "type": "rivals",
+    "label": "对手",
+    "description": "高平陵之变",
+    "bidirectional": true,
+    "start_year": 239,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Incident_at_Gaoping_Tombs"
+    ]
+  },
+  {
+    "id": "lv-bu-dong-zhuo-betrayal",
+    "source": "lv-bu",
+    "target": "dong-zhuo",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "吕布杀董卓",
+    "bidirectional": false,
+    "start_year": 192,
+    "end_year": 192,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Bu"
+    ]
+  },
+  {
+    "id": "wei-yan-zhuge-liang-betrayal",
+    "source": "wei-yan",
+    "target": "zhuge-liang",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "诸葛亮死后魏延造反（有争议）",
+    "bidirectional": false,
+    "start_year": 234,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wei_Yan"
+    ]
+  },
+  {
+    "id": "sima-yi-cao-shuang-betrayal",
+    "source": "sima-yi",
+    "target": "cao-shuang",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "高平陵之变夺权",
+    "bidirectional": false,
+    "start_year": 249,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Incident_at_Gaoping_Tombs"
+    ]
+  },
+  {
+    "id": "sima-zhao-cao-mao-betrayal",
+    "source": "sima-zhao",
+    "target": "cao-mao",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "司马昭之心路人皆知",
+    "bidirectional": false,
+    "start_year": 260,
+    "end_year": 260,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Mao"
+    ]
+  },
+  {
+    "id": "lv-meng-guan-yu-betrayal",
+    "source": "lv-meng",
+    "target": "guan-yu",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "白衣渡江偷袭荆州",
+    "bidirectional": false,
+    "start_year": 219,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Meng"
+    ]
+  },
+  {
+    "id": "zhong-hui-sima-zhao-betrayal",
+    "source": "zhong-hui",
+    "target": "sima-zhao",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "钟会谋反",
+    "bidirectional": false,
+    "start_year": 264,
+    "end_year": 264,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhong_Hui"
+    ]
+  },
+  {
+    "id": "jia-chong-cao-mao-betrayal",
+    "source": "jia-chong",
+    "target": "cao-mao",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "贾充指使弑杀曹髦",
+    "bidirectional": false,
+    "start_year": 260,
+    "end_year": 260,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jia_Chong"
+    ]
+  },
+  {
+    "id": "guan-yu-sun-quan-killed-by",
+    "source": "guan-yu",
+    "target": "sun-quan",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "关羽被东吴擒杀",
+    "bidirectional": false,
+    "start_year": 219,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guan_Yu"
+    ]
+  },
+  {
+    "id": "dong-zhuo-lv-bu-killed-by",
+    "source": "dong-zhuo",
+    "target": "lv-bu",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "吕布诛杀董卓",
+    "bidirectional": false,
+    "start_year": 192,
+    "end_year": 192,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Zhuo"
+    ]
+  },
+  {
+    "id": "lv-bu-cao-cao-killed-by",
+    "source": "lv-bu",
+    "target": "cao-cao",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "吕布被曹操缢杀",
+    "bidirectional": false,
+    "start_year": 198,
+    "end_year": 198,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Bu"
+    ]
+  },
+  {
+    "id": "yan-liang-guan-yu-killed-by",
+    "source": "yan-liang",
+    "target": "guan-yu",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "关羽斩颜良",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yan_Liang"
+    ]
+  },
+  {
+    "id": "xiahou-yuan-huang-zhong-killed-by",
+    "source": "xiahou-yuan",
+    "target": "huang-zhong",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "定军山之战黄忠斩夏侯渊",
+    "bidirectional": false,
+    "start_year": 219,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Mount_Dingjun"
+    ]
+  },
+  {
+    "id": "dian-wei-zhang-xiu-wu-killed-by",
+    "source": "dian-wei",
+    "target": "zhang-xiu-wu",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "宛城之战典韦战死",
+    "bidirectional": false,
+    "start_year": 197,
+    "end_year": 197,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dian_Wei"
+    ]
+  },
+  {
+    "id": "cao-ang-zhang-xiu-wu-killed-by",
+    "source": "cao-ang",
+    "target": "zhang-xiu-wu",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "宛城之战曹昂战死",
+    "bidirectional": false,
+    "start_year": 197,
+    "end_year": 197,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Ang"
+    ]
+  },
+  {
+    "id": "cao-mao-jia-chong-killed-by",
+    "source": "cao-mao",
+    "target": "jia-chong",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "成济弑杀曹髦",
+    "bidirectional": false,
+    "start_year": 260,
+    "end_year": 260,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Mao"
+    ]
+  },
+  {
+    "id": "pang-de-guan-yu-killed-by",
+    "source": "pang-de",
+    "target": "guan-yu",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "庞德被关羽斩首",
+    "bidirectional": false,
+    "start_year": 219,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Pang_De"
+    ]
+  },
+  {
+    "id": "deng-ai-zhong-hui-killed-by",
+    "source": "deng-ai",
+    "target": "zhong-hui",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "邓艾被钟会诬陷冤死",
+    "bidirectional": false,
+    "start_year": 264,
+    "end_year": 264,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Deng_Ai"
+    ]
+  },
+  {
+    "id": "zhong-hui-jiang-wei-killed-by",
+    "source": "zhong-hui",
+    "target": "jiang-wei",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "钟会之乱中被杀（姜维策动）",
+    "bidirectional": false,
+    "start_year": 264,
+    "end_year": 264,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhong_Hui"
+    ]
+  },
+  {
+    "id": "jiang-wei-zhong-hui-killed-by",
+    "source": "jiang-wei",
+    "target": "zhong-hui",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "钟会之乱中姜维被杀",
+    "bidirectional": false,
+    "start_year": 264,
+    "end_year": 264,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Wei"
+    ]
+  },
+  {
+    "id": "yang-xiu-cao-cao-killed-by",
+    "source": "yang-xiu",
+    "target": "cao-cao",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "杨修以鸡肋案被杀",
+    "bidirectional": false,
+    "start_year": 219,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yang_Xiu"
+    ]
+  },
+  {
+    "id": "kong-rong-cao-cao-killed-by",
+    "source": "kong-rong",
+    "target": "cao-cao",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "孔融被曹操处死",
+    "bidirectional": false,
+    "start_year": 208,
+    "end_year": 208,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Kong_Rong"
+    ]
+  },
+  {
+    "id": "ma-su-zhuge-liang-killed-by",
+    "source": "ma-su",
+    "target": "zhuge-liang",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "挥泪斩马谡",
+    "bidirectional": false,
+    "start_year": 228,
+    "end_year": 228,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Su"
+    ]
+  },
+  {
+    "id": "zhuge-ke-sun-jun-killed-by",
+    "source": "zhuge-ke",
+    "target": "sun-jun",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "诸葛恪被孙峻杀害",
+    "bidirectional": false,
+    "start_year": 253,
+    "end_year": 253,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Ke"
+    ]
+  },
+  {
+    "id": "sun-chen-ding-feng-killed-by",
+    "source": "sun-chen",
+    "target": "ding-feng",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "丁奉参与诛杀孙綝",
+    "bidirectional": false,
+    "start_year": 258,
+    "end_year": 258,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Chen"
+    ]
+  },
+  {
+    "id": "liu-bei-sun-quan-allies",
+    "source": "liu-bei",
+    "target": "sun-quan",
+    "type": "allies",
+    "label": "同盟",
+    "description": "赤壁之战孙刘联盟",
+    "bidirectional": true,
+    "start_year": 208,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Red_Cliffs"
+    ]
+  },
+  {
+    "id": "sun-ce-zhou-yu-allies",
+    "source": "sun-ce",
+    "target": "zhou-yu",
+    "type": "allies",
+    "label": "同盟",
+    "description": "总角之交，并肩创业",
+    "bidirectional": true,
+    "start_year": 190,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhou_Yu"
+    ]
+  },
+  {
+    "id": "cao-cao-liu-bei-allies",
+    "source": "cao-cao",
+    "target": "liu-bei",
+    "type": "allies",
+    "label": "同盟",
+    "description": "联手灭吕布（短暂联盟）",
+    "bidirectional": true,
+    "start_year": 198,
+    "end_year": 199,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Cao"
+    ]
+  },
+  {
+    "id": "yuan-shao-cao-cao-allies",
+    "source": "yuan-shao",
+    "target": "cao-cao",
+    "type": "allies",
+    "label": "同盟",
+    "description": "讨董联盟（早期）",
+    "bidirectional": true,
+    "start_year": 189,
+    "end_year": 191,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Coalition_against_Dong_Zhuo"
+    ]
+  },
+  {
+    "id": "liu-bei-gongsun-zan-allies",
+    "source": "liu-bei",
+    "target": "gongsun-zan",
+    "type": "allies",
+    "label": "同盟",
+    "description": "同窗好友",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 199,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Zan"
+    ]
+  },
+  {
+    "id": "sun-quan-liu-bei-allies",
+    "source": "sun-quan",
+    "target": "liu-bei",
+    "type": "allies",
+    "label": "同盟",
+    "description": "蜀吴联盟抗魏",
+    "bidirectional": true,
+    "start_year": 222,
+    "end_year": 263,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Three_Kingdoms"
+    ]
+  },
+  {
+    "id": "zhuge-liang-lu-su-allies",
+    "source": "zhuge-liang",
+    "target": "lu-su",
+    "type": "allies",
+    "label": "同盟",
+    "description": "促成孙刘联盟",
+    "bidirectional": true,
+    "start_year": 208,
+    "end_year": 217,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Su"
+    ]
+  },
+  {
+    "id": "sun-ce-zhou-yu-friends",
+    "source": "sun-ce",
+    "target": "zhou-yu",
+    "type": "friends",
+    "label": "友人",
+    "description": "总角之交",
+    "bidirectional": true,
+    "start_year": 190,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhou_Yu"
+    ]
+  },
+  {
+    "id": "liu-bei-gongsun-zan-friends",
+    "source": "liu-bei",
+    "target": "gongsun-zan",
+    "type": "friends",
+    "label": "友人",
+    "description": "同门师兄弟",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 199,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Zan"
+    ]
+  },
+  {
+    "id": "zhuge-liang-xu-shu-friends",
+    "source": "zhuge-liang",
+    "target": "xu-shu",
+    "type": "friends",
+    "label": "友人",
+    "description": "好友互相推荐",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 207,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Shu"
+    ]
+  },
+  {
+    "id": "zhuge-liang-pang-tong-friends",
+    "source": "zhuge-liang",
+    "target": "pang-tong",
+    "type": "friends",
+    "label": "友人",
+    "description": "卧龙凤雏齐名",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 214,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Pang_Tong"
+    ]
+  },
+  {
+    "id": "guo-jia-xun-yu-friends",
+    "source": "guo-jia",
+    "target": "xun-yu",
+    "type": "friends",
+    "label": "友人",
+    "description": "同为颍川名士",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 207,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Jia"
+    ]
+  },
+  {
+    "id": "xun-yu-xun-you-friends",
+    "source": "xun-yu",
+    "target": "xun-you",
+    "type": "friends",
+    "label": "友人",
+    "description": "叔侄兼同僚",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 212,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xun_You"
+    ]
+  },
+  {
+    "id": "zhang-liao-guan-yu-friends",
+    "source": "zhang-liao",
+    "target": "guan-yu",
+    "type": "friends",
+    "label": "友人",
+    "description": "英雄惺惺相惜",
+    "bidirectional": true,
+    "start_year": 198,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Liao"
+    ]
+  },
+  {
+    "id": "lu-su-zhuge-jin-friends",
+    "source": "lu-su",
+    "target": "zhuge-jin",
+    "type": "friends",
+    "label": "友人",
+    "description": "好友同仕东吴",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 217,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Jin"
+    ]
+  },
+  {
+    "id": "zhang-zhao-zhang-hong-friends",
+    "source": "zhang-zhao",
+    "target": "zhang-hong",
+    "type": "friends",
+    "label": "友人",
+    "description": "二张并称",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 212,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Hong_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "zhang-liao-yue-jin-colleagues",
+    "source": "zhang-liao",
+    "target": "yue-jin",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "五子良将同僚",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 218,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Elite_Generals"
+    ]
+  },
+  {
+    "id": "zhang-liao-xu-huang-colleagues",
+    "source": "zhang-liao",
+    "target": "xu-huang",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "五子良将同僚",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 222,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Elite_Generals"
+    ]
+  },
+  {
+    "id": "zhang-liao-zhang-he-colleagues",
+    "source": "zhang-liao",
+    "target": "zhang-he",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "五子良将同僚",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 222,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Elite_Generals"
+    ]
+  },
+  {
+    "id": "zhang-liao-yu-jin-colleagues",
+    "source": "zhang-liao",
+    "target": "yu-jin",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "五子良将同僚",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 221,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Elite_Generals"
+    ]
+  },
+  {
+    "id": "xu-huang-yu-jin-colleagues",
+    "source": "xu-huang",
+    "target": "yu-jin",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "五子良将同僚",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 221,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Elite_Generals"
+    ]
+  },
+  {
+    "id": "yue-jin-yu-jin-colleagues",
+    "source": "yue-jin",
+    "target": "yu-jin",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "五子良将同僚",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 218,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Elite_Generals"
+    ]
+  },
+  {
+    "id": "zhang-he-xu-huang-colleagues",
+    "source": "zhang-he",
+    "target": "xu-huang",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "五子良将同僚",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 227,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Elite_Generals"
+    ]
+  },
+  {
+    "id": "guan-yu-zhao-yun-colleagues",
+    "source": "guan-yu",
+    "target": "zhao-yun",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉五虎上将",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Tiger_Generals"
+    ]
+  },
+  {
+    "id": "guan-yu-huang-zhong-colleagues",
+    "source": "guan-yu",
+    "target": "huang-zhong",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉五虎上将",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Tiger_Generals"
+    ]
+  },
+  {
+    "id": "guan-yu-ma-chao-colleagues",
+    "source": "guan-yu",
+    "target": "ma-chao",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉五虎上将",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Tiger_Generals"
+    ]
+  },
+  {
+    "id": "zhang-fei-zhao-yun-colleagues",
+    "source": "zhang-fei",
+    "target": "zhao-yun",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉五虎上将",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 221,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Tiger_Generals"
+    ]
+  },
+  {
+    "id": "zhang-fei-huang-zhong-colleagues",
+    "source": "zhang-fei",
+    "target": "huang-zhong",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉五虎上将",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Tiger_Generals"
+    ]
+  },
+  {
+    "id": "zhang-fei-ma-chao-colleagues",
+    "source": "zhang-fei",
+    "target": "ma-chao",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉五虎上将",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 221,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Tiger_Generals"
+    ]
+  },
+  {
+    "id": "zhao-yun-huang-zhong-colleagues",
+    "source": "zhao-yun",
+    "target": "huang-zhong",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉五虎上将",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Tiger_Generals"
+    ]
+  },
+  {
+    "id": "zhao-yun-ma-chao-colleagues",
+    "source": "zhao-yun",
+    "target": "ma-chao",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉五虎上将",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 222,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Tiger_Generals"
+    ]
+  },
+  {
+    "id": "huang-zhong-ma-chao-colleagues",
+    "source": "huang-zhong",
+    "target": "ma-chao",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉五虎上将",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Five_Tiger_Generals"
+    ]
+  },
+  {
+    "id": "zhuge-liang-jiang-wan-colleagues",
+    "source": "zhuge-liang",
+    "target": "jiang-wan",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉四相",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Four_Advisors_of_Shu"
+    ]
+  },
+  {
+    "id": "zhuge-liang-fei-yi-colleagues",
+    "source": "zhuge-liang",
+    "target": "fei-yi",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉四相",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Four_Advisors_of_Shu"
+    ]
+  },
+  {
+    "id": "zhuge-liang-dong-yun-colleagues",
+    "source": "zhuge-liang",
+    "target": "dong-yun",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉四相",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Four_Advisors_of_Shu"
+    ]
+  },
+  {
+    "id": "jiang-wan-fei-yi-colleagues",
+    "source": "jiang-wan",
+    "target": "fei-yi",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉四相同僚",
+    "bidirectional": true,
+    "start_year": 234,
+    "end_year": 246,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Wan"
+    ]
+  },
+  {
+    "id": "jiang-wan-dong-yun-colleagues",
+    "source": "jiang-wan",
+    "target": "dong-yun",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉四相同僚",
+    "bidirectional": true,
+    "start_year": 234,
+    "end_year": 246,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Yun"
+    ]
+  },
+  {
+    "id": "fei-yi-dong-yun-colleagues",
+    "source": "fei-yi",
+    "target": "dong-yun",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉四相同僚",
+    "bidirectional": true,
+    "start_year": 234,
+    "end_year": 246,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Fei_Yi"
+    ]
+  },
+  {
+    "id": "deng-ai-zhong-hui-colleagues",
+    "source": "deng-ai",
+    "target": "zhong-hui",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "灭蜀搭档",
+    "bidirectional": true,
+    "start_year": 263,
+    "end_year": 264,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Conquest_of_Shu_by_Wei"
+    ]
+  },
+  {
+    "id": "xiahou-dun-xiahou-yuan-colleagues",
+    "source": "xiahou-dun",
+    "target": "xiahou-yuan",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "夏侯兄弟同为曹操宗将",
+    "bidirectional": true,
+    "start_year": 190,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Dun"
+    ]
+  },
+  {
+    "id": "cao-ren-cao-hong-colleagues",
+    "source": "cao-ren",
+    "target": "cao-hong",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "曹氏宗族同僚",
+    "bidirectional": true,
+    "start_year": 190,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Ren"
+    ]
+  },
+  {
+    "id": "zhang-liao-li-dian-colleagues",
+    "source": "zhang-liao",
+    "target": "li-dian",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "合肥之战协力破吴",
+    "bidirectional": true,
+    "start_year": 215,
+    "end_year": 215,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Battle_of_Hefei_(215)"
+    ]
+  },
+  {
+    "id": "cheng-pu-huang-gai-colleagues",
+    "source": "cheng-pu",
+    "target": "huang-gai",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "三朝元勋老将",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 210,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cheng_Pu"
+    ]
+  },
+  {
+    "id": "cheng-pu-han-dang-colleagues",
+    "source": "cheng-pu",
+    "target": "han-dang",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "三朝元勋老将",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 210,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Han_Dang"
+    ]
+  },
+  {
+    "id": "huang-gai-han-dang-colleagues",
+    "source": "huang-gai",
+    "target": "han-dang",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "三朝元勋老将",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Huang_Gai"
+    ]
+  },
+  {
+    "id": "sima-yi-cao-zhen-colleagues",
+    "source": "sima-yi",
+    "target": "cao-zhen",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "曹魏西线双柱石",
+    "bidirectional": true,
+    "start_year": 228,
+    "end_year": 231,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhen"
+    ]
+  },
+  {
+    "id": "sima-yi-jiang-ji-colleagues",
+    "source": "sima-yi",
+    "target": "jiang-ji",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "曹魏重臣",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Ji"
+    ]
+  },
+  {
+    "id": "wei-yan-yang-yi-colleagues",
+    "source": "wei-yan",
+    "target": "yang-yi",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉同僚常有矛盾",
+    "bidirectional": true,
+    "start_year": 228,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yang_Yi_(Shu_Han)"
+    ]
+  },
+  {
+    "id": "liu-bei-sun-quan-in-law",
+    "source": "liu-bei",
+    "target": "sun-quan",
+    "type": "in-law",
+    "label": "姻亲",
+    "description": "刘备娶孙权之妹",
+    "bidirectional": true,
+    "start_year": 209,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Sun"
+    ]
+  },
+  {
+    "id": "zhang-fei-xiahou-yuan-in-law",
+    "source": "zhang-fei",
+    "target": "xiahou-yuan",
+    "type": "in-law",
+    "label": "姻亲",
+    "description": "张飞娶夏侯渊侄女",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Fei"
+    ]
+  },
+  {
+    "id": "zhang-fei-liu-shan-in-law",
+    "source": "zhang-fei",
+    "target": "liu-shan",
+    "type": "in-law",
+    "label": "姻亲",
+    "description": "张飞之女嫁刘禅",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Fei"
+    ]
+  },
+  {
+    "id": "mi-zhu-liu-bei-in-law",
+    "source": "mi-zhu",
+    "target": "liu-bei",
+    "type": "in-law",
+    "label": "姻亲",
+    "description": "糜竺将妹妹嫁给刘备",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Mi_Zhu"
+    ]
+  },
+  {
+    "id": "wang-su-sima-zhao-in-law",
+    "source": "wang-su",
+    "target": "sima-zhao",
+    "type": "in-law",
+    "label": "姻亲",
+    "description": "王肃之女嫁司马昭",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Su_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "zhong-yao-zhong-hui-father-son",
+    "source": "zhong-yao",
+    "target": "zhong-hui",
+    "type": "father-son",
+    "label": "父子",
+    "description": "钟繇之子",
+    "bidirectional": false,
+    "start_year": 225,
+    "end_year": 230,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhong_Hui"
+    ]
+  },
+  {
+    "id": "zhong-yao-zhong-you-father-son",
+    "source": "zhong-yao",
+    "target": "zhong-you",
+    "type": "father-son",
+    "label": "父子",
+    "description": "钟繇之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 230,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhong_Yu_(Cao_Wei)"
+    ]
+  },
+  {
+    "id": "ma-teng-ma-chao-father-son",
+    "source": "ma-teng",
+    "target": "ma-chao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "马腾为马超之父",
+    "bidirectional": false,
+    "start_year": 176,
+    "end_year": 211,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Teng"
+    ]
+  },
+  {
+    "id": "ma-chao-ma-dai-brothers",
+    "source": "ma-chao",
+    "target": "ma-dai",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "马超与马岱为从兄弟",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Dai"
+    ]
+  },
+  {
+    "id": "ma-chao-ma-cheng-father-son",
+    "source": "ma-chao",
+    "target": "ma-cheng",
+    "type": "father-son",
+    "label": "父子",
+    "description": "马超之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 222,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Chao"
+    ]
+  },
+  {
+    "id": "ma-liang-ma-su-brothers",
+    "source": "ma-liang",
+    "target": "ma-su",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "马氏五常",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Su"
+    ]
+  },
+  {
+    "id": "zhuge-liang-zhuge-jin-brothers",
+    "source": "zhuge-liang",
+    "target": "zhuge-jin",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "诸葛兄弟分仕三国",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Liang"
+    ]
+  },
+  {
+    "id": "zhuge-jin-zhuge-ke-father-son",
+    "source": "zhuge-jin",
+    "target": "zhuge-ke",
+    "type": "father-son",
+    "label": "父子",
+    "description": "诸葛瑾之子",
+    "bidirectional": false,
+    "start_year": 203,
+    "end_year": 241,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Ke"
+    ]
+  },
+  {
+    "id": "zhuge-jin-zhuge-rong-father-son",
+    "source": "zhuge-jin",
+    "target": "zhuge-rong",
+    "type": "father-son",
+    "label": "父子",
+    "description": "诸葛瑾幼子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 241,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Rong"
+    ]
+  },
+  {
+    "id": "zhuge-jin-zhuge-qiao-father-son",
+    "source": "zhuge-jin",
+    "target": "zhuge-qiao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "诸葛瑾次子，过继诸葛亮",
+    "bidirectional": false,
+    "start_year": 204,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Qiao"
+    ]
+  },
+  {
+    "id": "zhuge-liang-zhuge-qiao-father-son",
+    "source": "zhuge-liang",
+    "target": "zhuge-qiao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "诸葛亮养子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 228,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Qiao"
+    ]
+  },
+  {
+    "id": "zhuge-liang-zhuge-zhan-father-son",
+    "source": "zhuge-liang",
+    "target": "zhuge-zhan",
+    "type": "father-son",
+    "label": "父子",
+    "description": "诸葛亮之子",
+    "bidirectional": false,
+    "start_year": 227,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Zhan"
+    ]
+  },
+  {
+    "id": "pang-tong-pang-tong-hong-father-son",
+    "source": "pang-tong",
+    "target": "pang-tong-hong",
+    "type": "father-son",
+    "label": "父子",
+    "description": "庞统之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 214,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Pang_Tong"
+    ]
+  },
+  {
+    "id": "fa-zheng-fa-miao-father-son",
+    "source": "fa-zheng",
+    "target": "fa-miao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "法正之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Fa_Zheng"
+    ]
+  },
+  {
+    "id": "dong-he-dong-yun-father-son",
+    "source": "dong-he",
+    "target": "dong-yun",
+    "type": "father-son",
+    "label": "父子",
+    "description": "董和之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Yun"
+    ]
+  },
+  {
+    "id": "jiang-wan-jiang-bin-father-son",
+    "source": "jiang-wan",
+    "target": "jiang-bin",
+    "type": "father-son",
+    "label": "父子",
+    "description": "蒋琬之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 246,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Wan"
+    ]
+  },
+  {
+    "id": "lu-xun-lu-kang-father-son",
+    "source": "lu-xun",
+    "target": "lu-kang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "陆逊之子",
+    "bidirectional": false,
+    "start_year": 226,
+    "end_year": 245,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Kang_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "lu-kang-lu-ji-writer-father-son",
+    "source": "lu-kang",
+    "target": "lu-ji-writer",
+    "type": "father-son",
+    "label": "父子",
+    "description": "陆抗之子",
+    "bidirectional": false,
+    "start_year": 261,
+    "end_year": 274,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Ji"
+    ]
+  },
+  {
+    "id": "lu-kang-lu-yun-father-son",
+    "source": "lu-kang",
+    "target": "lu-yun",
+    "type": "father-son",
+    "label": "父子",
+    "description": "陆抗之子",
+    "bidirectional": false,
+    "start_year": 262,
+    "end_year": 274,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Yun"
+    ]
+  },
+  {
+    "id": "lu-ji-writer-lu-yun-brothers",
+    "source": "lu-ji-writer",
+    "target": "lu-yun",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "陆机与陆云",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Yun"
+    ]
+  },
+  {
+    "id": "xiahou-yuan-xiahou-ba-father-son",
+    "source": "xiahou-yuan",
+    "target": "xiahou-ba",
+    "type": "father-son",
+    "label": "父子",
+    "description": "夏侯渊之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Ba"
+    ]
+  },
+  {
+    "id": "xiahou-yuan-xiahou-he-father-son",
+    "source": "xiahou-yuan",
+    "target": "xiahou-he",
+    "type": "father-son",
+    "label": "父子",
+    "description": "夏侯渊之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_He"
+    ]
+  },
+  {
+    "id": "xiahou-yuan-xiahou-wei-father-son",
+    "source": "xiahou-yuan",
+    "target": "xiahou-wei",
+    "type": "father-son",
+    "label": "父子",
+    "description": "夏侯渊之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Wei"
+    ]
+  },
+  {
+    "id": "xiahou-yuan-xiahou-hui-father-son",
+    "source": "xiahou-yuan",
+    "target": "xiahou-hui",
+    "type": "father-son",
+    "label": "父子",
+    "description": "夏侯渊之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Hui"
+    ]
+  },
+  {
+    "id": "xiahou-shang-xiahou-xuan-father-son",
+    "source": "xiahou-shang",
+    "target": "xiahou-xuan",
+    "type": "father-son",
+    "label": "父子",
+    "description": "夏侯尚之子",
+    "bidirectional": false,
+    "start_year": 209,
+    "end_year": 225,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Xuan"
+    ]
+  },
+  {
+    "id": "xiahou-dun-xiahou-mao-father-son",
+    "source": "xiahou-dun",
+    "target": "xiahou-mao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "夏侯惇之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Mao"
+    ]
+  },
+  {
+    "id": "chen-qun-chen-tai-father-son",
+    "source": "chen-qun",
+    "target": "chen-tai",
+    "type": "father-son",
+    "label": "父子",
+    "description": "陈群之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 236,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Tai"
+    ]
+  },
+  {
+    "id": "jia-kui-jia-chong-father-son",
+    "source": "jia-kui",
+    "target": "jia-chong",
+    "type": "father-son",
+    "label": "父子",
+    "description": "贾逵之子",
+    "bidirectional": false,
+    "start_year": 217,
+    "end_year": 228,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jia_Chong"
+    ]
+  },
+  {
+    "id": "du-ji-du-yu-father-son",
+    "source": "du-ji",
+    "target": "du-yu",
+    "type": "father-son",
+    "label": "父子",
+    "description": "杜畿之孙",
+    "bidirectional": false,
+    "start_year": 222,
+    "end_year": 224,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Du_Yu"
+    ]
+  },
+  {
+    "id": "zhang-zhao-zhang-cheng-father-son",
+    "source": "zhang-zhao",
+    "target": "zhang-cheng",
+    "type": "father-son",
+    "label": "父子",
+    "description": "张昭之子",
+    "bidirectional": false,
+    "start_year": 178,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Cheng_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "zhang-zhao-zhang-fen-father-son",
+    "source": "zhang-zhao",
+    "target": "zhang-fen",
+    "type": "father-son",
+    "label": "父子",
+    "description": "张昭之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Zhao_(Eastern_Wu)#Family"
+    ]
+  },
+  {
+    "id": "gu-yong-gu-tan-father-son",
+    "source": "gu-yong",
+    "target": "gu-tan",
+    "type": "father-son",
+    "label": "父子",
+    "description": "顾雍之孙",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gu_Tan"
+    ]
+  },
+  {
+    "id": "gu-yong-gu-cheng-father-son",
+    "source": "gu-yong",
+    "target": "gu-cheng",
+    "type": "father-son",
+    "label": "父子",
+    "description": "顾雍之孙",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gu_Cheng"
+    ]
+  },
+  {
+    "id": "he-qi-he-shao-father-son",
+    "source": "he-qi",
+    "target": "he-shao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "贺齐之孙",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/He_Shao"
+    ]
+  },
+  {
+    "id": "wang-lang-wang-su-father-son",
+    "source": "wang-lang",
+    "target": "wang-su",
+    "type": "father-son",
+    "label": "父子",
+    "description": "王朗之子",
+    "bidirectional": false,
+    "start_year": 195,
+    "end_year": 228,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Su_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "xun-yu-xun-you-brothers",
+    "source": "xun-yu",
+    "target": "xun-you",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "叔侄关系",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xun_You"
+    ]
+  },
+  {
+    "id": "yuan-shao-yuan-shu-brothers",
+    "source": "yuan-shao",
+    "target": "yuan-shu",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "同父异母兄弟",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shu"
+    ]
+  },
+  {
+    "id": "yuan-shao-yuan-tan-father-son",
+    "source": "yuan-shao",
+    "target": "yuan-tan",
+    "type": "father-son",
+    "label": "父子",
+    "description": "袁绍长子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 202,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Tan"
+    ]
+  },
+  {
+    "id": "yuan-shao-yuan-xi-father-son",
+    "source": "yuan-shao",
+    "target": "yuan-xi",
+    "type": "father-son",
+    "label": "父子",
+    "description": "袁绍次子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 202,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Xi"
+    ]
+  },
+  {
+    "id": "yuan-shao-yuan-shang-father-son",
+    "source": "yuan-shao",
+    "target": "yuan-shang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "袁绍三子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 202,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shang"
+    ]
+  },
+  {
+    "id": "yuan-tan-yuan-xi-brothers",
+    "source": "yuan-tan",
+    "target": "yuan-xi",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "袁绍诸子",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Xi"
+    ]
+  },
+  {
+    "id": "yuan-tan-yuan-shang-brothers",
+    "source": "yuan-tan",
+    "target": "yuan-shang",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "袁绍诸子争位",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shang"
+    ]
+  },
+  {
+    "id": "zhang-ji-zhang-ji-jingzhong-father-son",
+    "source": "zhang-ji",
+    "target": "zhang-ji-jingzhong",
+    "type": "father-son",
+    "label": "父子",
+    "description": "张既之子（演义：张济/张绣）",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Ji_(Jingzhong)"
+    ]
+  },
+  {
+    "id": "chen-wu-chen-biao-father-son",
+    "source": "chen-wu",
+    "target": "chen-biao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "陈武之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 215,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Biao"
+    ]
+  },
+  {
+    "id": "ling-cao-ling-tong-father-son",
+    "source": "ling-cao",
+    "target": "ling-tong",
+    "type": "father-son",
+    "label": "父子",
+    "description": "凌操之子",
+    "bidirectional": false,
+    "start_year": 189,
+    "end_year": 203,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ling_Tong"
+    ]
+  },
+  {
+    "id": "lv-fan-lv-ju-father-son",
+    "source": "lv-fan",
+    "target": "lv-ju",
+    "type": "father-son",
+    "label": "父子",
+    "description": "吕范之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 228,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Ju"
+    ]
+  },
+  {
+    "id": "zhu-huan-zhu-yi-father-son",
+    "source": "zhu-huan",
+    "target": "zhu-yi",
+    "type": "father-son",
+    "label": "父子",
+    "description": "朱桓之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 238,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Yi_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "zhu-zhi-zhu-ran-father-son",
+    "source": "zhu-zhi",
+    "target": "zhu-ran",
+    "type": "father-son",
+    "label": "父子",
+    "description": "朱治养子朱然",
+    "bidirectional": false,
+    "start_year": 182,
+    "end_year": 224,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Ran"
+    ]
+  },
+  {
+    "id": "zhu-ran-shi-ji-father-son",
+    "source": "zhu-ran",
+    "target": "shi-ji",
+    "type": "father-son",
+    "label": "父子",
+    "description": "朱然之子施绩",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shi_Ji_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "quan-cong-quan-yi-father-son",
+    "source": "quan-cong",
+    "target": "quan-yi",
+    "type": "father-son",
+    "label": "父子",
+    "description": "全琮之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Quan_Yi"
+    ]
+  },
+  {
+    "id": "wen-qin-wen-yang-father-son",
+    "source": "wen-qin",
+    "target": "wen-yang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "文钦之子",
+    "bidirectional": false,
+    "start_year": 238,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wen_Yang_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "xue-zong-xue-ying-father-son",
+    "source": "xue-zong",
+    "target": "xue-ying",
+    "type": "father-son",
+    "label": "父子",
+    "description": "薛综之子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 243,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xue_Ying"
+    ]
+  },
+  {
+    "id": "xin-pi-xin-xianying-father-son",
+    "source": "xin-pi",
+    "target": "xin-xianying",
+    "type": "father-son",
+    "label": "父子",
+    "description": "辛毗之女",
+    "bidirectional": false,
+    "start_year": 191,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xin_Xianying"
+    ]
+  },
+  {
+    "id": "li-hui-li-qiu-father-son",
+    "source": "li-hui",
+    "target": "li-qiu",
+    "type": "father-son",
+    "label": "父子",
+    "description": "李恢之侄",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Li_Hui_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "sun-he-bohai-sun-huan-father-son",
+    "source": "sun-he-bohai",
+    "target": "sun-huan",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙河之子",
+    "bidirectional": false,
+    "start_year": 198,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Huan_(Jiming)"
+    ]
+  },
+  {
+    "id": "sun-he-bohai-sun-shao-father-son",
+    "source": "sun-he-bohai",
+    "target": "sun-shao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙河侄子过继为子",
+    "bidirectional": false,
+    "start_year": 188,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Shao_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "sun-ce-taishi-ci-lord-vassal",
+    "source": "sun-ce",
+    "target": "taishi-ci",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "太史慈归孙策",
+    "bidirectional": false,
+    "start_year": 196,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Taishi_Ci"
+    ]
+  },
+  {
+    "id": "sun-ce-zhou-yu-lord-vassal",
+    "source": "sun-ce",
+    "target": "zhou-yu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "孙策与周瑜并肩创业",
+    "bidirectional": false,
+    "start_year": 194,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhou_Yu"
+    ]
+  },
+  {
+    "id": "sun-ce-zhang-zhao-lord-vassal",
+    "source": "sun-ce",
+    "target": "zhang-zhao",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "孙策重用张昭",
+    "bidirectional": false,
+    "start_year": 195,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Zhao_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "sun-ce-zhang-hong-lord-vassal",
+    "source": "sun-ce",
+    "target": "zhang-hong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "张纮辅佐孙策",
+    "bidirectional": false,
+    "start_year": 195,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Hong_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "liu-biao-cai-mao-lord-vassal",
+    "source": "liu-biao",
+    "target": "cai-mao",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "蔡瑁为刘表部将",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 208,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cai_Mao"
+    ]
+  },
+  {
+    "id": "liu-biao-kuai-yue-lord-vassal",
+    "source": "liu-biao",
+    "target": "kuai-yue",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "蒯越为刘表谋士",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 208,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Kuai_Yue"
+    ]
+  },
+  {
+    "id": "cao-rui-sima-yi-lord-vassal",
+    "source": "cao-rui",
+    "target": "sima-yi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹叡倚重司马懿",
+    "bidirectional": false,
+    "start_year": 226,
+    "end_year": 239,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Yi"
+    ]
+  },
+  {
+    "id": "cao-rui-cao-zhen-lord-vassal",
+    "source": "cao-rui",
+    "target": "cao-zhen",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹叡倚重曹真",
+    "bidirectional": false,
+    "start_year": 226,
+    "end_year": 231,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Zhen"
+    ]
+  },
+  {
+    "id": "sima-zhao-zhong-hui-lord-vassal",
+    "source": "sima-zhao",
+    "target": "zhong-hui",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "司马昭信任钟会",
+    "bidirectional": false,
+    "start_year": 260,
+    "end_year": 264,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhong_Hui"
+    ]
+  },
+  {
+    "id": "sima-zhao-deng-ai-lord-vassal",
+    "source": "sima-zhao",
+    "target": "deng-ai",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "邓艾效力司马氏",
+    "bidirectional": false,
+    "start_year": 249,
+    "end_year": 264,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Deng_Ai"
+    ]
+  },
+  {
+    "id": "sima-yi-deng-ai-lord-vassal",
+    "source": "sima-yi",
+    "target": "deng-ai",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "司马懿赏识邓艾",
+    "bidirectional": false,
+    "start_year": 240,
+    "end_year": 251,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Deng_Ai"
+    ]
+  },
+  {
+    "id": "sima-zhao-jia-chong-lord-vassal",
+    "source": "sima-zhao",
+    "target": "jia-chong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "贾充为司马昭心腹",
+    "bidirectional": false,
+    "start_year": 255,
+    "end_year": 265,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jia_Chong"
+    ]
+  },
+  {
+    "id": "lv-bu-zhang-liao-lord-vassal",
+    "source": "lv-bu",
+    "target": "zhang-liao",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "张辽效力吕布",
+    "bidirectional": false,
+    "start_year": 194,
+    "end_year": 198,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Liao"
+    ]
+  },
+  {
+    "id": "han-xiandi-cao-cao-lord-vassal",
+    "source": "han-xiandi",
+    "target": "cao-cao",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "挟天子以令诸侯",
+    "bidirectional": false,
+    "start_year": 196,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Emperor_Xian_of_Han"
+    ]
+  },
+  {
+    "id": "dong-zhuo-li-ru-lord-vassal",
+    "source": "dong-zhuo",
+    "target": "li-ru",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "李儒为董卓谋士",
+    "bidirectional": false,
+    "start_year": 189,
+    "end_year": 192,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Li_Ru"
+    ]
+  },
+  {
+    "id": "dong-zhuo-li-jue-lord-vassal",
+    "source": "dong-zhuo",
+    "target": "li-jue",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "李傕为董卓部将",
+    "bidirectional": false,
+    "start_year": 189,
+    "end_year": 192,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Li_Jue_(warlord)"
+    ]
+  },
+  {
+    "id": "dong-zhuo-guo-si-lord-vassal",
+    "source": "dong-zhuo",
+    "target": "guo-si",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "郭汜为董卓部将",
+    "bidirectional": false,
+    "start_year": 189,
+    "end_year": 192,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Si"
+    ]
+  },
+  {
+    "id": "yuan-shu-ji-ling-lord-vassal",
+    "source": "yuan-shu",
+    "target": "ji-ling",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "纪灵为袁术大将",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 199,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ji_Ling"
+    ]
+  },
+  {
+    "id": "liu-zhang-zhang-song-lord-vassal",
+    "source": "liu-zhang",
+    "target": "zhang-song",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "张松暗献西川地图",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 213,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Song"
+    ]
+  },
+  {
+    "id": "liu-zhang-zhang-ren-lord-vassal",
+    "source": "liu-zhang",
+    "target": "zhang-ren",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "张任为刘璋忠将",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 214,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Ren"
+    ]
+  },
+  {
+    "id": "he-jin-yuan-shao-lord-vassal",
+    "source": "he-jin",
+    "target": "yuan-shao",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "何进倚重袁绍",
+    "bidirectional": false,
+    "start_year": 188,
+    "end_year": 189,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/He_Jin"
+    ]
+  },
+  {
+    "id": "zhuge-liang-wei-yan-lord-vassal",
+    "source": "zhuge-liang",
+    "target": "wei-yan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "诸葛亮用魏延北伐",
+    "bidirectional": false,
+    "start_year": 228,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wei_Yan"
+    ]
+  },
+  {
+    "id": "zhuge-liang-wang-ping-lord-vassal",
+    "source": "zhuge-liang",
+    "target": "wang-ping",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "王平随诸葛亮北伐",
+    "bidirectional": false,
+    "start_year": 228,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Ping_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "zhuge-liang-ma-dai-lord-vassal",
+    "source": "zhuge-liang",
+    "target": "ma-dai",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "马岱效力蜀汉",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Dai"
+    ]
+  },
+  {
+    "id": "cao-cao-xu-you-subordinate",
+    "source": "cao-cao",
+    "target": "xu-you",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "许攸叛袁投曹",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 204,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_You_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "guan-yu-liao-hua-subordinate",
+    "source": "guan-yu",
+    "target": "liao-hua",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "廖化追随关羽",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liao_Hua"
+    ]
+  },
+  {
+    "id": "guan-yu-guan-ping-subordinate",
+    "source": "guan-yu",
+    "target": "guan-ping",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "关平随父出征",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guan_Ping"
+    ]
+  },
+  {
+    "id": "jiang-wei-liao-hua-subordinate",
+    "source": "jiang-wei",
+    "target": "liao-hua",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "廖化协助姜维北伐",
+    "bidirectional": false,
+    "start_year": 234,
+    "end_year": 263,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liao_Hua"
+    ]
+  },
+  {
+    "id": "jiang-wei-zhang-yi-1-subordinate",
+    "source": "jiang-wei",
+    "target": "zhang-yi-1",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "张翼随姜维北伐",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 264,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Yi_(Shu_Han_general)"
+    ]
+  },
+  {
+    "id": "cao-shuang-he-yan-subordinate",
+    "source": "cao-shuang",
+    "target": "he-yan",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "何晏为曹爽党羽",
+    "bidirectional": false,
+    "start_year": 239,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/He_Yan"
+    ]
+  },
+  {
+    "id": "cao-shuang-deng-yang-subordinate",
+    "source": "cao-shuang",
+    "target": "deng-yang",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "邓飏为曹爽党羽",
+    "bidirectional": false,
+    "start_year": 239,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Deng_Yang"
+    ]
+  },
+  {
+    "id": "cao-shuang-ding-mi-subordinate",
+    "source": "cao-shuang",
+    "target": "ding-mi",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "丁谧为曹爽谋士",
+    "bidirectional": false,
+    "start_year": 239,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ding_Mi"
+    ]
+  },
+  {
+    "id": "cao-shuang-li-sheng-subordinate",
+    "source": "cao-shuang",
+    "target": "li-sheng",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "李胜为曹爽党羽",
+    "bidirectional": false,
+    "start_year": 239,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Li_Sheng_(Cao_Wei)"
+    ]
+  },
+  {
+    "id": "cao-shuang-bi-gui-subordinate",
+    "source": "cao-shuang",
+    "target": "bi-gui",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "毕轨为曹爽党羽",
+    "bidirectional": false,
+    "start_year": 239,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Bi_Gui"
+    ]
+  },
+  {
+    "id": "sima-shi-sima-zhao-subordinate",
+    "source": "sima-shi",
+    "target": "sima-zhao",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "司马昭辅佐兄长",
+    "bidirectional": false,
+    "start_year": 251,
+    "end_year": 255,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Zhao"
+    ]
+  },
+  {
+    "id": "sun-jun-sun-chen-subordinate",
+    "source": "sun-jun",
+    "target": "sun-chen",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "孙綝接替孙峻",
+    "bidirectional": false,
+    "start_year": 253,
+    "end_year": 256,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Chen"
+    ]
+  },
+  {
+    "id": "pan-zhang-ma-zhong-wu-subordinate",
+    "source": "pan-zhang",
+    "target": "ma-zhong-wu",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "马忠为潘璋部将，擒关羽",
+    "bidirectional": false,
+    "start_year": 219,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Zhong_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "lv-meng-pan-zhang-subordinate",
+    "source": "lv-meng",
+    "target": "pan-zhang",
+    "type": "subordinate",
+    "label": "上下级",
+    "description": "潘璋参与袭荆州",
+    "bidirectional": false,
+    "start_year": 219,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Pan_Zhang"
+    ]
+  },
+  {
+    "id": "zhong-hui-mu-cao-pi-mother-son",
+    "source": "zhong-hui-mu",
+    "target": "cao-pi",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "卞夫人为曹丕之母",
+    "bidirectional": false,
+    "start_year": 187,
+    "end_year": 230,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Bian"
+    ]
+  },
+  {
+    "id": "zhong-hui-mu-cao-zhi-mother-son",
+    "source": "zhong-hui-mu",
+    "target": "cao-zhi",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "卞夫人为曹植之母",
+    "bidirectional": false,
+    "start_year": 192,
+    "end_year": 230,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Bian"
+    ]
+  },
+  {
+    "id": "zhong-hui-mu-cao-zhang-mother-son",
+    "source": "zhong-hui-mu",
+    "target": "cao-zhang",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "卞夫人为曹彰之母",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 223,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Bian"
+    ]
+  },
+  {
+    "id": "wu-guotai-sun-ce-mother-son",
+    "source": "wu-guotai",
+    "target": "sun-ce",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "吴夫人为孙策之母",
+    "bidirectional": false,
+    "start_year": 175,
+    "end_year": 207,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Wu_(Sun_Jian%27s_wife)"
+    ]
+  },
+  {
+    "id": "wu-guotai-sun-quan-mother-son",
+    "source": "wu-guotai",
+    "target": "sun-quan",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "吴夫人为孙权之母",
+    "bidirectional": false,
+    "start_year": 182,
+    "end_year": 207,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Wu_(Sun_Jian%27s_wife)"
+    ]
+  },
+  {
+    "id": "zhang-chunhua-sima-shi-mother-son",
+    "source": "zhang-chunhua",
+    "target": "sima-shi",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "张春华为司马师之母",
+    "bidirectional": false,
+    "start_year": 208,
+    "end_year": 247,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Chunhua"
+    ]
+  },
+  {
+    "id": "zhang-chunhua-sima-zhao-mother-son",
+    "source": "zhang-chunhua",
+    "target": "sima-zhao",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "张春华为司马昭之母",
+    "bidirectional": false,
+    "start_year": 211,
+    "end_year": 247,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Chunhua"
+    ]
+  },
+  {
+    "id": "zhen-ji-cao-rui-mother-son",
+    "source": "zhen-ji",
+    "target": "cao-rui",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "甄姬为曹叡之母",
+    "bidirectional": false,
+    "start_year": 205,
+    "end_year": 221,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Zhen"
+    ]
+  },
+  {
+    "id": "lady-gan-liu-shan-mother-son",
+    "source": "lady-gan",
+    "target": "liu-shan",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "甘夫人为刘禅之母",
+    "bidirectional": false,
+    "start_year": 207,
+    "end_year": 209,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lady_Gan"
+    ]
+  },
+  {
+    "id": "liu-biao-liu-qi-father-son",
+    "source": "liu-biao",
+    "target": "liu-qi",
+    "type": "father-son",
+    "label": "父子",
+    "description": "刘表长子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 208,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Qi_(Eastern_Han)"
+    ]
+  },
+  {
+    "id": "liu-biao-liu-cong-father-son",
+    "source": "liu-biao",
+    "target": "liu-cong",
+    "type": "father-son",
+    "label": "父子",
+    "description": "刘表次子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 208,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Cong_(warlord)"
+    ]
+  },
+  {
+    "id": "liu-qi-liu-cong-brothers",
+    "source": "liu-qi",
+    "target": "liu-cong",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "刘表二子",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Cong_(warlord)"
+    ]
+  },
+  {
+    "id": "sun-jian-sun-jing-brothers",
+    "source": "sun-jian",
+    "target": "sun-jing",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "孙坚幼弟",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Jing"
+    ]
+  },
+  {
+    "id": "da-qiao-xiao-qiao-brothers",
+    "source": "da-qiao",
+    "target": "xiao-qiao",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "二乔姐妹",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Two_Qiaos"
+    ]
+  },
+  {
+    "id": "zhuge-liang-zhuge-dan-brothers",
+    "source": "zhuge-liang",
+    "target": "zhuge-dan",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "诸葛亮族弟",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Dan"
+    ]
+  },
+  {
+    "id": "cao-pi-xiahou-shang-friends",
+    "source": "cao-pi",
+    "target": "xiahou-shang",
+    "type": "friends",
+    "label": "友人",
+    "description": "少年交好",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 225,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xiahou_Shang"
+    ]
+  },
+  {
+    "id": "sun-quan-zhu-ran-friends",
+    "source": "sun-quan",
+    "target": "zhu-ran",
+    "type": "friends",
+    "label": "友人",
+    "description": "少时同学",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Ran"
+    ]
+  },
+  {
+    "id": "cao-cao-yuan-shao-friends",
+    "source": "cao-cao",
+    "target": "yuan-shao",
+    "type": "friends",
+    "label": "友人",
+    "description": "少年交好",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 190,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shao"
+    ]
+  },
+  {
+    "id": "zhuge-liang-ma-liang-friends",
+    "source": "zhuge-liang",
+    "target": "ma-liang",
+    "type": "friends",
+    "label": "友人",
+    "description": "密友",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 222,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Liang_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "cao-cao-tian-yu-lord-vassal",
+    "source": "cao-cao",
+    "target": "tian-yu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "田豫效力曹操",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Tian_Yu"
+    ]
+  },
+  {
+    "id": "cao-cao-zang-ba-lord-vassal",
+    "source": "cao-cao",
+    "target": "zang-ba",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "臧霸归曹",
+    "bidirectional": false,
+    "start_year": 198,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zang_Ba"
+    ]
+  },
+  {
+    "id": "cao-cao-zhang-ji-derong-lord-vassal",
+    "source": "cao-cao",
+    "target": "zhang-ji-derong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "张既镇守关中",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Ji_(Derong)"
+    ]
+  },
+  {
+    "id": "cao-cao-zhong-yao-lord-vassal",
+    "source": "cao-cao",
+    "target": "zhong-yao",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "钟繇镇守关中",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhong_Yao"
+    ]
+  },
+  {
+    "id": "cao-cao-chen-lin-lord-vassal",
+    "source": "cao-cao",
+    "target": "chen-lin",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "陈琳归曹",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 217,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Lin"
+    ]
+  },
+  {
+    "id": "cao-cao-wang-can-lord-vassal",
+    "source": "cao-cao",
+    "target": "wang-can",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "王粲归曹",
+    "bidirectional": false,
+    "start_year": 208,
+    "end_year": 217,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Can"
+    ]
+  },
+  {
+    "id": "cao-cao-cao-xiu-lord-vassal",
+    "source": "cao-cao",
+    "target": "cao-xiu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "曹操视曹休如亲子",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Xiu"
+    ]
+  },
+  {
+    "id": "cao-cao-hua-xin-lord-vassal",
+    "source": "cao-cao",
+    "target": "hua-xin",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "华歆仕曹",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Hua_Xin"
+    ]
+  },
+  {
+    "id": "cao-cao-wang-lang-lord-vassal",
+    "source": "cao-cao",
+    "target": "wang-lang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "王朗仕曹",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Lang"
+    ]
+  },
+  {
+    "id": "cao-cao-sima-lang-lord-vassal",
+    "source": "cao-cao",
+    "target": "sima-lang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "司马朗仕曹",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 217,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Lang"
+    ]
+  },
+  {
+    "id": "cao-cao-jiang-ji-lord-vassal",
+    "source": "cao-cao",
+    "target": "jiang-ji",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "蒋济仕曹",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Ji"
+    ]
+  },
+  {
+    "id": "cao-cao-yang-xiu-lord-vassal",
+    "source": "cao-cao",
+    "target": "yang-xiu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "杨修任主簿",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 219,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yang_Xiu"
+    ]
+  },
+  {
+    "id": "sun-quan-cheng-pu-lord-vassal",
+    "source": "sun-quan",
+    "target": "cheng-pu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "程普三朝老将",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 210,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cheng_Pu"
+    ]
+  },
+  {
+    "id": "sun-quan-han-dang-lord-vassal",
+    "source": "sun-quan",
+    "target": "han-dang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "韩当三朝老将",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 226,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Han_Dang"
+    ]
+  },
+  {
+    "id": "sun-quan-ling-tong-lord-vassal",
+    "source": "sun-quan",
+    "target": "ling-tong",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "凌统效力孙权",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 217,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ling_Tong"
+    ]
+  },
+  {
+    "id": "sun-quan-xu-sheng-lord-vassal",
+    "source": "sun-quan",
+    "target": "xu-sheng",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "徐盛效力孙权",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Sheng"
+    ]
+  },
+  {
+    "id": "sun-quan-zhu-ran-lord-vassal",
+    "source": "sun-quan",
+    "target": "zhu-ran",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "朱然效力孙权",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Ran"
+    ]
+  },
+  {
+    "id": "sun-quan-zhou-tai-lord-vassal",
+    "source": "sun-quan",
+    "target": "zhou-tai",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "周泰舍身救主",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhou_Tai"
+    ]
+  },
+  {
+    "id": "sun-quan-jiang-qin-lord-vassal",
+    "source": "sun-quan",
+    "target": "jiang-qin",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "蒋钦效力孙权",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 220,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Qin"
+    ]
+  },
+  {
+    "id": "sun-quan-lv-dai-lord-vassal",
+    "source": "sun-quan",
+    "target": "lv-dai",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "吕岱经略南方",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 256,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/L%C3%BC_Dai"
+    ]
+  },
+  {
+    "id": "sun-quan-bu-zhi-lord-vassal",
+    "source": "sun-quan",
+    "target": "bu-zhi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "步骘效力孙权",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 247,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Bu_Zhi"
+    ]
+  },
+  {
+    "id": "sun-quan-kan-ze-lord-vassal",
+    "source": "sun-quan",
+    "target": "kan-ze",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "阚泽效力孙权",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 243,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Kan_Ze"
+    ]
+  },
+  {
+    "id": "sun-quan-he-qi-lord-vassal",
+    "source": "sun-quan",
+    "target": "he-qi",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "贺齐平定山越",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 227,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/He_Qi_(Eastern_Wu)"
+    ]
+  },
+  {
+    "id": "sun-quan-pan-zhang-lord-vassal",
+    "source": "sun-quan",
+    "target": "pan-zhang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "潘璋效力孙权",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Pan_Zhang"
+    ]
+  },
+  {
+    "id": "sun-quan-zhuge-ke-lord-vassal",
+    "source": "sun-quan",
+    "target": "zhuge-ke",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "托孤辅政",
+    "bidirectional": false,
+    "start_year": 252,
+    "end_year": 253,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Ke"
+    ]
+  },
+  {
+    "id": "liu-bei-li-yan-lord-vassal",
+    "source": "liu-bei",
+    "target": "li-yan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "刘备托孤大臣之一",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 223,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Li_Yan_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "liu-bei-ma-liang-lord-vassal",
+    "source": "liu-bei",
+    "target": "ma-liang",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "马良效力刘备",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": 222,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Liang_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "liu-bei-huang-quan-lord-vassal",
+    "source": "liu-bei",
+    "target": "huang-quan",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "黄权效力刘备",
+    "bidirectional": false,
+    "start_year": 214,
+    "end_year": 222,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Huang_Quan_(general)"
+    ]
+  },
+  {
+    "id": "liu-bei-xu-shu-lord-vassal",
+    "source": "liu-bei",
+    "target": "xu-shu",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "徐庶效力刘备后转曹",
+    "bidirectional": false,
+    "start_year": 206,
+    "end_year": 207,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_Shu"
+    ]
+  },
+  {
+    "id": "liu-bei-chen-dao-lord-vassal",
+    "source": "liu-bei",
+    "target": "chen-dao",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "陈到统领白毦兵",
+    "bidirectional": false,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Dao"
+    ]
+  },
+  {
+    "id": "liu-bei-liu-ba-lord-vassal",
+    "source": "liu-bei",
+    "target": "liu-ba",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "刘巴归蜀",
+    "bidirectional": false,
+    "start_year": 214,
+    "end_year": 222,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Ba"
+    ]
+  },
+  {
+    "id": "guo-jia-cheng-yu-colleagues",
+    "source": "guo-jia",
+    "target": "cheng-yu",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "同为曹操谋士",
+    "bidirectional": true,
+    "start_year": 196,
+    "end_year": 207,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Jia"
+    ]
+  },
+  {
+    "id": "xun-yu-cheng-yu-colleagues",
+    "source": "xun-yu",
+    "target": "cheng-yu",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "同为曹操谋士",
+    "bidirectional": true,
+    "start_year": 191,
+    "end_year": 212,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xun_Yu"
+    ]
+  },
+  {
+    "id": "xun-yu-guo-jia-colleagues",
+    "source": "xun-yu",
+    "target": "guo-jia",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "同为曹操谋士",
+    "bidirectional": true,
+    "start_year": 196,
+    "end_year": 207,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Jia"
+    ]
+  },
+  {
+    "id": "jia-xu-xun-yu-colleagues",
+    "source": "jia-xu",
+    "target": "xun-yu",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "同为曹操谋士",
+    "bidirectional": true,
+    "start_year": 199,
+    "end_year": 212,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jia_Xu"
+    ]
+  },
+  {
+    "id": "pang-tong-fa-zheng-colleagues",
+    "source": "pang-tong",
+    "target": "fa-zheng",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "同为刘备谋士",
+    "bidirectional": true,
+    "start_year": 214,
+    "end_year": 214,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Fa_Zheng"
+    ]
+  },
+  {
+    "id": "lu-su-zhou-yu-colleagues",
+    "source": "lu-su",
+    "target": "zhou-yu",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "东吴重臣",
+    "bidirectional": true,
+    "start_year": 200,
+    "end_year": 210,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Su"
+    ]
+  },
+  {
+    "id": "zhuge-jin-lu-su-colleagues",
+    "source": "zhuge-jin",
+    "target": "lu-su",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "东吴重臣",
+    "bidirectional": true,
+    "start_year": 200,
+    "end_year": 217,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Jin"
+    ]
+  },
+  {
+    "id": "guanqiu-jian-wen-qin-colleagues",
+    "source": "guanqiu-jian",
+    "target": "wen-qin",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "淮南二叛同盟",
+    "bidirectional": true,
+    "start_year": 255,
+    "end_year": 255,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guanqiu_Jian"
+    ]
+  },
+  {
+    "id": "tian-feng-ju-shou-colleagues",
+    "source": "tian-feng",
+    "target": "ju-shou",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "同为袁绍谋士",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Tian_Feng"
+    ]
+  },
+  {
+    "id": "guo-tu-feng-ji-colleagues",
+    "source": "guo-tu",
+    "target": "feng-ji",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "同为袁绍谋士",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Tu"
+    ]
+  },
+  {
+    "id": "shen-pei-tian-feng-colleagues",
+    "source": "shen-pei",
+    "target": "tian-feng",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "同为袁绍谋士",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Shen_Pei"
+    ]
+  },
+  {
+    "id": "deng-ai-guo-huai-colleagues",
+    "source": "deng-ai",
+    "target": "guo-huai",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "同守曹魏西线",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 255,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Guo_Huai"
+    ]
+  },
+  {
+    "id": "chen-tai-guo-huai-colleagues",
+    "source": "chen-tai",
+    "target": "guo-huai",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "共抗姜维",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 255,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Tai"
+    ]
+  },
+  {
+    "id": "zhuge-liang-li-yan-colleagues",
+    "source": "zhuge-liang",
+    "target": "li-yan",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "同受托孤",
+    "bidirectional": true,
+    "start_year": 223,
+    "end_year": 231,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Li_Yan_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "wei-yan-jiang-wei-colleagues",
+    "source": "wei-yan",
+    "target": "jiang-wei",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "蜀汉将领",
+    "bidirectional": true,
+    "start_year": 228,
+    "end_year": 234,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Jiang_Wei"
+    ]
+  },
+  {
+    "id": "ma-liang-ma-su-colleagues",
+    "source": "ma-liang",
+    "target": "ma-su",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "马氏兄弟同仕蜀汉",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": 222,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ma_Su"
+    ]
+  },
+  {
+    "id": "wang-ping-ma-su-colleagues",
+    "source": "wang-ping",
+    "target": "ma-su",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "街亭之战搭档",
+    "bidirectional": true,
+    "start_year": 228,
+    "end_year": 228,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Ping_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "wen-qin-zhuge-dan-colleagues",
+    "source": "wen-qin",
+    "target": "zhuge-dan",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "淮南三叛中合作",
+    "bidirectional": true,
+    "start_year": 257,
+    "end_year": 258,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Dan"
+    ]
+  },
+  {
+    "id": "li-jue-guo-si-colleagues",
+    "source": "li-jue",
+    "target": "guo-si",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "董卓余部把持朝政",
+    "bidirectional": true,
+    "start_year": 192,
+    "end_year": 196,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Li_Jue_(warlord)"
+    ]
+  },
+  {
+    "id": "sima-yi-cao-shuang-colleagues",
+    "source": "sima-yi",
+    "target": "cao-shuang",
+    "type": "colleagues",
+    "label": "同僚",
+    "description": "同为托孤大臣",
+    "bidirectional": true,
+    "start_year": 239,
+    "end_year": 249,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Shuang"
+    ]
+  },
+  {
+    "id": "wang-yun-li-jue-killed-by",
+    "source": "wang-yun",
+    "target": "li-jue",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "王允被李傕郭汜所杀",
+    "bidirectional": false,
+    "start_year": 192,
+    "end_year": 192,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Yun"
+    ]
+  },
+  {
+    "id": "he-jin-zhang-rang-killed-by",
+    "source": "he-jin",
+    "target": "zhang-rang",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "何进被宦官所杀",
+    "bidirectional": false,
+    "start_year": 189,
+    "end_year": 189,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/He_Jin"
+    ]
+  },
+  {
+    "id": "zhuge-zhan-deng-ai-killed-by",
+    "source": "zhuge-zhan",
+    "target": "deng-ai",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "诸葛瞻战死绵竹",
+    "bidirectional": false,
+    "start_year": 263,
+    "end_year": 263,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhuge_Zhan"
+    ]
+  },
+  {
+    "id": "ji-kang-sima-zhao-killed-by",
+    "source": "ji-kang",
+    "target": "sima-zhao",
+    "type": "killed-by",
+    "label": "被杀",
+    "description": "嵇康被司马昭处死",
+    "bidirectional": false,
+    "start_year": 263,
+    "end_year": 263,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ji_Kang"
+    ]
+  },
+  {
+    "id": "sun-jun-zhuge-ke-betrayal",
+    "source": "sun-jun",
+    "target": "zhuge-ke",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "孙峻设计诛杀诸葛恪",
+    "bidirectional": false,
+    "start_year": 253,
+    "end_year": 253,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Jun_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "sun-chen-sun-liang-betrayal",
+    "source": "sun-chen",
+    "target": "sun-liang",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "孙綝废黜孙亮",
+    "bidirectional": false,
+    "start_year": 258,
+    "end_year": 258,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Chen"
+    ]
+  },
+  {
+    "id": "xu-you-yuan-shao-betrayal",
+    "source": "xu-you",
+    "target": "yuan-shao",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "许攸叛袁投曹",
+    "bidirectional": false,
+    "start_year": 200,
+    "end_year": 200,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Xu_You_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "zhang-song-liu-zhang-betrayal",
+    "source": "zhang-song",
+    "target": "liu-zhang",
+    "type": "betrayal",
+    "label": "背叛",
+    "description": "张松暗通刘备出卖刘璋",
+    "bidirectional": false,
+    "start_year": 211,
+    "end_year": 213,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Song"
+    ]
+  },
+  {
+    "id": "sun-quan-quan-cong-in-law",
+    "source": "sun-quan",
+    "target": "quan-cong",
+    "type": "in-law",
+    "label": "姻亲",
+    "description": "全琮娶孙权女",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Quan_Cong"
+    ]
+  },
+  {
+    "id": "sun-quan-zhu-ju-in-law",
+    "source": "sun-quan",
+    "target": "zhu-ju",
+    "type": "in-law",
+    "label": "姻亲",
+    "description": "朱据娶孙权女",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhu_Ju"
+    ]
+  },
+  {
+    "id": "sun-quan-lu-xun-in-law",
+    "source": "sun-quan",
+    "target": "lu-xun",
+    "type": "in-law",
+    "label": "姻亲",
+    "description": "陆逊娶孙策女",
+    "bidirectional": true,
+    "start_year": null,
+    "end_year": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Lu_Xun_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "wang-yun-dong-zhuo-rivals",
+    "source": "wang-yun",
+    "target": "dong-zhuo",
+    "type": "rivals",
+    "label": "对手",
+    "description": "王允密谋诛杀董卓",
+    "bidirectional": true,
+    "start_year": 189,
+    "end_year": 192,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Yun"
+    ]
+  },
+  {
+    "id": "wang-yun-lv-bu-allies",
+    "source": "wang-yun",
+    "target": "lv-bu",
+    "type": "allies",
+    "label": "同盟",
+    "description": "王允联合吕布诛董卓",
+    "bidirectional": true,
+    "start_year": 192,
+    "end_year": 192,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Wang_Yun"
+    ]
+  }
+]
