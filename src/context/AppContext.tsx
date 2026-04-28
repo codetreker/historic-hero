@@ -91,7 +91,7 @@ function reducer(state: AppState, action: Action): AppState {
     case 'SET_VIEW_MODE':
       return { ...state, viewMode: action.payload };
     case 'EXPAND_FACTION':
-      return { ...state, viewMode: 'faction-detail', expandedFaction: action.payload };
+      return { ...state, viewMode: 'faction-detail', expandedFaction: action.payload, selectedFactions: [action.payload] };
     case 'BACK_TO_OVERVIEW':
       return { ...state, viewMode: 'overview', expandedFaction: null, highlightedPersonId: null, selectedPerson: null, drawerVisible: false };
     default:
