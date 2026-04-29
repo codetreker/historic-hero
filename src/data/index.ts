@@ -45,7 +45,7 @@ export const factionStats: Record<Faction, { count: number; topPersons: Person[]
 (Object.keys(factionCounts) as Faction[]).forEach(f => {
   const factionPersons = persons.filter(p => p.faction === f);
   const sorted = [...factionPersons].sort((a, b) => (degreeMap[b.id] || 0) - (degreeMap[a.id] || 0));
-  factionStats[f] = { count: factionPersons.length, topPersons: sorted.slice(0, 30) };
+  factionStats[f] = { count: factionPersons.length, topPersons: sorted.slice(0, 15) };
 });
 
 export const crossFactionRels: { source: Faction; target: Faction; count: number }[] = [];

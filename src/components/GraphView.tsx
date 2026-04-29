@@ -233,7 +233,6 @@ export default function GraphView() {
           state: {
             highlight: {
               opacity: 1,
-              labelText: (d: EdgeData) => (d.data?.label as string) || '',
             },
             dim: { opacity: 0.08 },
           },
@@ -310,7 +309,6 @@ export default function GraphView() {
             highlight: {
               opacity: 1,
               lineWidth: 2,
-              labelText: (d: EdgeData) => (d.data?.label as string) || '',
             },
             dim: { opacity: 0.08 },
           },
