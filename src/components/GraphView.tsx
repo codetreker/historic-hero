@@ -1,11 +1,12 @@
-import { useEffect, useRef, useCallback, useMemo } from 'react';
+import { useEffect, useRef, useCallback, useMemo, useState } from 'react';
 import { Graph } from '@antv/g6';
-import { relationships, degreeMap, personMap, relsByPerson, factionStats, crossFactionRels, importanceMap } from '../data';
+import { personMap, fetchFactions, fetchFactionTop, fetchPersonNetwork } from '../data';
+import type { FactionOverview, FactionTopResult, NetworkResult } from '../data';
 import { FACTION_CONFIG } from '../types';
-import type { Person, Faction } from '../types';
+import type { Person, Faction, Relationship } from '../types';
 import type { NodeData, EdgeData } from '@antv/g6';
 import { useApp, type AppState } from '../context/AppContext';
-import { Button } from 'antd';
+import { Button, Spin } from 'antd';
 
 const RELATION_COLORS: Record<string, string> = {
   'lord-vassal': '#1677ff',
@@ -28,23 +29,21 @@ const RELATION_DASH: Record<string, number[]> = {
 };
 
 
-function getOverviewData() {
+function buildOverviewData(data: FactionOverview) {
   const factions: Faction[] = ['wei', 'shu', 'wu', 'han', 'jin', 'other'];
-  const maxCount = Math.max(...factions.map(f => factionStats[f].count));
+  const countMap: Record<string, number> = {};
+  data.factions.forEach(f => { countMap[f.id] = f.count; });
+  const maxCount = Math.max(...factions.map(f => countMap[f] || 0));
   const minSize = 80, maxSize = 160;
 
   const cx = 400, cy = 300, radius = 220;
   const nodes: NodeData[] = factions.map((f, i) => {
     const angle = (i / factions.length) * Math.PI * 2 - Math.PI / 2;
-    const size = minSize + (factionStats[f].count / maxCount) * (maxSize - minSize);
+    const count = countMap[f] || 0;
+    const size = minSize + (count / maxCount) * (maxSize - minSize);
     return {
       id: `faction-${f}`,
-      data: {
-        name: FACTION_CONFIG[f].label,
-        faction: f,
-        count: factionStats[f].count,
-        isOverview: true,
-      },
+      data: { name: FACTION_CONFIG[f].label, faction: f, count, isOverview: true },
       style: {
         x: cx + Math.cos(angle) * radius,
         y: cy + Math.sin(angle) * radius,
@@ -52,18 +51,18 @@ function getOverviewData() {
         fill: FACTION_CONFIG[f].color,
         stroke: '#fff',
         lineWidth: 3,
-        labelText: `${FACTION_CONFIG[f].label}\n${factionStats[f].count}人`,
+        labelText: `${FACTION_CONFIG[f].label}\n${count}人`,
         labelFontSize: 16,
         labelFontWeight: 'bold',
-        labelFill: '#333',
+        labelFill: '#fff',
         labelPlacement: 'center' as const,
         cursor: 'pointer',
       },
     };
   });
 
-  const maxRelCount = Math.max(...crossFactionRels.map(r => r.count), 1);
-  const edges: EdgeData[] = crossFactionRels.map((r, i) => ({
+  const maxRelCount = Math.max(...data.crossFactionRels.map(r => r.count), 1);
+  const edges: EdgeData[] = data.crossFactionRels.map((r, i) => ({
     id: `cross-${i}`,
     source: `faction-${r.source}`,
     target: `faction-${r.target}`,
@@ -81,68 +80,25 @@ function getOverviewData() {
   return { nodes, edges };
 }
 
-function getFactionDetailData(faction: Faction, state: AppState) {
-  let factionPersons = factionStats[faction].topPersons;
+function buildFactionDetailData(
+  factionData: FactionTopResult,
+  faction: Faction,
+  state: AppState,
+) {
+  let factionPersons = factionData.persons;
+  const allRels = factionData.relationships;
 
   if (state.selectedRoles.length > 0) {
     factionPersons = factionPersons.filter(p => p.roles.some(r => state.selectedRoles.includes(r)));
   }
 
   const coreIds = new Set(factionPersons.map(p => p.id));
+  const relsByPerson: Record<string, Relationship[]> = {};
+  allRels.forEach(r => {
+    (relsByPerson[r.source] ??= []).push(r);
+    (relsByPerson[r.target] ??= []).push(r);
+  });
 
-  // Third layer: when a person is expanded, ONLY show them + their 1-hop neighbors
-  if (state.expandedPersonId) {
-    const centerId = state.expandedPersonId;
-    const centerPerson = personMap[centerId];
-    if (centerPerson) {
-      const neighborPersons: Person[] = [centerPerson];
-      const allIds = new Set<string>([centerId]);
-
-      (relsByPerson[centerId] || []).forEach(r => {
-        const otherId = r.source === centerId ? r.target : r.source;
-        if (!allIds.has(otherId)) {
-          allIds.add(otherId);
-          const p = personMap[otherId];
-          if (p) neighborPersons.push(p);
-        }
-      });
-
-      let rels = relationships.filter(r => allIds.has(r.source) && allIds.has(r.target));
-      if (state.selectedRelTypes.length > 0) {
-        rels = rels.filter(r => state.selectedRelTypes.includes(r.type));
-      }
-
-      const nodes: NodeData[] = neighborPersons.map(p => {
-        const degree = degreeMap[p.id] || 0;
-        const isCenter = p.id === centerId;
-        return {
-          id: p.id,
-          data: { name: p.name, faction: p.faction, degree },
-          style: {
-            size: isCenter ? 55 : 32,
-            fill: FACTION_CONFIG[p.faction]?.color || '#8c8c8c',
-            opacity: isCenter ? 1 : 0.85,
-            stroke: isCenter ? '#ff4d4f' : '#fff',
-            lineWidth: isCenter ? 4 : 1.5,
-            labelText: p.name,
-            labelFontSize: isCenter ? 12 : 9,
-            labelFontWeight: isCenter ? 'bold' : 'normal',
-            labelFill: '#fff',
-            labelPlacement: 'center' as const,
-          },
-        };
-      });
-
-      const edges: EdgeData[] = rels.map(r => ({
-        id: r.id, source: r.source, target: r.target,
-        data: { type: r.type, label: r.label, bidirectional: r.bidirectional },
-      }));
-
-      return { nodes, edges };
-    }
-  }
-
-  // If a person was searched and isn't in top 15, add them temporarily
   if (state.expandedPersonId && !coreIds.has(state.expandedPersonId)) {
     const p = personMap[state.expandedPersonId];
     if (p && p.faction === faction) {
@@ -165,15 +121,16 @@ function getFactionDetailData(faction: Faction, state: AppState) {
   }
 
   const allIds = new Set([...coreIds, ...neighborIds]);
-
-  let rels = relationships.filter(r => allIds.has(r.source) && allIds.has(r.target));
+  let rels = allRels.filter(r => allIds.has(r.source) && allIds.has(r.target));
   if (state.selectedRelTypes.length > 0) {
     rels = rels.filter(r => state.selectedRelTypes.includes(r.type));
   }
-  // No trimming — show all relationships when expanded
+
+  const importanceMap: Record<string, number> = {};
+  factionData.persons.forEach(p => { importanceMap[p.id] = (p as any).importance_score || 0; });
 
   const nodes: NodeData[] = factionPersons.map((p) => {
-    const rank = factionStats[faction].topPersons.indexOf(p);
+    const rank = factionData.persons.indexOf(p);
     const isTop5 = rank >= 0 && rank < 5;
     const isCore = rank >= 0 && rank < 15;
     return {
@@ -213,13 +170,52 @@ function getFactionDetailData(faction: Faction, state: AppState) {
   });
 
   const edges: EdgeData[] = rels.map(r => ({
-    id: r.id,
-    source: r.source,
-    target: r.target,
+    id: r.id, source: r.source, target: r.target,
     data: { type: r.type, label: r.label, bidirectional: r.bidirectional },
   }));
 
-  return { nodes, edges };
+  return { nodes, edges, relsByPerson };
+}
+
+function buildNetworkData(network: NetworkResult, centerId: string, selectedRelTypes: string[]) {
+  const allPersons = [network.center, ...network.neighbors];
+  let rels = network.relationships;
+  if (selectedRelTypes.length > 0) {
+    rels = rels.filter(r => selectedRelTypes.includes(r.type));
+  }
+
+  const relsByPerson: Record<string, Relationship[]> = {};
+  network.relationships.forEach(r => {
+    (relsByPerson[r.source] ??= []).push(r);
+    (relsByPerson[r.target] ??= []).push(r);
+  });
+
+  const nodes: NodeData[] = allPersons.map(p => {
+    const isCenter = p.id === centerId;
+    return {
+      id: p.id,
+      data: { name: p.name, faction: p.faction, degree: 0 },
+      style: {
+        size: isCenter ? 55 : 32,
+        fill: FACTION_CONFIG[p.faction]?.color || '#8c8c8c',
+        opacity: isCenter ? 1 : 0.85,
+        stroke: isCenter ? '#ff4d4f' : '#fff',
+        lineWidth: isCenter ? 4 : 1.5,
+        labelText: p.name,
+        labelFontSize: isCenter ? 12 : 9,
+        labelFontWeight: isCenter ? 'bold' : 'normal',
+        labelFill: '#fff',
+        labelPlacement: 'center' as const,
+      },
+    };
+  });
+
+  const edges: EdgeData[] = rels.map(r => ({
+    id: r.id, source: r.source, target: r.target,
+    data: { type: r.type, label: r.label, bidirectional: r.bidirectional },
+  }));
+
+  return { nodes, edges, relsByPerson };
 }
 
 export default function GraphView() {
@@ -228,18 +224,21 @@ export default function GraphView() {
   const destroyedRef = useRef(false);
   const renderedRef = useRef(false);
   const { state, dispatch } = useApp();
+  const [loading, setLoading] = useState(false);
 
   const dispatchRef = useRef(dispatch);
   dispatchRef.current = dispatch;
   const stateRef = useRef(state);
   stateRef.current = state;
 
+  const relsByPersonRef = useRef<Record<string, Relationship[]>>({});
+
   const handlePersonClick = useCallback((person: Person) => {
     dispatchRef.current({ type: 'SET_SELECTED_PERSON', payload: person });
 
     const neighborIds = new Set<string>();
     neighborIds.add(person.id);
-    (relsByPerson[person.id] || []).forEach(r => {
+    (relsByPersonRef.current[person.id] || []).forEach(r => {
       neighborIds.add(r.source);
       neighborIds.add(r.target);
     });
@@ -273,6 +272,7 @@ export default function GraphView() {
     if (!containerRef.current) return;
 
     destroyedRef.current = false;
+    let cancelled = false;
 
     if (graphRef.current) {
       try { graphRef.current.destroy(); } catch { /* already destroyed */ }
@@ -281,239 +281,262 @@ export default function GraphView() {
 
     const isOverview = state.viewMode === 'overview';
 
-    if (isOverview) {
-      const { nodes, edges } = getOverviewData();
+    async function loadAndRender() {
+      if (!containerRef.current) return;
+      setLoading(true);
 
-      const graph = new Graph({
-        container: containerRef.current,
-        data: { nodes, edges },
-        autoFit: 'view',
-        zoomRange: [0.2, 1.5],
-        padding: [60, 60, 60, 60],
-        animation: false,
-        node: {
-          style: {},
-          state: {
-            highlight: { stroke: '#ff4d4f', lineWidth: 4 },
-            dim: { opacity: 0.15 },
-          },
-        },
-        edge: {
-          style: {},
-          state: {
-            highlight: {
-              opacity: 1,
+      try {
+        if (isOverview) {
+          const data = await fetchFactions();
+          if (cancelled) return;
+          const { nodes, edges } = buildOverviewData(data);
+
+          const graph = new Graph({
+            container: containerRef.current!,
+            data: { nodes, edges },
+            autoFit: 'view',
+            zoomRange: [0.2, 1.5],
+            padding: [60, 60, 60, 60],
+            animation: false,
+            node: {
+              style: {},
+              state: {
+                highlight: { stroke: '#ff4d4f', lineWidth: 4 },
+                dim: { opacity: 0.15 },
+              },
             },
-            dim: { opacity: 0.08 },
-          },
-        },
-        behaviors: ['drag-canvas', 'zoom-canvas'],
-      });
+            edge: {
+              style: {},
+              state: {
+                highlight: { opacity: 1 },
+                dim: { opacity: 0.08 },
+              },
+            },
+            behaviors: ['drag-canvas', 'zoom-canvas'],
+          });
 
-      graph.on('node:click', (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
-        const nodeData = graph.getNodeData().find((n: NodeData) => {
-          const el = event?.target;
-          return el?.id === n.id || el?.parentElement?.id === n.id;
-        });
-        const id = nodeData?.id as string ?? event?.target?.id as string;
-        if (id?.startsWith('faction-')) {
-          const faction = id.replace('faction-', '') as Faction;
-          dispatchRef.current({ type: 'EXPAND_FACTION', payload: faction });
-        }
-      });
-
-      graph.on('node:mouseenter', (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
-        const id = event?.target?.id as string;
-        if (!id || !renderedRef.current || destroyedRef.current) return;
-        try {
-          graph.getEdgeData().forEach(e => {
-            if (e.source === id || e.target === id) {
-              graph.setElementState(e.id as string, 'highlight');
+          graph.on('node:click', (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
+            const nodeData = graph.getNodeData().find((n: NodeData) => {
+              const el = event?.target;
+              return el?.id === n.id || el?.parentElement?.id === n.id;
+            });
+            const id = nodeData?.id as string ?? event?.target?.id as string;
+            if (id?.startsWith('faction-')) {
+              const faction = id.replace('faction-', '') as Faction;
+              dispatchRef.current({ type: 'EXPAND_FACTION', payload: faction });
             }
           });
-        } catch { /* noop */ }
-      });
 
-      graph.on('node:mouseleave', () => {
-        if (!renderedRef.current || destroyedRef.current) return;
-        try {
-          graph.getEdgeData().forEach(e => {
-            graph.setElementState(e.id as string, []);
-          });
-        } catch { /* noop */ }
-      });
-
-      renderedRef.current = false;
-      graphRef.current = graph;
-      graph.render().then(() => {
-        if (!destroyedRef.current) renderedRef.current = true;
-      }).catch(() => { /* destroyed during render */ });
-
-    } else {
-      const faction = state.expandedFaction;
-      if (!faction) return;
-
-      const { nodes, edges } = getFactionDetailData(faction, state);
-      if (nodes.length === 0) return;
-
-      const graph = new Graph({
-        container: containerRef.current,
-        data: { nodes, edges },
-        autoFit: 'view',
-        zoomRange: [0.2, 1.5],
-        padding: [60, 60, 60, 60],
-        animation: false,
-        node: {
-          style: {},
-          state: {
-            highlight: { stroke: '#ff4d4f', lineWidth: 3, labelFontSize: 14, labelFontWeight: 'bold' },
-            dim: { opacity: 0.15 },
-          },
-        },
-        edge: {
-          style: {
-            stroke: (d: EdgeData) => RELATION_COLORS[d.data?.type as string] || '#ddd',
-            lineWidth: 1,
-            lineDash: (d: EdgeData) => RELATION_DASH[d.data?.type as string] || [],
-            endArrow: (d: EdgeData) => !d.data?.bidirectional,
-            labelText: '',
-            labelFontSize: 9,
-            labelFill: '#999',
-            opacity: 0.3,
-          },
-          state: {
-            highlight: {
-              opacity: 1,
-              lineWidth: 2,
-            },
-            dim: { opacity: 0.08 },
-          },
-        },
-        layout: {
-          type: 'd3-force',
-          preventOverlap: true,
-          nodeSize: 50,
-          linkDistance: 400,
-          nodeStrength: -300,
-        },
-        behaviors: ['drag-canvas', 'zoom-canvas', 'drag-element-force'],
-      });
-
-      graph.on('node:click', (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
-        let id = event?.target?.id;
-        if (!id || !personMap[id]) {
-          const el = event?.target?.parentElement;
-          if (el?.id && personMap[el.id]) id = el.id;
-        }
-        if (!id || !personMap[id]) {
-          const allNodes = graph.getNodeData();
-          for (const n of allNodes) {
-            if (n.id === event?.target?.id || n.id === event?.target?.parentElement?.id) {
-              id = n.id;
-              break;
-            }
-          }
-        }
-        if (id && personMap[id]) {
-          const person = personMap[id];
-          handlePersonClick(person);
-          const currentExpanded = stateRef.current.expandedPersonId;
-          if (currentExpanded === id) {
-            dispatchRef.current({ type: 'SET_EXPANDED_PERSON', payload: null });
-          } else {
-            dispatchRef.current({ type: 'SET_EXPANDED_PERSON', payload: id });
-            // Center the clicked person after graph re-renders
-            setTimeout(() => {
-              try {
-                if (graphRef.current && renderedRef.current && !destroyedRef.current) {
-                  graphRef.current.focusElement(id);
-                }
-              } catch { /* noop */ }
-            }, 500);
-          }
-        }
-      });
-
-      graph.on('canvas:click', () => {
-        dispatchRef.current({ type: 'SET_EXPANDED_PERSON', payload: null });
-        dispatchRef.current({ type: 'SET_HIGHLIGHT', payload: null });
-        dispatchRef.current({ type: 'SET_SELECTED_PERSON', payload: null });
-      });
-
-      graph.on('node:mouseenter', (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
-        if (stateRef.current.highlightedPersonId) return;
-        const id = event?.target?.id;
-        if (!id || !renderedRef.current || destroyedRef.current) return;
-
-        const neighborIds = new Set<string>();
-        neighborIds.add(id);
-        (relsByPerson[id] || []).forEach(r => {
-          neighborIds.add(r.source);
-          neighborIds.add(r.target);
-        });
-
-        try {
-          graph.getNodeData().forEach(n => {
-            graph.setElementState(n.id as string, neighborIds.has(n.id as string) ? 'highlight' : 'dim');
-          });
-          graph.getEdgeData().forEach(e => {
-            const connected = neighborIds.has(e.source as string) && neighborIds.has(e.target as string)
-              && (e.source === id || e.target === id);
-            graph.setElementState(e.id as string, connected ? 'highlight' : 'dim');
-          });
-        } catch { /* noop */ }
-      });
-
-      graph.on('node:mouseleave', () => {
-        if (stateRef.current.highlightedPersonId) return;
-        if (!renderedRef.current || destroyedRef.current) return;
-        try {
-          graph.getNodeData().forEach(n => graph.setElementState(n.id as string, []));
-          graph.getEdgeData().forEach(e => graph.setElementState(e.id as string, []));
-        } catch { /* noop */ }
-      });
-
-      renderedRef.current = false;
-      graphRef.current = graph;
-      graph.render().then(() => {
-        if (!destroyedRef.current) {
-          renderedRef.current = true;
-          // Highlight expanded person after render
-          const ep = stateRef.current.expandedPersonId;
-          if (ep) {
+          graph.on('node:mouseenter', (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
+            const id = event?.target?.id as string;
+            if (!id || !renderedRef.current || destroyedRef.current) return;
             try {
-              const neighborIds = new Set<string>([ep]);
-              (relsByPerson[ep] || []).forEach(r => {
-                neighborIds.add(r.source);
-                neighborIds.add(r.target);
-              });
-              graph.getNodeData().forEach(n => {
-                if (n.id === ep) {
-                  graph.setElementState(n.id as string, 'highlight');
-                } else if (!neighborIds.has(n.id as string)) {
-                  graph.setElementState(n.id as string, 'dim');
+              graph.getEdgeData().forEach(e => {
+                if (e.source === id || e.target === id) {
+                  graph.setElementState(e.id as string, 'highlight');
                 }
+              });
+            } catch { /* noop */ }
+          });
+
+          graph.on('node:mouseleave', () => {
+            if (!renderedRef.current || destroyedRef.current) return;
+            try {
+              graph.getEdgeData().forEach(e => {
+                graph.setElementState(e.id as string, []);
+              });
+            } catch { /* noop */ }
+          });
+
+          renderedRef.current = false;
+          graphRef.current = graph;
+          graph.render().then(() => {
+            if (!destroyedRef.current) renderedRef.current = true;
+          }).catch(() => { /* destroyed during render */ });
+
+        } else {
+          const faction = state.expandedFaction;
+          if (!faction) return;
+
+          let nodes: NodeData[], edges: EdgeData[];
+
+          if (state.expandedPersonId) {
+            const network = await fetchPersonNetwork(state.expandedPersonId);
+            if (cancelled) return;
+            const result = buildNetworkData(network, state.expandedPersonId, state.selectedRelTypes);
+            nodes = result.nodes;
+            edges = result.edges;
+            relsByPersonRef.current = result.relsByPerson;
+          } else {
+            const factionData = await fetchFactionTop(faction);
+            if (cancelled) return;
+            const result = buildFactionDetailData(factionData, faction, state);
+            nodes = result.nodes;
+            edges = result.edges;
+            relsByPersonRef.current = result.relsByPerson;
+          }
+
+          if (nodes.length === 0) return;
+
+          const graph = new Graph({
+            container: containerRef.current!,
+            data: { nodes, edges },
+            autoFit: 'view',
+            zoomRange: [0.2, 1.5],
+            padding: [60, 60, 60, 60],
+            animation: false,
+            node: {
+              style: {},
+              state: {
+                highlight: { stroke: '#ff4d4f', lineWidth: 3, labelFontSize: 14, labelFontWeight: 'bold' },
+                dim: { opacity: 0.15 },
+              },
+            },
+            edge: {
+              style: {
+                stroke: (d: EdgeData) => RELATION_COLORS[d.data?.type as string] || '#ddd',
+                lineWidth: 1,
+                lineDash: (d: EdgeData) => RELATION_DASH[d.data?.type as string] || [],
+                endArrow: (d: EdgeData) => !d.data?.bidirectional,
+                labelText: '',
+                labelFontSize: 9,
+                labelFill: '#999',
+                opacity: 0.3,
+              },
+              state: {
+                highlight: { opacity: 1, lineWidth: 2 },
+                dim: { opacity: 0.08 },
+              },
+            },
+            layout: {
+              type: 'd3-force',
+              preventOverlap: true,
+              nodeSize: 50,
+              linkDistance: 400,
+              nodeStrength: -300,
+            },
+            behaviors: ['drag-canvas', 'zoom-canvas', 'drag-element-force'],
+          });
+
+          graph.on('node:click', (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
+            let id = event?.target?.id;
+            if (!id || !personMap[id]) {
+              const el = event?.target?.parentElement;
+              if (el?.id && personMap[el.id]) id = el.id;
+            }
+            if (!id || !personMap[id]) {
+              const allNodes = graph.getNodeData();
+              for (const n of allNodes) {
+                if (n.id === event?.target?.id || n.id === event?.target?.parentElement?.id) {
+                  id = n.id;
+                  break;
+                }
+              }
+            }
+            if (id && personMap[id]) {
+              const person = personMap[id];
+              handlePersonClick(person);
+              const currentExpanded = stateRef.current.expandedPersonId;
+              if (currentExpanded === id) {
+                dispatchRef.current({ type: 'SET_EXPANDED_PERSON', payload: null });
+              } else {
+                dispatchRef.current({ type: 'SET_EXPANDED_PERSON', payload: id });
+                setTimeout(() => {
+                  try {
+                    if (graphRef.current && renderedRef.current && !destroyedRef.current) {
+                      graphRef.current.focusElement(id);
+                    }
+                  } catch { /* noop */ }
+                }, 500);
+              }
+            }
+          });
+
+          graph.on('canvas:click', () => {
+            dispatchRef.current({ type: 'SET_EXPANDED_PERSON', payload: null });
+            dispatchRef.current({ type: 'SET_HIGHLIGHT', payload: null });
+            dispatchRef.current({ type: 'SET_SELECTED_PERSON', payload: null });
+          });
+
+          graph.on('node:mouseenter', (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
+            if (stateRef.current.highlightedPersonId) return;
+            const id = event?.target?.id;
+            if (!id || !renderedRef.current || destroyedRef.current) return;
+
+            const neighborIds = new Set<string>();
+            neighborIds.add(id);
+            (relsByPersonRef.current[id] || []).forEach(r => {
+              neighborIds.add(r.source);
+              neighborIds.add(r.target);
+            });
+
+            try {
+              graph.getNodeData().forEach(n => {
+                graph.setElementState(n.id as string, neighborIds.has(n.id as string) ? 'highlight' : 'dim');
               });
               graph.getEdgeData().forEach(e => {
-                const connected = (e.source === ep || e.target === ep);
+                const connected = neighborIds.has(e.source as string) && neighborIds.has(e.target as string)
+                  && (e.source === id || e.target === id);
                 graph.setElementState(e.id as string, connected ? 'highlight' : 'dim');
               });
-              graph.focusElement(ep);
             } catch { /* noop */ }
-          }
-          // Re-fit after force layout stabilizes
-          setTimeout(() => {
+          });
+
+          graph.on('node:mouseleave', () => {
+            if (stateRef.current.highlightedPersonId) return;
+            if (!renderedRef.current || destroyedRef.current) return;
             try {
-              if (!destroyedRef.current && graphRef.current) {
-                graphRef.current.fitView();
-              }
+              graph.getNodeData().forEach(n => graph.setElementState(n.id as string, []));
+              graph.getEdgeData().forEach(e => graph.setElementState(e.id as string, []));
             } catch { /* noop */ }
-          }, 1500);
+          });
+
+          renderedRef.current = false;
+          graphRef.current = graph;
+          graph.render().then(() => {
+            if (!destroyedRef.current) {
+              renderedRef.current = true;
+              const ep = stateRef.current.expandedPersonId;
+              if (ep) {
+                try {
+                  const neighborIds = new Set<string>([ep]);
+                  (relsByPersonRef.current[ep] || []).forEach(r => {
+                    neighborIds.add(r.source);
+                    neighborIds.add(r.target);
+                  });
+                  graph.getNodeData().forEach(n => {
+                    if (n.id === ep) {
+                      graph.setElementState(n.id as string, 'highlight');
+                    } else if (!neighborIds.has(n.id as string)) {
+                      graph.setElementState(n.id as string, 'dim');
+                    }
+                  });
+                  graph.getEdgeData().forEach(e => {
+                    const connected = (e.source === ep || e.target === ep);
+                    graph.setElementState(e.id as string, connected ? 'highlight' : 'dim');
+                  });
+                  graph.focusElement(ep);
+                } catch { /* noop */ }
+              }
+              setTimeout(() => {
+                try {
+                  if (!destroyedRef.current && graphRef.current) {
+                    graphRef.current.fitView();
+                  }
+                } catch { /* noop */ }
+              }, 1500);
+            }
+          }).catch(() => { /* destroyed during render */ });
         }
-      }).catch(() => { /* destroyed during render */ });
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
     }
 
+    loadAndRender();
+
     return () => {
+      cancelled = true;
       destroyedRef.current = true;
       renderedRef.current = false;
       if (graphRef.current) {
@@ -539,6 +562,11 @@ export default function GraphView() {
 
   return (
     <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+      {loading && (
+        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 20 }}>
+          <Spin size="large" />
+        </div>
+      )}
       <div ref={containerRef} style={{ width: '100%', height: '100%' }} />
       {state.viewMode === 'faction-detail' && (
         <div style={{
@@ -555,7 +583,11 @@ export default function GraphView() {
           <Button
             type="link"
             size="small"
-            onClick={() => dispatch({ type: 'BACK_TO_OVERVIEW' })}
+            onClick={() => {
+              dispatch({ type: 'BACK_TO_OVERVIEW' });
+              dispatch({ type: 'SET_SEARCH', payload: '' });
+              dispatch({ type: 'SET_HIGHLIGHT', payload: null });
+            }}
             style={{ fontSize: 13, padding: 0 }}
           >
             总览

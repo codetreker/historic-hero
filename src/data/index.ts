@@ -1,169 +1,52 @@
-import type { Person, Relationship, HistoricalEvent, Faction, Role } from '../types';
-import pinyin from 'tiny-pinyin';
-import personsData from '../../data/persons.json';
-import relationshipsData from '../../data/relationships.json';
-import eventsData from '../../data/events.json';
+import type { Person, Relationship, Faction } from '../types';
+import { api } from '../api';
+import type { FactionOverview, FactionTopResult, NetworkResult } from '../api';
 
-export const persons: Person[] = personsData as Person[];
-export const relationships: Relationship[] = relationshipsData as Relationship[];
-export const events: HistoricalEvent[] = eventsData as HistoricalEvent[];
+export type { FactionOverview, FactionTopResult, NetworkResult };
 
 export const personMap: Record<string, Person> = {};
-persons.forEach(p => { personMap[p.id] = p; });
 
-export const degreeMap: Record<string, number> = {};
-relationships.forEach(r => {
-  degreeMap[r.source] = (degreeMap[r.source] || 0) + 1;
-  degreeMap[r.target] = (degreeMap[r.target] || 0) + 1;
-});
-
-export const relsByPerson: Record<string, Relationship[]> = {};
-relationships.forEach(r => {
-  (relsByPerson[r.source] ??= []).push(r);
-  (relsByPerson[r.target] ??= []).push(r);
-});
-
-export const eventsByPerson: Record<string, HistoricalEvent[]> = {};
-events.forEach(e => {
-  e.participants.forEach(p => {
-    (eventsByPerson[p.person_id] ??= []).push(e);
-  });
-});
-
-export const factionCounts: Record<Faction, number> = { wei: 0, shu: 0, wu: 0, han: 0, jin: 0, other: 0 };
-persons.forEach(p => { factionCounts[p.faction] = (factionCounts[p.faction] || 0) + 1; });
-
-export const roleCounts: Record<Role, number> = {} as Record<Role, number>;
-persons.forEach(p => {
-  p.roles.forEach(r => { roleCounts[r] = (roleCounts[r] || 0) + 1; });
-});
-
-export const relTypeCounts: Record<string, number> = {};
-relationships.forEach(r => { relTypeCounts[r.type] = (relTypeCounts[r.type] || 0) + 1; });
-
-// Meaningful degree: excludes 'colleagues' (inflated by bulk generation)
-export const meaningfulDegreeMap: Record<string, number> = {};
-relationships.forEach(r => {
-  if (r.type !== 'colleagues') {
-    meaningfulDegreeMap[r.source] = (meaningfulDegreeMap[r.source] || 0) + 1;
-    meaningfulDegreeMap[r.target] = (meaningfulDegreeMap[r.target] || 0) + 1;
-  }
-});
-
-const ROLE_WEIGHTS: Record<string, number> = {
-  emperor: 100, warlord: 80, strategist: 60, advisor: 60,
-  minister: 40, general: 30, politician: 30, scholar: 20,
-  noble: 20, consort: 15, poet: 15, regent: 50,
-  calligrapher: 10, musician: 10, rebel: 10, foreigner: 10,
-  other: 10, eunuch: 5,
-};
-
-const REL_WEIGHTS: Record<string, number> = {
-  'lord-vassal': 5, 'father-son': 5, 'rivals': 4,
-  'killed-by': 4, 'betrayal': 3, 'sworn-brothers': 3,
-  'husband-wife': 3, 'master-student': 3, 'allies': 2,
-  'brothers': 2, 'successor': 2, 'mother-son': 2,
-  'in-law': 1, 'friends': 1, 'subordinate': 1,
-  'colleagues': 0,
-};
-
-export function getImportanceScore(person: Person, rels: Relationship[]): number {
-  let score = 0;
-  person.roles.forEach(r => { score += ROLE_WEIGHTS[r] || 10; });
-  const personRels = rels.filter(r => r.source === person.id || r.target === person.id);
-  personRels.forEach(r => { score += REL_WEIGHTS[r.type] || 0; });
-  return score;
+function indexPersons(persons: Person[]) {
+  persons.forEach(p => { personMap[p.id] = p; });
 }
 
-export const importanceMap: Record<string, number> = {};
-persons.forEach(p => { importanceMap[p.id] = getImportanceScore(p, relationships); });
-
-export const factionStats: Record<Faction, { count: number; topPersons: Person[] }> = {} as any;
-(Object.keys(factionCounts) as Faction[]).forEach(f => {
-  const factionPersons = persons.filter(p => p.faction === f);
-  const crossFactionCandidates = persons.filter(p => {
-    if (p.faction === f) return false;
-    const factionRels = (relsByPerson[p.id] || []).filter(r => {
-      const otherId = r.source === p.id ? r.target : r.source;
-      return personMap[otherId]?.faction === f && r.type !== 'colleagues';
-    });
-    return factionRels.length >= 8 && (importanceMap[p.id] || 0) >= 200;
-  });
-  const allCandidates = [...factionPersons, ...crossFactionCandidates];
-  const sorted = [...allCandidates].sort((a, b) => (importanceMap[b.id] || 0) - (importanceMap[a.id] || 0));
-  // Ensure cross-faction candidates make it in: reserve spots for them
-  const maxNative = 15 - crossFactionCandidates.length;
-  const nativeSorted = sorted.filter(p => p.faction === f).slice(0, maxNative);
-  const crossSorted = sorted.filter(p => p.faction !== f);
-  const topPersons = [...nativeSorted, ...crossSorted].sort((a, b) => (importanceMap[b.id] || 0) - (importanceMap[a.id] || 0));
-  factionStats[f] = { count: factionPersons.length, topPersons };
-});
-
-export const crossFactionRels: { source: Faction; target: Faction; count: number }[] = [];
-{
-  const pairCount: Record<string, number> = {};
+function buildRelsByPerson(relationships: Relationship[]): Record<string, Relationship[]> {
+  const map: Record<string, Relationship[]> = {};
   relationships.forEach(r => {
-    const sf = personMap[r.source]?.faction;
-    const tf = personMap[r.target]?.faction;
-    if (!sf || !tf || sf === tf) return;
-    const key = [sf, tf].sort().join('-');
-    pairCount[key] = (pairCount[key] || 0) + 1;
+    (map[r.source] ??= []).push(r);
+    (map[r.target] ??= []).push(r);
   });
-  Object.entries(pairCount).forEach(([key, count]) => {
-    const [s, t] = key.split('-') as [Faction, Faction];
-    crossFactionRels.push({ source: s, target: t, count });
-  });
+  return map;
 }
 
-export interface SearchEntry {
-  id: string;
-  name: string;
-  courtesyName: string | null;
-  faction: Faction;
-  roles: Role[];
-  pinyinName: string;
-  pinyinInitials: string;
+export async function fetchFactions(): Promise<FactionOverview> {
+  return api.getFactions();
 }
 
-function toPinyin(text: string): string {
-  return pinyin.convertToPinyin(text, '', true).toLowerCase();
+export async function fetchFactionTop(faction: Faction, limit = 15): Promise<FactionTopResult> {
+  const result = await api.getFactionTop(faction, limit);
+  indexPersons(result.persons);
+  return result;
 }
 
-function toPinyinInitials(text: string): string {
-  const parsed = pinyin.parse(text);
-  return parsed.map(item => {
-    if (item.type === 2) {
-      return item.target.charAt(0).toLowerCase();
-    }
-    return item.source.charAt(0).toLowerCase();
-  }).join('');
+export async function fetchPersonNetwork(id: string): Promise<NetworkResult & { relsByPerson: Record<string, Relationship[]> }> {
+  const result = await api.getPersonNetwork(id);
+  const allPersons = [result.center, ...result.neighbors];
+  indexPersons(allPersons);
+  return { ...result, relsByPerson: buildRelsByPerson(result.relationships) };
 }
 
-export const searchIndex: SearchEntry[] = persons.map(p => ({
-  id: p.id,
-  name: p.name,
-  courtesyName: p.courtesy_name ?? null,
-  faction: p.faction,
-  roles: p.roles,
-  pinyinName: toPinyin(p.name),
-  pinyinInitials: toPinyinInitials(p.name),
-}));
+export async function searchPersons(q: string) {
+  const result = await api.search(q);
+  return result.results;
+}
 
-export function search(query: string): SearchEntry[] {
-  const q = query.toLowerCase().trim();
-  if (!q) return [];
+export async function fetchPersonDetail(id: string) {
+  const result = await api.getPerson(id);
+  personMap[result.person.id] = result.person;
+  return result;
+}
 
-  return searchIndex
-    .filter(entry =>
-      entry.name.includes(q) ||
-      (entry.courtesyName && entry.courtesyName.includes(q)) ||
-      entry.pinyinName.startsWith(q) ||
-      entry.pinyinInitials.startsWith(q)
-    )
-    .sort((a, b) => {
-      const aExact = a.name === q ? 0 : 1;
-      const bExact = b.name === q ? 0 : 1;
-      return aExact - bExact;
-    })
-    .slice(0, 10);
+export async function fetchEventDetail(id: string) {
+  return api.getEvent(id);
 }

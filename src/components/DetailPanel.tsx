@@ -1,9 +1,10 @@
-import { Tag, Descriptions, Divider, Typography, Space } from 'antd';
+import { useEffect, useState } from 'react';
+import { Tag, Descriptions, Divider, Typography, Space, Spin } from 'antd';
 import { LinkOutlined } from '@ant-design/icons';
 import { useApp } from '../context/AppContext';
-import { relsByPerson, eventsByPerson, personMap } from '../data';
+import { fetchPersonDetail, personMap } from '../data';
 import { FACTION_CONFIG, ROLE_CONFIG } from '../types';
-import type { RelationType } from '../types';
+import type { Relationship, HistoricalEvent, RelationType } from '../types';
 
 const REL_TYPE_LABELS: Record<RelationType, string> = {
   'lord-vassal': '君臣',
@@ -27,11 +28,23 @@ const REL_TYPE_LABELS: Record<RelationType, string> = {
 export default function PersonDetail() {
   const { state, dispatch } = useApp();
   const person = state.selectedPerson;
+  const [rels, setRels] = useState<Relationship[]>([]);
+  const [personEvents, setPersonEvents] = useState<HistoricalEvent[]>([]);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (!person) { setRels([]); setPersonEvents([]); return; }
+    let cancelled = false;
+    setLoading(true);
+    fetchPersonDetail(person.id).then(data => {
+      if (cancelled) return;
+      setRels(data.relationships);
+      setPersonEvents(data.events);
+    }).catch(() => {}).finally(() => { if (!cancelled) setLoading(false); });
+    return () => { cancelled = true; };
+  }, [person?.id]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!person) return null;
-
-  const rels = relsByPerson[person.id] || [];
-  const personEvents = eventsByPerson[person.id] || [];
 
   const relsByType: Record<string, { id: string; name: string; direction: string }[]> = {};
   rels.forEach(r => {
@@ -91,43 +104,47 @@ export default function PersonDetail() {
         {person.description}
       </Typography.Paragraph>
 
-      {rels.length > 0 && (
+      {loading ? <Spin /> : (
         <>
-          <Divider>关系 ({rels.length})</Divider>
-          {Object.entries(relsByType).map(([type, items]) => (
-            <div key={type} style={{ marginBottom: 12 }}>
-              <Typography.Text strong style={{ fontSize: 13 }}>
-                {REL_TYPE_LABELS[type as RelationType] || type}
-              </Typography.Text>
-              <div style={{ paddingLeft: 12, marginTop: 4 }}>
-                {items.map(item => (
-                  <span key={item.id} style={{ marginRight: 8 }}>
-                    {item.direction}{' '}
-                    <a onClick={() => handlePersonClick(item.id)} style={{ cursor: 'pointer' }}>
-                      {item.name}
-                    </a>
-                  </span>
-                ))}
-              </div>
-            </div>
-          ))}
-        </>
-      )}
+          {rels.length > 0 && (
+            <>
+              <Divider>关系 ({rels.length})</Divider>
+              {Object.entries(relsByType).map(([type, items]) => (
+                <div key={type} style={{ marginBottom: 12 }}>
+                  <Typography.Text strong style={{ fontSize: 13 }}>
+                    {REL_TYPE_LABELS[type as RelationType] || type}
+                  </Typography.Text>
+                  <div style={{ paddingLeft: 12, marginTop: 4 }}>
+                    {items.map(item => (
+                      <span key={item.id} style={{ marginRight: 8 }}>
+                        {item.direction}{' '}
+                        <a onClick={() => handlePersonClick(item.id)} style={{ cursor: 'pointer' }}>
+                          {item.name}
+                        </a>
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </>
+          )}
 
-      {personEvents.length > 0 && (
-        <>
-          <Divider>参与事件 ({personEvents.length})</Divider>
-          {personEvents
-            .sort((a, b) => a.year - b.year)
-            .map(evt => (
-              <div
-                key={evt.id}
-                style={{ cursor: 'pointer', padding: '4px 0', color: '#1677ff' }}
-                onClick={() => dispatch({ type: 'SET_SELECTED_EVENT', payload: evt })}
-              >
-                {evt.year} {evt.name}
-              </div>
-            ))}
+          {personEvents.length > 0 && (
+            <>
+              <Divider>参与事件 ({personEvents.length})</Divider>
+              {personEvents
+                .sort((a, b) => a.year - b.year)
+                .map(evt => (
+                  <div
+                    key={evt.id}
+                    style={{ cursor: 'pointer', padding: '4px 0', color: '#1677ff' }}
+                    onClick={() => dispatch({ type: 'SET_SELECTED_EVENT', payload: evt })}
+                  >
+                    {evt.year} {evt.name}
+                  </div>
+                ))}
+            </>
+          )}
         </>
       )}
 
