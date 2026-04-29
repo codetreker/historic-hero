@@ -1,6 +1,6 @@
 import { useEffect, useRef, useCallback, useMemo } from 'react';
 import { Graph } from '@antv/g6';
-import { relationships, personMap, relsByPerson, factionStats, crossFactionRels, importanceMap } from '../data';
+import { relationships, degreeMap, personMap, relsByPerson, factionStats, crossFactionRels, importanceMap } from '../data';
 import { FACTION_CONFIG } from '../types';
 import type { Person, Faction } from '../types';
 import type { NodeData, EdgeData } from '@antv/g6';
@@ -89,6 +89,58 @@ function getFactionDetailData(faction: Faction, state: AppState) {
   }
 
   const coreIds = new Set(factionPersons.map(p => p.id));
+
+  // Third layer: when a person is expanded, ONLY show them + their 1-hop neighbors
+  if (state.expandedPersonId) {
+    const centerId = state.expandedPersonId;
+    const centerPerson = personMap[centerId];
+    if (centerPerson) {
+      const neighborPersons: Person[] = [centerPerson];
+      const allIds = new Set<string>([centerId]);
+
+      (relsByPerson[centerId] || []).forEach(r => {
+        const otherId = r.source === centerId ? r.target : r.source;
+        if (!allIds.has(otherId)) {
+          allIds.add(otherId);
+          const p = personMap[otherId];
+          if (p) neighborPersons.push(p);
+        }
+      });
+
+      let rels = relationships.filter(r => allIds.has(r.source) && allIds.has(r.target));
+      if (state.selectedRelTypes.length > 0) {
+        rels = rels.filter(r => state.selectedRelTypes.includes(r.type));
+      }
+
+      const nodes: NodeData[] = neighborPersons.map(p => {
+        const degree = degreeMap[p.id] || 0;
+        const isCenter = p.id === centerId;
+        return {
+          id: p.id,
+          data: { name: p.name, faction: p.faction, degree },
+          style: {
+            size: isCenter ? 55 : 32,
+            fill: FACTION_CONFIG[p.faction]?.color || '#8c8c8c',
+            opacity: isCenter ? 1 : 0.85,
+            stroke: isCenter ? '#ff4d4f' : '#fff',
+            lineWidth: isCenter ? 4 : 1.5,
+            labelText: p.name,
+            labelFontSize: isCenter ? 12 : 9,
+            labelFontWeight: isCenter ? 'bold' : 'normal',
+            labelFill: '#fff',
+            labelPlacement: 'center' as const,
+          },
+        };
+      });
+
+      const edges: EdgeData[] = rels.map(r => ({
+        id: r.id, source: r.source, target: r.target,
+        data: { type: r.type, label: r.label, bidirectional: r.bidirectional },
+      }));
+
+      return { nodes, edges };
+    }
+  }
 
   // If a person was searched and isn't in top 15, add them temporarily
   if (state.expandedPersonId && !coreIds.has(state.expandedPersonId)) {
