@@ -129,7 +129,7 @@ function getFactionDetailData(faction: Faction, state: AppState) {
       id: p.id,
       data: { name: p.name, faction: p.faction, degree: importanceMap[p.id] || 0, isNeighbor: false },
       style: {
-        size: isTop5 ? 35 : (isCore ? 25 : 20),
+        size: isTop5 ? 50 : (isCore ? 40 : 32),
         fill: FACTION_CONFIG[p.faction].color,
         opacity: isTop5 ? 1 : 0.7,
         stroke: '#fff',
@@ -148,7 +148,7 @@ function getFactionDetailData(faction: Faction, state: AppState) {
       id: p.id,
       data: { name: p.name, faction: p.faction, degree: importanceMap[p.id] || 0, isNeighbor: true },
       style: {
-        size: 16,
+        size: 28,
         fill: FACTION_CONFIG[p.faction].color,
         opacity: 0.5,
         stroke: '#fff',
