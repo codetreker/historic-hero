@@ -26668,5 +26668,761 @@
       "https://zh.wikipedia.org/wiki/孙翊",
       "https://zh.wikipedia.org/wiki/妫览"
     ]
+  },
+  {
+    "id": "wiki-lady-sun-liu-bei-husband-wife",
+    "source": "lady-sun",
+    "target": "liu-bei",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "孫氏与刘备为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Bei"
+    ]
+  },
+  {
+    "id": "wiki-lady-xie-sun-quan-husband-wife",
+    "source": "lady-xie",
+    "target": "sun-quan",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "謝氏与孙权为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Quan"
+    ]
+  },
+  {
+    "id": "wiki-bu-lianshi-sun-quan-husband-wife",
+    "source": "bu-lianshi",
+    "target": "sun-quan",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "步练师与孙权为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Quan"
+    ]
+  },
+  {
+    "id": "wiki-sun-quan-sun-l-father-son",
+    "source": "sun-quan",
+    "target": "sun-l",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙权之子孫慮",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Quan"
+    ]
+  },
+  {
+    "id": "wiki-han-lingdi-han-xiandi-father-son",
+    "source": "han-lingdi",
+    "target": "han-xiandi",
+    "type": "father-son",
+    "label": "父子",
+    "description": "汉灵帝为汉献帝之父",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Emperor_Xian_of_Han"
+    ]
+  },
+  {
+    "id": "wiki-fu-shou-han-xiandi-husband-wife",
+    "source": "fu-shou",
+    "target": "han-xiandi",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "伏寿与汉献帝为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Emperor_Xian_of_Han"
+    ]
+  },
+  {
+    "id": "wiki-lady-zhen-cao-rui-mother-son",
+    "source": "lady-zhen",
+    "target": "cao-rui",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "甄氏为曹叡之母",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Rui"
+    ]
+  },
+  {
+    "id": "wiki-cao-rui-guo-nuwang-husband-wife",
+    "source": "cao-rui",
+    "target": "guo-nuwang",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "曹叡与郭女王为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Rui"
+    ]
+  },
+  {
+    "id": "wiki-cao-pi-lady-zhen-husband-wife",
+    "source": "cao-pi",
+    "target": "lady-zhen",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "曹丕与甄氏为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "wiki-cao-pi-guo-nwang-husband-wife",
+    "source": "cao-pi",
+    "target": "guo-nwang",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "曹丕与郭女王为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "wiki-cao-pi-cao-xie-father-son",
+    "source": "cao-pi",
+    "target": "cao-xie",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹丕之子曹協",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "wiki-cao-pi-cao-jian-father-son",
+    "source": "cao-pi",
+    "target": "cao-jian",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹丕之子曹鑒",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "wiki-cao-pi-cao-lin-pei-father-son",
+    "source": "cao-pi",
+    "target": "cao-lin-pei",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹丕之子曹林",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "wiki-cao-pi-cao-li-father-son",
+    "source": "cao-pi",
+    "target": "cao-li",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹丕之子曹禮",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "wiki-cao-pi-cao-gong-father-son",
+    "source": "cao-pi",
+    "target": "cao-gong",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹丕之子曹貢",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "wiki-cao-pi-cao-yan-father-son",
+    "source": "cao-pi",
+    "target": "cao-yan",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹丕之子曹儼",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Pi"
+    ]
+  },
+  {
+    "id": "wiki-wu-guotai-sun-ce-father-son",
+    "source": "wu-guotai",
+    "target": "sun-ce",
+    "type": "father-son",
+    "label": "父子",
+    "description": "吴国太为孙策之父",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ce"
+    ]
+  },
+  {
+    "id": "wiki-sun-ce-xiao-qiao-husband-wife",
+    "source": "sun-ce",
+    "target": "xiao-qiao",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "孙策与小乔为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ce"
+    ]
+  },
+  {
+    "id": "wiki-sun-ce-lu-xun-father-son",
+    "source": "sun-ce",
+    "target": "lu-xun",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙策之子陆逊",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ce"
+    ]
+  },
+  {
+    "id": "wiki-sun-ce-gu-shao-father-son",
+    "source": "sun-ce",
+    "target": "gu-shao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙策之子顧邵",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ce"
+    ]
+  },
+  {
+    "id": "wiki-zhu-huan-232-sun-ce-lord-vassal",
+    "source": "zhu-huan-232",
+    "target": "sun-ce",
+    "type": "lord-vassal",
+    "label": "君臣",
+    "description": "孙策效忠于朱宣",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Ce"
+    ]
+  },
+  {
+    "id": "wiki-zhang-changpu-zhong-hui-father-son",
+    "source": "zhang-changpu",
+    "target": "zhong-hui",
+    "type": "father-son",
+    "label": "父子",
+    "description": "張昌蒲为钟会之父",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhong_Hui"
+    ]
+  },
+  {
+    "id": "wiki-sun-jian-lady-sun-father-son",
+    "source": "sun-jian",
+    "target": "lady-sun",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙坚之子孫氏",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Jian"
+    ]
+  },
+  {
+    "id": "wiki-sun-jian-sun-lang-father-son",
+    "source": "sun-jian",
+    "target": "sun-lang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙坚之子孫朗",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Jian"
+    ]
+  },
+  {
+    "id": "wiki-sun-jian-sun-luban-father-son",
+    "source": "sun-jian",
+    "target": "sun-luban",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙坚之子女孙鲁班",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Jian"
+    ]
+  },
+  {
+    "id": "wiki-sun-jian-sun-luyu-father-son",
+    "source": "sun-jian",
+    "target": "sun-luyu",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙坚之子女孙鲁育",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Jian"
+    ]
+  },
+  {
+    "id": "wiki-zhang-fei-empress-zhang-1-father-son",
+    "source": "zhang-fei",
+    "target": "empress-zhang-1",
+    "type": "father-son",
+    "label": "父子",
+    "description": "张飞之子张皇后",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Fei"
+    ]
+  },
+  {
+    "id": "wiki-zhang-fei-empress-zhang-2-father-son",
+    "source": "zhang-fei",
+    "target": "empress-zhang-2",
+    "type": "father-son",
+    "label": "父子",
+    "description": "张飞之子张皇后",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Fei"
+    ]
+  },
+  {
+    "id": "wiki-gongsun-du-gongsun-gong-father-son",
+    "source": "gongsun-du",
+    "target": "gongsun-gong",
+    "type": "father-son",
+    "label": "父子",
+    "description": "公孙度为公孫恭之父",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Gong"
+    ]
+  },
+  {
+    "id": "wiki-gongsun-du-gongsun-kang-father-son",
+    "source": "gongsun-du",
+    "target": "gongsun-kang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "公孙度为公孫康之父",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Kang"
+    ]
+  },
+  {
+    "id": "wiki-gongsun-kang-gongsun-yuan-father-son",
+    "source": "gongsun-kang",
+    "target": "gongsun-yuan",
+    "type": "father-son",
+    "label": "父子",
+    "description": "公孫康之子公孫淵",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Kang"
+    ]
+  },
+  {
+    "id": "wiki-sima-yi-sima-liang-father-son",
+    "source": "sima-yi",
+    "target": "sima-liang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "司马懿为司馬亮之父",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Liang"
+    ]
+  },
+  {
+    "id": "wiki-sima-yi-sima-lun-father-son",
+    "source": "sima-yi",
+    "target": "sima-lun",
+    "type": "father-son",
+    "label": "父子",
+    "description": "司马懿为司馬倫之父",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Lun"
+    ]
+  },
+  {
+    "id": "wiki-sima-fang-sima-yi-father-son",
+    "source": "sima-fang",
+    "target": "sima-yi",
+    "type": "father-son",
+    "label": "父子",
+    "description": "司馬防为司马懿之父",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Yi"
+    ]
+  },
+  {
+    "id": "wiki-sima-yi-sima-zhou-father-son",
+    "source": "sima-yi",
+    "target": "sima-zhou",
+    "type": "father-son",
+    "label": "父子",
+    "description": "司马懿之子司馬伷",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Yi"
+    ]
+  },
+  {
+    "id": "wiki-du-yu-sima-yi-mother-son",
+    "source": "du-yu",
+    "target": "sima-yi",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "杜预为司马懿之母",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Yi"
+    ]
+  },
+  {
+    "id": "wiki-cao-hong-xun-can-father-son",
+    "source": "cao-hong",
+    "target": "xun-can",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹洪之子荀粲",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Hong"
+    ]
+  },
+  {
+    "id": "wiki-yang-hong-yuanshu-yuan-shao-brothers",
+    "source": "yang-hong-yuanshu",
+    "target": "yuan-shao",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "杨弘与袁绍为兄弟",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shao"
+    ]
+  },
+  {
+    "id": "wiki-cao-cao-yuan-shao-father-son",
+    "source": "cao-cao",
+    "target": "yuan-shao",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹操为袁绍之父",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shao"
+    ]
+  },
+  {
+    "id": "wiki-yuan-shao-gongsun-kang-father-son",
+    "source": "yuan-shao",
+    "target": "gongsun-kang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "袁绍之子女公孫康",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shao"
+    ]
+  },
+  {
+    "id": "wiki-sun-hao-teng-fanglan-husband-wife",
+    "source": "sun-hao",
+    "target": "teng-fanglan",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "孙皓与滕芳蘭为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Hao"
+    ]
+  },
+  {
+    "id": "wiki-quan-huijie-sun-liang-husband-wife",
+    "source": "quan-huijie",
+    "target": "sun-liang",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "全惠解与孙亮为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Liang"
+    ]
+  },
+  {
+    "id": "wiki-sun-xiu-sun-luyu-father-son",
+    "source": "sun-xiu",
+    "target": "sun-luyu",
+    "type": "father-son",
+    "label": "父子",
+    "description": "孙休之子女孙鲁育",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sun_Xiu_(emperor)"
+    ]
+  },
+  {
+    "id": "wiki-wang-yuanji-sima-yan-mother-son",
+    "source": "wang-yuanji",
+    "target": "sima-yan",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "王元姬为司马炎之母",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Emperor_Wu_of_Jin"
+    ]
+  },
+  {
+    "id": "wiki-cao-fang-empress-zhang-1-husband-wife",
+    "source": "cao-fang",
+    "target": "empress-zhang-1",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "曹芳与张皇后为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Fang"
+    ]
+  },
+  {
+    "id": "wiki-xun-yu-chen-tai-father-son",
+    "source": "xun-yu",
+    "target": "chen-tai",
+    "type": "father-son",
+    "label": "父子",
+    "description": "荀彧为陈泰之父",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Tai"
+    ]
+  },
+  {
+    "id": "wiki-cao-xi-cao-shuang-father-son",
+    "source": "cao-xi",
+    "target": "cao-shuang",
+    "type": "father-son",
+    "label": "父子",
+    "description": "曹羲之子曹爽",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Xi"
+    ]
+  },
+  {
+    "id": "wiki-zhang-ji-derong-zhang-ji-jingzhong-father-son",
+    "source": "zhang-ji-derong",
+    "target": "zhang-ji-jingzhong",
+    "type": "father-son",
+    "label": "父子",
+    "description": "张既之子张缉",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Zhang_Ji_(Derong)"
+    ]
+  },
+  {
+    "id": "wiki-empress-dowager-dong-han-lingdi-mother-son",
+    "source": "empress-dowager-dong",
+    "target": "han-lingdi",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "董太后为汉灵帝之母",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Emperor_Ling_of_Han"
+    ]
+  },
+  {
+    "id": "wiki-han-lingdi-he-taihou-husband-wife",
+    "source": "han-lingdi",
+    "target": "he-taihou",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "汉灵帝与何太后为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Emperor_Ling_of_Han"
+    ]
+  },
+  {
+    "id": "wiki-han-lingdi-liu-bian-father-son",
+    "source": "han-lingdi",
+    "target": "liu-bian",
+    "type": "father-son",
+    "label": "父子",
+    "description": "汉灵帝之子劉辯",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Emperor_Ling_of_Han"
+    ]
+  },
+  {
+    "id": "wiki-dong-zhuo-niu-fu-father-son",
+    "source": "dong-zhuo",
+    "target": "niu-fu",
+    "type": "father-son",
+    "label": "父子",
+    "description": "董卓之子牛辅",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Zhuo"
+    ]
+  },
+  {
+    "id": "wiki-dong-zhuo-han-xiandi-brothers",
+    "source": "dong-zhuo",
+    "target": "han-xiandi",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "董卓与汉献帝为兄弟",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Zhuo"
+    ]
+  },
+  {
+    "id": "wiki-dong-zhuo-l-bu-brothers",
+    "source": "dong-zhuo",
+    "target": "l-bu",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "董卓与呂布为兄弟",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Zhuo"
+    ]
+  },
+  {
+    "id": "wiki-sima-zhao-wang-yuanji-husband-wife",
+    "source": "sima-zhao",
+    "target": "wang-yuanji",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "司马昭与王元姬为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Zhao"
+    ]
+  },
+  {
+    "id": "wiki-sima-zhao-sima-you-father-son",
+    "source": "sima-zhao",
+    "target": "sima-you",
+    "type": "father-son",
+    "label": "父子",
+    "description": "司马昭之子司馬攸",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Zhao"
+    ]
+  },
+  {
+    "id": "wiki-he-taihou-liu-bian-mother-son",
+    "source": "he-taihou",
+    "target": "liu-bian",
+    "type": "mother-son",
+    "label": "母子",
+    "description": "何太后为劉辯之母",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liu_Bian"
+    ]
+  },
+  {
+    "id": "wiki-gongsun-zan-yang-hong-yuanshu-brothers",
+    "source": "gongsun-zan",
+    "target": "yang-hong-yuanshu",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "公孙瓒与杨弘为兄弟",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Zan"
+    ]
+  },
+  {
+    "id": "wiki-gongsun-zan-yuan-shao-brothers",
+    "source": "gongsun-zan",
+    "target": "yuan-shao",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "公孙瓒与袁绍为兄弟",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Zan"
+    ]
+  },
+  {
+    "id": "wiki-gongsun-zan-sun-jian-brothers",
+    "source": "gongsun-zan",
+    "target": "sun-jian",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "公孙瓒与孙坚为兄弟",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Zan"
+    ]
+  },
+  {
+    "id": "wiki-dong-zhuo-gongsun-zan-brothers",
+    "source": "dong-zhuo",
+    "target": "gongsun-zan",
+    "type": "brothers",
+    "label": "兄弟",
+    "description": "董卓与公孙瓒为兄弟",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gongsun_Zan"
+    ]
+  },
+  {
+    "id": "wiki-sun-fen-yuan-shu-husband-wife",
+    "source": "sun-fen",
+    "target": "yuan-shu",
+    "type": "husband-wife",
+    "label": "夫妻",
+    "description": "孙奋与袁术为夫妻",
+    "bidirectional": true,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shu"
+    ]
+  },
+  {
+    "id": "wiki-yang-biao-yuan-shu-father-son",
+    "source": "yang-biao",
+    "target": "yuan-shu",
+    "type": "father-son",
+    "label": "父子",
+    "description": "杨彪为袁术之父",
+    "bidirectional": false,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yuan_Shu"
+    ]
   }
 ]
