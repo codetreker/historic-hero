@@ -878,7 +878,7 @@
     "name": "司马懿",
     "courtesy_name": "仲达",
     "title": "宣帝",
-    "faction": "jin",
+    "faction": "wei",
     "roles": [
       "strategist",
       "general",
@@ -1553,7 +1553,7 @@
     "name": "司马师",
     "courtesy_name": "子元",
     "title": "景帝",
-    "faction": "jin",
+    "faction": "wei",
     "roles": [
       "general",
       "minister"
@@ -1571,7 +1571,7 @@
     "name": "司马昭",
     "courtesy_name": "子上",
     "title": "文帝",
-    "faction": "jin",
+    "faction": "wei",
     "roles": [
       "general",
       "minister"
@@ -2369,7 +2369,8 @@
     "title": "壮缪侯",
     "faction": "shu",
     "roles": [
-      "general"
+      "general",
+      "warlord"
     ],
     "birth_year": null,
     "death_year": 219,
@@ -2386,7 +2387,8 @@
     "title": "桓侯",
     "faction": "shu",
     "roles": [
-      "general"
+      "general",
+      "warlord"
     ],
     "birth_year": null,
     "death_year": 221,
@@ -2403,7 +2405,8 @@
     "title": "顺平侯",
     "faction": "shu",
     "roles": [
-      "general"
+      "general",
+      "warlord"
     ],
     "birth_year": null,
     "death_year": 229,
@@ -2420,7 +2423,8 @@
     "title": "刚侯",
     "faction": "shu",
     "roles": [
-      "general"
+      "general",
+      "warlord"
     ],
     "birth_year": null,
     "death_year": 220,
@@ -2437,7 +2441,8 @@
     "title": "威侯",
     "faction": "shu",
     "roles": [
-      "general"
+      "general",
+      "warlord"
     ],
     "birth_year": 176,
     "death_year": 222,
@@ -3918,8 +3923,7 @@
     "title": null,
     "faction": "shu",
     "roles": [
-      "minister",
-      "warlord"
+      "minister"
     ],
     "birth_year": null,
     "death_year": null,
@@ -3936,8 +3940,7 @@
     "title": null,
     "faction": "shu",
     "roles": [
-      "minister",
-      "warlord"
+      "minister"
     ],
     "birth_year": null,
     "death_year": null,
