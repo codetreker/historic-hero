@@ -14,6 +14,7 @@ export interface AppState {
   drawerMode: 'person' | 'event';
   viewMode: 'overview' | 'faction-detail';
   expandedFaction: Faction | null;
+  expandedPersonId: string | null;
 }
 
 type Action =
@@ -29,7 +30,8 @@ type Action =
   | { type: 'CLEAR_FILTERS' }
   | { type: 'SET_VIEW_MODE'; payload: 'overview' | 'faction-detail' }
   | { type: 'EXPAND_FACTION'; payload: Faction }
-  | { type: 'BACK_TO_OVERVIEW' };
+  | { type: 'BACK_TO_OVERVIEW' }
+  | { type: 'SET_EXPANDED_PERSON'; payload: string | null };
 
 const initialState: AppState = {
   selectedFactions: ['wei'],
@@ -44,6 +46,7 @@ const initialState: AppState = {
   drawerMode: 'person',
   viewMode: 'overview',
   expandedFaction: null,
+  expandedPersonId: null,
 };
 
 function reducer(state: AppState, action: Action): AppState {
@@ -93,7 +96,9 @@ function reducer(state: AppState, action: Action): AppState {
     case 'EXPAND_FACTION':
       return { ...state, viewMode: 'faction-detail', expandedFaction: action.payload, selectedFactions: [action.payload] };
     case 'BACK_TO_OVERVIEW':
-      return { ...state, viewMode: 'overview', expandedFaction: null, highlightedPersonId: null, selectedPerson: null, drawerVisible: false };
+      return { ...state, viewMode: 'overview', expandedFaction: null, expandedPersonId: null, highlightedPersonId: null, selectedPerson: null, drawerVisible: false };
+    case 'SET_EXPANDED_PERSON':
+      return { ...state, expandedPersonId: action.payload };
     default:
       return state;
   }

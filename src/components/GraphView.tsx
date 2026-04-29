@@ -115,9 +115,24 @@ function getFactionDetailData(faction: Faction, state: AppState) {
     factionPersons = factionPersons.filter(p => p.roles.some(r => state.selectedRoles.includes(r)));
   }
 
-  const ids = new Set(factionPersons.map(p => p.id));
+  const coreIds = new Set(factionPersons.map(p => p.id));
 
-  let rels = relationships.filter(r => ids.has(r.source) && ids.has(r.target));
+  let neighborPersons: Person[] = [];
+  const neighborIds = new Set<string>();
+  if (state.expandedPersonId && coreIds.has(state.expandedPersonId)) {
+    (relsByPerson[state.expandedPersonId] || []).forEach(r => {
+      const otherId = r.source === state.expandedPersonId ? r.target : r.source;
+      if (!coreIds.has(otherId) && !neighborIds.has(otherId)) {
+        neighborIds.add(otherId);
+        const p = personMap[otherId];
+        if (p) neighborPersons.push(p);
+      }
+    });
+  }
+
+  const allIds = new Set([...coreIds, ...neighborIds]);
+
+  let rels = relationships.filter(r => allIds.has(r.source) && allIds.has(r.target));
   if (state.selectedRelTypes.length > 0) {
     rels = rels.filter(r => state.selectedRelTypes.includes(r.type));
   }
@@ -128,7 +143,7 @@ function getFactionDetailData(faction: Faction, state: AppState) {
     const isCore = degree >= 10;
     return {
       id: p.id,
-      data: { name: p.name, faction: p.faction, degree },
+      data: { name: p.name, faction: p.faction, degree, isNeighbor: false },
       style: {
         size: isCore ? Math.max(20, Math.min(35, degree * 3 + 15)) : 14,
         fill: isCore ? FACTION_CONFIG[p.faction].color : FACTION_CONFIG[p.faction].color,
@@ -142,6 +157,24 @@ function getFactionDetailData(faction: Faction, state: AppState) {
         labelPlacement: 'bottom' as const,
       },
     };
+  });
+
+  neighborPersons.forEach(p => {
+    nodes.push({
+      id: p.id,
+      data: { name: p.name, faction: p.faction, degree: degreeMap[p.id] || 0, isNeighbor: true },
+      style: {
+        size: 12,
+        fill: FACTION_CONFIG[p.faction].color,
+        opacity: 0.5,
+        stroke: '#fff',
+        lineWidth: 1,
+        labelText: p.name,
+        labelFontSize: 9,
+        labelFill: '#999',
+        labelPlacement: 'bottom' as const,
+      },
+    });
   });
 
   const edges: EdgeData[] = rels.map(r => ({
@@ -197,8 +230,8 @@ export default function GraphView() {
   }, []);
 
   const filterKey = useMemo(
-    () => JSON.stringify([state.viewMode, state.expandedFaction, state.selectedFactions, state.selectedRoles, state.selectedRelTypes, state.timeRange]),
-    [state.viewMode, state.expandedFaction, state.selectedFactions, state.selectedRoles, state.selectedRelTypes, state.timeRange]
+    () => JSON.stringify([state.viewMode, state.expandedFaction, state.selectedFactions, state.selectedRoles, state.selectedRelTypes, state.timeRange, state.expandedPersonId]),
+    [state.viewMode, state.expandedFaction, state.selectedFactions, state.selectedRoles, state.selectedRelTypes, state.timeRange, state.expandedPersonId]
   );
 
   useEffect(() => {
@@ -241,7 +274,11 @@ export default function GraphView() {
       });
 
       graph.on('node:click', (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
-        const id = event?.target?.id as string;
+        const nodeData = graph.getNodeData().find((n: NodeData) => {
+          const el = event?.target;
+          return el?.id === n.id || el?.parentElement?.id === n.id;
+        });
+        const id = nodeData?.id as string ?? event?.target?.id as string;
         if (id?.startsWith('faction-')) {
           const faction = id.replace('faction-', '') as Faction;
           dispatchRef.current({ type: 'EXPAND_FACTION', payload: faction });
