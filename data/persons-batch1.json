@@ -1,0 +1,707 @@
+[
+  {
+    "id": "bao-xin",
+    "name": "鲍信",
+    "courtesy_name": "允诚",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": 152,
+    "death_year": 192,
+    "birth_place": "泰山平阳",
+    "description": "东汉末年将领，与曹操交好。讨伐董卓联军成员之一，后在与黄巾军作战中阵亡。曹操为其深感悲痛。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Bao_Xin"
+    ]
+  },
+  {
+    "id": "bao-xun",
+    "name": "鲍勋",
+    "courtesy_name": "叔业",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 226,
+    "birth_place": "泰山平阳",
+    "description": "鲍信之子，曹魏官员。性格刚直不阿，多次直言进谏，最终因得罪曹丕而被处死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Bao_Xun"
+    ]
+  },
+  {
+    "id": "bian-zhang",
+    "name": "边章",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "金城",
+    "description": "东汉末年凉州叛乱首领之一，与韩遂共同起兵反汉。后被韩遂所杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Bian_Zhang"
+    ]
+  },
+  {
+    "id": "bing-yuan",
+    "name": "邴原",
+    "courtesy_name": "根矩",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "北海朱虚",
+    "description": "东汉末年名士，与管宁、华歆并称一龙。品行高洁，不慕权贵，曹操敬重其人。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Bing_Yuan"
+    ]
+  },
+  {
+    "id": "bu-lianshi",
+    "name": "步练师",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": 238,
+    "birth_place": "临淮淮阴",
+    "description": "孙权宠妃，步骘同族。深受宠爱，死后追封为皇后。步氏端庄贤淑，不争宠位。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Bu_Lianshi"
+    ]
+  },
+  {
+    "id": "budugen",
+    "name": "步度根",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "tribal_leader"
+    ],
+    "birth_year": null,
+    "death_year": 233,
+    "birth_place": null,
+    "description": "鲜卑族首领，轲比能的对手。与曹魏时有合作时有冲突，最终被轲比能所杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Budugen"
+    ]
+  },
+  {
+    "id": "beigong-boyu",
+    "name": "北宫伯玉",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "rebel"
+    ],
+    "birth_year": null,
+    "death_year": 186,
+    "birth_place": "湟中",
+    "description": "东汉末年凉州羌族叛乱首领，发动凉州之乱。后被韩遂等人所杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Liang_Province_rebellion"
+    ]
+  },
+  {
+    "id": "bi-chen",
+    "name": "毕谌",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "东平",
+    "description": "曹操谋臣。初随张邈叛曹操，后被曹操所获。曹操赞其至孝而赦免并任用。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Bi_Chen"
+    ]
+  },
+  {
+    "id": "bian-rang",
+    "name": "边让",
+    "courtesy_name": "文礼",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": 194,
+    "birth_place": "陈留浚仪",
+    "description": "东汉末年文学家，才华横溢。因言语得罪曹操而被杀，其死引发陈宫等人离叛曹操。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Bian_Rang"
+    ]
+  },
+  {
+    "id": "bei-yan",
+    "name": "卑衍",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "公孙渊部将，在司马懿征辽东之战中抵抗魏军，最终兵败。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Sima_Yi%27s_Liaodong_campaign"
+    ]
+  },
+  {
+    "id": "cai-yang",
+    "name": "蔡阳",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 201,
+    "birth_place": null,
+    "description": "曹操部将，在汝南追击刘备。《三国演义》中被关羽所杀。历史上为刘备军所败而死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(C)"
+    ]
+  },
+  {
+    "id": "cao-bao",
+    "name": "曹豹",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 196,
+    "birth_place": null,
+    "description": "陶谦部将，后投吕布。在吕布夺取徐州时发挥关键作用，后死于战乱中。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Bao"
+    ]
+  },
+  {
+    "id": "cao-buxing",
+    "name": "曹不兴",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "吴兴",
+    "description": "三国时东吴画家，擅画人物佛像。与皇象等并称吴之八绝，为中国绘画史上重要人物。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Buxing"
+    ]
+  },
+  {
+    "id": "cao-teng",
+    "name": "曹腾",
+    "courtesy_name": "季兴",
+    "title": null,
+    "faction": "han",
+    "roles": [
+      "eunuch"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "沛国谯县",
+    "description": "东汉宦官，曹操养祖父（曹嵩养父）。在宫中历事四帝，为人谨慎持重。曹丕追尊为高皇帝。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Cao_Teng"
+    ]
+  },
+  {
+    "id": "chen-deng",
+    "name": "陈登",
+    "courtesy_name": "元龙",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "下邳",
+    "description": "东汉末年名士，先后事陶谦、刘备、吕布、曹操。足智多谋，善于审时度势，助曹操平定徐州。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Deng"
+    ]
+  },
+  {
+    "id": "chen-gui",
+    "name": "陈珪",
+    "courtesy_name": "汉瑜",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "下邳",
+    "description": "陈登之父，东汉末年名士。与子陈登共谋助曹操对抗吕布，智谋出众。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Gui"
+    ]
+  },
+  {
+    "id": "chen-jiao",
+    "name": "陈矫",
+    "courtesy_name": "季弼",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 237,
+    "birth_place": "广陵东阳",
+    "description": "曹魏重臣，历仕曹操、曹丕、曹叡三代。为官清正，处事果断。官至司徒。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Jiao"
+    ]
+  },
+  {
+    "id": "chen-lan",
+    "name": "陈兰",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 209,
+    "birth_place": "庐江",
+    "description": "袁术旧部，据灊山为寇。后被张辽、臧霸等人讨平而死。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(C)"
+    ]
+  },
+  {
+    "id": "chen-shou",
+    "name": "陈寿",
+    "courtesy_name": "承祚",
+    "title": null,
+    "faction": "jin",
+    "roles": [
+      "scholar"
+    ],
+    "birth_year": 233,
+    "death_year": 297,
+    "birth_place": "巴西安汉",
+    "description": "蜀汉至西晋史学家，《三国志》作者。此书为研究三国历史最重要的史料来源。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chen_Shou"
+    ]
+  },
+  {
+    "id": "chen-zhen",
+    "name": "陈震",
+    "courtesy_name": "孝起",
+    "title": null,
+    "faction": "shu",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 235,
+    "birth_place": "南阳",
+    "description": "蜀汉官员，忠诚可靠。曾出使东吴加强孙刘联盟，诸葛亮称其为人忠厚朴实。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(C)"
+    ]
+  },
+  {
+    "id": "cheng-bing",
+    "name": "程秉",
+    "courtesy_name": "德枢",
+    "title": null,
+    "faction": "wu",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "汝南南顿",
+    "description": "东吴学者官员，精通五经。曾任太子太傅，教导孙登。学识渊博，名重一时。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(C)"
+    ]
+  },
+  {
+    "id": "cheng-yin",
+    "name": "程银",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "河东",
+    "description": "关中联军成员之一，后归降曹操。参与潼关之战对抗曹操，兵败后投降张鲁，最终归魏。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(C)"
+    ]
+  },
+  {
+    "id": "cheng-wu",
+    "name": "程武",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "东郡东阿",
+    "description": "程昱之子，继承父业仕于曹魏。官至安乡侯，延续了程昱家族在魏国的政治影响力。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(C)"
+    ]
+  },
+  {
+    "id": "che-zhou",
+    "name": "车胄",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": 200,
+    "birth_place": "弘农华阴",
+    "description": "曹操任命的徐州刺史。被刘备所杀，刘备遂据徐州叛曹操。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Che_Zhou"
+    ]
+  },
+  {
+    "id": "dai-ling",
+    "name": "戴陵",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "曹魏将领，曾直言劝谏曹叡减少游猎，因此被降职。刚正不阿。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dai_Ling"
+    ]
+  },
+  {
+    "id": "deng-xian",
+    "name": "邓贤",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "shu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "先事刘璋后降刘备的将领。在刘备入蜀之战中投降，后为蜀汉效力。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(D)"
+    ]
+  },
+  {
+    "id": "deng-tong",
+    "name": "邓铜",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "shu",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "蜀汉将领，参与诸葛亮北伐。在蜀汉军事行动中有所建功。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(D)"
+    ]
+  },
+  {
+    "id": "dian-man",
+    "name": "典满",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "陈留己吾",
+    "description": "典韦之子，因父亲功勋被封为关内侯。在曹魏军中任职，延续父亲的武将家风。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dian_Man"
+    ]
+  },
+  {
+    "id": "ding-yi-politician",
+    "name": "丁仪",
+    "courtesy_name": "正礼",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician",
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": 220,
+    "birth_place": "沛",
+    "description": "曹植的支持者，因曹丕即位而被处死。才学出众，曹操曾欲将女儿嫁予他。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Ding_Yi_(Han_dynasty)"
+    ]
+  },
+  {
+    "id": "dong-bai",
+    "name": "董白",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "noble"
+    ],
+    "birth_year": null,
+    "death_year": 192,
+    "birth_place": "陇西临洮",
+    "description": "董卓孙女，年幼即被封为渭阳君。董卓被杀后命运不详。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(D)"
+    ]
+  },
+  {
+    "id": "dong-min",
+    "name": "董旻",
+    "courtesy_name": "叔颖",
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 192,
+    "birth_place": "陇西临洮",
+    "description": "董卓之弟，随兄专权。董卓被杀后亦被诛杀。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Min"
+    ]
+  },
+  {
+    "id": "dong-feng-physician",
+    "name": "董奉",
+    "courtesy_name": "君异",
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "scholar"
+    ],
+    "birth_year": 220,
+    "death_year": 280,
+    "birth_place": "侯官",
+    "description": "三国时名医，与张仲景、华佗并称建安三神医。治病不收费，令病者种杏树，传为杏林佳话。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Feng_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "dong-yue",
+    "name": "董越",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": 192,
+    "birth_place": null,
+    "description": "董卓部将，统领董卓军精锐部队。董卓死后，被李傕等人袭杀夺其军队。是董卓军事集团的重要成员。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(D)"
+    ]
+  },
+  {
+    "id": "dong-zhao",
+    "name": "董昭",
+    "courtesy_name": "公仁",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "politician"
+    ],
+    "birth_year": 156,
+    "death_year": 236,
+    "birth_place": "济阴定陶",
+    "description": "曹魏重要谋臣，最早建议曹操迎汉献帝至许都。历仕多主最终归曹，官至司徒。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Dong_Zhao_(Three_Kingdoms)"
+    ]
+  },
+  {
+    "id": "dou-fu",
+    "name": "窦辅",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 167,
+    "death_year": 211,
+    "birth_place": null,
+    "description": "曹操部将。早年流落荆州依附刘表，后归曹操，随军征伐。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(D)"
+    ]
+  },
+  {
+    "id": "du-shu",
+    "name": "杜恕",
+    "courtesy_name": "务伯",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": 198,
+    "death_year": 252,
+    "birth_place": "京兆杜陵",
+    "description": "杜畿之子，曹魏官员。性格刚直，多次进谏，因此屡遭贬黜。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Du_Shu"
+    ]
+  },
+  {
+    "id": "du-xi",
+    "name": "杜袭",
+    "courtesy_name": "子绪",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general",
+      "politician"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "颍川定陵",
+    "description": "曹魏将领文臣，与赵俨、繁钦并称颍川三杰。历仕曹操至曹叡，多有功勋。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Du_Xi"
+    ]
+  },
+  {
+    "id": "du-kui",
+    "name": "杜夔",
+    "courtesy_name": "公良",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "scholar"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": "河南",
+    "description": "曹魏音乐家，精通音律。曾为刘表效力，后归曹操。恢复雅乐制度有重大贡献。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Du_Kui"
+    ]
+  },
+  {
+    "id": "duan-wei",
+    "name": "段煨",
+    "courtesy_name": "忠明",
+    "title": null,
+    "faction": "wei",
+    "roles": [
+      "general"
+    ],
+    "birth_year": 148,
+    "death_year": 209,
+    "birth_place": "武威",
+    "description": "先为董卓部将，后归顺朝廷效忠曹操。为人宽厚，治理关中有方。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(D)"
+    ]
+  },
+  {
+    "id": "ehe",
+    "name": "俄何",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "羌族将领，三国时期活跃于西北边疆的少数民族武装首领，参与了凉州地区的多次军事冲突。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(E)"
+    ]
+  },
+  {
+    "id": "ezhesai",
+    "name": "蛾遮塞",
+    "courtesy_name": null,
+    "title": null,
+    "faction": "other",
+    "roles": [
+      "general"
+    ],
+    "birth_year": null,
+    "death_year": null,
+    "birth_place": null,
+    "description": "羌族将领，三国时期西北地区的少数民族武装首领。烧当羌后裔，参与了凉州地区的边疆冲突。",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/List_of_people_of_the_Three_Kingdoms_(E)"
+    ]
+  }
+]
