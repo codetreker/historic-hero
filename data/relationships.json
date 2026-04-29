@@ -26668,5 +26668,75 @@
       "https://zh.wikipedia.org/wiki/孙翊",
       "https://zh.wikipedia.org/wiki/妫览"
     ]
+  },
+  {
+    "id": "rel-1667",
+    "source": "guo-jia",
+    "target": "yuan-shao",
+    "type": "rivals",
+    "label": "对手",
+    "description": "郭嘉为曹操出谋官渡之战击败袁绍",
+    "bidirectional": true,
+    "start_year": 200,
+    "end_year": 200,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/郭嘉"
+    ]
+  },
+  {
+    "id": "rel-1668",
+    "source": "guo-jia",
+    "target": "lv-bu",
+    "type": "rivals",
+    "label": "对手",
+    "description": "郭嘉献计水淹下邳擒吕布",
+    "bidirectional": true,
+    "start_year": 198,
+    "end_year": 199,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/郭嘉"
+    ]
+  },
+  {
+    "id": "rel-1669",
+    "source": "guo-jia",
+    "target": "cao-cao",
+    "type": "master-student",
+    "label": "师徒",
+    "description": "曹操视郭嘉为最信任的谋士",
+    "bidirectional": false,
+    "start_year": 196,
+    "end_year": 207,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/郭嘉"
+    ]
+  },
+  {
+    "id": "rel-1670",
+    "source": "guo-jia",
+    "target": "liu-bei",
+    "type": "rivals",
+    "label": "对手",
+    "description": "郭嘉建议曹操不放刘备",
+    "bidirectional": true,
+    "start_year": 198,
+    "end_year": 207,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/郭嘉"
+    ]
+  },
+  {
+    "id": "rel-1671",
+    "source": "guo-jia",
+    "target": "sun-ce",
+    "type": "rivals",
+    "label": "对手",
+    "description": "郭嘉预言孙策必死于匹夫之手",
+    "bidirectional": true,
+    "start_year": 200,
+    "end_year": 200,
+    "source_urls": [
+      "https://zh.wikipedia.org/wiki/郭嘉"
+    ]
   }
 ]

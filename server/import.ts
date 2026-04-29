@@ -67,7 +67,7 @@ db.exec(`
 `);
 
 const ROLE_WEIGHTS: Record<string, number> = {
-  emperor: 100, warlord: 80, strategist: 60, advisor: 60,
+  emperor: 100, warlord: 80, strategist: 65, advisor: 65,
   regent: 50, politician: 45, minister: 40, general: 30,
   noble: 20, scholar: 20, consort: 15, poet: 15,
   calligrapher: 10, musician: 10, rebel: 10, foreigner: 10,
@@ -121,7 +121,7 @@ persons.forEach(p => {
   let score = 0;
   p.roles.forEach(r => { score += ROLE_WEIGHTS[r] || 10; });
   const personRels = relationships.filter(r => r.source === p.id || r.target === p.id);
-  personRels.forEach(r => { score += (REL_WEIGHTS[r.type] || 0) * 3; }); // ×3 weight for relationships
+  personRels.forEach(r => { score += (REL_WEIGHTS[r.type] || 0) * 4; }); // ×4 weight for relationships
   // Penalize persons with zero relationships (likely minor/empty records)
   if (personRels.length === 0) score = Math.floor(score * 0.3);
   importanceMap[p.id] = score;

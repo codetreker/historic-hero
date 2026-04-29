@@ -46,7 +46,7 @@ router.get('/', (_req, res) => {
 
 router.get('/:faction/top', (req, res) => {
   const { faction } = req.params;
-  const limit = Math.min(parseInt(req.query.limit as string) || 17, 50);
+  const limit = Math.min(parseInt(req.query.limit as string) || 15, 50);
 
   const nativePersons = db.prepare(
     'SELECT * FROM persons WHERE faction = ? ORDER BY importance_score DESC LIMIT ?'
