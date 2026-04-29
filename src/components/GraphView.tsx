@@ -361,11 +361,36 @@ export default function GraphView() {
       });
 
       graph.on('node:click', (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any
-        const id = event?.target?.id;
-        if (id) {
-          const person = personMap[id];
-          if (person) handlePersonClick(person);
+        let id = event?.target?.id;
+        if (!id || !personMap[id]) {
+          const el = event?.target?.parentElement;
+          if (el?.id && personMap[el.id]) id = el.id;
         }
+        if (!id || !personMap[id]) {
+          const allNodes = graph.getNodeData();
+          for (const n of allNodes) {
+            if (n.id === event?.target?.id || n.id === event?.target?.parentElement?.id) {
+              id = n.id;
+              break;
+            }
+          }
+        }
+        if (id && personMap[id]) {
+          const person = personMap[id];
+          handlePersonClick(person);
+          const currentExpanded = stateRef.current.expandedPersonId;
+          if (currentExpanded === id) {
+            dispatchRef.current({ type: 'SET_EXPANDED_PERSON', payload: null });
+          } else {
+            dispatchRef.current({ type: 'SET_EXPANDED_PERSON', payload: id });
+          }
+        }
+      });
+
+      graph.on('canvas:click', () => {
+        dispatchRef.current({ type: 'SET_EXPANDED_PERSON', payload: null });
+        dispatchRef.current({ type: 'SET_HIGHLIGHT', payload: null });
+        dispatchRef.current({ type: 'SET_SELECTED_PERSON', payload: null });
       });
 
       graph.on('node:mouseenter', (event: any) => { // eslint-disable-line @typescript-eslint/no-explicit-any

@@ -41,10 +41,19 @@ persons.forEach(p => {
 export const relTypeCounts: Record<string, number> = {};
 relationships.forEach(r => { relTypeCounts[r.type] = (relTypeCounts[r.type] || 0) + 1; });
 
+// Meaningful degree: excludes 'colleagues' (inflated by bulk generation)
+export const meaningfulDegreeMap: Record<string, number> = {};
+relationships.forEach(r => {
+  if (r.type !== 'colleagues') {
+    meaningfulDegreeMap[r.source] = (meaningfulDegreeMap[r.source] || 0) + 1;
+    meaningfulDegreeMap[r.target] = (meaningfulDegreeMap[r.target] || 0) + 1;
+  }
+});
+
 export const factionStats: Record<Faction, { count: number; topPersons: Person[] }> = {} as any;
 (Object.keys(factionCounts) as Faction[]).forEach(f => {
   const factionPersons = persons.filter(p => p.faction === f);
-  const sorted = [...factionPersons].sort((a, b) => (degreeMap[b.id] || 0) - (degreeMap[a.id] || 0));
+  const sorted = [...factionPersons].sort((a, b) => (meaningfulDegreeMap[b.id] || 0) - (meaningfulDegreeMap[a.id] || 0));
   factionStats[f] = { count: factionPersons.length, topPersons: sorted.slice(0, 15) };
 });
 
