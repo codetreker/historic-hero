@@ -50,11 +50,53 @@ relationships.forEach(r => {
   }
 });
 
+const ROLE_WEIGHTS: Record<string, number> = {
+  emperor: 100, warlord: 80, strategist: 60, advisor: 60,
+  minister: 40, general: 30, politician: 30, scholar: 20,
+  noble: 20, consort: 15, poet: 15, regent: 50,
+  calligrapher: 10, musician: 10, rebel: 10, foreigner: 10,
+  other: 10, eunuch: 5,
+};
+
+const REL_WEIGHTS: Record<string, number> = {
+  'lord-vassal': 5, 'father-son': 5, 'rivals': 4,
+  'killed-by': 4, 'betrayal': 3, 'sworn-brothers': 3,
+  'husband-wife': 3, 'master-student': 3, 'allies': 2,
+  'brothers': 2, 'successor': 2, 'mother-son': 2,
+  'in-law': 1, 'friends': 1, 'subordinate': 1,
+  'colleagues': 0,
+};
+
+export function getImportanceScore(person: Person, rels: Relationship[]): number {
+  let score = 0;
+  person.roles.forEach(r => { score += ROLE_WEIGHTS[r] || 10; });
+  const personRels = rels.filter(r => r.source === person.id || r.target === person.id);
+  personRels.forEach(r => { score += REL_WEIGHTS[r.type] || 0; });
+  return score;
+}
+
+export const importanceMap: Record<string, number> = {};
+persons.forEach(p => { importanceMap[p.id] = getImportanceScore(p, relationships); });
+
 export const factionStats: Record<Faction, { count: number; topPersons: Person[] }> = {} as any;
 (Object.keys(factionCounts) as Faction[]).forEach(f => {
   const factionPersons = persons.filter(p => p.faction === f);
-  const sorted = [...factionPersons].sort((a, b) => (meaningfulDegreeMap[b.id] || 0) - (meaningfulDegreeMap[a.id] || 0));
-  factionStats[f] = { count: factionPersons.length, topPersons: sorted.slice(0, 15) };
+  const crossFactionCandidates = persons.filter(p => {
+    if (p.faction === f) return false;
+    const factionRels = (relsByPerson[p.id] || []).filter(r => {
+      const otherId = r.source === p.id ? r.target : r.source;
+      return personMap[otherId]?.faction === f && r.type !== 'colleagues';
+    });
+    return factionRels.length >= 8 && (importanceMap[p.id] || 0) >= 200;
+  });
+  const allCandidates = [...factionPersons, ...crossFactionCandidates];
+  const sorted = [...allCandidates].sort((a, b) => (importanceMap[b.id] || 0) - (importanceMap[a.id] || 0));
+  // Ensure cross-faction candidates make it in: reserve spots for them
+  const maxNative = 15 - crossFactionCandidates.length;
+  const nativeSorted = sorted.filter(p => p.faction === f).slice(0, maxNative);
+  const crossSorted = sorted.filter(p => p.faction !== f);
+  const topPersons = [...nativeSorted, ...crossSorted].sort((a, b) => (importanceMap[b.id] || 0) - (importanceMap[a.id] || 0));
+  factionStats[f] = { count: factionPersons.length, topPersons };
 });
 
 export const crossFactionRels: { source: Faction; target: Faction; count: number }[] = [];
