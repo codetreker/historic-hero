@@ -7,7 +7,7 @@ import { useApp } from '../context/AppContext';
 
 export default function SearchBar() {
   const { state, dispatch } = useApp();
-  const [options, setOptions] = useState<{ value: string; label: React.ReactNode }[]>([]);
+  const [options, setOptions] = useState<{ value: string; label: React.ReactNode; key: string }[]>([]);
 
   const handleSearch = (value: string) => {
     dispatch({ type: 'SET_SEARCH', payload: value });
@@ -17,7 +17,8 @@ export default function SearchBar() {
     }
     const results = search(value);
     setOptions(results.map(entry => ({
-      value: entry.id,
+      value: entry.name,
+      key: entry.id,
       label: (
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <span style={{ fontWeight: 500 }}>{entry.name}</span>
@@ -36,7 +37,9 @@ export default function SearchBar() {
     })));
   };
 
-  const handleSelect = (personId: string) => {
+  const handleSelect = (_value: string, option: { key?: string }) => {
+    const personId = option.key;
+    if (!personId) return;
     const person = personMap[personId];
     if (!person) return;
 
