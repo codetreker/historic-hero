@@ -6,7 +6,6 @@ import type { Person, Faction } from '../types';
 import type { NodeData, EdgeData } from '@antv/g6';
 import { useApp, type AppState } from '../context/AppContext';
 import { Button } from 'antd';
-import { ArrowLeftOutlined } from '@ant-design/icons';
 
 const RELATION_COLORS: Record<string, string> = {
   'lord-vassal': '#1677ff',
@@ -367,6 +366,14 @@ export default function GraphView() {
             dispatchRef.current({ type: 'SET_EXPANDED_PERSON', payload: null });
           } else {
             dispatchRef.current({ type: 'SET_EXPANDED_PERSON', payload: id });
+            // Center the clicked person after graph re-renders
+            setTimeout(() => {
+              try {
+                if (graphRef.current && renderedRef.current && !destroyedRef.current) {
+                  graphRef.current.focusElement(id);
+                }
+              } catch { /* noop */ }
+            }, 500);
           }
         }
       });
@@ -445,24 +452,49 @@ export default function GraphView() {
     <div style={{ width: '100%', height: '100%', position: 'relative' }}>
       <div ref={containerRef} style={{ width: '100%', height: '100%' }} />
       {state.viewMode === 'faction-detail' && (
-        <Button
-          type="link"
-          icon={<ArrowLeftOutlined />}
-          onClick={() => dispatch({ type: 'BACK_TO_OVERVIEW' })}
-          style={{
-            position: 'absolute',
-            top: 12,
-            right: 12,
-            zIndex: 10,
-            fontSize: 14,
-            fontWeight: 500,
-            background: 'rgba(255,255,255,0.9)',
-            borderRadius: 6,
-            boxShadow: '0 1px 4px rgba(0,0,0,0.1)',
-          }}
-        >
-          返回总览
-        </Button>
+        <div style={{
+          position: 'absolute',
+          top: 12,
+          right: 12,
+          zIndex: 10,
+          display: 'flex',
+          gap: 8,
+          background: 'rgba(255,255,255,0.9)',
+          borderRadius: 6,
+          padding: '4px 8px',
+        }}>
+          <Button
+            type="link"
+            size="small"
+            onClick={() => dispatch({ type: 'BACK_TO_OVERVIEW' })}
+            style={{ fontSize: 13, padding: 0 }}
+          >
+            总览
+          </Button>
+          {state.expandedFaction && (
+            <>
+              <span style={{ color: '#999', fontSize: 13 }}>&gt;</span>
+              <Button
+                type="link"
+                size="small"
+                onClick={() => {
+                  dispatch({ type: 'SET_EXPANDED_PERSON', payload: null });
+                }}
+                style={{ fontSize: 13, padding: 0 }}
+              >
+                {FACTION_CONFIG[state.expandedFaction]?.label}
+              </Button>
+            </>
+          )}
+          {state.expandedPersonId && personMap[state.expandedPersonId] && (
+            <>
+              <span style={{ color: '#999', fontSize: 13 }}>&gt;</span>
+              <span style={{ fontSize: 13, fontWeight: 500 }}>
+                {personMap[state.expandedPersonId].name}
+              </span>
+            </>
+          )}
+        </div>
       )}
     </div>
   );
