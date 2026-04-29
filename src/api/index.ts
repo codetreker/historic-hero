@@ -73,4 +73,7 @@ export const api = {
 
   getEvent: (id: string) =>
     get<EventDetail>(`/events/${id}`),
+
+  getStats: () =>
+    get<{ roleCounts: Record<string, number>; relTypeCounts: Record<string, number> }>('/factions/stats'),
 };

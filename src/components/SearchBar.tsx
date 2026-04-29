@@ -62,10 +62,12 @@ export default function SearchBar() {
 
     dispatch({ type: 'SET_EXPANDED_PERSON', payload: person.id });
     dispatch({ type: 'SET_SELECTED_PERSON', payload: person });
+    dispatch({ type: 'SET_SEARCH', payload: person.name });
   };
 
   return (
     <AutoComplete
+      value={state.searchQuery}
       options={options}
       onSearch={handleSearch}
       onSelect={handleSelect}

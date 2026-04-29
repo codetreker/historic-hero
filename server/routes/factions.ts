@@ -95,4 +95,19 @@ router.get('/:faction/top', (req, res) => {
   });
 });
 
+router.get('/stats', (_req, res) => {
+  const roleCounts: Record<string, number> = {};
+  const rows = db.prepare("SELECT roles FROM persons").all() as { roles: string }[];
+  rows.forEach(r => {
+    const roles = JSON.parse(r.roles || '[]') as string[];
+    roles.forEach(role => { roleCounts[role] = (roleCounts[role] || 0) + 1; });
+  });
+
+  const relTypeCounts: Record<string, number> = {};
+  const relRows = db.prepare("SELECT type, COUNT(*) as c FROM relationships GROUP BY type").all() as { type: string; c: number }[];
+  relRows.forEach(r => { relTypeCounts[r.type] = r.c; });
+
+  res.json({ roleCounts, relTypeCounts });
+});
+
 export default router;
