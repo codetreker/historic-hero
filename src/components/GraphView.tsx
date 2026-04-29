@@ -501,6 +501,14 @@ export default function GraphView() {
               graph.focusElement(ep);
             } catch { /* noop */ }
           }
+          // Re-fit after force layout stabilizes
+          setTimeout(() => {
+            try {
+              if (!destroyedRef.current && graphRef.current) {
+                graphRef.current.fitView();
+              }
+            } catch { /* noop */ }
+          }, 1500);
         }
       }).catch(() => { /* destroyed during render */ });
     }
