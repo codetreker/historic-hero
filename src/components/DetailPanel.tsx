@@ -46,9 +46,10 @@ export default function PersonDetail() {
   const handlePersonClick = (personId: string) => {
     const p = personMap[personId];
     if (p) {
-      if (!state.selectedFactions.includes(p.faction)) {
-        dispatch({ type: 'SET_FACTIONS', payload: [...state.selectedFactions, p.faction] });
+      if (state.expandedFaction !== p.faction) {
+        dispatch({ type: 'EXPAND_FACTION', payload: p.faction });
       }
+      dispatch({ type: 'SET_EXPANDED_PERSON', payload: p.id });
       dispatch({ type: 'SET_SELECTED_PERSON', payload: p });
       dispatch({ type: 'SET_HIGHLIGHT', payload: p.id });
     }

@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { AutoComplete } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
-import { search } from '../data';
-import { personMap } from '../data';
+import { search, personMap, factionStats } from '../data';
 import { FACTION_CONFIG, ROLE_CONFIG } from '../types';
 import { useApp } from '../context/AppContext';
 
@@ -43,6 +42,11 @@ export default function SearchBar() {
 
     if (state.viewMode === 'overview' || state.expandedFaction !== person.faction) {
       dispatch({ type: 'EXPAND_FACTION', payload: person.faction });
+    }
+
+    const topIds = new Set(factionStats[person.faction].topPersons.map(p => p.id));
+    if (!topIds.has(person.id)) {
+      dispatch({ type: 'SET_EXPANDED_PERSON', payload: person.id });
     }
 
     dispatch({ type: 'SET_SELECTED_PERSON', payload: person });

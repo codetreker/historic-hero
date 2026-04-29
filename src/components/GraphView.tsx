@@ -1,6 +1,6 @@
 import { useEffect, useRef, useCallback, useMemo } from 'react';
 import { Graph } from '@antv/g6';
-import { relationships, degreeMap, personMap, relsByPerson, factionStats, crossFactionRels } from '../data';
+import { relationships, personMap, relsByPerson, factionStats, crossFactionRels, importanceMap } from '../data';
 import { FACTION_CONFIG } from '../types';
 import type { Person, Faction } from '../types';
 import type { NodeData, EdgeData } from '@antv/g6';
@@ -27,32 +27,6 @@ const RELATION_DASH: Record<string, number[]> = {
   'betrayal': [4, 4],
   'allies': [8, 4],
 };
-
-const REL_PRIORITY: Record<string, number> = {
-  'father-son': 0, 'mother-son': 1, 'husband-wife': 2, 'brothers': 3,
-  'sworn-brothers': 4, 'lord-vassal': 5, 'killed-by': 6, 'betrayal': 7,
-  'rivals': 8, 'master-student': 9, 'allies': 10, 'friends': 11,
-  'in-law': 12, 'successor': 13, 'subordinate': 14, 'colleagues': 15,
-};
-
-const MAX_RELS_PER_NODE = 15;
-
-function trimRelationships(rels: typeof relationships) {
-  const sorted = [...rels].sort(
-    (a, b) => (REL_PRIORITY[a.type] ?? 99) - (REL_PRIORITY[b.type] ?? 99),
-  );
-  const count: Record<string, number> = {};
-  const result: typeof rels = [];
-  for (const r of sorted) {
-    const sc = count[r.source] ?? 0;
-    const tc = count[r.target] ?? 0;
-    if (sc >= MAX_RELS_PER_NODE && tc >= MAX_RELS_PER_NODE) continue;
-    result.push(r);
-    count[r.source] = sc + 1;
-    count[r.target] = tc + 1;
-  }
-  return result;
-}
 
 
 function getOverviewData() {
@@ -117,6 +91,15 @@ function getFactionDetailData(faction: Faction, state: AppState) {
 
   const coreIds = new Set(factionPersons.map(p => p.id));
 
+  // If a person was searched and isn't in top 15, add them temporarily
+  if (state.expandedPersonId && !coreIds.has(state.expandedPersonId)) {
+    const p = personMap[state.expandedPersonId];
+    if (p && p.faction === faction) {
+      factionPersons = [...factionPersons, p];
+      coreIds.add(p.id);
+    }
+  }
+
   let neighborPersons: Person[] = [];
   const neighborIds = new Set<string>();
   if (state.expandedPersonId && coreIds.has(state.expandedPersonId)) {
@@ -136,23 +119,24 @@ function getFactionDetailData(faction: Faction, state: AppState) {
   if (state.selectedRelTypes.length > 0) {
     rels = rels.filter(r => state.selectedRelTypes.includes(r.type));
   }
-  rels = trimRelationships(rels);
+  // No trimming — show all relationships when expanded
 
-  const nodes: NodeData[] = factionPersons.map(p => {
-    const degree = degreeMap[p.id] || 0;
-    const isCore = degree >= 10;
+  const nodes: NodeData[] = factionPersons.map((p) => {
+    const rank = factionStats[faction].topPersons.indexOf(p);
+    const isTop5 = rank >= 0 && rank < 5;
+    const isCore = rank >= 0 && rank < 15;
     return {
       id: p.id,
-      data: { name: p.name, faction: p.faction, degree, isNeighbor: false },
+      data: { name: p.name, faction: p.faction, degree: importanceMap[p.id] || 0, isNeighbor: false },
       style: {
-        size: isCore ? Math.max(20, Math.min(35, degree * 3 + 15)) : 14,
-        fill: isCore ? FACTION_CONFIG[p.faction].color : FACTION_CONFIG[p.faction].color,
-        opacity: isCore ? 1 : 0.7,
+        size: isTop5 ? 35 : (isCore ? 25 : 20),
+        fill: FACTION_CONFIG[p.faction].color,
+        opacity: isTop5 ? 1 : 0.7,
         stroke: '#fff',
-        lineWidth: isCore ? 2 : 1,
+        lineWidth: isTop5 ? 2 : 1,
         labelText: p.name,
-        labelFontSize: isCore ? 13 : 10,
-        labelFontWeight: isCore ? 'bold' : 'normal',
+        labelFontSize: isTop5 ? 14 : 11,
+        labelFontWeight: isTop5 ? 'bold' : 'normal',
         labelFill: '#333',
         labelPlacement: 'bottom' as const,
       },
@@ -162,9 +146,9 @@ function getFactionDetailData(faction: Faction, state: AppState) {
   neighborPersons.forEach(p => {
     nodes.push({
       id: p.id,
-      data: { name: p.name, faction: p.faction, degree: degreeMap[p.id] || 0, isNeighbor: true },
+      data: { name: p.name, faction: p.faction, degree: importanceMap[p.id] || 0, isNeighbor: true },
       style: {
-        size: 12,
+        size: 16,
         fill: FACTION_CONFIG[p.faction].color,
         opacity: 0.5,
         stroke: '#fff',
@@ -353,7 +337,7 @@ export default function GraphView() {
         layout: {
           type: 'd3-force',
           preventOverlap: true,
-          nodeSize: 40,
+          nodeSize: 50,
           linkDistance: 400,
           nodeStrength: -300,
         },
