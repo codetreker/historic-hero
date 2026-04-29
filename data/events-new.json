@@ -1,0 +1,3752 @@
+[
+  {
+    "id": "event-184-yellow-turban-rebellion-the-yellow-turbans-ravage-the-north-",
+    "name": "黄巾之乱",
+    "year": 184,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "184年，Yellow Turban Rebellion: The Yellow Turbans ravage the north and east and are defeated",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-184-liang-province-rebellion-a-rebellion-occurs-in-liang-provinc",
+    "name": "凉州之乱",
+    "year": 184,
+    "end_year": null,
+    "location": "凉州",
+    "type": "rebellion",
+    "description": "184年，Liang Province rebellion: A rebellion occurs in Liang province (Liangzhou; 涼州; roughly present-day Wuwei, Gansu)",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-185-the-imperial-palace-is-damaged-by-fire-and-special-taxes-are",
+    "name": "The imperial palace is damaged by fire and special taxes are levied for rebuilding",
+    "year": 185,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "185年，帝宫被火灾损毁，朝廷征收特别税进行重建。",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-188-governors-are-appointed-to-unify-provincial-administrations",
+    "name": "Governors are appointed to unify provincial administrations",
+    "year": 188,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "188年，朝廷任命州牧统一各州行政管理。",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-189-emperor-ling-of-han-dies-empress-he-and-her-brother-he-jin-e",
+    "name": "Emperor Ling of Han去世",
+    "year": 189,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "189年，汉灵帝驾崩，何皇后与其兄何进拥立刘辩并建立摄政政府。",
+    "participants": [
+      {
+        "person_id": "empress-he",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bian",
+        "role": "参与者"
+      },
+      {
+        "person_id": "he-jin",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-189-the-ten-eunuchs-kill-he-jin-and-are-themselves-massacred-by-",
+    "name": "十常侍之乱",
+    "year": 189,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "death",
+    "description": "189年，The Ten Eunuchs kill He Jin and are themselves massacred by Yuan Shao; Dong Zhuo takes control of Luoyang and deposes Liu Bian in favor of his half-brother Liu Xie, Emperor Xian of Han",
+    "participants": [
+      {
+        "person_id": "dong-zhuo",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bian",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-xie",
+        "role": "参与者"
+      },
+      {
+        "person_id": "he-jin",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-xi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "l-he",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-189-campaign-against-dong-zhuo-an-anti-dong-zhuo-alliance-forms-",
+    "name": "讨伐董卓",
+    "year": 189,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "189年，Campaign against Dong Zhuo: An anti-Dong Zhuo alliance forms in the east, led by Yuan Shao",
+    "participants": [
+      {
+        "person_id": "dong-zhuo",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-190-dong-zhuo-burns-luoyang-loots-the-imperials-tombs-and-reloca",
+    "name": "Dong Zhuo burns Luoyang, loots the imperials tombs, and relocates to Chang'an",
+    "year": 190,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "other",
+    "description": "190年，Dong Zhuo burns Luoyang, loots the imperials tombs, and relocates to Chang'an",
+    "participants": [
+      {
+        "person_id": "dong-zhuo",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-190-battle-of-xingyang-dong-zhuo-defeated-cao-cao-at-xingyang-he",
+    "name": "荥阳之战",
+    "year": 190,
+    "end_year": null,
+    "location": "荥阳",
+    "type": "battle",
+    "description": "190年，Battle of Xingyang: Dong Zhuo defeated Cao Cao at Xingyang, Henan",
+    "participants": [
+      {
+        "person_id": "dong-zhuo",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-190-the-coalition-breaks-up-and-local-officials-set-themselves-u",
+    "name": "The Coalition breaks up and local officials set themselves up as warlords",
+    "year": 190,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "190年，讨董联盟瓦解，各地官员割据自立。",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-191-battle-of-yangcheng-battle-between-yuan-shao-and-yuan-shu",
+    "name": "阳城之战",
+    "year": 191,
+    "end_year": null,
+    "location": "阳城",
+    "type": "battle",
+    "description": "191年，Battle of Yangcheng: Battle between Yuan Shao and Yuan Shu",
+    "participants": [
+      {
+        "person_id": "yuan-shao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yuan-shu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-191-battle-of-xiangyang-sun-jian-dies",
+    "name": "襄阳之战",
+    "year": 191,
+    "end_year": null,
+    "location": "襄阳",
+    "type": "battle",
+    "description": "191年，Battle of Xiangyang: Sun Jian dies.",
+    "participants": [
+      {
+        "person_id": "sun-jian",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-191-zhang-lu-sets-up-a-theocracy-in-hanzhong",
+    "name": "Zhang Lu sets up a theocracy in Hanzhong.",
+    "year": 191,
+    "end_year": null,
+    "location": "汉中",
+    "type": "other",
+    "description": "191年，Zhang Lu sets up a theocracy in Hanzhong.",
+    "participants": [
+      {
+        "person_id": "zhang-lu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-192-battle-of-changan-wang-yun-and-l-bu-kill-dong-zhuo-and-wang-",
+    "name": "长安之战",
+    "year": 192,
+    "end_year": null,
+    "location": "长安",
+    "type": "battle",
+    "description": "192年，Battle of Chang'an: Wang Yun and Lü Bu kill Dong Zhuo and Wang Yun himself is killed by Dong Zhuo's officers Li Jue and Guo Si",
+    "participants": [
+      {
+        "person_id": "dong-zhuo",
+        "role": "参与者"
+      },
+      {
+        "person_id": "wang-yun",
+        "role": "参与者"
+      },
+      {
+        "person_id": "wang-yu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "li-jue",
+        "role": "参与者"
+      },
+      {
+        "person_id": "guo-si",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-192-the-han-dynasty-scholar-cai-yong-dies",
+    "name": "The Han dynasty scholar Cai Yong去世",
+    "year": 192,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "192年，东汉学者蔡邕去世。",
+    "participants": [
+      {
+        "person_id": "cai-yong",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-193-cao-caos-invasion-of-xu-province-liu-bei-first-territory-as-",
+    "name": "曹操征徐州",
+    "year": 193,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "193年，Cao Cao's invasion of Xu Province: Liu Bei first territory as a result of Cao Cao's campaign.",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-194-battle-of-yan-province-cao-cao-takes-over-yan-province",
+    "name": "Yan Province之战",
+    "year": 194,
+    "end_year": null,
+    "location": "兖州",
+    "type": "battle",
+    "description": "194年，Battle of Yan Province: Cao Cao takes over Yan Province.",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-195-emperor-xian-of-han-escapes-from-changan",
+    "name": "Emperor Xian of Han escapes from Chang'an",
+    "year": 195,
+    "end_year": null,
+    "location": "长安",
+    "type": "succession",
+    "description": "195年，Emperor Xian of Han escapes from Chang'an",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-195-sun-ce-sets-up-south-of-the-changjiang-sun-ces-conquests-in-",
+    "name": "孙策平定江东",
+    "year": 195,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "195年，Sun Ce sets up south of the Changjiang, Sun Ce's conquests in Jiangdong begin.",
+    "participants": [
+      {
+        "person_id": "sun-ce",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-196-emperor-xian-of-han-relocates-to-xuchang-under-cao-caos-cont",
+    "name": "Emperor Xian of Han relocates to Xuchang under Cao Cao's control",
+    "year": 196,
+    "end_year": null,
+    "location": "许昌",
+    "type": "succession",
+    "description": "196年，Emperor Xian of Han relocates to Xuchang under Cao Cao's control",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-197-campaign-against-yuan-shu-yuan-shu-takes-the-imperial-title-",
+    "name": "讨伐袁术",
+    "year": 197,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "197年，Campaign against Yuan Shu: Yuan Shu takes the imperial title but is driven south by Cao Cao",
+    "participants": [
+      {
+        "person_id": "yuan-shu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-197-war-between-cao-cao-and-zhang-xiu-begin",
+    "name": "War between Cao Cao and Zhang Xiu begin.",
+    "year": 197,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "197年，War between Cao Cao and Zhang Xiu begin.",
+    "participants": [
+      {
+        "person_id": "zhang-xiu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhang-xi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-199-battle-of-xiapi-cao-cao-and-liu-bei-defeated-lu-bu",
+    "name": "下邳之战",
+    "year": 199,
+    "end_year": null,
+    "location": "下邳",
+    "type": "battle",
+    "description": "199年，Battle of Xiapi: Cao Cao and Liu Bei defeated Lu Bu.",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-199-battle-of-yijing-yuan-shao-eliminates-gongsun-zan-in-you-pro",
+    "name": "易京之战",
+    "year": 199,
+    "end_year": null,
+    "location": "易京",
+    "type": "battle",
+    "description": "199年，Battle of Yijing: Yuan Shao eliminates Gongsun Zan in You Province.",
+    "participants": [
+      {
+        "person_id": "gongsun-zan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-199-yuan-shu-dies",
+    "name": "Yuan Shu去世",
+    "year": 199,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "199年，袁术去世。",
+    "participants": [
+      {
+        "person_id": "yuan-shu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-200-battle-of-guandu-yuan-shao-is-defeated-by-cao-cao-northeast-",
+    "name": "官渡之战",
+    "year": 200,
+    "end_year": null,
+    "location": "官渡",
+    "type": "battle",
+    "description": "200年，Battle of Guandu: Yuan Shao is defeated by Cao Cao northeast of modern Zhongmou, Henan",
+    "participants": [
+      {
+        "person_id": "yuan-shao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-200-sun-ce-dies-and-is-succeeded-by-his-brother-sun-quan",
+    "name": "Sun Ce去世",
+    "year": 200,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "200年，Sun Ce dies and is succeeded by his brother Sun Quan",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-ce",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-200-zheng-xuan-dies",
+    "name": "Zheng Xuan去世",
+    "year": 200,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "200年，经学大师郑玄去世。",
+    "participants": [
+      {
+        "person_id": "zheng-xuan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zheng-xu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-202-yuan-shao-dies-and-is-succeeded-by-his-younger-son-yuan-shan",
+    "name": "Yuan Shao去世",
+    "year": 202,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "202年，Yuan Shao dies and is succeeded by his younger son Yuan Shang",
+    "participants": [
+      {
+        "person_id": "yuan-shang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "yuan-shao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-202-battle-of-bowang-liu-bei-defeats-cao-cao-at-bowang-near-pres",
+    "name": "博望之战",
+    "year": 202,
+    "end_year": null,
+    "location": "樊城",
+    "type": "battle",
+    "description": "202年，Battle of Bowang: Liu Bei defeats Cao Cao at Bowang (near present-day Fancheng District, Hubei)",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-203-cao-caos-campaigns-to-unify-northern-china-begin",
+    "name": "Cao Cao's campaigns to unify northern China begin",
+    "year": 203,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "203年，Cao Cao's campaigns to unify northern China begin",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-203-battle-of-xiakou-battle-between-the-warlords-sun-quan-and-li",
+    "name": "Xiakou之战",
+    "year": 203,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "203年，Battle of Xiakou: Battle between the warlords Sun Quan and Liu Biao",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-biao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-207-battle-of-white-wolf-mountain-cao-cao-defeats-yuan-shang-and",
+    "name": "白狼山之战",
+    "year": 207,
+    "end_year": null,
+    "location": "白狼山",
+    "type": "battle",
+    "description": "207年，Battle of White Wolf Mountain: Cao Cao defeats Yuan Shang and the Wuhuan, Cao Cao unites northern China",
+    "participants": [
+      {
+        "person_id": "yuan-shang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-208-battle-of-jiangxia-sun-quan-defeats-liu-biao-and-beheads-hua",
+    "name": "江夏之战",
+    "year": 208,
+    "end_year": null,
+    "location": "江夏",
+    "type": "battle",
+    "description": "208年，Battle of Jiangxia: Sun Quan defeats Liu Biao and beheads Huang Zu",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-biao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "huang-zu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ehe",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-208-zhuge-liang-advises-liu-bei-liu-biao-dies-cao-cao-takes-over",
+    "name": "Zhuge Liang advises Liu Bei, Liu Biao去世",
+    "year": 208,
+    "end_year": null,
+    "location": "荆州",
+    "type": "death",
+    "description": "208年，Zhuge Liang advises Liu Bei, Liu Biao dies, Cao Cao takes over Jing Province.",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-biao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-208-battle-of-changban-zhao-yun-rescues-liu-shan-liu-bei-escapes",
+    "name": "长坂坡之战",
+    "year": 208,
+    "end_year": null,
+    "location": "长坂",
+    "type": "battle",
+    "description": "208年，Battle of Changban: Zhao Yun rescues Liu Shan, Liu Bei escapes to Xiakou.",
+    "participants": [
+      {
+        "person_id": "liu-shan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhao-yun",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhao-yu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-208-battle-of-red-cliffs-cao-cao-is-defeated-on-changjiang-west-",
+    "name": "赤壁之战",
+    "year": 208,
+    "end_year": null,
+    "location": "江夏",
+    "type": "battle",
+    "description": "208年，Battle of Red Cliffs: Cao Cao is defeated on Changjiang, west of modern Jiangxia, Hubei, by Sun Quan and Liu Bei",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-210-liu-bei-occupies-the-south-of-jing-province",
+    "name": "Liu Bei occupies the south of Jing Province",
+    "year": 210,
+    "end_year": null,
+    "location": "荆州",
+    "type": "other",
+    "description": "210年，Liu Bei occupies the south of Jing Province",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-211-battle-of-tong-pass-cao-cao-defeats-ma-chao-and-han-sui-and-",
+    "name": "潼关之战",
+    "year": 211,
+    "end_year": null,
+    "location": "潼关",
+    "type": "battle",
+    "description": "211年，Battle of Tong Pass: Cao Cao defeats Ma Chao and Han Sui and starts campaigning in northwestern China",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-chao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "han-sui",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-211-liu-beis-takeover-of-yi-province-liu-zhang-invites-liu-bei-t",
+    "name": "刘备入蜀",
+    "year": 211,
+    "end_year": null,
+    "location": "益州",
+    "type": "other",
+    "description": "211年，Liu Bei's takeover of Yi Province: Liu Zhang invites Liu Bei to Yi Province (covering present-day Sichuan and Chongqing)",
+    "participants": [
+      {
+        "person_id": "liu-zhang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-zhan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-214-liu-beis-takeover-of-yi-province-liu-bei-takes-control-of-yi",
+    "name": "刘备入蜀",
+    "year": 214,
+    "end_year": null,
+    "location": "益州",
+    "type": "other",
+    "description": "214年，Liu Bei's takeover of Yi Province: Liu Bei takes control of Yi Province from Liu Zhang",
+    "participants": [
+      {
+        "person_id": "liu-zhang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-zhan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-215-battle-of-yangping-zhang-lu-surrenders-hanzhong-to-cao-cao",
+    "name": "Yangping之战",
+    "year": 215,
+    "end_year": null,
+    "location": "汉中",
+    "type": "battle",
+    "description": "215年，Battle of Yangping: Zhang Lu surrenders Hanzhong to Cao Cao",
+    "participants": [
+      {
+        "person_id": "zhang-lu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "lu-su",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-216-cao-cao-declares-himself-king-of-wei",
+    "name": "Cao Cao declares himself King of Wei",
+    "year": 216,
+    "end_year": null,
+    "location": null,
+    "type": "succession",
+    "description": "216年，Cao Cao declares himself King of Wei",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-219-battle-of-mount-dingjun-liu-bei-defeats-and-slays-cao-caos-g",
+    "name": "定军山之战",
+    "year": 219,
+    "end_year": null,
+    "location": "定军山",
+    "type": "battle",
+    "description": "219年，Battle of Mount Dingjun: Liu Bei defeats and slays Cao Cao's general Xiahou Yuan and takes Hanzhong",
+    "participants": [
+      {
+        "person_id": "xiahou-yuan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "l-xi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-219-liu-bei-becomes-king-of-hanzhong",
+    "name": "Liu Bei becomes King of Hanzhong",
+    "year": 219,
+    "end_year": null,
+    "location": "汉中",
+    "type": "succession",
+    "description": "219年，Liu Bei becomes King of Hanzhong",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-219-battle-of-fancheng-liu-beis-general-guan-yu-attacks-north-in",
+    "name": "樊城之战",
+    "year": 219,
+    "end_year": null,
+    "location": "樊城",
+    "type": "battle",
+    "description": "219年，Battle of Fancheng: Liu Bei's general Guan Yu attacks north in Jing Province",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "guan-yu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-219-l-mengs-invasion-of-jing-province-sun-quans-general-l-meng-a",
+    "name": "吕蒙袭荆州",
+    "year": 219,
+    "end_year": null,
+    "location": "荆州",
+    "type": "battle",
+    "description": "219年，Lü Meng's invasion of Jing Province: Sun Quan's general Lü Meng attacks Guan Yu and seizes the south of Jing Province",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "guan-yu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-220-guan-yu-is-executed-by-sun-quan",
+    "name": "Guan Yu被杀",
+    "year": 220,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "220年，Guan Yu is executed by Sun Quan.",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "guan-yu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-220-cao-cao-dies-at-luoyang-and-is-succeeded-by-his-son-cao-pi",
+    "name": "Cao Cao去世",
+    "year": 220,
+    "end_year": null,
+    "location": "洛阳",
+    "type": "death",
+    "description": "220年，Cao Cao dies at Luoyang and is succeeded by his son Cao Pi.",
+    "participants": [
+      {
+        "person_id": "cao-cao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-pi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-220-the-nine-rank-system-is-implemented",
+    "name": "The Nine-rank system is implemented.",
+    "year": 220,
+    "end_year": null,
+    "location": null,
+    "type": "political",
+    "description": "220年，九品中正制开始实施。",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-220-cao-pi-forces-emperor-xian-of-han-to-abdicate-and-declares-h",
+    "name": "Cao Pi forces Emperor Xian of Han to abdicate and declares himself Emperor of the Wei dynasty; so ends the Han dynasty.",
+    "year": 220,
+    "end_year": null,
+    "location": null,
+    "type": "succession",
+    "description": "220年，Cao Pi forces Emperor Xian of Han to abdicate and declares himself Emperor of the Wei dynasty; so ends the Han dynasty.",
+    "participants": [
+      {
+        "person_id": "cao-pi",
+        "role": "参与者"
+      }
+    ],
+    "result": "so ends the Han dynasty.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-221-liu-bei-declares-himself-emperor-of-han",
+    "name": "Liu Bei declares himself emperor of Han.",
+    "year": 221,
+    "end_year": null,
+    "location": null,
+    "type": "succession",
+    "description": "221年，Liu Bei declares himself emperor of Han.",
+    "participants": [
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-222-battle-of-xiaoting-liu-bei-is-defeated-by-sun-quans-general-",
+    "name": "夷陵之战",
+    "year": 222,
+    "end_year": null,
+    "location": "夷陵",
+    "type": "battle",
+    "description": "222年，Battle of Xiaoting: Liu Bei is defeated by Sun Quan's general Lu Xun.",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "lu-xun",
+        "role": "参与者"
+      },
+      {
+        "person_id": "lu-xu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-222-cao-pis-invasions-of-eastern-wu-sun-quan-declares-independen",
+    "name": "曹丕伐吴",
+    "year": 222,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "222年，Cao Pi's invasions of Eastern Wu: Sun Quan declares independence from Cao Wei; Cao Pi invades Eastern Wu.",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-pi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-223-cao-pis-invasions-of-eastern-wu-sun-quans-forces-repel-cao-w",
+    "name": "曹丕伐吴",
+    "year": 223,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "223年，Cao Pi's invasions of Eastern Wu: Sun Quan's forces repel Cao Wei.",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-pi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-223-liu-bei-dies-and-is-succeeded-by-liu-shan",
+    "name": "Liu Bei去世",
+    "year": 223,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "223年，Liu Bei dies and is succeeded by Liu Shan.",
+    "participants": [
+      {
+        "person_id": "liu-shan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-bei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-225-incident-at-guangling-cao-pi-attempts-to-invade-sun-quans-te",
+    "name": "广陵之役",
+    "year": 225,
+    "end_year": null,
+    "location": "广陵",
+    "type": "other",
+    "description": "225年，Incident at Guangling: Cao Pi attempts to invade Sun Quan's territory but later withdraws without fighting.",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-pi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-225-zhuge-liangs-southern-campaign-zhuge-liang-conquers-nanzhong",
+    "name": "诸葛亮南征",
+    "year": 225,
+    "end_year": null,
+    "location": "南中",
+    "type": "battle",
+    "description": "225年，Zhuge Liang's Southern Campaign: Zhuge Liang conquers Nanzhong.",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-226-cao-pi-dies-and-is-succeeded-by-cao-rui",
+    "name": "Cao Pi去世",
+    "year": 226,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "226年，Cao Pi dies and is succeeded by Cao Rui.",
+    "participants": [
+      {
+        "person_id": "cao-rui",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-pi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-226-the-jiaozhou-warlord-shi-xie-dies-sun-quan-establishes-guang",
+    "name": "The Jiaozhou warlord, Shi Xie去世",
+    "year": 226,
+    "end_year": null,
+    "location": "交州",
+    "type": "death",
+    "description": "226年，交州军阀士燮去世，孙权将交州部分地区设为广州。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "shi-xie",
+        "role": "参与者"
+      },
+      {
+        "person_id": "he-jiao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-227-sun-quan-quells-shi-huis-rebellion-and-seizes-jiaozhou-sun-q",
+    "name": "Sun Quan quells Shi Hui's rebellion and seizes Jiaozhou; Sun Quan abolishes Guangzhou.",
+    "year": 227,
+    "end_year": null,
+    "location": "交州",
+    "type": "rebellion",
+    "description": "227年，东吴重新设立广州。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "shi-hui",
+        "role": "参与者"
+      },
+      {
+        "person_id": "shi-hu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-227-zhuge-liang-presents-the-chu-shi-biao-to-liu-shan",
+    "name": "Zhuge Liang presents the Chu Shi Biao to Liu Shan.",
+    "year": 227,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "227年，诸葛亮向刘禅上《出师表》。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-shan",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-228-xincheng-rebellion-sima-yi-quells-meng-das-rebellion",
+    "name": "新城之叛",
+    "year": 228,
+    "end_year": null,
+    "location": null,
+    "type": "rebellion",
+    "description": "228年，Xincheng Rebellion: Sima Yi quells Meng Da's rebellion.",
+    "participants": [
+      {
+        "person_id": "sima-yi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "meng-da",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-yi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-228-zhuge-liangs-northern-expeditions-zhuge-liangs-first-norther",
+    "name": "诸葛亮北伐",
+    "year": 228,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "228年，Zhuge Liang's Northern Expeditions: Zhuge Liang's first northern expedition against Cao Wei; Ma Su is defeated by Zhang He.",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhang-he",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-su",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-228-battle-of-shiting-lu-xun-defeats-cao-wei-forces-led-by-cao-x",
+    "name": "石亭之战",
+    "year": 228,
+    "end_year": null,
+    "location": "石亭",
+    "type": "battle",
+    "description": "228年，Battle of Shiting: Lu Xun defeats Cao Wei forces led by Cao Xiu.",
+    "participants": [
+      {
+        "person_id": "cao-xiu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-xi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "lu-xun",
+        "role": "参与者"
+      },
+      {
+        "person_id": "lu-xu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-229-zhuge-liangs-northern-expeditions-zhuge-liangs-second-northe",
+    "name": "诸葛亮北伐",
+    "year": 229,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "229年，Zhuge Liang's Northern Expeditions: Zhuge Liang's second northern expedition. He is forced to retreat due to arrival of Cao Wei reinforcements.",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-229-sun-quan-proclaims-himself-emperor-of-wu-in-jianye-nanjing-w",
+    "name": "Sun Quan proclaims himself \"Emperor of Wu\" in Jianye (Nanjing); Wu enters an alliance with Shu Han.",
+    "year": 229,
+    "end_year": null,
+    "location": "建业",
+    "type": "succession",
+    "description": "229年，Sun Quan proclaims himself \"Emperor of Wu\" in Jianye (Nanjing); Wu enters an alliance with Shu Han.",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-229-zhuge-liangs-northern-expeditions-zhuge-liang-captures-wudu-",
+    "name": "诸葛亮北伐",
+    "year": 229,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "229年，Zhuge Liang's Northern Expeditions: Zhuge Liang captures Wudu (武都; near present-day Cheng County, Gansu) and Yinping (陰平; present-day Wen County, Gansu) on his third northern expedition.",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-230-eastern-wu-expedition-troops-land-on-a-legendary-island-know",
+    "name": "Eastern Wu expedition troops land on a legendary island known as Yizhou where most of them die but manage to bring back \"several thousand\" natives back to China.",
+    "year": 230,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "230年，Eastern Wu expedition troops land on a legendary island known as Yizhou where most of them die but manage to bring back \"several thousand\" natives back to China.",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-230-ziwu-campaign-cao-wei-forces-led-by-cao-zhen-invade-shu-han-",
+    "name": "子午谷之战",
+    "year": 230,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "230年，Ziwu Campaign: Cao Wei forces led by Cao Zhen invade Shu Han but later retreated.",
+    "participants": [
+      {
+        "person_id": "cao-zhen",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-231-zhuge-liang-invents-the-wooden-ox",
+    "name": "Zhuge Liang invents the wooden ox.",
+    "year": 231,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "231年，诸葛亮发明木牛流马。",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-231-zhuge-liangs-northern-expeditions-zhuge-liangs-fourth-northe",
+    "name": "诸葛亮北伐",
+    "year": 231,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "231年，Zhuge Liang's Northern Expeditions: Zhuge Liang's fourth northern expedition. He is forced to withdraw after provisions are exhausted, but managed to kill Zhang He during his retreat.",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhang-he",
+        "role": "参与者"
+      },
+      {
+        "person_id": "he-du",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-231-battle-of-hefei-sun-quan-is-repelled-by-man-chong-wang-ling-",
+    "name": "合肥之战",
+    "year": 231,
+    "end_year": null,
+    "location": "合肥",
+    "type": "battle",
+    "description": "231年，Battle of Hefei: Sun Quan is repelled by Man Chong; Wang Ling is ambushed by Eastern Wu forces.",
+    "participants": [
+      {
+        "person_id": "man-chong",
+        "role": "参与者"
+      },
+      {
+        "person_id": "wang-ling",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "wang-li",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-232-the-cao-wei-poet-cao-zhi-dies",
+    "name": "The Cao Wei poet, Cao Zhi去世",
+    "year": 232,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "232年，曹魏诗人曹植去世。",
+    "participants": [
+      {
+        "person_id": "cao-zhi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-233-sun-quan-sends-an-envoy-to-gongsun-yuan-in-the-northeast-but",
+    "name": "Sun Quan sends an envoy to Gongsun Yuan in the northeast, but the envoy被杀",
+    "year": 233,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "233年，Sun Quan sends an envoy to Gongsun Yuan in the northeast, but the envoy is killed and brought to Cao Wei",
+    "participants": [
+      {
+        "person_id": "gongsun-yuan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-yuan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-yu",
+        "role": "参与者"
+      }
+    ],
+    "result": "the envoy is killed and brought to Cao Wei",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-233-battle-of-hefei-sun-quan-is-repelled-by-man-chong",
+    "name": "合肥之战",
+    "year": 233,
+    "end_year": null,
+    "location": "合肥",
+    "type": "battle",
+    "description": "233年，Battle of Hefei: Sun Quan is repelled by Man Chong.",
+    "participants": [
+      {
+        "person_id": "man-chong",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-234-emperor-xian-of-han-dies",
+    "name": "Emperor Xian of Han去世",
+    "year": 234,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "234年，汉献帝刘协去世。",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-234-battle-of-wuzhang-plains-zhuge-liang-dies-on-his-fifth-and-l",
+    "name": "五丈原之战",
+    "year": 234,
+    "end_year": null,
+    "location": "五丈原",
+    "type": "battle",
+    "description": "234年，Battle of Wuzhang Plains: Zhuge Liang dies on his fifth and last northern expedition against Cao Wei; Jiang Wan succeeds Zhuge Liang.",
+    "participants": [
+      {
+        "person_id": "zhuge-liang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "jiang-wan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-234-battle-of-hefei-sun-quan-commands-his-last-attack-on-hefei-b",
+    "name": "合肥之战",
+    "year": 234,
+    "end_year": null,
+    "location": "合肥",
+    "type": "battle",
+    "description": "234年，Battle of Hefei: Sun Quan commands his last attack on Hefei but is repelled by Man Chong.",
+    "participants": [
+      {
+        "person_id": "man-chong",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      }
+    ],
+    "result": "is repelled by Man Chong.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-234-zhuge-ke-campaigns-against-the-shanyue-people-of-danyang-com",
+    "name": "Zhuge Ke campaigns against the Shanyue people of Danyang Commandery.",
+    "year": 234,
+    "end_year": null,
+    "location": "丹阳",
+    "type": "battle",
+    "description": "234年，Zhuge Ke campaigns against the Shanyue people of Danyang Commandery.",
+    "participants": [
+      {
+        "person_id": "zhuge-ke",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-235-cao-wei-assassinates-the-xianbei-chieftain-kebineng",
+    "name": "Cao Wei assassinates the Xianbei chieftain, Kebineng.",
+    "year": 235,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "235年，曹魏刺杀鲜卑首领轲比能。",
+    "participants": [
+      {
+        "person_id": "kebineng",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-235-the-cao-wei-mechanical-engineer-ma-jun-invents-the-south-poi",
+    "name": "The Cao Wei mechanical engineer, Ma Jun invents the south-pointing chariot.",
+    "year": 235,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "235年，曹魏机械工程师马钧发明指南车。",
+    "participants": [
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-jun",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-237-gongsun-yuan-declares-himself-king-of-yan",
+    "name": "Gongsun Yuan declares himself King of Yan.",
+    "year": 237,
+    "end_year": null,
+    "location": null,
+    "type": "succession",
+    "description": "237年，Gongsun Yuan declares himself King of Yan.",
+    "participants": [
+      {
+        "person_id": "gongsun-yuan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-yuan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-yu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-237-zhuge-ke-completes-his-subjugation-of-the-shanyue",
+    "name": "Zhuge Ke completes his subjugation of the Shanyue.",
+    "year": 237,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "237年，Zhuge Ke completes his subjugation of the Shanyue.",
+    "participants": [
+      {
+        "person_id": "zhuge-ke",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-238-cao-wei-receives-envoys-from-himiko-of-yamatai",
+    "name": "Cao Wei receives envoys from Himiko of Yamatai.",
+    "year": 238,
+    "end_year": null,
+    "location": null,
+    "type": "diplomatic",
+    "description": "238年，曹魏接待倭国卑弥呼使者。",
+    "participants": [
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-238-sima-yis-liaodong-campaign-sima-yi-kills-gongsun-yuan-and-an",
+    "name": "司马懿征辽东",
+    "year": 238,
+    "end_year": null,
+    "location": "辽东",
+    "type": "battle",
+    "description": "238年，Sima Yi's Liaodong campaign: Sima Yi kills Gongsun Yuan and annexes his territory.",
+    "participants": [
+      {
+        "person_id": "gongsun-yuan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-yuan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-yu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-yi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-239-cao-rui-dies-and-is-succeeded-by-cao-fang-but-real-power-is-",
+    "name": "Cao Rui去世",
+    "year": 239,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "239年，Cao Rui dies and is succeeded by Cao Fang but real power is wielded by the co-regents Sima Yi and Cao Shuang.",
+    "participants": [
+      {
+        "person_id": "cao-shuang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-fang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-rui",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-fan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-yi",
+        "role": "参与者"
+      }
+    ],
+    "result": "real power is wielded by the co-regents Sima Yi and Cao Shuang.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-240-beginning-of-the-zhengshi-reign-era-240-249-in-cao-wei-philo",
+    "name": "Beginning of the Zhengshi reign era (240–249) in Cao Wei; philosophical movements such as Xuanxue and Qingtan as well as the Seven Sages of the Bamboo Grove emerge in Wei during the era.",
+    "year": 240,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "240年，曹魏正始年间（240-249），玄学、清谈等哲学运动兴起，竹林七贤活跃于此时期。",
+    "participants": [
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "he-zhen",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-240-jiang-weis-northern-expeditions-jiang-weis-first-northern-ex",
+    "name": "姜维北伐",
+    "year": 240,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "240年，Jiang Wei's Northern Expeditions: Jiang Wei's first northern expedition against Cao Wei.",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-241-battle-of-quebei-and-fancheng-eastern-wu-attacks-cao-wei-in-",
+    "name": "芍陂之战",
+    "year": 241,
+    "end_year": null,
+    "location": "樊城",
+    "type": "battle",
+    "description": "241年，Battle of Quebei and Fancheng: Eastern Wu attacks Cao Wei in Yangzhou and Jingzhou but later withdraws.",
+    "participants": [
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-241-sun-quans-heir-apparent-sun-deng-dies",
+    "name": "Sun Quan's heir apparent, Sun Deng,去世",
+    "year": 241,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "241年，孙权太子孙登去世。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-deng",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-242-sun-he-becomes-crown-prince-of-eastern-wu-sun-he-and-sun-ba-",
+    "name": "Sun He becomes Crown Prince of Eastern Wu; Sun He and Sun Ba compete to become Sun Quan's heir apparent, splitting the Wu court into two factions.",
+    "year": 242,
+    "end_year": null,
+    "location": null,
+    "type": "succession",
+    "description": "242年，孙和被立为东吴太子，与孙霸争位，吴廷分裂为两派。",
+    "participants": [
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-he",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-ba",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-242-goguryeo-wei-war-goguryeo-raids-cao-wei-at-xianping-near-pre",
+    "name": "魏征高句丽",
+    "year": 242,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "242年，Goguryeo–Wei War: Goguryeo raids Cao Wei at Xi'anping (西安平; near present-day Dandong, Liaoning).",
+    "participants": [
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-244-battle-of-xingshi-cao-wei-forces-led-by-cao-shuang-are-repel",
+    "name": "兴势之战",
+    "year": 244,
+    "end_year": null,
+    "location": "兴势",
+    "type": "battle",
+    "description": "244年，Battle of Xingshi: Cao Wei forces led by Cao Shuang are repelled by Shu Han.",
+    "participants": [
+      {
+        "person_id": "cao-shuang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-244-goguryeo-wei-war-cao-wei-general-guanqiu-jian-defeats-gogury",
+    "name": "魏征高句丽",
+    "year": 244,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "244年，Goguryeo–Wei War: Cao Wei general Guanqiu Jian defeats Goguryeo, taking Gungnae.",
+    "participants": [
+      {
+        "person_id": "guanqiu-jian",
+        "role": "参与者"
+      },
+      {
+        "person_id": "qiu-jian",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-245-goguryeo-wei-war-guanqiu-jian-sends-his-armies-to-pursue-don",
+    "name": "魏征高句丽",
+    "year": 245,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "245年，Goguryeo–Wei War: Guanqiu Jian sends his armies to pursue Dongcheon of Goguryeo and subjugate Eastern Ye.",
+    "participants": [
+      {
+        "person_id": "guanqiu-jian",
+        "role": "参与者"
+      },
+      {
+        "person_id": "qiu-jian",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-245-the-eastern-wu-imperial-chancellor-lu-xun-dies",
+    "name": "The Eastern Wu Imperial Chancellor, Lu Xun去世",
+    "year": 245,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "245年，东吴丞相陆逊去世。",
+    "participants": [
+      {
+        "person_id": "lu-xun",
+        "role": "参与者"
+      },
+      {
+        "person_id": "lu-xu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-246-baekje-attacks-cao-wei-forces-at-lelang-and-daifang-commande",
+    "name": "Baekje attacks Cao Wei forces at Lelang and Daifang commanderies but later sues for peace.",
+    "year": 246,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "246年，百济进攻曹魏乐浪、带方二郡，后求和。",
+    "participants": [
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-246-jiang-wan-and-dong-yun-dies-fei-yi-and-chen-zhi-succeeds-jia",
+    "name": "Jiang Wan and Dong Yun去世",
+    "year": 246,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "246年，Jiang Wan and Dong Yun dies; Fei Yi and Chen Zhi succeeds Jiang Wan and Dong Yun respectively.",
+    "participants": [
+      {
+        "person_id": "jiang-wan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "dong-yun",
+        "role": "参与者"
+      },
+      {
+        "person_id": "chen-zhi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "dong-yu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "fei-yi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-247-jiang-weis-northern-expeditions-jiang-weis-second-northern-e",
+    "name": "姜维北伐",
+    "year": 247,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "247年，Jiang Wei's Northern Expeditions: Jiang Wei's second northern expedition.",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-248-jiang-weis-northern-expeditions-jiang-weis-third-northern-ex",
+    "name": "姜维北伐",
+    "year": 248,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "248年，Jiang Wei's Northern Expeditions: Jiang Wei's third northern expedition.",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-248-lady-tri-u-leads-viet-rebels-in-jiaozhou-but-is-defeated-by-",
+    "name": "Lady Triệu leads Viet rebels in Jiaozhou but is defeated by Eastern Wu.",
+    "year": 248,
+    "end_year": null,
+    "location": "交州",
+    "type": "battle",
+    "description": "248年，Lady Triệu leads Viet rebels in Jiaozhou but is defeated by Eastern Wu.",
+    "participants": [],
+    "result": "is defeated by Eastern Wu.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-249-incident-at-the-gaoping-tombs-sima-yi-kills-cao-shuang-and-h",
+    "name": "高平陵之变",
+    "year": 249,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "249年，Incident at the Gaoping Tombs: Sima Yi kills Cao Shuang and He Yan, taking over the Cao Wei government.",
+    "participants": [
+      {
+        "person_id": "cao-shuang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "he-yan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-yi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-249-the-cao-wei-philosopher-wang-bi-dies",
+    "name": "The Cao Wei philosopher, Wang Bi去世",
+    "year": 249,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "249年，曹魏哲学家王弼去世。",
+    "participants": [
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "wang-bi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-249-jiang-weis-northern-expeditions-jiang-weis-fourth-northern-e",
+    "name": "姜维北伐",
+    "year": 249,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "249年，Jiang Wei's Northern Expeditions: Jiang Wei's fourth northern expedition.",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-250-jiang-weis-northern-expeditions-jiang-weis-fifth-northern-ex",
+    "name": "姜维北伐",
+    "year": 250,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "250年，Jiang Wei's Northern Expeditions: Jiang Wei's fifth northern expedition.",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-250-sun-quan-exiles-sun-he-and-kills-sun-ba-sun-liang-is-install",
+    "name": "Sun Quan exiles Sun He and kills Sun Ba; Sun Liang is installed as Crown Prince.",
+    "year": 250,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "250年，孙权流放孙和、赐死孙霸，立孙亮为太子。",
+    "participants": [
+      {
+        "person_id": "sun-liang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-he",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-ba",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-li",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-l",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-251-three-rebellions-in-shouchun-sima-yi-quells-wang-lings-rebel",
+    "name": "寿春三叛",
+    "year": 251,
+    "end_year": null,
+    "location": "寿春",
+    "type": "rebellion",
+    "description": "251年，Three Rebellions in Shouchun: Sima Yi quells Wang Ling's Rebellion.",
+    "participants": [
+      {
+        "person_id": "wang-ling",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "wang-li",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-yi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-251-sima-yi-dies-and-his-son-sima-shi-succeeds-him",
+    "name": "Sima Yi去世",
+    "year": 251,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "251年，Sima Yi dies and his son Sima Shi succeeds him.",
+    "participants": [
+      {
+        "person_id": "sima-shi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-yi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-shi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-yi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-252-sima-shi-gains-the-title-of-great-general",
+    "name": "Sima Shi gains the title of \"Great General\".",
+    "year": 252,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "252年，司马师获封大将军。",
+    "participants": [
+      {
+        "person_id": "sima-shi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-shi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-252-sun-quan-dies-and-is-succeeded-by-sun-liang-zhuge-ke-assumes",
+    "name": "Sun Quan去世",
+    "year": 252,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "252年，孙权去世，孙亮继位，诸葛恪摄政。",
+    "participants": [
+      {
+        "person_id": "sun-liang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-quan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhuge-ke",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-li",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-l",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-253-battle-of-dongxing-zhuge-ke-defeats-cao-wei-forces-at-dongxi",
+    "name": "东兴之战",
+    "year": 253,
+    "end_year": null,
+    "location": "东兴",
+    "type": "battle",
+    "description": "253年，Battle of Dongxing: Zhuge Ke defeats Cao Wei forces at Dongxing",
+    "participants": [
+      {
+        "person_id": "zhuge-ke",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-253-fei-yi-is-assassinated-jiang-wei-succeeds-fei-yi",
+    "name": "Fei Yi被杀",
+    "year": 253,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "253年，费祎被刺杀，姜维继任。",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "fei-yi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-253-battle-of-hefei-eastern-wu-forces-led-by-zhuge-ke-are-repell",
+    "name": "合肥之战",
+    "year": 253,
+    "end_year": null,
+    "location": "合肥",
+    "type": "battle",
+    "description": "253年，Battle of Hefei: Eastern Wu forces led by Zhuge Ke are repelled by Cao Wei.",
+    "participants": [
+      {
+        "person_id": "zhuge-ke",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-253-jiang-weis-northern-expeditions-jiang-weis-sixth-northern-ex",
+    "name": "姜维北伐",
+    "year": 253,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "253年，Jiang Wei's Northern Expeditions: Jiang Wei's sixth northern expedition.",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-253-sun-jun-and-sun-chen-kill-zhuge-ke-sun-jun-assumes-regency",
+    "name": "Sun Jun and Sun Chen kill Zhuge Ke; Sun Jun assumes regency.",
+    "year": 253,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "253年，Sun Jun and Sun Chen kill Zhuge Ke; Sun Jun assumes regency.",
+    "participants": [
+      {
+        "person_id": "zhuge-ke",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-chen",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-jun",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-254-jiang-weis-northern-expeditions-jiang-wei-captures-didao-aro",
+    "name": "姜维北伐",
+    "year": 254,
+    "end_year": null,
+    "location": "狄道",
+    "type": "other",
+    "description": "254年，Jiang Wei's Northern Expeditions: Jiang Wei captures Didao (狄道; around present-day Lintao County, Gansu), Heguan (河關; in the vicinity of present-day Dingxi, Gansu)  and Lintao on his seventh northern expedition.",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-254-sima-shi-deposes-cao-fang-and-replaces-him-with-cao-mao",
+    "name": "Sima Shi deposes Cao Fang and replaces him with Cao Mao",
+    "year": 254,
+    "end_year": null,
+    "location": null,
+    "type": "succession",
+    "description": "254年，Sima Shi deposes Cao Fang and replaces him with Cao Mao",
+    "participants": [
+      {
+        "person_id": "cao-fang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-shi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-mao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-fan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-shi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-255-three-rebellions-in-shouchun-sima-shi-quells-guanqiu-jian-an",
+    "name": "寿春三叛",
+    "year": 255,
+    "end_year": null,
+    "location": "寿春",
+    "type": "rebellion",
+    "description": "255年，Three Rebellions in Shouchun: Sima Shi quells Guanqiu Jian and Wen Qin's Rebellion.",
+    "participants": [
+      {
+        "person_id": "guanqiu-jian",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-shi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "qiu-jian",
+        "role": "参与者"
+      },
+      {
+        "person_id": "wen-qin",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-shi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-255-sima-shi-dies-and-his-brother-sima-zhao-takes-over",
+    "name": "Sima Shi去世",
+    "year": 255,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "255年，Sima Shi dies and his brother Sima Zhao takes over.",
+    "participants": [
+      {
+        "person_id": "sima-zhao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-shi",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-zhao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-shi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-255-battle-of-didao-jiang-wei-is-defeated-by-cao-wei-forces-in-h",
+    "name": "狄道之战",
+    "year": 255,
+    "end_year": null,
+    "location": "狄道",
+    "type": "battle",
+    "description": "255年，Battle of Didao: Jiang Wei is defeated by Cao Wei forces in his eight northern expedition; Shu Han loses territorial gains from Jiang Wei's seventh expedition.",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-256-jiang-weis-northern-expeditions-jiang-weis-ninth-northern-ex",
+    "name": "姜维北伐",
+    "year": 256,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "256年，Jiang Wei's Northern Expeditions: Jiang Wei's ninth northern expedition.",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-256-sun-jun-dies-sun-chen-assumes-regency",
+    "name": "Sun Jun去世",
+    "year": 256,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "256年，Sun Jun dies; Sun Chen assumes regency.",
+    "participants": [
+      {
+        "person_id": "sun-chen",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-jun",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-256-the-cao-wei-scholar-wang-su-dies",
+    "name": "The Cao Wei scholar, Wang Su去世",
+    "year": 256,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "256年，曹魏学者王肃去世。",
+    "participants": [
+      {
+        "person_id": "wang-su",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-257-three-rebellions-in-shouchun-the-cao-wei-general-zhuge-dan-r",
+    "name": "寿春三叛",
+    "year": 257,
+    "end_year": null,
+    "location": "寿春",
+    "type": "rebellion",
+    "description": "257年，Three Rebellions in Shouchun: The Cao Wei general, Zhuge Dan rebels in Shouchun.",
+    "participants": [
+      {
+        "person_id": "zhuge-dan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-257-jiang-weis-northern-expeditions-jiang-weis-tenth-northern-ex",
+    "name": "姜维北伐",
+    "year": 257,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "257年，Jiang Wei's Northern Expeditions: Jiang Wei's tenth northern expedition.",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-258-three-rebellions-in-shouchun-sima-zhao-quells-zhuge-dans-reb",
+    "name": "寿春三叛",
+    "year": 258,
+    "end_year": null,
+    "location": "寿春",
+    "type": "rebellion",
+    "description": "258年，Three Rebellions in Shouchun: Sima Zhao quells Zhuge Dan's Rebellion.",
+    "participants": [
+      {
+        "person_id": "zhuge-dan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-zhao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-zhao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "zhao-qu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-258-sun-liang-is-deposed-by-sun-chen-and-sun-xiu-succeeds-him",
+    "name": "Sun Liang is deposed by Sun Chen and Sun Xiu succeeds him.",
+    "year": 258,
+    "end_year": null,
+    "location": null,
+    "type": "succession",
+    "description": "258年，Sun Liang is deposed by Sun Chen and Sun Xiu succeeds him.",
+    "participants": [
+      {
+        "person_id": "sun-liang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-chen",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-xiu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-li",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-l",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-258-chen-zhi-dies-chen-zhis-ally-the-eunuch-huang-hao-begins-to-",
+    "name": "Chen Zhi去世",
+    "year": 258,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "258年，陈祗去世，其盟友宦官黄皓开始把持蜀汉朝政。",
+    "participants": [
+      {
+        "person_id": "huang-hao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "chen-zhi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-259-sun-xiu-kills-sun-chen",
+    "name": "Sun Xiu kills Sun Chen.",
+    "year": 259,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "259年，孙休诛杀孙綝。",
+    "participants": [
+      {
+        "person_id": "sun-chen",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-xiu",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-259-goguryeo-wei-war-cao-wei-forces-are-defeated-by-goguryeo-at-",
+    "name": "魏征高句丽",
+    "year": 259,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "259年，Goguryeo–Wei War: Cao Wei forces are defeated by Goguryeo at Yangmaenggok.",
+    "participants": [
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-260-sima-zhao-s-regicide-sima-zhao-kills-cao-mao-and-replaces-hi",
+    "name": "Sima Zhao’s Regicide",
+    "year": 260,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "260年，司马昭弑杀曹髦，改立曹奂。",
+    "participants": [
+      {
+        "person_id": "sima-zhao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-huan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-mao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-zhao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-260-sun-liang-dies",
+    "name": "Sun Liang去世",
+    "year": 260,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "260年，孙亮去世。",
+    "participants": [
+      {
+        "person_id": "sun-liang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-li",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-l",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-261-the-tuoba-xianbei-chieftain-tuoba-liwei-submits-to-cao-wei",
+    "name": "The Tuoba-Xianbei chieftain, Tuoba Liwei submits to Cao Wei.",
+    "year": 261,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "261年，拓跋鲜卑首领拓跋力微归附曹魏。",
+    "participants": [
+      {
+        "person_id": "tuoba-liwei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-262-jiang-weis-northern-expeditions-jiang-wei-launches-his-eleve",
+    "name": "姜维北伐",
+    "year": 262,
+    "end_year": null,
+    "location": null,
+    "type": "other",
+    "description": "262年，Jiang Wei's Northern Expeditions: Jiang Wei launches his eleventh and final northern expedition.",
+    "participants": [
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-262-sima-zhao-kills-ji-kang-one-of-the-seven-sages-of-the-bamboo",
+    "name": "Sima Zhao kills Ji Kang, one of the Seven Sages of the Bamboo Grove.",
+    "year": 262,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "262年，司马昭杀嵇康（竹林七贤之一）。",
+    "participants": [
+      {
+        "person_id": "sima-zhao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ji-kang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-zhao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-263-jiao-province-campaign-viet-people-in-jiaozhou-northern-viet",
+    "name": "交州之战",
+    "year": 263,
+    "end_year": null,
+    "location": "交州",
+    "type": "battle",
+    "description": "263年，Jiao Province Campaign: Viet people in Jiaozhou (Northern Vietnam) under Lã Hưng revolted against Eastern Wu. Cao Wei (later the Western Jin) sends armies to aid the rebels.",
+    "participants": [
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-263-conquest-of-shu-by-wei-liu-shan-surrenders-to-sima-zhao-so-e",
+    "name": "魏灭蜀之战",
+    "year": 263,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "263年，Conquest of Shu by Wei: Liu Shan surrenders to Sima Zhao; so ends Shu Han.",
+    "participants": [
+      {
+        "person_id": "sima-zhao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "liu-shan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-zhao",
+        "role": "参与者"
+      }
+    ],
+    "result": "so ends Shu Han.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-264-cao-wei-establishes-liangzhou",
+    "name": "Cao Wei establishes Liangzhou (梁州).",
+    "year": 264,
+    "end_year": null,
+    "location": "梁州",
+    "type": "political",
+    "description": "264年，曹魏设立梁州。",
+    "participants": [
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-264-zhong-huis-rebellion-zhong-hui-and-jiang-wei-rebel-in-chengd",
+    "name": "钟会之乱",
+    "year": 264,
+    "end_year": null,
+    "location": "成都",
+    "type": "death",
+    "description": "264年，Zhong Hui's Rebellion: Zhong Hui and Jiang Wei rebel in Chengdu but are killed by mutineers.",
+    "participants": [
+      {
+        "person_id": "zhong-hui",
+        "role": "参与者"
+      },
+      {
+        "person_id": "jiang-wei",
+        "role": "参与者"
+      }
+    ],
+    "result": "are killed by mutineers.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-264-siege-of-yongan-luo-xian-repels-eastern-wu-forces-from-claim",
+    "name": "永安之围",
+    "year": 264,
+    "end_year": null,
+    "location": "永安",
+    "type": "battle",
+    "description": "264年，Siege of Yong'an: Luo Xian repels Eastern Wu forces from claiming former Shu Han territories.",
+    "participants": [
+      {
+        "person_id": "luo-xian",
+        "role": "参与者"
+      },
+      {
+        "person_id": "luo-xi",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-264-sima-zhao-declares-himself-king-of-jin",
+    "name": "Sima Zhao declares himself King of Jin.",
+    "year": 264,
+    "end_year": null,
+    "location": null,
+    "type": "succession",
+    "description": "264年，Sima Zhao declares himself King of Jin.",
+    "participants": [
+      {
+        "person_id": "sima-zhao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-zhao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-264-eastern-wu-re-establishes-guangzhou",
+    "name": "Eastern Wu re-establishes Guangzhou.",
+    "year": 264,
+    "end_year": null,
+    "location": null,
+    "type": "political",
+    "description": "264年，东吴重新设立广州。",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-264-sun-xiu-dies-and-is-succeeded-by-sun-hao",
+    "name": "Sun Xiu去世",
+    "year": 264,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "264年，孙休去世，孙皓继位。",
+    "participants": [
+      {
+        "person_id": "sun-xiu",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sun-hao",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-265-sima-zhao-dies-and-is-succeeded-by-sima-yan",
+    "name": "Sima Zhao去世",
+    "year": 265,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "265年，司马昭去世，司马炎继位。",
+    "participants": [
+      {
+        "person_id": "sima-zhao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-yan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-zhao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-yan",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-266-sima-yan-deposes-cao-huan-and-declares-himself-emperor-of-th",
+    "name": "Sima Yan deposes Cao Huan and declares himself emperor of the Western Jin dynasty, so ends Cao Wei.",
+    "year": 266,
+    "end_year": null,
+    "location": null,
+    "type": "succession",
+    "description": "266年，司马炎废曹奂，建立西晋，曹魏灭亡。",
+    "participants": [
+      {
+        "person_id": "cao-huan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "sima-yan",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-wei",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-yan",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-268-eastern-wu-attacks-western-jin-on-multiple-fronts-but-is-rep",
+    "name": "Eastern Wu attacks Western Jin on multiple fronts but is repelled; Lâm Ấp and Funan send tributes to Jin.",
+    "year": 268,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "268年，Eastern Wu attacks Western Jin on multiple fronts but is repelled; Lâm Ấp and Funan send tributes to Jin.",
+    "participants": [],
+    "result": "is repelled; Lâm Ấp and Funan send tributes to Jin.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-269-jiao-province-campaign-eastern-wu-launches-counteroffensive-",
+    "name": "交州之战",
+    "year": 269,
+    "end_year": null,
+    "location": "交州",
+    "type": "battle",
+    "description": "269年，Jiao Province Campaign: Eastern Wu launches counteroffensive into Jiaozhou.",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-269-western-jin-establishes-qinzhou",
+    "name": "Western Jin establishes Qinzhou.",
+    "year": 269,
+    "end_year": null,
+    "location": "秦州",
+    "type": "political",
+    "description": "269年，Western Jin establishes Qinzhou.",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-270-tufa-shujinengs-rebellion-tufa-shujineng-leads-tribal-rebell",
+    "name": "秃发树机能之乱",
+    "year": 270,
+    "end_year": null,
+    "location": "秦州",
+    "type": "rebellion",
+    "description": "270年，Tufa Shujineng's Rebellion: Tufa Shujineng leads tribal rebellion against Western Jin in Qinzhou and Liangzhou (涼州).",
+    "participants": [
+      {
+        "person_id": "tufa-shujineng",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-270-the-shu-han-scholar-qiao-zhou-dies",
+    "name": "The Shu Han scholar, Qiao Zhou去世",
+    "year": 270,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "270年，蜀汉学者谯周去世。",
+    "participants": [
+      {
+        "person_id": "qiao-zhou",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-271-liu-shan-dies",
+    "name": "Liu Shan去世",
+    "year": 271,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "271年，蜀后主刘禅去世。",
+    "participants": [
+      {
+        "person_id": "liu-shan",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-271-jiao-province-campaign-eastern-wu-recaptures-jiaozhou-from-w",
+    "name": "交州之战",
+    "year": 271,
+    "end_year": null,
+    "location": "交州",
+    "type": "battle",
+    "description": "271年，Jiao Province Campaign: Eastern Wu recaptures Jiaozhou from Western Jin.",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-272-western-jin-quells-xiongnu-rebellion-in-bingzhou",
+    "name": "Western Jin quells Xiongnu rebellion in Bingzhou.",
+    "year": 272,
+    "end_year": null,
+    "location": "并州",
+    "type": "rebellion",
+    "description": "272年，西晋平定并州匈奴叛乱。",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-272-battle-of-xiling-eastern-wu-forces-led-by-lu-kang-defeat-wes",
+    "name": "西陵之战",
+    "year": 272,
+    "end_year": null,
+    "location": "西陵",
+    "type": "battle",
+    "description": "272年，Battle of Xiling: Eastern Wu forces led by Lu Kang defeat Western Jin and recapture Xiling (in present-day Xiling District, Hubei)",
+    "participants": [
+      {
+        "person_id": "lu-kang",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-274-cao-fang-dies",
+    "name": "Cao Fang去世",
+    "year": 274,
+    "end_year": null,
+    "location": null,
+    "type": "death",
+    "description": "274年，曹芳去世。",
+    "participants": [
+      {
+        "person_id": "cao-fang",
+        "role": "参与者"
+      },
+      {
+        "person_id": "cao-fan",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-275-tufa-shujinengs-rebellion-tufa-shujineng-surrenders-to-weste",
+    "name": "秃发树机能之乱",
+    "year": 275,
+    "end_year": null,
+    "location": null,
+    "type": "rebellion",
+    "description": "275年，秃发树机能投降西晋。",
+    "participants": [
+      {
+        "person_id": "tufa-shujineng",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-277-tufa-shujinengs-rebellion-tufa-shujineng-rebels-again",
+    "name": "秃发树机能之乱",
+    "year": 277,
+    "end_year": null,
+    "location": null,
+    "type": "rebellion",
+    "description": "277年，秃发树机能再次叛乱。",
+    "participants": [
+      {
+        "person_id": "tufa-shujineng",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-279-tufa-shujinengs-rebellion-tufa-shujineng-captures-liangzhou-",
+    "name": "秃发树机能之乱",
+    "year": 279,
+    "end_year": null,
+    "location": "梁州",
+    "type": "rebellion",
+    "description": "279年，Tufa Shujineng's Rebellion: Tufa Shujineng captures Liangzhou; Western Jin forces led by Ma Long quells the rebellion.",
+    "participants": [
+      {
+        "person_id": "tufa-shujineng",
+        "role": "参与者"
+      },
+      {
+        "person_id": "ma-long",
+        "role": "参与者"
+      }
+    ],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-279-conquest-of-wu-by-jin-western-jin-begins-its-conquest-of-eas",
+    "name": "晋灭吴之战",
+    "year": 279,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "279年，Conquest of Wu by Jin: Western Jin begins its conquest of Eastern Wu.",
+    "participants": [],
+    "result": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  },
+  {
+    "id": "event-280-conquest-of-wu-by-jin-sun-hao-surrenders-to-western-jin-so-e",
+    "name": "晋灭吴之战",
+    "year": 280,
+    "end_year": null,
+    "location": null,
+    "type": "battle",
+    "description": "280年，Conquest of Wu by Jin: Sun Hao surrenders to Western Jin; so ends Eastern Wu and the Three Kingdoms period.",
+    "participants": [
+      {
+        "person_id": "sun-hao",
+        "role": "参与者"
+      },
+      {
+        "person_id": "wu-an",
+        "role": "参与者"
+      }
+    ],
+    "result": "so ends Eastern Wu and the Three Kingdoms period.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Timeline_of_the_Three_Kingdoms_period"
+    ]
+  }
+]
