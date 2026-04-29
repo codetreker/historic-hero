@@ -420,7 +420,32 @@ export default function GraphView() {
       renderedRef.current = false;
       graphRef.current = graph;
       graph.render().then(() => {
-        if (!destroyedRef.current) renderedRef.current = true;
+        if (!destroyedRef.current) {
+          renderedRef.current = true;
+          // Highlight expanded person after render
+          const ep = stateRef.current.expandedPersonId;
+          if (ep) {
+            try {
+              const neighborIds = new Set<string>([ep]);
+              (relsByPerson[ep] || []).forEach(r => {
+                neighborIds.add(r.source);
+                neighborIds.add(r.target);
+              });
+              graph.getNodeData().forEach(n => {
+                if (n.id === ep) {
+                  graph.setElementState(n.id as string, 'highlight');
+                } else if (!neighborIds.has(n.id as string)) {
+                  graph.setElementState(n.id as string, 'dim');
+                }
+              });
+              graph.getEdgeData().forEach(e => {
+                const connected = (e.source === ep || e.target === ep);
+                graph.setElementState(e.id as string, connected ? 'highlight' : 'dim');
+              });
+              graph.focusElement(ep);
+            } catch { /* noop */ }
+          }
+        }
       }).catch(() => { /* destroyed during render */ });
     }
 
