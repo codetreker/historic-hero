@@ -135,10 +135,10 @@ function getFactionDetailData(faction: Faction, state: AppState) {
         stroke: '#fff',
         lineWidth: isTop5 ? 2 : 1,
         labelText: p.name,
-        labelFontSize: isTop5 ? 14 : 11,
+        labelFontSize: isTop5 ? 10 : 9,
         labelFontWeight: isTop5 ? 'bold' : 'normal',
-        labelFill: '#333',
-        labelPlacement: 'bottom' as const,
+        labelFill: '#fff',
+        labelPlacement: 'center' as const,
       },
     };
   });
@@ -154,9 +154,9 @@ function getFactionDetailData(faction: Faction, state: AppState) {
         stroke: '#fff',
         lineWidth: 1,
         labelText: p.name,
-        labelFontSize: 9,
-        labelFill: '#999',
-        labelPlacement: 'bottom' as const,
+        labelFontSize: 8,
+        labelFill: '#fff',
+        labelPlacement: 'center' as const,
       },
     });
   });
