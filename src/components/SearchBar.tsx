@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { AutoComplete } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
-import { search, personMap, factionStats } from '../data';
+import { search, personMap } from '../data';
 import { FACTION_CONFIG, ROLE_CONFIG } from '../types';
 import { useApp } from '../context/AppContext';
 
@@ -47,13 +47,10 @@ export default function SearchBar() {
       dispatch({ type: 'EXPAND_FACTION', payload: person.faction });
     }
 
-    const topIds = new Set(factionStats[person.faction].topPersons.map(p => p.id));
-    if (!topIds.has(person.id)) {
-      dispatch({ type: 'SET_EXPANDED_PERSON', payload: person.id });
-    }
+    // Always expand to show person-centered subgraph
+    dispatch({ type: 'SET_EXPANDED_PERSON', payload: person.id });
 
     dispatch({ type: 'SET_SELECTED_PERSON', payload: person });
-    dispatch({ type: 'SET_HIGHLIGHT', payload: person.id });
   };
 
   return (
