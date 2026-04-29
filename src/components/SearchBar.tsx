@@ -63,6 +63,8 @@ export default function SearchBar() {
       onClear={() => {
         dispatch({ type: 'SET_SEARCH', payload: '' });
         dispatch({ type: 'SET_HIGHLIGHT', payload: null });
+        dispatch({ type: 'SET_EXPANDED_PERSON', payload: null });
+        dispatch({ type: 'BACK_TO_OVERVIEW' });
       }}
       style={{ width: 240 }}
       suffixIcon={<SearchOutlined />}
