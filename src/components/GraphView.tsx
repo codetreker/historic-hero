@@ -54,7 +54,7 @@ function buildOverviewData(data: FactionOverview) {
         labelText: `${FACTION_CONFIG[f].label}\n${count}人`,
         labelFontSize: 16,
         labelFontWeight: 'bold',
-        labelFill: '#333',
+        labelFill: '#fff',
         labelPlacement: 'center' as const,
         cursor: 'pointer',
       },
@@ -583,7 +583,11 @@ export default function GraphView() {
           <Button
             type="link"
             size="small"
-            onClick={() => dispatch({ type: 'BACK_TO_OVERVIEW' })}
+            onClick={() => {
+              dispatch({ type: 'BACK_TO_OVERVIEW' });
+              dispatch({ type: 'SET_SEARCH', payload: '' });
+              dispatch({ type: 'SET_HIGHLIGHT', payload: null });
+            }}
             style={{ fontSize: 13, padding: 0 }}
           >
             总览
