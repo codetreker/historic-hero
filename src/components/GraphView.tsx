@@ -288,6 +288,8 @@ export default function GraphView() {
         container: containerRef.current,
         data: { nodes, edges },
         autoFit: 'view',
+        zoomRange: [0.2, 1.5],
+        padding: [60, 60, 60, 60],
         animation: false,
         node: {
           style: {},
@@ -358,6 +360,8 @@ export default function GraphView() {
         container: containerRef.current,
         data: { nodes, edges },
         autoFit: 'view',
+        zoomRange: [0.2, 1.5],
+        padding: [60, 60, 60, 60],
         animation: false,
         node: {
           style: {},
