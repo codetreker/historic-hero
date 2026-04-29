@@ -1,9 +1,10 @@
+import { useEffect, useState } from 'react';
 import { Checkbox, Collapse, Button, Space, Badge } from 'antd';
 import { ClearOutlined } from '@ant-design/icons';
 import { useApp } from '../context/AppContext';
 import { FACTION_CONFIG, ROLE_CONFIG } from '../types';
 import type { Faction, Role, RelationType } from '../types';
-import { factionCounts, roleCounts, relTypeCounts } from '../data';
+import { fetchFactions } from '../data';
 
 const REL_TYPE_LABELS: Record<RelationType, string> = {
   'lord-vassal': '君臣',
@@ -26,6 +27,15 @@ const REL_TYPE_LABELS: Record<RelationType, string> = {
 
 export default function FilterPanel() {
   const { state, dispatch } = useApp();
+  const [factionCounts, setFactionCounts] = useState<Record<string, number>>({});
+
+  useEffect(() => {
+    fetchFactions().then(data => {
+      const counts: Record<string, number> = {};
+      data.factions.forEach(f => { counts[f.id] = f.count; });
+      setFactionCounts(counts);
+    }).catch(() => {});
+  }, []);
 
   const isOverview = state.viewMode === 'overview';
 
@@ -39,19 +49,15 @@ export default function FilterPanel() {
     value: f,
   }));
 
-  const roleOptions = (Object.keys(ROLE_CONFIG) as Role[])
-    .filter(r => roleCounts[r] > 0)
-    .map(r => ({
-      label: `${ROLE_CONFIG[r].label} (${roleCounts[r] || 0})`,
-      value: r,
-    }));
+  const roleOptions = (Object.keys(ROLE_CONFIG) as Role[]).map(r => ({
+    label: `${ROLE_CONFIG[r].label}`,
+    value: r,
+  }));
 
-  const relTypeOptions = (Object.keys(REL_TYPE_LABELS) as RelationType[])
-    .filter(t => relTypeCounts[t] > 0)
-    .map(t => ({
-      label: `${REL_TYPE_LABELS[t]} (${relTypeCounts[t] || 0})`,
-      value: t,
-    }));
+  const relTypeOptions = (Object.keys(REL_TYPE_LABELS) as RelationType[]).map(t => ({
+    label: `${REL_TYPE_LABELS[t]}`,
+    value: t,
+  }));
 
   const items = [
     {

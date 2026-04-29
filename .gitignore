@@ -23,3 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 .worktrees/
+historic-hero.db
+historic-hero.db
+historic-hero.db-shm
+historic-hero.db-wal
